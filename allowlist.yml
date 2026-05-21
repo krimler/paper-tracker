@@ -1,0 +1,138 @@
+# Curated list of conferences to track.
+# Identifiers are the short `title` field used by ccfddl (case-sensitive but
+# matched case-insensitively by the fetcher).
+# Tiers reference CORE Portal rankings + community-respected "gem" venues.
+# Edit freely — the fetcher only includes matching conferences.
+
+theory:
+  # Algorithms & complexity — top-tier (CORE A*)
+  - STOC         # Symposium on Theory of Computing
+  - FOCS         # Foundations of Computer Science
+  - SODA         # Symposium on Discrete Algorithms
+  # Strong (CORE A)
+  - ICALP        # International Colloquium on Automata, Languages and Programming
+  - LICS         # Logic in Computer Science
+  - SOCG         # Symposium on Computational Geometry
+  - ISAAC        # International Symposium on Algorithms and Computation
+  # Formal methods / verification — top-tier
+  - CAV          # Computer-Aided Verification
+  - CONCUR       # Concurrency Theory
+  - SAT          # Satisfiability Testing
+
+security:
+  # Top-tier (CORE A*)
+  - S&P          # IEEE Symposium on Security and Privacy ("Oakland")
+  - USENIX Security
+  - CCS          # ACM Conference on Computer and Communications Security
+  - NDSS         # Network and Distributed System Security Symposium
+  - CRYPTO
+  - EUROCRYPT
+  # Strong (CORE A)
+  - ASIACRYPT
+  - ESORICS
+  - RAID
+  - ACSAC
+  - PETS         # Privacy Enhancing Technologies Symposium
+  - EuroS&P      # IEEE European Symposium on Security and Privacy
+  - SOUPS        # Symposium on Usable Privacy and Security
+  - FC           # Financial Cryptography and Data Security
+  - TCC          # Theory of Cryptography Conference
+
+distributed_systems:
+  # Top-tier
+  - SOSP         # also overlaps with systems
+  - OSDI
+  - PODC         # Principles of Distributed Computing
+  # Strong (CORE A)
+  - ICDCS
+  - SRDS
+  - Middleware
+  - DSN          # Dependable Systems and Networks
+  - HPDC         # High Performance Distributed Computing
+
+networking:
+  # Top-tier
+  - SIGCOMM
+  - NSDI
+  - MobiCom
+  # Strong (CORE A)
+  - INFOCOM
+  - IMC          # Internet Measurement Conference
+  - CoNEXT
+  - ICNP
+  - SenSys
+  - MobiSys
+  - IPSN         # Information Processing in Sensor Networks
+  # Workshop-tier but highly influential
+  - HotNets
+
+systems:
+  # OS / architecture / storage — top-tier
+  - SOSP
+  - OSDI
+  - ASPLOS
+  - ISCA
+  - MICRO
+  - HPCA
+  - FAST         # File and Storage Technologies
+  - SIGOPS ATC   # USENIX Annual Technical Conference
+  - EuroSys
+  - SC           # Supercomputing (HPC flagship)
+  # Workshop-tier but highly influential
+  - HotOS
+
+databases:
+  # Top-tier (CORE A*)
+  - SIGMOD
+  - VLDB
+  - ICDE         # International Conference on Data Engineering
+  - PODS         # Principles of Database Systems (theory)
+  # Strong (CORE A)
+  - EDBT         # Extending Database Technology
+  - ICDT         # International Conference on Database Theory
+  - CIDR         # Conference on Innovative Data Systems Research (biennial)
+  - CIKM         # Information and Knowledge Management
+  - ICDM         # Data Mining
+  - SIGIR        # Information Retrieval (bridges DB / ML / NLP)
+
+software_engineering:
+  # Top-tier
+  - ICSE
+  - FSE          # ESEC/FSE
+  - ASE
+  - ISSTA
+  # Programming languages — top-tier
+  - PLDI
+  - POPL
+  - OOPSLA
+  # Strong (CORE A)
+  - ICFP         # Functional Programming
+  - ECOOP        # Object-Oriented Programming
+
+ai_ml:
+  # General ML — top-tier
+  - NeurIPS
+  - ICML
+  - ICLR
+  # AI — top-tier
+  - AAAI
+  - IJCAI
+  # Data mining
+  - SIGKDD       # ACM SIGKDD Conference on Knowledge Discovery & Data Mining
+  # Vision
+  - CVPR
+  - ICCV
+  - ECCV
+  # NLP
+  - ACL
+  - EMNLP
+  - NAACL
+  # Strong (CORE A) and recent gems
+  - COLM         # Conference on Language Modeling (new 2024, fast-rising)
+  - MLSys        # Machine Learning and Systems (ML + systems engineering)
+  - CoRL         # Conference on Robot Learning
+  - UAI          # Uncertainty in AI
+  - AISTATS      # AI and Statistics
+  - COLT         # Learning Theory
+  - AAMAS        # Autonomous Agents and Multiagent Systems
+  - WWW          # The Web Conference (cross-area: ML / DB / networking)
