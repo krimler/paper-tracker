@@ -1,10 +1,18 @@
-# CS Conference Deadlines
+# Lucid Research — CS Conference Deadlines
 
-A tracker for top-tier CS conference deadlines across security, distributed
-systems, networking, systems, databases, software engineering, and AI/ML.
+**Live:** https://paper-tracker-madhava.streamlit.app/
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://paper-tracker-madhava.streamlit.app/)
+
+A daily-refreshed tracker for top-tier CS conference deadlines across theory,
+security, distributed systems, networking, systems, databases, software
+engineering / PL, and AI/ML.
 
 Data source: [ccfddl/ccf-deadlines](https://github.com/ccfddl/ccf-deadlines),
-filtered to a curated allowlist of CORE A*/A and otherwise well-known venues.
+filtered to a curated allowlist of CORE A*/A venues plus community-respected
+"gem" venues (COLM, MLSys, HotNets, HotOS, CIDR, etc.).
+
+By [Madhava Gaikwad](https://www.linkedin.com/in/alignops/).
 
 ## Layout
 
