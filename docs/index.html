@@ -124,7 +124,7 @@
   <main>
     <h1>Computer science conference deadlines, in one place.</h1>
     <p class="lead">A free, daily-refreshed tracker of submission deadlines for 185+ top
-    computer science conferences — across theory, systems, security, AI/ML, software
+    computer science conferences, across theory, systems, security, AI/ML, software
     engineering, databases, networking, and biomedical computing.</p>
 
     <p>
@@ -140,35 +140,37 @@
     </div>
 
     <h2>Why we built this</h2>
-    <p>Every researcher knows the small panic of a half-remembered deadline. In
-    computer science, conferences — not journals — are where work gets published,
-    and most open just once a year. Miss a date by a day and the paper waits three
-    to six months for the next venue. The information needed to avoid that is
-    public, but it is scattered across dozens of separate calls for papers, each in
-    its own format, on its own schedule.</p>
+    <p>In computer science, conferences (not journals) are where work gets
+    published, and most open just once a year. Miss a deadline by a day and the
+    paper waits three to six months for the next venue. The information needed to
+    avoid that is public, but it is scattered across dozens of separate calls for
+    papers, each in its own format and on its own schedule.</p>
 
-    <p>People have tried to fix this field by field, and done it well. ai-deadlines
-    tracks machine learning; sec-deadlines tracks security; tcs-conf tracks theory;
-    ccfddl keeps a broad list. Each is genuinely useful — we build directly on them.
-    But they are siloed. A researcher working across systems and ML, or comparing a
-    security venue with a databases venue, has to check several sites at once. The
-    long tail — regional conferences, biomedical computing, newer venues — falls
-    between them. And almost none are easy to find: they are raw project pages that a
-    search engine or an AI assistant won't surface when you ask <em>"which systems
-    conferences have deadlines this spring?"</em></p>
+    <p>People have tried to fix this field by field, and done it well:
+    <a href="https://github.com/paperswithcode/ai-deadlines">ai-deadlines</a> for
+    machine learning, <a href="https://sec-deadlines.github.io">sec-deadlines</a>
+    for security, <a href="https://tcs-conf.github.io">tcs-conf</a> for theory, and
+    <a href="https://github.com/ccfddl/ccf-deadlines">ccfddl</a> for a broad list.
+    Each is genuinely useful, and we build directly on them. But they are siloed. A
+    researcher working across systems and ML, or comparing a security venue with a
+    databases venue, has to check several sites at once. The long tail (regional
+    conferences, biomedical computing, newer venues) falls between them. And almost
+    none are easy to find: they are raw project pages a search engine or AI assistant
+    won't surface when you ask <em>"which systems conferences have deadlines this
+    spring?"</em></p>
 
-    <p>So this is the connective tissue: one curated, ranked view across nine areas,
-    drawn daily from those open sources plus a hand-kept list for what they miss —
-    and built, deliberately, to be found. It is crawlable, structured for search
-    engines, readable by AI assistants, and open as data anyone can reuse.</p>
+    <p>So we built one place that pulls them together: a curated, ranked view across
+    nine areas, drawn daily from those open sources plus a hand-kept list for what
+    they miss. It is also made to be found, with crawlable HTML, structured data for
+    search engines, an AI-readable summary, and open data anyone can reuse.</p>
 
-    <p>The aim is not to replace the trackers we depend on. It is to make the thing
-    they collectively almost provide — a single, trustworthy, discoverable map of
-    where and when to submit — actually exist.</p>
+    <p>The aim is not to replace the trackers we depend on, but to make the single,
+    trustworthy, discoverable map of where and when to submit that they almost add up
+    to, and that no one place yet provides.</p>
 
     <h2>What it does</h2>
     <p>The tracker shows each conference's next submission deadline, abstract deadline,
-    location, dates, and CORE/CCF ranking — filterable by research area, rank, and time
+    location, dates, and CORE/CCF ranking, filterable by research area, rank, and time
     horizon, with upcoming and past deadlines split into separate views. The data is
     regenerated every day by an automated job and is openly downloadable as JSON.</p>
 
@@ -180,17 +182,17 @@
     </p>
 
     <h2>How it moves science</h2>
-    <p>Knowing <em>when</em> to submit is a quiet but real barrier to publishing — one that
-    falls hardest on early-career researchers, people outside well-networked institutions,
+    <p>Knowing <em>when</em> to submit is a real barrier to publishing, and it falls
+    hardest on early-career researchers, people outside well-networked institutions,
     and anyone working across fields. A single, open, daily-updated view of deadlines:</p>
     <ul>
       <li>helps researchers plan submissions and avoid missing cutoffs;</li>
-      <li>surfaces the long tail — regional, specialized, and emerging venues that are easy to overlook;</li>
-      <li>keeps the full breadth of computer science visible, not just the few flagship conferences;</li>
+      <li>surfaces the long tail of regional, specialized, and emerging venues that are easy to overlook;</li>
+      <li>keeps the full breadth of computer science visible, not just the flagship conferences;</li>
       <li>stays open and reusable, so the data can feed other tools, calendars, and research.</li>
     </ul>
 
-    <h2>Built to be found — by people, search engines, and AI</h2>
+    <h2>Built to be found by people, search engines, and AI</h2>
     <p>This page is plain, crawlable HTML with structured metadata
     (<a href="https://schema.org">Schema.org</a> <code>Dataset</code> and <code>FAQPage</code>),
     a <a href="sitemap.xml">sitemap</a>, a <a href="robots.txt">robots.txt</a>, and an
@@ -202,16 +204,16 @@
     working group's draft conventions, we declare:</p>
     <ul>
       <li><b>Search &amp; indexing:</b> allowed for all crawlers.</li>
-      <li><b>AI inference / answers:</b> allowed — assistants may read and cite this content.</li>
+      <li><b>AI inference / answers:</b> allowed; assistants may read and cite this content.</li>
       <li><b>AI model training:</b> not consented to (including generative-model training).</li>
     </ul>
     <p>The machine-readable form lives in <a href="robots.txt"><code>robots.txt</code></a>
     (<code>Content-Usage</code>). As AIPREF finalizes, these signals will be updated to match.</p>
 
     <h2>Frequently asked</h2>
-    <details><summary>Is it free?</summary>Yes — the tracker and the dataset are free and openly accessible.</details>
-    <details><summary>Where does the data come from?</summary>Open, community-maintained sources (ccfddl, ai-deadlines, sec-deadlines, tcs-conf) plus a curated manual list, regenerated daily.</details>
-    <details><summary>Can I use the data?</summary>Yes — it's downloadable as <a href="https://raw.githubusercontent.com/krimler/paper-tracker/main/data/conferences.json">JSON</a>. See the repo for details.</details>
+    <details><summary>Is it free?</summary>Yes. The tracker and the dataset are free and openly accessible.</details>
+    <details><summary>Where does the data come from?</summary>The open, community-maintained sources linked above (ccfddl, ai-deadlines, sec-deadlines, tcs-conf) plus a curated manual list, regenerated daily.</details>
+    <details><summary>Can I use the data?</summary>Yes. It's downloadable as <a href="https://raw.githubusercontent.com/krimler/paper-tracker/main/data/conferences.json">JSON</a>; see the <a href="https://github.com/krimler/paper-tracker">repo</a> for details.</details>
   </main>
 
   <footer>
