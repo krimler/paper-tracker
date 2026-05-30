@@ -63,27 +63,12 @@ GitHub Pages alone cannot run Streamlit (it only serves static HTML).
 Use Streamlit Cloud, or any Python host (Hugging Face Spaces, Render,
 fly.io), as the front end.
 
-## Landing page (SEO / AI discoverability)
+## Landing page
 
-The Streamlit app renders client-side, so search engines and AI crawlers see an
-empty shell. `docs/` is a static, crawlable front door that fixes this:
-
-```
-docs/index.html    # about + mission, SEO meta, Schema.org Dataset/FAQ JSON-LD
-docs/robots.txt    # full crawl access + IETF AIPREF Content-Usage preferences
-docs/sitemap.xml
-docs/llms.txt      # AI-readable site summary
-```
-
-To publish it: GitHub repo **Settings → Pages → Source: Deploy from a branch →
-`main` / `docs`**. It serves at `https://krimler.github.io/paper-tracker/` and
-links into the live Streamlit app.
-
-**AI usage policy:** search indexing and AI inference/answers are allowed; AI
-model training is not consented to (declared via AIPREF `Content-Usage` in
-`robots.txt`). Note: GitHub Pages can't set the `Content-Usage` HTTP response
-header or serve `robots.txt` at the domain root for a project page — for full
-coverage, add a custom domain or front the site with a proxy.
+`index.html` is a small static front door (logo, a short description, links to the
+app and repo). With GitHub Pages enabled at the repo root, it serves at
+`https://krimler.github.io/paper-tracker/`. `.nojekyll` makes Pages serve it as-is
+and take precedence over this README.
 
 ## Editing the tracked conferences
 
