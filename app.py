@@ -538,6 +538,27 @@ def render_watchlist_js():
     )
 
 
+def render_analytics():
+    """Inject GoatCounter (cookieless visitor counts) into the parent Streamlit
+    document. Inline <script> in st.markdown won't run, so we append the tag from
+    a components iframe — same trick as the countdown. Loaded once per session."""
+    components.html(
+        """<script>
+        (function () {
+          var win = window.parent, doc = win.document;
+          if (win.__gcLoaded) return;
+          win.__gcLoaded = true;
+          var s = doc.createElement('script');
+          s.async = true;
+          s.setAttribute('data-goatcounter', 'https://li69nux.goatcounter.com/count');
+          s.src = '//gc.zgo.at/count.js';
+          doc.body.appendChild(s);
+        })();
+        </script>""",
+        height=0,
+    )
+
+
 def filtered_csv(df: pd.DataFrame) -> str:
     cols = ["area", "title", "year", "core", "ccf", "next_deadline",
             "days_left", "place", "link"]
@@ -1169,6 +1190,7 @@ def main():
         render_countdown_js()
     render_social_js()
     render_watchlist_js()
+    render_analytics()
 
 
 if __name__ == "__main__":
