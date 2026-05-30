@@ -1,10 +1,23 @@
 # Venue coverage & wishlist
 
-This tracker pulls deadlines from [ccfddl/ccf-deadlines](https://github.com/ccfddl/ccf-deadlines).
-A venue can only be auto-tracked if ccfddl carries an entry for it (matched by
-the `title` field in `allowlist.yml`). This file records venues we *want* but
-**cannot currently track** because they have no upstream data — so we can revisit
-them later (e.g. contribute the venue to ccfddl, or add a custom fetcher).
+This tracker pulls deadlines from two sources, in order of trust:
+
+1. **[ccfddl/ccf-deadlines](https://github.com/ccfddl/ccf-deadlines)** — primary,
+   matched by the `title` field in `allowlist.yml`.
+2. **[paperswithcode/ai-deadlines](https://github.com/paperswithcode/ai-deadlines)**
+   — secondary, used only for wishlist venues (`untracked.yml`) that ccfddl
+   lacks. Merged rows are tagged `source: aideadlines` in `data/conferences.json`.
+
+The wishlist lives in **`untracked.yml`** (the single source of truth). On each
+fetch, any wishlist title a secondary source resolves is auto-added; the rest
+stay listed below as a TODO. `data/conferences.json` records the live split in
+its `supplemented` and `still_untracked` fields.
+
+**Recovered via ai-deadlines so far:** FAccT, ISMIR, MIDL, CHIL.
+
+The venues below are still unsourced — they have no entry in either source and
+need a future WikiCFP scraper (slots into `fetcher/` alongside `aideadlines.py`,
+same `fetch_rows()` signature) or an upstream ccfddl PR.
 
 ## ✅ Tracked
 

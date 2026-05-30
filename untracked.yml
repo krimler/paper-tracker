@@ -1,0 +1,80 @@
+# Wishlist: venues we WANT to track but ccfddl does not carry.
+#
+# The fetcher tries secondary sources (currently paperswithcode/ai-deadlines)
+# for every title listed here that ccfddl did not already provide. Matches are
+# merged into data/conferences.json tagged with `source: aideadlines`.
+# Titles still unmatched after all sources remain a TODO (see UNTRACKED_VENUES.md)
+# and are candidates for a future WikiCFP scraper or an upstream ccfddl PR.
+#
+# Format mirrors allowlist.yml: area -> list of titles. Use the spelling the
+# secondary source uses where known (e.g. FAccT, ISMIR, MIDL, CHIL).
+
+distributed_systems:
+  - DISC          # Distributed Computing
+  - HotCloud      # Hot Topics in Cloud Computing
+  - HotI          # Hot Interconnects
+  - ANCS          # Architectures for Networking and Communications Systems
+  - IC2E          # Cloud Engineering
+  - HiPC          # High Performance Computing
+  - NCA           # Network Computing and Applications
+
+ai_ml:
+  - FAccT         # Fairness, Accountability, and Transparency
+  - AIES          # AI, Ethics, and Society
+  - ISMIR         # Music Information Retrieval
+
+security:
+  - WPES          # Privacy in the Electronic Society
+  - Real World Crypto
+  - CNS           # Communications and Network Security
+  - CCSW          # Cloud Computing Security Workshop
+  - AISec         # AI and Security
+  - SafeThings    # Security for IoT / cyber-physical systems
+  - NDSS BAR      # Binary Analysis Research
+  - WOOT          # Offensive Technologies
+  - HotPETs       # Hot Topics in Privacy
+  - SecDev        # Secure Development
+  - ICISSP        # Information Systems Security and Privacy
+  - ToSC          # Transactions on Symmetric Cryptology (Fast Software Encryption)
+  - SAC-crypto    # Selected Areas in Cryptography (distinct from ccfddl's SAC)
+
+software_engineering:
+  - ICPE          # Performance Engineering
+  - FASE          # Fundamental Approaches to Software Engineering
+  - TAP           # Tests and Proofs
+  - FMICS         # Formal Methods for Industrial Critical Systems
+  - SEFM          # Software Engineering and Formal Methods
+  - ICWE          # Web Engineering
+  - SPLC          # Software Product Line Conference
+  - ECSA          # European Conference on Software Architecture
+  - ICSA          # International Conference on Software Architecture
+  - VISSOFT       # Software Visualization
+  - PROMISE       # Predictive Models and Data Analytics in SE
+  - SSBSE         # Search-Based Software Engineering
+
+biomedical:
+  - ISMB          # Intelligent Systems for Molecular Biology
+  - ECCB          # European Conference on Computational Biology
+  - PSB           # Pacific Symposium on Biocomputing
+  - AMIA Annual Symposium
+  - AMIA Informatics Summit
+  - AMIA Clinical Informatics Conference
+  - ACM BCB       # Bioinformatics, Computational Biology and Health Informatics
+  - ISBI          # International Symposium on Biomedical Imaging
+  - MIDL          # Medical Imaging with Deep Learning
+  - CHIL          # Conference on Health, Inference, and Learning
+  - MLHC          # Machine Learning for Healthcare
+  - IPMI          # Information Processing in Medical Imaging
+  - FIMH          # Functional Imaging and Modeling of the Heart
+  - SPIE Medical Imaging
+  - ISMRM         # International Society for Magnetic Resonance in Medicine
+  - SIIM          # Society for Imaging Informatics in Medicine
+  - MedInfo       # World Congress on Medical and Health Informatics
+  - MIE           # Medical Informatics Europe
+  - IEEE EMBC     # Engineering in Medicine and Biology Conference
+  - CARS          # Computer Assisted Radiology and Surgery
+  - InCoB         # International Conference on Bioinformatics
+  - GIW           # Genome Informatics Workshop
+  - ISCB-Latin America
+  - ISCB-Africa ASBCB
+  - ABACBS        # Australian Bioinformatics and Computational Biology Society

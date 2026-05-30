@@ -11,15 +11,20 @@ from pathlib import Path
 
 import yaml
 
+import aideadlines
+
 REPO_URL = "https://github.com/ccfddl/ccf-deadlines.git"
 ROOT = Path(__file__).resolve().parent.parent
 ALLOWLIST_PATH = ROOT / "allowlist.yml"
+UNTRACKED_PATH = ROOT / "untracked.yml"
 OUT_PATH = ROOT / "data" / "conferences.json"
 
 
-def load_allowlist() -> dict[str, str]:
-    """Return {lowercased_title: area} from allowlist.yml."""
-    with open(ALLOWLIST_PATH) as f:
+def load_yaml_mapping(path: Path) -> dict[str, str]:
+    """Return {lowercased_title: area} from an allowlist-style YAML file."""
+    if not path.is_file():
+        return {}
+    with open(path) as f:
         doc = yaml.safe_load(f) or {}
     mapping: dict[str, str] = {}
     for area, titles in doc.items():
@@ -90,13 +95,14 @@ def flatten(entry: dict, area: str, ccfddl_category: str) -> list[dict]:
                 "date": conf.get("date"),
                 "place": conf.get("place"),
                 "timeline": timeline,
+                "source": "ccfddl",
             }
         )
     return rows
 
 
 def main() -> int:
-    allow = load_allowlist()
+    allow = load_yaml_mapping(ALLOWLIST_PATH)
     print(f"allowlist: {len(allow)} conferences across {len(set(allow.values()))} areas")
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -132,17 +138,44 @@ def main() -> int:
         for t in unmatched:
             print(f"  - {t}", file=sys.stderr)
 
+    # Secondary sources: supplement wishlist venues ccfddl does not carry.
+    # Failures here must never sink the trusted primary result, so we guard them.
+    wishlist = load_yaml_mapping(UNTRACKED_PATH)
+    supplemented: list[str] = []
+    if wishlist:
+        try:
+            extra = aideadlines.fetch_rows(wishlist, matched_titles)
+            rows.extend(extra)
+            supplemented = sorted({r["title"] for r in extra})
+            print(
+                f"aideadlines: +{len(extra)} rows across "
+                f"{len(supplemented)} wishlist venues"
+            )
+        except Exception as e:  # network/parse failure — keep ccfddl data
+            print(f"warn: aideadlines source failed: {e}", file=sys.stderr)
+
+    still_untracked = sorted(set(wishlist) - {t.lower() for t in supplemented})
+
     payload = {
         "fetched_at": datetime.now(timezone.utc).isoformat(),
-        "source": "https://github.com/ccfddl/ccf-deadlines",
+        "sources": [
+            "https://github.com/ccfddl/ccf-deadlines",
+            "https://github.com/paperswithcode/ai-deadlines",
+        ],
         "matched": len(matched_titles),
         "unmatched": unmatched,
+        "supplemented": supplemented,
+        "still_untracked": still_untracked,
         "row_count": len(rows),
         "conferences": rows,
     }
     with open(OUT_PATH, "w") as f:
         json.dump(payload, f, indent=2, ensure_ascii=False)
-    print(f"wrote {OUT_PATH} ({len(rows)} rows, {len(matched_titles)} confs)")
+    print(
+        f"wrote {OUT_PATH} ({len(rows)} rows, "
+        f"{len(matched_titles) + len(supplemented)} confs, "
+        f"{len(still_untracked)} wishlist venues still unsourced)"
+    )
     return 0
 
 

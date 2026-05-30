@@ -29,6 +29,7 @@ AREA_LABELS = {
     "databases": "Databases",
     "software_engineering": "SE / PL",
     "ai_ml": "AI / ML",
+    "biomedical": "Biomedical",
 }
 
 AREA_COLORS = {
@@ -40,6 +41,7 @@ AREA_COLORS = {
     "databases":            "#3B82F6",
     "software_engineering": "#EC4899",
     "ai_ml":                "#A855F7",
+    "biomedical":           "#14B8A6",
 }
 
 CORE_BADGE = {

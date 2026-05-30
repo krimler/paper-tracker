@@ -1,9 +1,76 @@
 {
-  "fetched_at": "2026-05-30T03:40:33.784019+00:00",
-  "source": "https://github.com/ccfddl/ccf-deadlines",
+  "fetched_at": "2026-05-30T03:53:13.797379+00:00",
+  "sources": [
+    "https://github.com/ccfddl/ccf-deadlines",
+    "https://github.com/paperswithcode/ai-deadlines"
+  ],
   "matched": 171,
   "unmatched": [],
-  "row_count": 682,
+  "supplemented": [
+    "CHIL",
+    "FAccT",
+    "ISMIR",
+    "MIDL"
+  ],
+  "still_untracked": [
+    "abacbs",
+    "acm bcb",
+    "aies",
+    "aisec",
+    "amia annual symposium",
+    "amia clinical informatics conference",
+    "amia informatics summit",
+    "ancs",
+    "cars",
+    "ccsw",
+    "cns",
+    "disc",
+    "eccb",
+    "ecsa",
+    "fase",
+    "fimh",
+    "fmics",
+    "giw",
+    "hipc",
+    "hotcloud",
+    "hoti",
+    "hotpets",
+    "ic2e",
+    "icissp",
+    "icpe",
+    "icsa",
+    "icwe",
+    "ieee embc",
+    "incob",
+    "ipmi",
+    "isbi",
+    "iscb-africa asbcb",
+    "iscb-latin america",
+    "ismb",
+    "ismrm",
+    "medinfo",
+    "mie",
+    "mlhc",
+    "nca",
+    "ndss bar",
+    "promise",
+    "psb",
+    "real world crypto",
+    "sac-crypto",
+    "safethings",
+    "secdev",
+    "sefm",
+    "siim",
+    "spie medical imaging",
+    "splc",
+    "ssbse",
+    "tap",
+    "tosc",
+    "vissoft",
+    "woot",
+    "wpes"
+  ],
+  "row_count": 689,
   "conferences": [
     {
       "title": "AAAI",
@@ -27,7 +94,8 @@
           "abstract_deadline": "2021-08-30 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "AAAI",
@@ -51,7 +119,8 @@
           "abstract_deadline": "2022-08-08 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "AAAI",
@@ -75,7 +144,8 @@
           "abstract_deadline": "2023-08-08 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "AAAI",
@@ -99,7 +169,8 @@
           "abstract_deadline": "2024-08-07 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "AAAI",
@@ -123,7 +194,8 @@
           "abstract_deadline": "2025-07-25 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "AAAI",
@@ -147,7 +219,8 @@
           "abstract_deadline": "2026-07-20 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "AAMAS",
@@ -171,7 +244,8 @@
           "abstract_deadline": "2022-10-21 00:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "AAMAS",
@@ -195,7 +269,8 @@
           "abstract_deadline": "2023-10-02 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "AAMAS",
@@ -219,7 +294,8 @@
           "abstract_deadline": "2024-10-09 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "AAMAS",
@@ -243,7 +319,8 @@
           "abstract_deadline": "2025-10-01 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACL",
@@ -277,7 +354,8 @@
           "abstract_deadline": null,
           "comment": "final submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACL",
@@ -301,7 +379,8 @@
           "abstract_deadline": "2023-01-13 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACL",
@@ -325,7 +404,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACL",
@@ -349,7 +429,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACL",
@@ -373,7 +454,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACML",
@@ -397,7 +479,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACML",
@@ -421,7 +504,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACML",
@@ -445,7 +529,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACML",
@@ -474,7 +559,8 @@
           "abstract_deadline": null,
           "comment": "Conference Track"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACML",
@@ -503,7 +589,8 @@
           "abstract_deadline": null,
           "comment": "Conference Track"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "AISTATS",
@@ -527,7 +614,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "AISTATS",
@@ -551,7 +639,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "AISTATS",
@@ -575,7 +664,8 @@
           "abstract_deadline": "2024-10-03 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "AISTATS",
@@ -599,7 +689,8 @@
           "abstract_deadline": "2025-09-25 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "BMVC",
@@ -623,7 +714,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "BMVC",
@@ -647,7 +739,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "BMVC",
@@ -671,7 +764,8 @@
           "abstract_deadline": "2024-04-27 07:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "BMVC",
@@ -695,7 +789,8 @@
           "abstract_deadline": "2025-05-13 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "BMVC",
@@ -719,7 +814,8 @@
           "abstract_deadline": "2026-05-22 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "COLING",
@@ -743,7 +839,8 @@
           "abstract_deadline": null,
           "comment": "Papers Due"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "COLING",
@@ -767,7 +864,8 @@
           "abstract_deadline": null,
           "comment": "Long, short and position papers due"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "COLING",
@@ -791,7 +889,8 @@
           "abstract_deadline": null,
           "comment": "First Call for Main Conference Papers"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "COLM",
@@ -815,7 +914,8 @@
           "abstract_deadline": "2024-03-22 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "COLM",
@@ -839,7 +939,8 @@
           "abstract_deadline": "2025-03-22 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "COLM",
@@ -863,7 +964,8 @@
           "abstract_deadline": "2026-03-26 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "COLT",
@@ -887,7 +989,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "COLT",
@@ -911,7 +1014,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "COLT",
@@ -935,7 +1039,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "COLT",
@@ -959,7 +1064,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CoNLL",
@@ -983,7 +1089,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CoNLL",
@@ -1007,7 +1114,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CoRL",
@@ -1031,7 +1139,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CoRL",
@@ -1055,7 +1164,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CoRL",
@@ -1079,7 +1189,8 @@
           "abstract_deadline": "2026-05-25 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CVPR",
@@ -1103,7 +1214,8 @@
           "abstract_deadline": "2021-11-09 23:59:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CVPR",
@@ -1127,7 +1239,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CVPR",
@@ -1151,7 +1264,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CVPR",
@@ -1175,7 +1289,8 @@
           "abstract_deadline": "2024-11-07 23:59:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CVPR",
@@ -1199,7 +1314,8 @@
           "abstract_deadline": "2025-11-06 23:59:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EACL",
@@ -1223,7 +1339,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ECCV",
@@ -1247,7 +1364,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ECCV",
@@ -1271,7 +1389,8 @@
           "abstract_deadline": "2024-02-29 13:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ECCV",
@@ -1295,7 +1414,8 @@
           "abstract_deadline": "2026-02-26 14:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EMNLP",
@@ -1319,7 +1439,8 @@
           "abstract_deadline": "2022-06-17 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EMNLP",
@@ -1343,7 +1464,8 @@
           "abstract_deadline": "2023-06-16 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EMNLP",
@@ -1367,7 +1489,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EMNLP",
@@ -1391,7 +1514,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EMNLP",
@@ -1415,7 +1539,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "GECCO",
@@ -1444,7 +1569,8 @@
           "abstract_deadline": null,
           "comment": "Poster-only papers "
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "GECCO",
@@ -1473,7 +1599,8 @@
           "abstract_deadline": null,
           "comment": "Poster-only papers "
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICAPS",
@@ -1497,7 +1624,8 @@
           "abstract_deadline": "2024-10-25 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICAPS",
@@ -1521,7 +1649,8 @@
           "abstract_deadline": "2025-12-02 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICCV",
@@ -1545,7 +1674,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICCV",
@@ -1569,7 +1699,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICCV",
@@ -1593,7 +1724,8 @@
           "abstract_deadline": "2025-03-04 09:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICLR",
@@ -1617,7 +1749,8 @@
           "abstract_deadline": "2021-09-29 12:00:00",
           "comment": "Mandatory abstract deadline on Sep 29, 2021."
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICLR",
@@ -1641,7 +1774,8 @@
           "abstract_deadline": "2022-09-21 23:59:59",
           "comment": "Mandatory abstract deadline on Sep. 11, 2022."
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICLR",
@@ -1665,7 +1799,8 @@
           "abstract_deadline": "2023-09-21 23:59:59",
           "comment": "Mandatory abstract deadline on Sep. 21, 2023."
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICLR",
@@ -1689,7 +1824,8 @@
           "abstract_deadline": "2024-09-27 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICLR",
@@ -1713,7 +1849,8 @@
           "abstract_deadline": "2025-09-19 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICML",
@@ -1737,7 +1874,8 @@
           "abstract_deadline": "2022-01-20 23:59:00",
           "comment": "Mandatory abstract deadline on Jan 20, 2022."
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICML",
@@ -1761,7 +1899,8 @@
           "abstract_deadline": "2023-01-09 07:59:59",
           "comment": "Paper Submissions Open on OpenReview Jan 09 2023 02:00 PM UTC"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICML",
@@ -1785,7 +1924,8 @@
           "abstract_deadline": null,
           "comment": "Paper Submissions Open on OpenReview Jan 09 2024 02:00 PM UTC"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICML",
@@ -1809,7 +1949,8 @@
           "abstract_deadline": "2025-01-23 23:59:59",
           "comment": "Paper Submissions Open on OpenReview Jan 08 2025 11:59 PM UTC"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICML",
@@ -1833,7 +1974,8 @@
           "abstract_deadline": "2026-01-24 11:59:59",
           "comment": "Paper Submissions Open on OpenReview Jan 08 2026 12:00AM UTC-0"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICRA",
@@ -1857,7 +1999,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICRA",
@@ -1881,7 +2024,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICRA",
@@ -1905,7 +2049,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICRA",
@@ -1934,7 +2079,8 @@
           "abstract_deadline": null,
           "comment": "submission close"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICRA",
@@ -1958,7 +2104,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IJCAI",
@@ -1982,7 +2129,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IJCAI",
@@ -2006,7 +2154,8 @@
           "abstract_deadline": "2023-01-11 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IJCAI",
@@ -2030,7 +2179,8 @@
           "abstract_deadline": "2024-01-10 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IJCAI",
@@ -2054,7 +2204,8 @@
           "abstract_deadline": "2025-01-16 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IJCAI",
@@ -2078,7 +2229,8 @@
           "abstract_deadline": "2026-01-12 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IROS",
@@ -2102,7 +2254,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IROS",
@@ -2126,7 +2279,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IROS",
@@ -2150,7 +2304,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IROS",
@@ -2174,7 +2329,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "KR",
@@ -2198,7 +2354,8 @@
           "abstract_deadline": "2023-03-03 00:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "KR",
@@ -2222,7 +2379,8 @@
           "abstract_deadline": "2024-04-24 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "KR",
@@ -2246,7 +2404,8 @@
           "abstract_deadline": "2025-05-07 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "KR",
@@ -2270,7 +2429,8 @@
           "abstract_deadline": "2026-02-08 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NAACL",
@@ -2294,7 +2454,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NAACL",
@@ -2318,7 +2479,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NAACL",
@@ -2342,7 +2504,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NeurIPS",
@@ -2366,7 +2529,8 @@
           "abstract_deadline": "2021-05-21 20:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NeurIPS",
@@ -2390,7 +2554,8 @@
           "abstract_deadline": "2022-05-16 20:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NeurIPS",
@@ -2414,7 +2579,8 @@
           "abstract_deadline": "2023-05-11 20:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NeurIPS",
@@ -2438,7 +2604,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NeurIPS",
@@ -2462,7 +2629,8 @@
           "abstract_deadline": "2025-05-11 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NeurIPS",
@@ -2486,7 +2654,8 @@
           "abstract_deadline": "2026-05-05 11:59:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PPSN",
@@ -2510,7 +2679,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PPSN",
@@ -2534,7 +2704,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RSS",
@@ -2558,7 +2729,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RSS",
@@ -2582,7 +2754,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RSS",
@@ -2606,7 +2779,8 @@
           "abstract_deadline": "2025-01-17 23:59:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RSS",
@@ -2630,7 +2804,8 @@
           "abstract_deadline": "2026-01-23 23:59:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "UAI",
@@ -2654,7 +2829,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "UAI",
@@ -2678,7 +2854,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "UAI",
@@ -2702,7 +2879,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "UAI",
@@ -2726,7 +2904,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "UAI",
@@ -2750,7 +2929,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WACV",
@@ -2779,7 +2959,8 @@
           "abstract_deadline": null,
           "comment": "second round"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WACV",
@@ -2808,7 +2989,8 @@
           "abstract_deadline": "2025-09-12 23:59:00",
           "comment": "Second round"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WACV",
@@ -2837,7 +3019,8 @@
           "abstract_deadline": "2026-08-20 23:59:00",
           "comment": "Second round"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICASSP",
@@ -2861,7 +3044,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICASSP",
@@ -2885,7 +3069,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICASSP",
@@ -2909,7 +3094,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICASSP",
@@ -2933,7 +3119,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICASSP",
@@ -2957,7 +3144,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICASSP",
@@ -2981,7 +3169,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "InterSpeech",
@@ -3005,7 +3194,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "InterSpeech",
@@ -3029,7 +3219,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "InterSpeech",
@@ -3053,7 +3244,8 @@
           "abstract_deadline": "2024-03-01 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "InterSpeech",
@@ -3077,7 +3269,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "InterSpeech",
@@ -3101,7 +3294,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACM SIGGRAPH",
@@ -3125,7 +3319,8 @@
           "abstract_deadline": "2026-01-15 22:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACM SIGGRAPH",
@@ -3149,7 +3344,8 @@
           "abstract_deadline": "2025-01-16 22:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACM SIGGRAPH",
@@ -3173,7 +3369,8 @@
           "abstract_deadline": "2024-01-23 22:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACM SIGGRAPH",
@@ -3197,7 +3394,8 @@
           "abstract_deadline": "2023-01-24 22:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACM SIGGRAPH",
@@ -3221,7 +3419,8 @@
           "abstract_deadline": "2022-01-26 22:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACM SIGGRAPH",
@@ -3245,7 +3444,8 @@
           "abstract_deadline": "2021-01-27 22:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACM SIGGRAPH ASIA",
@@ -3269,7 +3469,8 @@
           "abstract_deadline": "2026-05-05 23:59:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACM SIGGRAPH ASIA",
@@ -3293,7 +3494,8 @@
           "abstract_deadline": "2025-05-16 23:59:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACM SIGGRAPH ASIA",
@@ -3317,7 +3519,8 @@
           "abstract_deadline": "2024-05-12 23:59:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACM SIGGRAPH ASIA",
@@ -3341,7 +3544,8 @@
           "abstract_deadline": "2023-05-16 23:59:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACM SIGGRAPH ASIA",
@@ -3365,7 +3569,8 @@
           "abstract_deadline": "2021-05-20 22:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CAV",
@@ -3389,7 +3594,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CAV",
@@ -3413,7 +3619,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CAV",
@@ -3437,7 +3644,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CONCUR",
@@ -3461,7 +3669,8 @@
           "abstract_deadline": "2025-04-03 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CONCUR",
@@ -3485,7 +3694,8 @@
           "abstract_deadline": "2026-04-20 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FOCS",
@@ -3509,7 +3719,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FOCS",
@@ -3533,7 +3744,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FOCS",
@@ -3557,7 +3769,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICALP",
@@ -3581,7 +3794,8 @@
           "abstract_deadline": null,
           "comment": "Submissions"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICALP",
@@ -3605,7 +3819,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IJCAR",
@@ -3629,7 +3844,8 @@
           "abstract_deadline": "2026-02-06 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ISAAC",
@@ -3653,7 +3869,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "LICS",
@@ -3677,7 +3894,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "LICS",
@@ -3701,7 +3919,8 @@
           "abstract_deadline": "2026-01-15 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SAT",
@@ -3725,7 +3944,8 @@
           "abstract_deadline": "2026-03-02 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SOCG",
@@ -3749,7 +3969,8 @@
           "abstract_deadline": "2024-11-06 23:59:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SOCG",
@@ -3773,7 +3994,8 @@
           "abstract_deadline": "2025-11-25 23:59:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SODA",
@@ -3797,7 +4019,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SODA",
@@ -3821,7 +4044,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SODA",
@@ -3845,7 +4069,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "STOC",
@@ -3869,7 +4094,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "STOC",
@@ -3893,7 +4119,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "STOC",
@@ -3917,7 +4144,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CIDR",
@@ -3941,7 +4169,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CIDR",
@@ -3965,7 +4194,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CIDR",
@@ -3989,7 +4219,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CIDR",
@@ -4013,7 +4244,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CIKM",
@@ -4037,7 +4269,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CIKM",
@@ -4061,7 +4294,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CIKM",
@@ -4085,7 +4319,8 @@
           "abstract_deadline": "2022-05-12 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CIKM",
@@ -4109,7 +4344,8 @@
           "abstract_deadline": "2023-05-26 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CIKM",
@@ -4133,7 +4369,8 @@
           "abstract_deadline": "2024-05-13 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CIKM",
@@ -4157,7 +4394,8 @@
           "abstract_deadline": "2025-05-16 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CIKM",
@@ -4181,7 +4419,8 @@
           "abstract_deadline": "2026-05-16 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EDBT",
@@ -4205,7 +4444,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EDBT",
@@ -4239,7 +4479,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EDBT",
@@ -4273,7 +4514,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EDBT",
@@ -4307,7 +4549,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EDBT",
@@ -4341,7 +4584,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EDBT",
@@ -4375,7 +4619,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDE",
@@ -4399,7 +4644,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDE",
@@ -4428,7 +4674,8 @@
           "abstract_deadline": null,
           "comment": "second round"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDE",
@@ -4462,7 +4709,8 @@
           "abstract_deadline": null,
           "comment": "third round"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDE",
@@ -4491,7 +4739,8 @@
           "abstract_deadline": null,
           "comment": "second round"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDE",
@@ -4520,7 +4769,8 @@
           "abstract_deadline": null,
           "comment": "second round"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDE",
@@ -4549,7 +4799,8 @@
           "abstract_deadline": null,
           "comment": "second round"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDE",
@@ -4578,7 +4829,8 @@
           "abstract_deadline": null,
           "comment": "second round"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDM",
@@ -4602,7 +4854,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDM",
@@ -4626,7 +4879,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDM",
@@ -4650,7 +4904,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDM",
@@ -4674,7 +4929,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDM",
@@ -4698,7 +4954,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDM",
@@ -4722,7 +4979,8 @@
           "abstract_deadline": "2026-05-30 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDT",
@@ -4746,7 +5004,8 @@
           "abstract_deadline": "2021-09-06 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDT",
@@ -4775,7 +5034,8 @@
           "abstract_deadline": "2024-09-12 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDT",
@@ -4804,7 +5064,8 @@
           "abstract_deadline": "2025-09-03 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDT",
@@ -4833,7 +5094,8 @@
           "abstract_deadline": "2026-09-03 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ECML-PKDD",
@@ -4857,7 +5119,8 @@
           "abstract_deadline": "2021-03-26 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ECML-PKDD",
@@ -4881,7 +5144,8 @@
           "abstract_deadline": "2022-03-30 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ECML-PKDD",
@@ -4905,7 +5169,8 @@
           "abstract_deadline": "2023-03-26 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ECML-PKDD",
@@ -4929,7 +5194,8 @@
           "abstract_deadline": "2024-03-15 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ECML-PKDD",
@@ -4953,7 +5219,8 @@
           "abstract_deadline": "2025-03-07 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ECML-PKDD",
@@ -4977,7 +5244,8 @@
           "abstract_deadline": "2026-03-05 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PODS",
@@ -5006,7 +5274,8 @@
           "abstract_deadline": "2024-12-02 17:00:00",
           "comment": "SECOND SUBMISSION CYCLE"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RecSys",
@@ -5030,7 +5299,8 @@
           "abstract_deadline": "2023-04-14 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RecSys",
@@ -5054,7 +5324,8 @@
           "abstract_deadline": "2024-04-22 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RecSys",
@@ -5078,7 +5349,8 @@
           "abstract_deadline": "2025-04-01 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RecSys",
@@ -5102,7 +5374,8 @@
           "abstract_deadline": "2026-04-14 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SDM",
@@ -5126,7 +5399,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SDM",
@@ -5150,7 +5424,8 @@
           "abstract_deadline": "2024-09-27 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGIR",
@@ -5174,7 +5449,8 @@
           "abstract_deadline": "2021-02-02 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGIR",
@@ -5198,7 +5474,8 @@
           "abstract_deadline": "2022-01-21 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGIR",
@@ -5222,7 +5499,8 @@
           "abstract_deadline": "2023-01-24 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGIR",
@@ -5246,7 +5524,8 @@
           "abstract_deadline": "2024-01-19 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGIR",
@@ -5270,7 +5549,8 @@
           "abstract_deadline": "2025-01-16 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGIR",
@@ -5294,7 +5574,8 @@
           "abstract_deadline": "2026-01-15 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGKDD",
@@ -5318,7 +5599,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGKDD",
@@ -5342,7 +5624,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGKDD",
@@ -5366,7 +5649,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGKDD",
@@ -5390,7 +5674,8 @@
           "abstract_deadline": "2024-02-01 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGKDD",
@@ -5419,7 +5704,8 @@
           "abstract_deadline": "2025-02-03 23:59:59",
           "comment": "2nd round of 2 total rounds"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGKDD",
@@ -5448,7 +5734,8 @@
           "abstract_deadline": "2026-02-01 23:59:59",
           "comment": "2nd round of 2 total rounds"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGMOD",
@@ -5472,7 +5759,8 @@
           "abstract_deadline": null,
           "comment": "second round"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGMOD",
@@ -5501,7 +5789,8 @@
           "abstract_deadline": null,
           "comment": "second round"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGMOD",
@@ -5535,7 +5824,8 @@
           "abstract_deadline": null,
           "comment": "third round"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGMOD",
@@ -5574,7 +5864,8 @@
           "abstract_deadline": null,
           "comment": "round 4"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGMOD",
@@ -5613,7 +5904,8 @@
           "abstract_deadline": "2024-10-10 23:59:00",
           "comment": "round 4"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGMOD",
@@ -5652,7 +5944,8 @@
           "abstract_deadline": "2025-10-10 23:59:00",
           "comment": "round 4"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGMOD",
@@ -5691,7 +5984,8 @@
           "abstract_deadline": "2026-10-10 23:59:00",
           "comment": "round 4"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "VLDB",
@@ -5770,7 +6064,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "VLDB",
@@ -5849,7 +6144,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "VLDB",
@@ -5928,7 +6224,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "VLDB",
@@ -6007,7 +6304,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "VLDB",
@@ -6086,7 +6384,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "VLDB",
@@ -6165,7 +6464,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "VLDB",
@@ -6244,7 +6544,8 @@
           "abstract_deadline": "2027-02-25 17:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WSDM",
@@ -6268,7 +6569,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WSDM",
@@ -6292,7 +6594,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WSDM",
@@ -6316,7 +6619,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WSDM",
@@ -6340,7 +6644,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WSDM",
@@ -6364,7 +6669,8 @@
           "abstract_deadline": "2025-08-07 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WSDM",
@@ -6388,7 +6694,8 @@
           "abstract_deadline": "2026-08-11 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "APSys",
@@ -6412,7 +6719,8 @@
           "abstract_deadline": "2024-04-25 23:59:00",
           "comment": "call for papers"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "APSys",
@@ -6436,7 +6744,8 @@
           "abstract_deadline": "2025-05-29 23:59:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "APSys",
@@ -6460,7 +6769,8 @@
           "abstract_deadline": "2026-05-13 23:59:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ASPLOS",
@@ -6484,7 +6794,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ASPLOS",
@@ -6508,7 +6819,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ASPLOS",
@@ -6557,7 +6869,8 @@
           "abstract_deadline": null,
           "comment": "Fall Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ASPLOS",
@@ -6606,7 +6919,8 @@
           "abstract_deadline": null,
           "comment": "Fall Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ASPLOS",
@@ -6640,7 +6954,8 @@
           "abstract_deadline": "2024-10-11 23:59:59",
           "comment": "Fall Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ASPLOS",
@@ -6669,7 +6984,8 @@
           "abstract_deadline": "2025-08-13 23:59:59",
           "comment": "Summer Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ASPLOS",
@@ -6698,7 +7014,8 @@
           "abstract_deadline": null,
           "comment": "September Cycle Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGOPS ATC",
@@ -6722,7 +7039,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGOPS ATC",
@@ -6746,7 +7064,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGOPS ATC",
@@ -6770,7 +7089,8 @@
           "abstract_deadline": "2023-01-05 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGOPS ATC",
@@ -6794,7 +7114,8 @@
           "abstract_deadline": "2024-01-09 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGOPS ATC",
@@ -6818,7 +7139,8 @@
           "abstract_deadline": "2025-01-07 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGOPS ATC",
@@ -6842,7 +7164,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CCGRID",
@@ -6866,7 +7189,8 @@
           "abstract_deadline": "2025-12-21 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IEEE/ACM CGO",
@@ -6895,7 +7219,8 @@
           "abstract_deadline": null,
           "comment": "Second Submission"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IEEE/ACM CGO",
@@ -6924,7 +7249,8 @@
           "abstract_deadline": null,
           "comment": "Second Submission"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IEEE/ACM CGO",
@@ -6948,7 +7274,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IEEE/ACM CGO",
@@ -6972,7 +7299,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CLUSTER",
@@ -6996,7 +7324,8 @@
           "abstract_deadline": null,
           "comment": "Full Paper Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CLUSTER",
@@ -7020,7 +7349,8 @@
           "abstract_deadline": null,
           "comment": "Full Paper Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CLUSTER",
@@ -7044,7 +7374,8 @@
           "abstract_deadline": null,
           "comment": "Full Paper Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CLUSTER",
@@ -7068,7 +7399,8 @@
           "abstract_deadline": null,
           "comment": "Full Paper Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CLUSTER",
@@ -7092,7 +7424,8 @@
           "abstract_deadline": "2026-04-30 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "DAC",
@@ -7121,7 +7454,8 @@
           "abstract_deadline": null,
           "comment": "full paper deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "DAC",
@@ -7150,7 +7484,8 @@
           "abstract_deadline": null,
           "comment": "full paper deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "DAC",
@@ -7174,7 +7509,8 @@
           "abstract_deadline": "2023-11-13 17:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "DAC",
@@ -7198,7 +7534,8 @@
           "abstract_deadline": "2024-11-12 17:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "DAC",
@@ -7222,7 +7559,8 @@
           "abstract_deadline": "2025-11-11 17:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EuroSys",
@@ -7246,7 +7584,8 @@
           "abstract_deadline": "2020-10-01 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EuroSys",
@@ -7270,7 +7609,8 @@
           "abstract_deadline": "2021-10-01 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EuroSys",
@@ -7299,7 +7639,8 @@
           "abstract_deadline": "2022-10-11 23:59:59",
           "comment": "Fall Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EuroSys",
@@ -7328,7 +7669,8 @@
           "abstract_deadline": null,
           "comment": "Fall Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EuroSys",
@@ -7357,7 +7699,8 @@
           "abstract_deadline": "2024-10-15 23:59:59",
           "comment": "Fall Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EuroSys",
@@ -7386,7 +7729,8 @@
           "abstract_deadline": "2025-09-18 23:59:59",
           "comment": "Fall Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EuroSys",
@@ -7415,7 +7759,8 @@
           "abstract_deadline": "2026-09-17 23:59:59",
           "comment": "Fall Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FAST",
@@ -7439,7 +7784,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FAST",
@@ -7463,7 +7809,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FAST",
@@ -7487,7 +7834,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FAST",
@@ -7511,7 +7859,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FAST",
@@ -7535,7 +7884,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FAST",
@@ -7564,7 +7914,8 @@
           "abstract_deadline": null,
           "comment": "Fall deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FAST",
@@ -7593,7 +7944,8 @@
           "abstract_deadline": null,
           "comment": "Fall deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "HotStorage",
@@ -7617,7 +7969,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "HPCA",
@@ -7646,7 +7999,8 @@
           "abstract_deadline": null,
           "comment": "full paper deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "HPCA",
@@ -7675,7 +8029,8 @@
           "abstract_deadline": null,
           "comment": "full paper deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "HPCA",
@@ -7704,7 +8059,8 @@
           "abstract_deadline": null,
           "comment": "full paper deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "HPCA",
@@ -7728,7 +8084,8 @@
           "abstract_deadline": "2024-07-26 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "HPCA",
@@ -7752,7 +8109,8 @@
           "abstract_deadline": "2025-07-25 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "HPDC",
@@ -7776,7 +8134,8 @@
           "abstract_deadline": null,
           "comment": "paper submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "HPDC",
@@ -7805,7 +8164,8 @@
           "abstract_deadline": null,
           "comment": "paper submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICCAD",
@@ -7834,7 +8194,8 @@
           "abstract_deadline": null,
           "comment": "Full Paper Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICCAD",
@@ -7863,7 +8224,8 @@
           "abstract_deadline": null,
           "comment": "Full Paper Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICCAD",
@@ -7887,7 +8249,8 @@
           "abstract_deadline": "2024-04-28 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICCAD",
@@ -7911,7 +8274,8 @@
           "abstract_deadline": "2025-04-14 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICCAD",
@@ -7935,7 +8299,8 @@
           "abstract_deadline": "2026-04-07 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDCS",
@@ -7959,7 +8324,8 @@
           "abstract_deadline": "2020-01-06 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDCS",
@@ -7983,7 +8349,8 @@
           "abstract_deadline": "2021-01-06 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDCS",
@@ -8007,7 +8374,8 @@
           "abstract_deadline": "2022-01-24 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDCS",
@@ -8031,7 +8399,8 @@
           "abstract_deadline": "2023-01-14 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDCS",
@@ -8055,7 +8424,8 @@
           "abstract_deadline": "2024-01-12 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDCS",
@@ -8079,7 +8449,8 @@
           "abstract_deadline": "2024-12-04 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICDCS",
@@ -8103,7 +8474,8 @@
           "abstract_deadline": "2026-01-21 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICPP",
@@ -8127,7 +8499,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICPP",
@@ -8151,7 +8524,8 @@
           "abstract_deadline": "2022-04-08 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICPP",
@@ -8180,7 +8554,8 @@
           "abstract_deadline": null,
           "comment": "Paper Submission"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICPP",
@@ -8204,7 +8579,8 @@
           "abstract_deadline": "2024-04-22 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICPP",
@@ -8228,7 +8604,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICPP",
@@ -8252,7 +8629,8 @@
           "abstract_deadline": "2026-04-24 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICS",
@@ -8276,7 +8654,8 @@
           "abstract_deadline": "2024-01-11 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICS",
@@ -8300,7 +8679,8 @@
           "abstract_deadline": "2025-01-13 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICS",
@@ -8329,7 +8709,8 @@
           "abstract_deadline": "2026-02-02 23:59:59",
           "comment": "Cycle 2"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IPDPS",
@@ -8353,7 +8734,8 @@
           "abstract_deadline": "2021-10-01 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IPDPS",
@@ -8377,7 +8759,8 @@
           "abstract_deadline": "2022-09-29 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IPDPS",
@@ -8401,7 +8784,8 @@
           "abstract_deadline": "2023-09-28 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IPDPS",
@@ -8425,7 +8809,8 @@
           "abstract_deadline": "2024-10-03 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IPDPS",
@@ -8449,7 +8834,8 @@
           "abstract_deadline": "2025-10-02 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ISCA",
@@ -8478,7 +8864,8 @@
           "abstract_deadline": null,
           "comment": "full paper deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ISCA",
@@ -8507,7 +8894,8 @@
           "abstract_deadline": null,
           "comment": "full paper deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ISCA",
@@ -8536,7 +8924,8 @@
           "abstract_deadline": null,
           "comment": "full paper deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ISCA",
@@ -8565,7 +8954,8 @@
           "abstract_deadline": null,
           "comment": "full paper deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ISCA",
@@ -8594,7 +8984,8 @@
           "abstract_deadline": null,
           "comment": "full paper deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MICRO",
@@ -8623,7 +9014,8 @@
           "abstract_deadline": null,
           "comment": "full paper deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MICRO",
@@ -8652,7 +9044,8 @@
           "abstract_deadline": null,
           "comment": "Full Paper Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MICRO",
@@ -8681,7 +9074,8 @@
           "abstract_deadline": null,
           "comment": "Full Paper Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MICRO",
@@ -8710,7 +9104,8 @@
           "abstract_deadline": null,
           "comment": "Full Paper Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MICRO",
@@ -8734,7 +9129,8 @@
           "abstract_deadline": "2025-04-04 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MICRO",
@@ -8758,7 +9154,8 @@
           "abstract_deadline": "2026-03-31 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PODC",
@@ -8782,7 +9179,8 @@
           "abstract_deadline": "2024-02-11 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PPoPP",
@@ -8806,7 +9204,8 @@
           "abstract_deadline": "2020-08-06 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PPoPP",
@@ -8830,7 +9229,8 @@
           "abstract_deadline": "2021-08-09 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PPoPP",
@@ -8854,7 +9254,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PPoPP",
@@ -8878,7 +9279,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PPoPP",
@@ -8902,7 +9304,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PPoPP",
@@ -8926,7 +9329,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RTAS",
@@ -8950,7 +9354,8 @@
           "abstract_deadline": null,
           "comment": "Submission Deadline (firm)"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RTAS",
@@ -8974,7 +9379,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SC",
@@ -8998,7 +9404,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SC",
@@ -9022,7 +9429,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SC",
@@ -9046,7 +9454,8 @@
           "abstract_deadline": "2024-03-26 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SC",
@@ -9070,7 +9479,8 @@
           "abstract_deadline": "2025-04-07 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SC",
@@ -9094,7 +9504,8 @@
           "abstract_deadline": "2026-04-01 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGMETRICS",
@@ -9128,7 +9539,8 @@
           "abstract_deadline": "2025-01-15 23:59:00",
           "comment": "winter round"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGMETRICS",
@@ -9162,7 +9574,8 @@
           "abstract_deadline": "2026-01-06 23:59:00",
           "comment": "winter round"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGMETRICS",
@@ -9186,7 +9599,8 @@
           "abstract_deadline": "TBD",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SoCC",
@@ -9210,7 +9624,8 @@
           "abstract_deadline": null,
           "comment": "abstract and full paper deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SoCC",
@@ -9234,7 +9649,8 @@
           "abstract_deadline": "2024-07-08 17:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SoCC",
@@ -9263,7 +9679,8 @@
           "abstract_deadline": "2026-07-07 23:59:59",
           "comment": "Second round"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CHI",
@@ -9287,7 +9704,8 @@
           "abstract_deadline": "2023-09-07 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CHI",
@@ -9311,7 +9729,8 @@
           "abstract_deadline": "2024-09-05 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CHI",
@@ -9335,7 +9754,8 @@
           "abstract_deadline": "2025-09-04 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CHI",
@@ -9359,7 +9779,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CSCW",
@@ -9383,7 +9804,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CSCW",
@@ -9407,7 +9829,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CSCW",
@@ -9431,7 +9854,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CSCW",
@@ -9455,7 +9879,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CSCW",
@@ -9484,7 +9909,8 @@
           "abstract_deadline": null,
           "comment": "OCTOBER 2024 CYCLE"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CSCW",
@@ -9508,7 +9934,8 @@
           "abstract_deadline": null,
           "comment": "MAY 2025 SUBMISSION CYCLE"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IUI",
@@ -9532,7 +9959,8 @@
           "abstract_deadline": "2023-10-02 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IUI",
@@ -9556,7 +9984,8 @@
           "abstract_deadline": "2024-10-02 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IUI",
@@ -9580,7 +10009,8 @@
           "abstract_deadline": "2025-10-03 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IUI",
@@ -9604,7 +10034,8 @@
           "abstract_deadline": "TBD",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PerCom",
@@ -9628,7 +10059,8 @@
           "abstract_deadline": "2024-09-29 23:59:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PerCom",
@@ -9652,7 +10084,8 @@
           "abstract_deadline": "2025-10-03 23:59:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "UIST",
@@ -9681,7 +10114,8 @@
           "abstract_deadline": null,
           "comment": "paper deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "UIST",
@@ -9710,7 +10144,8 @@
           "abstract_deadline": null,
           "comment": "paper deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "UIST",
@@ -9734,7 +10169,8 @@
           "abstract_deadline": "2026-03-24 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "APBC",
@@ -9758,7 +10194,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "APBC",
@@ -9782,7 +10219,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "BIBM",
@@ -9806,7 +10244,8 @@
           "abstract_deadline": null,
           "comment": "Electronic submission of full papers"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "BIBM",
@@ -9830,7 +10269,8 @@
           "abstract_deadline": null,
           "comment": "Electronic submission of full papers"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "BIBM",
@@ -9854,7 +10294,8 @@
           "abstract_deadline": null,
           "comment": "Electronic submission of full papers"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "BIBM",
@@ -9883,7 +10324,8 @@
           "abstract_deadline": null,
           "comment": "Second Round, papers submitted by the Aug 16, 2024 deadline, will be reviewed and notified by the Oct 16, 2024"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "BIBM",
@@ -9907,7 +10349,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "BIBM",
@@ -9931,7 +10374,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EMSOFT",
@@ -9955,7 +10399,8 @@
           "abstract_deadline": "2025-03-23 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EMSOFT",
@@ -9979,7 +10424,8 @@
           "abstract_deadline": "2026-03-23 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ISBRA",
@@ -10003,7 +10449,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MICCAI",
@@ -10027,7 +10474,8 @@
           "abstract_deadline": null,
           "comment": "Paper submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MICCAI",
@@ -10051,7 +10499,8 @@
           "abstract_deadline": null,
           "comment": "Main conference papers"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MICCAI",
@@ -10075,7 +10524,8 @@
           "abstract_deadline": "2025-02-13 23:59:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MICCAI",
@@ -10099,7 +10549,8 @@
           "abstract_deadline": "2026-02-12 23:59:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MLSys",
@@ -10123,7 +10574,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MLSys",
@@ -10147,7 +10599,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MLSys",
@@ -10171,7 +10624,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MLSys",
@@ -10195,7 +10649,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MLSys",
@@ -10219,7 +10674,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MLSys",
@@ -10243,7 +10699,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RECOMB",
@@ -10267,7 +10724,8 @@
           "abstract_deadline": "2024-10-16 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RECOMB",
@@ -10291,7 +10749,8 @@
           "abstract_deadline": "2025-11-07 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RTSS",
@@ -10315,7 +10774,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RTSS",
@@ -10339,7 +10799,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RTSS",
@@ -10363,7 +10824,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WWW",
@@ -10387,7 +10849,8 @@
           "abstract_deadline": "2020-10-12 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WWW",
@@ -10411,7 +10874,8 @@
           "abstract_deadline": "2021-10-14 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WWW",
@@ -10435,7 +10899,8 @@
           "abstract_deadline": "2022-10-06 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WWW",
@@ -10459,7 +10924,8 @@
           "abstract_deadline": "2023-10-05 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WWW",
@@ -10483,7 +10949,8 @@
           "abstract_deadline": "2024-10-07 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WWW",
@@ -10507,7 +10974,8 @@
           "abstract_deadline": "2025-09-30 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WWW",
@@ -10531,7 +10999,8 @@
           "abstract_deadline": "TBD",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CoNEXT",
@@ -10560,7 +11029,8 @@
           "abstract_deadline": "2025-05-29 23:59:59",
           "comment": "June submission"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CoNEXT",
@@ -10589,7 +11059,8 @@
           "abstract_deadline": "2026-05-29 23:59:59",
           "comment": "June Cycle"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "HotNets",
@@ -10613,7 +11084,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICNP",
@@ -10637,7 +11109,8 @@
           "abstract_deadline": "2022-05-19 20:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICNP",
@@ -10661,7 +11134,8 @@
           "abstract_deadline": "2023-05-24 20:00:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICNP",
@@ -10685,7 +11159,8 @@
           "abstract_deadline": "2024-05-17 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICNP",
@@ -10709,7 +11184,8 @@
           "abstract_deadline": "2025-05-09 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICNP",
@@ -10733,7 +11209,8 @@
           "abstract_deadline": "2026-05-15 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IMC",
@@ -10757,7 +11234,8 @@
           "abstract_deadline": "2024-05-08 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IMC",
@@ -10786,7 +11264,8 @@
           "abstract_deadline": "2025-05-08 23:59:59",
           "comment": "Spring deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IMC",
@@ -10815,7 +11294,8 @@
           "abstract_deadline": "2026-04-22 23:59:59",
           "comment": "Cycle 2 Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "INFOCOM",
@@ -10839,7 +11319,8 @@
           "abstract_deadline": "2020-08-08 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "INFOCOM",
@@ -10863,7 +11344,8 @@
           "abstract_deadline": "2021-07-24 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "INFOCOM",
@@ -10887,7 +11369,8 @@
           "abstract_deadline": "2022-07-25 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "INFOCOM",
@@ -10911,7 +11394,8 @@
           "abstract_deadline": "2023-07-24 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "INFOCOM",
@@ -10935,7 +11419,8 @@
           "abstract_deadline": "2024-07-24 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "INFOCOM",
@@ -10959,7 +11444,8 @@
           "abstract_deadline": "2025-07-24 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IPSN",
@@ -10983,7 +11469,8 @@
           "abstract_deadline": "2021-10-22 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IWQoS",
@@ -11007,7 +11494,8 @@
           "abstract_deadline": "2022-02-01 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IWQoS",
@@ -11031,7 +11519,8 @@
           "abstract_deadline": "2023-01-29 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IWQoS",
@@ -11055,7 +11544,8 @@
           "abstract_deadline": "2025-02-16 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "IWQoS",
@@ -11079,7 +11569,8 @@
           "abstract_deadline": "2026-02-02 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "LCN",
@@ -11103,7 +11594,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MobiCom",
@@ -11132,7 +11624,8 @@
           "abstract_deadline": "2022-03-18 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MobiCom",
@@ -11156,7 +11649,8 @@
           "abstract_deadline": "2023-03-10 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MobiCom",
@@ -11180,7 +11674,8 @@
           "abstract_deadline": "2023-08-18 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MobiCom",
@@ -11209,7 +11704,8 @@
           "abstract_deadline": "2025-03-11 23:59:59",
           "comment": "Winter Deadlines"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MobiCom",
@@ -11238,7 +11734,8 @@
           "abstract_deadline": "2026-03-06 23:59:59",
           "comment": "Winter Deadlines"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MobiSys",
@@ -11262,7 +11759,8 @@
           "abstract_deadline": "2021-12-13 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MobiSys",
@@ -11286,7 +11784,8 @@
           "abstract_deadline": "2025-11-28 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NSDI",
@@ -11315,7 +11814,8 @@
           "abstract_deadline": "2021-09-09 20:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NSDI",
@@ -11344,7 +11844,8 @@
           "abstract_deadline": "2022-09-13 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NSDI",
@@ -11373,7 +11874,8 @@
           "abstract_deadline": "2023-09-14 20:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NSDI",
@@ -11402,7 +11904,8 @@
           "abstract_deadline": "2024-09-12 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NSDI",
@@ -11431,7 +11934,8 @@
           "abstract_deadline": "2025-09-11 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NSDI",
@@ -11460,7 +11964,8 @@
           "abstract_deadline": "2026-09-10 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SECON",
@@ -11484,7 +11989,8 @@
           "abstract_deadline": "2025-12-08 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SenSys",
@@ -11513,7 +12019,8 @@
           "abstract_deadline": "2025-11-06 23:59:00",
           "comment": "2nd deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SenSys",
@@ -11542,7 +12049,8 @@
           "abstract_deadline": "TBD",
           "comment": "2nd deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGCOMM",
@@ -11566,7 +12074,8 @@
           "abstract_deadline": "2021-01-20 16:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGCOMM",
@@ -11590,7 +12099,8 @@
           "abstract_deadline": "2022-01-26 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGCOMM",
@@ -11614,7 +12124,8 @@
           "abstract_deadline": "2023-02-08 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGCOMM",
@@ -11638,7 +12149,8 @@
           "abstract_deadline": "2024-01-26 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGCOMM",
@@ -11662,7 +12174,8 @@
           "abstract_deadline": "2025-01-24 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SIGCOMM",
@@ -11686,7 +12199,8 @@
           "abstract_deadline": "2026-01-30 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WoWMoM",
@@ -11710,7 +12224,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WoWMoM",
@@ -11734,7 +12249,8 @@
           "abstract_deadline": "2025-11-18 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACNS",
@@ -11763,7 +12279,8 @@
           "abstract_deadline": null,
           "comment": "Second submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACNS",
@@ -11792,7 +12309,8 @@
           "abstract_deadline": null,
           "comment": "Second submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACNS",
@@ -11821,7 +12339,8 @@
           "abstract_deadline": null,
           "comment": "Second submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACNS",
@@ -11850,7 +12369,8 @@
           "abstract_deadline": null,
           "comment": "Cycle 2 Submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACSAC",
@@ -11874,7 +12394,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACSAC",
@@ -11898,7 +12419,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACSAC",
@@ -11922,7 +12444,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACSAC",
@@ -11946,7 +12469,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ACSAC",
@@ -11970,7 +12494,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "AsiaCCS",
@@ -11999,7 +12524,8 @@
           "abstract_deadline": null,
           "comment": "2nd round Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "AsiaCCS",
@@ -12028,7 +12554,8 @@
           "abstract_deadline": null,
           "comment": "2nd round Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "AsiaCCS",
@@ -12057,7 +12584,8 @@
           "abstract_deadline": null,
           "comment": "2nd round Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "AsiaCCS",
@@ -12086,7 +12614,8 @@
           "abstract_deadline": null,
           "comment": "2nd round Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "AsiaCCS",
@@ -12115,7 +12644,8 @@
           "abstract_deadline": null,
           "comment": "2nd round Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ASIACRYPT",
@@ -12139,7 +12669,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ASIACRYPT",
@@ -12163,7 +12694,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ASIACRYPT",
@@ -12187,7 +12719,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ASIACRYPT",
@@ -12211,7 +12744,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ASIACRYPT",
@@ -12235,7 +12769,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CCS",
@@ -12259,7 +12794,8 @@
           "abstract_deadline": null,
           "comment": "2 review cycles"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CCS",
@@ -12288,7 +12824,8 @@
           "abstract_deadline": null,
           "comment": "spring"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CCS",
@@ -12317,7 +12854,8 @@
           "abstract_deadline": null,
           "comment": "the second review cycle"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CCS",
@@ -12346,7 +12884,8 @@
           "abstract_deadline": null,
           "comment": "Second Round Submission"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CCS",
@@ -12375,7 +12914,8 @@
           "abstract_deadline": null,
           "comment": "Second Round Submission (tentative)"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CCS",
@@ -12404,7 +12944,8 @@
           "abstract_deadline": null,
           "comment": "Second Review Cycle"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CCS",
@@ -12433,7 +12974,8 @@
           "abstract_deadline": null,
           "comment": "Second Review Cycle"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CHES",
@@ -12472,7 +13014,8 @@
           "abstract_deadline": null,
           "comment": "Schedule for TCHES Volume 2022/4"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CHES",
@@ -12511,7 +13054,8 @@
           "abstract_deadline": null,
           "comment": "Schedule for TCHES Volume 2023/4"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CHES",
@@ -12550,7 +13094,8 @@
           "abstract_deadline": null,
           "comment": "Schedule for TCHES Volume 2024/4"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CHES",
@@ -12589,7 +13134,8 @@
           "abstract_deadline": null,
           "comment": "Schedule for TCHES Volume 2025/4"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CHES",
@@ -12628,7 +13174,8 @@
           "abstract_deadline": null,
           "comment": "Schedule for TCHES Volume 2026/4"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CODASPY",
@@ -12652,7 +13199,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CRYPTO",
@@ -12676,7 +13224,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CRYPTO",
@@ -12700,7 +13249,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CRYPTO",
@@ -12724,7 +13274,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CRYPTO",
@@ -12748,7 +13299,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CRYPTO",
@@ -12772,7 +13324,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CSFW",
@@ -12801,7 +13354,8 @@
           "abstract_deadline": null,
           "comment": "fall"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CSFW",
@@ -12835,7 +13389,8 @@
           "abstract_deadline": null,
           "comment": "winter"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CSFW",
@@ -12869,7 +13424,8 @@
           "abstract_deadline": null,
           "comment": "winter"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CSFW",
@@ -12903,7 +13459,8 @@
           "abstract_deadline": null,
           "comment": "winter"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CSFW",
@@ -12937,7 +13494,8 @@
           "abstract_deadline": null,
           "comment": "Winter"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CT-RSA",
@@ -12961,7 +13519,8 @@
           "abstract_deadline": null,
           "comment": "Submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CT-RSA",
@@ -12985,7 +13544,8 @@
           "abstract_deadline": null,
           "comment": "Submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CT-RSA",
@@ -13009,7 +13569,8 @@
           "abstract_deadline": null,
           "comment": "Paper submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CT-RSA",
@@ -13033,7 +13594,8 @@
           "abstract_deadline": null,
           "comment": "Paper submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "DFRWS",
@@ -13057,7 +13619,8 @@
           "abstract_deadline": null,
           "comment": "Paper submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "DFRWS",
@@ -13081,7 +13644,8 @@
           "abstract_deadline": "2024-09-20 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "DFRWS",
@@ -13105,7 +13669,8 @@
           "abstract_deadline": "2025-09-19 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "DIMVA",
@@ -13134,7 +13699,8 @@
           "abstract_deadline": null,
           "comment": "Final paper submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "DIMVA",
@@ -13163,7 +13729,8 @@
           "abstract_deadline": null,
           "comment": "Final paper submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "DIMVA",
@@ -13192,7 +13759,8 @@
           "abstract_deadline": null,
           "comment": "Final paper submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "DIMVA",
@@ -13221,7 +13789,8 @@
           "abstract_deadline": null,
           "comment": "Cycle 2 submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "DSN",
@@ -13255,7 +13824,8 @@
           "abstract_deadline": null,
           "comment": "Notification to authors"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "DSN",
@@ -13279,7 +13849,8 @@
           "abstract_deadline": "2023-11-29 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "DSN",
@@ -13303,7 +13874,8 @@
           "abstract_deadline": "2024-11-27 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "DSN",
@@ -13327,7 +13899,8 @@
           "abstract_deadline": "2025-11-27 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ESORICS",
@@ -13366,7 +13939,8 @@
           "abstract_deadline": null,
           "comment": "Spring Cycle Full Paper Submission"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ESORICS",
@@ -13395,7 +13969,8 @@
           "abstract_deadline": null,
           "comment": "Second Submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ESORICS",
@@ -13424,7 +13999,8 @@
           "abstract_deadline": null,
           "comment": "Second Submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ESORICS",
@@ -13453,7 +14029,8 @@
           "abstract_deadline": null,
           "comment": "Second Submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EUROCRYPT",
@@ -13477,7 +14054,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EUROCRYPT",
@@ -13501,7 +14079,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EUROCRYPT",
@@ -13525,7 +14104,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EUROCRYPT",
@@ -13549,7 +14129,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EuroS&P",
@@ -13573,7 +14154,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EuroS&P",
@@ -13597,7 +14179,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EuroS&P",
@@ -13621,7 +14204,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FC",
@@ -13650,7 +14234,8 @@
           "abstract_deadline": null,
           "comment": "Paper submission"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FC",
@@ -13674,7 +14259,8 @@
           "abstract_deadline": null,
           "comment": "Submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FC",
@@ -13698,7 +14284,8 @@
           "abstract_deadline": null,
           "comment": "Submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FC",
@@ -13722,7 +14309,8 @@
           "abstract_deadline": null,
           "comment": "Submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FSE",
@@ -13761,7 +14349,8 @@
           "abstract_deadline": null,
           "comment": "Submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FSE",
@@ -13800,7 +14389,8 @@
           "abstract_deadline": null,
           "comment": "Submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FSE",
@@ -13839,7 +14429,8 @@
           "abstract_deadline": null,
           "comment": "ToSC, Volume 2025, Issue 1 Submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FSE",
@@ -13878,7 +14469,8 @@
           "abstract_deadline": null,
           "comment": "ToSC, Volume 2026, Issue 1 Submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "HotSec",
@@ -13902,7 +14494,8 @@
           "abstract_deadline": null,
           "comment": "Extended"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICICS",
@@ -13926,7 +14519,8 @@
           "abstract_deadline": null,
           "comment": "Paper Submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICICS",
@@ -13950,7 +14544,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICICS",
@@ -13979,7 +14574,8 @@
           "abstract_deadline": null,
           "comment": "Second Cycle"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICICS",
@@ -14008,7 +14604,8 @@
           "abstract_deadline": null,
           "comment": "Second round"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICICS",
@@ -14037,7 +14634,8 @@
           "abstract_deadline": null,
           "comment": "Second round"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NDSS",
@@ -14066,7 +14664,8 @@
           "abstract_deadline": null,
           "comment": "fall"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NDSS",
@@ -14095,7 +14694,8 @@
           "abstract_deadline": null,
           "comment": "Fall"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NDSS",
@@ -14124,7 +14724,8 @@
           "abstract_deadline": null,
           "comment": "Fall"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NDSS",
@@ -14153,7 +14754,8 @@
           "abstract_deadline": null,
           "comment": "Fall"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NDSS",
@@ -14182,7 +14784,8 @@
           "abstract_deadline": "2025-07-30 23:59:59",
           "comment": "Fall"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NDSS",
@@ -14211,7 +14814,8 @@
           "abstract_deadline": null,
           "comment": "Fall"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NSPW",
@@ -14240,7 +14844,8 @@
           "abstract_deadline": null,
           "comment": "Final version"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NSPW",
@@ -14264,7 +14869,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NSPW",
@@ -14288,7 +14894,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "NSPW",
@@ -14312,7 +14919,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PETS",
@@ -14351,7 +14959,8 @@
           "abstract_deadline": null,
           "comment": "Issue 4 Paper Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PETS",
@@ -14390,7 +14999,8 @@
           "abstract_deadline": null,
           "comment": "Issue 4 Paper Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PETS",
@@ -14429,7 +15039,8 @@
           "abstract_deadline": null,
           "comment": "Issue 4 Paper Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PETS",
@@ -14468,7 +15079,8 @@
           "abstract_deadline": null,
           "comment": "Issue 4 Paper Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PETS",
@@ -14507,7 +15119,8 @@
           "abstract_deadline": null,
           "comment": "Issue 4 Paper Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PKC",
@@ -14531,7 +15144,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PKC",
@@ -14555,7 +15169,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PKC",
@@ -14579,7 +15194,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PKC",
@@ -14603,7 +15219,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RAID",
@@ -14627,7 +15244,8 @@
           "abstract_deadline": null,
           "comment": "Paper Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RAID",
@@ -14651,7 +15269,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RAID",
@@ -14675,7 +15294,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RAID",
@@ -14699,7 +15319,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RAID",
@@ -14723,7 +15344,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SACMAT",
@@ -14747,7 +15369,8 @@
           "abstract_deadline": null,
           "comment": "Paper Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SACMAT",
@@ -14771,7 +15394,8 @@
           "abstract_deadline": null,
           "comment": "Paper Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SACMAT",
@@ -14800,7 +15424,8 @@
           "abstract_deadline": null,
           "comment": "Second Cycle"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SOUPS",
@@ -14829,7 +15454,8 @@
           "abstract_deadline": null,
           "comment": "Paper Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SOUPS",
@@ -14858,7 +15484,8 @@
           "abstract_deadline": null,
           "comment": "Paper Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SOUPS",
@@ -14887,7 +15514,8 @@
           "abstract_deadline": null,
           "comment": "Paper Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SOUPS",
@@ -14916,7 +15544,8 @@
           "abstract_deadline": null,
           "comment": "Paper Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "S&P",
@@ -14950,7 +15579,8 @@
           "abstract_deadline": null,
           "comment": "Third Paper submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "S&P",
@@ -14984,7 +15614,8 @@
           "abstract_deadline": null,
           "comment": "Third Paper submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "S&P",
@@ -15018,7 +15649,8 @@
           "abstract_deadline": null,
           "comment": "Third Paper submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "S&P",
@@ -15047,7 +15679,8 @@
           "abstract_deadline": null,
           "comment": "Second Paper submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "S&P",
@@ -15076,7 +15709,8 @@
           "abstract_deadline": null,
           "comment": "Second Paper submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "S&P",
@@ -15105,7 +15739,8 @@
           "abstract_deadline": "2026-11-10 23:59:59",
           "comment": "Second Paper submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SRDS",
@@ -15134,7 +15769,8 @@
           "abstract_deadline": null,
           "comment": "FULL PAPER"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SRDS",
@@ -15163,7 +15799,8 @@
           "abstract_deadline": null,
           "comment": "FULL PAPER"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SRDS",
@@ -15192,7 +15829,8 @@
           "abstract_deadline": null,
           "comment": "FULL PAPER"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SRDS",
@@ -15221,7 +15859,8 @@
           "abstract_deadline": null,
           "comment": "Full Paper Submission"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SRDS",
@@ -15250,7 +15889,8 @@
           "abstract_deadline": null,
           "comment": "Full Paper Submission"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "TCC",
@@ -15274,7 +15914,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "TCC",
@@ -15298,7 +15939,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "TCC",
@@ -15322,7 +15964,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "TCC",
@@ -15346,7 +15989,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "USENIX Security",
@@ -15380,7 +16024,8 @@
           "abstract_deadline": null,
           "comment": "3 review cycles"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "USENIX Security",
@@ -15414,7 +16059,8 @@
           "abstract_deadline": null,
           "comment": "Winter Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "USENIX Security",
@@ -15448,7 +16094,8 @@
           "abstract_deadline": null,
           "comment": "Winter Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "USENIX Security",
@@ -15477,7 +16124,8 @@
           "abstract_deadline": null,
           "comment": "Cycle 2 Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "USENIX Security",
@@ -15506,7 +16154,8 @@
           "abstract_deadline": "2026-01-29 23:59:59",
           "comment": "Cycle 2 Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "USENIX Security",
@@ -15535,7 +16184,8 @@
           "abstract_deadline": "2027-01-19 23:59:59",
           "comment": "Cycle 2 Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WiSec",
@@ -15559,7 +16209,8 @@
           "abstract_deadline": null,
           "comment": "Paper Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WiSec",
@@ -15583,7 +16234,8 @@
           "abstract_deadline": null,
           "comment": "Paper Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WiSec",
@@ -15612,7 +16264,8 @@
           "abstract_deadline": null,
           "comment": "Second Cycle deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "WiSec",
@@ -15641,7 +16294,8 @@
           "abstract_deadline": null,
           "comment": "Second Cycle deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ASE",
@@ -15670,7 +16324,8 @@
           "abstract_deadline": null,
           "comment": "Paper Submission"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ASE",
@@ -15694,7 +16349,8 @@
           "abstract_deadline": "2023-04-28 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ASE",
@@ -15718,7 +16374,8 @@
           "abstract_deadline": "2024-05-31 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ASE",
@@ -15742,7 +16399,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ASE",
@@ -15766,7 +16424,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CAiSE",
@@ -15795,7 +16454,8 @@
           "abstract_deadline": null,
           "comment": "Paper Submission"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CAiSE",
@@ -15819,7 +16479,8 @@
           "abstract_deadline": "2024-11-22 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CAiSE",
@@ -15843,7 +16504,8 @@
           "abstract_deadline": "2025-11-14 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CP",
@@ -15867,7 +16529,8 @@
           "abstract_deadline": null,
           "comment": "Full Paper Submission"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CP",
@@ -15891,7 +16554,8 @@
           "abstract_deadline": "2025-03-20 22:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "CP",
@@ -15915,7 +16579,8 @@
           "abstract_deadline": "2026-03-02 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EASE",
@@ -15939,7 +16604,8 @@
           "abstract_deadline": "2025-01-24 23:59:59",
           "comment": "Research Papers"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "EASE",
@@ -15963,7 +16629,8 @@
           "abstract_deadline": "2026-01-16 23:59:59",
           "comment": "Research Papers"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ECOOP",
@@ -15992,7 +16659,8 @@
           "abstract_deadline": null,
           "comment": "Submission R2"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ECOOP",
@@ -16021,7 +16689,8 @@
           "abstract_deadline": null,
           "comment": "Submission R2"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ESEM",
@@ -16050,7 +16719,8 @@
           "abstract_deadline": null,
           "comment": "Submission"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ESEM",
@@ -16074,7 +16744,8 @@
           "abstract_deadline": "2025-04-18 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ESEM",
@@ -16098,7 +16769,8 @@
           "abstract_deadline": "2026-05-11 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FM",
@@ -16127,7 +16799,8 @@
           "abstract_deadline": null,
           "comment": "Full paper submission"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FM",
@@ -16166,7 +16839,8 @@
           "abstract_deadline": null,
           "comment": "Final Version"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FM",
@@ -16190,7 +16864,8 @@
           "abstract_deadline": "2025-11-25 23:59:00",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FSE",
@@ -16219,7 +16894,8 @@
           "abstract_deadline": null,
           "comment": "full paper submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FSE",
@@ -16248,7 +16924,8 @@
           "abstract_deadline": null,
           "comment": "full paper submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FSE",
@@ -16272,7 +16949,8 @@
           "abstract_deadline": "2023-09-21 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FSE",
@@ -16296,7 +16974,8 @@
           "abstract_deadline": "2024-09-05 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FSE",
@@ -16320,7 +16999,8 @@
           "abstract_deadline": "2025-09-04 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "FSE",
@@ -16344,7 +17024,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "HotOS",
@@ -16368,7 +17049,8 @@
           "abstract_deadline": null,
           "comment": "Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "HotOS",
@@ -16392,7 +17074,8 @@
           "abstract_deadline": null,
           "comment": "Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICFP",
@@ -16421,7 +17104,8 @@
           "abstract_deadline": null,
           "comment": "Submission of revised papers"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICFP",
@@ -16450,7 +17134,8 @@
           "abstract_deadline": null,
           "comment": "Submission of revised papers"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICFP",
@@ -16474,7 +17159,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICPC",
@@ -16498,7 +17184,8 @@
           "abstract_deadline": "2022-01-13 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICPC",
@@ -16522,7 +17209,8 @@
           "abstract_deadline": "2023-10-30 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICPC",
@@ -16546,7 +17234,8 @@
           "abstract_deadline": "2024-11-06 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICPC",
@@ -16570,7 +17259,8 @@
           "abstract_deadline": "2025-10-19 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICSE",
@@ -16594,7 +17284,8 @@
           "abstract_deadline": "2021-08-27 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICSE",
@@ -16618,7 +17309,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICSE",
@@ -16647,7 +17339,8 @@
           "abstract_deadline": null,
           "comment": "Technical Papers Second round submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICSE",
@@ -16676,7 +17369,8 @@
           "abstract_deadline": "2024-07-26 23:59:59",
           "comment": "Second Cycle: Submission"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICSE",
@@ -16705,7 +17399,8 @@
           "abstract_deadline": "2025-07-11 23:59:59",
           "comment": "Second Cycle: Submission"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICSE",
@@ -16729,7 +17424,8 @@
           "abstract_deadline": "2026-06-23 23:59:59",
           "comment": "Single Submission Cycle Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICSME",
@@ -16753,7 +17449,8 @@
           "abstract_deadline": "2022-03-25 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICSME",
@@ -16777,7 +17474,8 @@
           "abstract_deadline": "2023-04-20 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICSME",
@@ -16801,7 +17499,8 @@
           "abstract_deadline": "2024-04-04 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICSME",
@@ -16825,7 +17524,8 @@
           "abstract_deadline": "2025-03-06 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICSME",
@@ -16849,7 +17549,8 @@
           "abstract_deadline": "2026-02-27 23:59:59",
           "comment": "Research Papers Track"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ICST",
@@ -16873,7 +17574,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ISSTA",
@@ -16902,7 +17604,8 @@
           "abstract_deadline": null,
           "comment": "Workshops Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ISSTA",
@@ -16931,7 +17634,8 @@
           "abstract_deadline": null,
           "comment": "Technical Papers Second round submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ISSTA",
@@ -16960,7 +17664,8 @@
           "abstract_deadline": null,
           "comment": "Technical Papers Submission deadline (Round 2)"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ISSTA",
@@ -16984,7 +17689,8 @@
           "abstract_deadline": null,
           "comment": "Research Papers Full Paper Submission"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "ISSTA",
@@ -17008,7 +17714,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "Middleware",
@@ -17037,7 +17744,8 @@
           "abstract_deadline": null,
           "comment": "Submission R2"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MoDELS",
@@ -17061,7 +17769,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MSR",
@@ -17085,7 +17794,8 @@
           "abstract_deadline": "2023-11-14 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MSR",
@@ -17109,7 +17819,8 @@
           "abstract_deadline": "2024-11-06 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "MSR",
@@ -17133,7 +17844,8 @@
           "abstract_deadline": "2025-10-20 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "OOPSLA",
@@ -17172,7 +17884,8 @@
           "abstract_deadline": null,
           "comment": "Submission of Revisions Round 2"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "OOPSLA",
@@ -17211,7 +17924,8 @@
           "abstract_deadline": null,
           "comment": "Submission of Revisions Round 2"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "OOPSLA",
@@ -17240,7 +17954,8 @@
           "abstract_deadline": null,
           "comment": "Submission Deadline Round 2"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "OOPSLA",
@@ -17274,7 +17989,8 @@
           "abstract_deadline": null,
           "comment": "Submission Deadline Round 2"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "OOPSLA",
@@ -17303,7 +18019,8 @@
           "abstract_deadline": null,
           "comment": "Submission Deadline Round 2"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "OSDI",
@@ -17327,7 +18044,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "OSDI",
@@ -17356,7 +18074,8 @@
           "abstract_deadline": null,
           "comment": "Complete Paper Submissions"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "OSDI",
@@ -17380,7 +18099,8 @@
           "abstract_deadline": "2023-11-30 22:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "OSDI",
@@ -17404,7 +18124,8 @@
           "abstract_deadline": "2024-12-03 22:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "OSDI",
@@ -17428,7 +18149,8 @@
           "abstract_deadline": "2025-12-04 22:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PLDI",
@@ -17452,7 +18174,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PLDI",
@@ -17476,7 +18199,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PLDI",
@@ -17500,7 +18224,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PLDI",
@@ -17524,7 +18249,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PLDI",
@@ -17548,7 +18274,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "PLDI",
@@ -17572,7 +18299,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "POPL",
@@ -17596,7 +18324,8 @@
           "abstract_deadline": null,
           "comment": "Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "POPL",
@@ -17620,7 +18349,8 @@
           "abstract_deadline": null,
           "comment": "Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "POPL",
@@ -17644,7 +18374,8 @@
           "abstract_deadline": null,
           "comment": "Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "POPL",
@@ -17668,7 +18399,8 @@
           "abstract_deadline": null,
           "comment": "Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "POPL",
@@ -17692,7 +18424,8 @@
           "abstract_deadline": null,
           "comment": "Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "POPL",
@@ -17716,7 +18449,8 @@
           "abstract_deadline": null,
           "comment": "Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RE",
@@ -17745,7 +18479,8 @@
           "abstract_deadline": null,
           "comment": "Paper Submission Deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RE",
@@ -17769,7 +18504,8 @@
           "abstract_deadline": "2023-03-10 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "RE",
@@ -17798,7 +18534,8 @@
           "abstract_deadline": null,
           "comment": "Journal Paper"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SANER",
@@ -17827,7 +18564,8 @@
           "abstract_deadline": null,
           "comment": "full paper submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SANER",
@@ -17851,7 +18589,8 @@
           "abstract_deadline": "2023-10-13 23:59:59",
           "comment": "Research Papers Paper Submission"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SANER",
@@ -17875,7 +18614,8 @@
           "abstract_deadline": "2024-10-04 23:59:59",
           "comment": "Research Papers Paper Submission"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SANER",
@@ -17904,7 +18644,8 @@
           "abstract_deadline": null,
           "comment": "Research Track Paper submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SANER",
@@ -17928,7 +18669,8 @@
           "abstract_deadline": "TBD",
           "comment": "Research Track Paper submission deadline"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SCAM",
@@ -17952,7 +18694,8 @@
           "abstract_deadline": "2025-06-05 23:59:59",
           "comment": "co-located with ICSME 2025"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SCAM",
@@ -17976,7 +18719,8 @@
           "abstract_deadline": null,
           "comment": "co-located with ICSME 2026"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SOSP",
@@ -18000,7 +18744,8 @@
           "abstract_deadline": null,
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SOSP",
@@ -18029,7 +18774,8 @@
           "abstract_deadline": null,
           "comment": "Submission Deadline (no extensions)"
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SOSP",
@@ -18053,7 +18799,8 @@
           "abstract_deadline": "2024-04-12 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SOSP",
@@ -18077,7 +18824,8 @@
           "abstract_deadline": "2025-04-10 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
     },
     {
       "title": "SOSP",
@@ -18101,7 +18849,190 @@
           "abstract_deadline": "2026-03-26 23:59:59",
           "comment": null
         }
-      ]
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ISMIR",
+      "description": "Mandatory abstract deadline on April 5th, 2024. More info here.",
+      "sub": "SP",
+      "area": "ai_ml",
+      "ccfddl_category": null,
+      "ccf": null,
+      "core": null,
+      "thcpl": null,
+      "dblp": "",
+      "year": 2024,
+      "id": "ismir24",
+      "link": "https://ismir2024.ismir.net/",
+      "timezone": "UTC-12",
+      "date": "November 10-14, 2024",
+      "place": "San Francisco, California, USA",
+      "timeline": [
+        {
+          "deadline": "2024-04-12 23:59:59",
+          "abstract_deadline": "2024-04-05 23:59:59",
+          "comment": "Mandatory abstract deadline on April 5th, 2024. More info here."
+        }
+      ],
+      "source": "aideadlines",
+      "hindex": 43
+    },
+    {
+      "title": "CHIL",
+      "description": "Please check the website for the latest updates.",
+      "sub": "ML",
+      "area": "biomedical",
+      "ccfddl_category": null,
+      "ccf": null,
+      "core": null,
+      "thcpl": null,
+      "dblp": "",
+      "year": 2024,
+      "id": "CHIL24",
+      "link": "https://www.chilconference.org/index.html",
+      "timezone": "UTC-12",
+      "date": "June, 27-28, 2024",
+      "place": "New York, New York",
+      "timeline": [
+        {
+          "deadline": "2024-02-16 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Please check the website for the latest updates."
+        }
+      ],
+      "source": "aideadlines",
+      "hindex": null
+    },
+    {
+      "title": "ISMIR",
+      "description": "Mandatory abstract deadline on May 13, 2022. More info here.",
+      "sub": "SP",
+      "area": "ai_ml",
+      "ccfddl_category": null,
+      "ccf": null,
+      "core": null,
+      "thcpl": null,
+      "dblp": "",
+      "year": 2022,
+      "id": "ismir22",
+      "link": "https://ismir2022.ismir.net/",
+      "timezone": "UTC-12",
+      "date": "December 4-8, 2022",
+      "place": "Bangaluru, India",
+      "timeline": [
+        {
+          "deadline": "2022-05-20 23:59:59",
+          "abstract_deadline": "2022-5-13 23:59:59",
+          "comment": "Mandatory abstract deadline on May 13, 2022. More info here."
+        }
+      ],
+      "source": "aideadlines",
+      "hindex": 32
+    },
+    {
+      "title": "ISMIR",
+      "description": "Mandatory abstract deadline on Apr 10, 2020. More info here.",
+      "sub": "SP",
+      "area": "ai_ml",
+      "ccfddl_category": null,
+      "ccf": null,
+      "core": null,
+      "thcpl": null,
+      "dblp": "",
+      "year": 2020,
+      "id": "ismir20",
+      "link": "https://ismir.github.io/ISMIR2020/",
+      "timezone": "UTC-12",
+      "date": "October 12-15, 2020",
+      "place": "Montreal, Canada",
+      "timeline": [
+        {
+          "deadline": "2020-04-17 23:59:59",
+          "abstract_deadline": "2020-04-10 23:59:59",
+          "comment": "Mandatory abstract deadline on Apr 10, 2020. More info here."
+        }
+      ],
+      "source": "aideadlines",
+      "hindex": 32
+    },
+    {
+      "title": "MIDL",
+      "description": "Abstract deadline on Feb 10, 2021. More info here.",
+      "sub": "CV",
+      "area": "biomedical",
+      "ccfddl_category": null,
+      "ccf": null,
+      "core": null,
+      "thcpl": null,
+      "dblp": "",
+      "year": 2021,
+      "id": "midl2021",
+      "link": "https://2021.midl.io/",
+      "timezone": "UTC-12",
+      "date": "July 7-9, 2021",
+      "place": "Luebeck, Germany",
+      "timeline": [
+        {
+          "deadline": "2021-02-17 23:59:59",
+          "abstract_deadline": "2021-02-10 23:59:59",
+          "comment": "Abstract deadline on Feb 10, 2021. More info here."
+        }
+      ],
+      "source": "aideadlines",
+      "hindex": -1
+    },
+    {
+      "title": "FAccT",
+      "description": "Mandatory abstract deadline on Dec 14, 2021. More info here.",
+      "sub": "ML",
+      "area": "ai_ml",
+      "ccfddl_category": null,
+      "ccf": null,
+      "core": null,
+      "thcpl": null,
+      "dblp": "",
+      "year": 2022,
+      "id": "facct22",
+      "link": "https://facctconference.org/2022/",
+      "timezone": "UTC-12",
+      "date": "June 21-24, 2022",
+      "place": "Seoul, South Korea",
+      "timeline": [
+        {
+          "deadline": "2022-01-14 23:59:00",
+          "abstract_deadline": "2021-12-15 23:59:00",
+          "comment": "Mandatory abstract deadline on Dec 14, 2021. More info here."
+        }
+      ],
+      "source": "aideadlines",
+      "hindex": 44
+    },
+    {
+      "title": "CHIL",
+      "description": "CHIL",
+      "sub": "ML",
+      "area": "biomedical",
+      "ccfddl_category": null,
+      "ccf": null,
+      "core": null,
+      "thcpl": null,
+      "dblp": "",
+      "year": 2023,
+      "id": "chil23",
+      "link": "https://www.chilconference.org/",
+      "timezone": "UTC-12",
+      "date": "June 22-24, 2023",
+      "place": "Cambridge, Massachusetts, USA",
+      "timeline": [
+        {
+          "deadline": "2023-02-03 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ],
+      "source": "aideadlines",
+      "hindex": -1
     }
   ]
 }
