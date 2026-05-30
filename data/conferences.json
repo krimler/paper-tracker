@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-05-29T10:14:19.582034+00:00",
+  "fetched_at": "2026-05-30T03:40:33.784019+00:00",
   "source": "https://github.com/ccfddl/ccf-deadlines",
-  "matched": 92,
+  "matched": 171,
   "unmatched": [],
-  "row_count": 410,
+  "row_count": 682,
   "conferences": [
     {
       "title": "AAAI",
@@ -376,6 +376,136 @@
       ]
     },
     {
+      "title": "ACML",
+      "description": "Asian Conference on Machine Learning",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "acml",
+      "year": 2021,
+      "id": "acml21",
+      "link": "http://www.acml-conf.org/2021/",
+      "timezone": "UTC-7",
+      "date": "November 17-19, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2021-06-25 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ACML",
+      "description": "Asian Conference on Machine Learning",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "acml",
+      "year": 2023,
+      "id": "acml23",
+      "link": "https://www.acml-conf.org/2023/index.html",
+      "timezone": "UTC-12",
+      "date": "November 11-14, 2023",
+      "place": "İstanbul, Turkey",
+      "timeline": [
+        {
+          "deadline": "2023-06-23 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ACML",
+      "description": "Asian Conference on Machine Learning",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "acml",
+      "year": 2024,
+      "id": "acml24",
+      "link": "https://www.acml-conf.org/2024/index.html",
+      "timezone": "UTC-12",
+      "date": "December 5-7, 2024",
+      "place": "Hanoi, Vietnam",
+      "timeline": [
+        {
+          "deadline": "2024-07-03 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ACML",
+      "description": "Asian Conference on Machine Learning",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "acml",
+      "year": 2025,
+      "id": "acml25",
+      "link": "https://www.acml-conf.org/2025/",
+      "timezone": "AoE",
+      "date": "December 9-12, 2025",
+      "place": "Taipei, Taiwan",
+      "timeline": [
+        {
+          "deadline": "2025-05-30 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Journal Track"
+        },
+        {
+          "deadline": "2025-06-26 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Conference Track"
+        }
+      ]
+    },
+    {
+      "title": "ACML",
+      "description": "Asian Conference on Machine Learning",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "acml",
+      "year": 2026,
+      "id": "acml26",
+      "link": "https://www.acml-conf.org/2026/",
+      "timezone": "UTC-7",
+      "date": "December 1-4, 2026",
+      "place": "Melbourne, Australia",
+      "timeline": [
+        {
+          "deadline": "2026-06-06 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Journal Track"
+        },
+        {
+          "deadline": "2025-06-26 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Conference Track"
+        }
+      ]
+    },
+    {
       "title": "AISTATS",
       "description": "International Conference on Artificial Intelligence and Statistics",
       "sub": "AI",
@@ -468,6 +598,198 @@
           "deadline": "2025-10-02 23:59:59",
           "abstract_deadline": "2025-09-25 23:59:59",
           "comment": null
+        }
+      ]
+    },
+    {
+      "title": "BMVC",
+      "description": "British Machine Vision Conference",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "bmvc",
+      "year": 2021,
+      "id": "bmvc21",
+      "link": "https://britishmachinevisionassociation.github.io/bmvc",
+      "timezone": "UTC-8",
+      "date": "November 22-25, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2021-06-25 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "BMVC",
+      "description": "British Machine Vision Conference",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "bmvc",
+      "year": 2023,
+      "id": "bmvc23",
+      "link": "https://www.bmvc2023.org/",
+      "timezone": "UTC",
+      "date": "November 20-24, 2023",
+      "place": "Aberdeen, UK",
+      "timeline": [
+        {
+          "deadline": "2023-05-12 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "BMVC",
+      "description": "British Machine Vision Conference",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "bmvc",
+      "year": 2024,
+      "id": "bmvc24",
+      "link": "https://bmvc2024.org/",
+      "timezone": "UTC+8",
+      "date": "November 25-28, 2024",
+      "place": "Glasgow, UK",
+      "timeline": [
+        {
+          "deadline": "2024-05-11 07:59:59",
+          "abstract_deadline": "2024-04-27 07:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "BMVC",
+      "description": "British Machine Vision Conference",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "bmvc",
+      "year": 2025,
+      "id": "bmvc25",
+      "link": "https://bmvc2025.bmva.org/",
+      "timezone": "UTC+0",
+      "date": "November 24-27, 2025",
+      "place": "Sheffield, UK",
+      "timeline": [
+        {
+          "deadline": "2025-05-16 23:59:59",
+          "abstract_deadline": "2025-05-13 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "BMVC",
+      "description": "British Machine Vision Conference",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "bmvc",
+      "year": 2026,
+      "id": "bmvc26",
+      "link": "https://bmvc2026.bmva.org/",
+      "timezone": "UTC+0",
+      "date": "November 23-26, 2026",
+      "place": "Lancaster, UK",
+      "timeline": [
+        {
+          "deadline": "2026-05-29 23:59:59",
+          "abstract_deadline": "2026-05-22 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "COLING",
+      "description": "INTERNATIONNAL CONFERENCE ON COMPUTATIONAL LINGUISTICS",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "coling",
+      "year": 2022,
+      "id": "coling22",
+      "link": "https://coling2022.org/",
+      "timezone": "AoE",
+      "date": "June 12-17, 2022",
+      "place": "Gyeongju, Republic of Korea",
+      "timeline": [
+        {
+          "deadline": "2022-05-17 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Papers Due"
+        }
+      ]
+    },
+    {
+      "title": "COLING",
+      "description": "INTERNATIONNAL CONFERENCE ON COMPUTATIONAL LINGUISTICS",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "coling",
+      "year": 2024,
+      "id": "coling24",
+      "link": "https://lrec-coling-2024.lrec-conf.org/",
+      "timezone": "UTC-12",
+      "date": "May 20 - May 25, 2024",
+      "place": "Torino, Italy",
+      "timeline": [
+        {
+          "deadline": "2023-10-21 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Long, short and position papers due"
+        }
+      ]
+    },
+    {
+      "title": "COLING",
+      "description": "INTERNATIONNAL CONFERENCE ON COMPUTATIONAL LINGUISTICS",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "coling",
+      "year": 2025,
+      "id": "coling25",
+      "link": "https://coling2025.org/",
+      "timezone": "UTC-12",
+      "date": "Jan 19 - Jan 24, 2025",
+      "place": "Abu Dhabi, UAE",
+      "timeline": [
+        {
+          "deadline": "2024-09-16 23:59:59",
+          "abstract_deadline": null,
+          "comment": "First Call for Main Conference Papers"
         }
       ]
     },
@@ -634,6 +956,54 @@
       "timeline": [
         {
           "deadline": "2026-02-04 16:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "CoNLL",
+      "description": "Conference on Computational Natural Language Learning",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "N",
+      "dblp": "conll",
+      "year": 2025,
+      "id": "conll25",
+      "link": "https://www.conll.org/",
+      "timezone": "UTC-12",
+      "date": "July 31 - August 1, 2025",
+      "place": "Vienna, Austria",
+      "timeline": [
+        {
+          "deadline": "2025-03-14 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "CoNLL",
+      "description": "Conference on Computational Natural Language Learning",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "N",
+      "dblp": "conll",
+      "year": 2026,
+      "id": "conll26",
+      "link": "https://www.conll.org/",
+      "timezone": "UTC-12",
+      "date": "July 3 - 4, 2026",
+      "place": "San Diego, California, United States",
+      "timeline": [
+        {
+          "deadline": "2026-02-19 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -832,6 +1202,30 @@
       ]
     },
     {
+      "title": "EACL",
+      "description": "The Annual Conference of the European Chapter of the Association for Computational Linguistics",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "N",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "eacl",
+      "year": 2026,
+      "id": "eacl26",
+      "link": "https://2026.eacl.org/",
+      "timezone": "AoE",
+      "date": "March 24-29, 2026",
+      "place": "Rabat, Morocco",
+      "timeline": [
+        {
+          "deadline": "2025-10-06 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
       "title": "ECCV",
       "description": "European Conference on Computer Vision",
       "sub": "AI",
@@ -1019,6 +1413,112 @@
         {
           "deadline": "2026-05-25 23:59:59",
           "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "GECCO",
+      "description": "Genetic and Evolutionary Computation Conference",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "gecco",
+      "year": 2025,
+      "id": "gecco25",
+      "link": "https://gecco-2025.sigevo.org/HomePage",
+      "timezone": "AoE",
+      "date": "July 14-18, 2025",
+      "place": "Málaga, Spain (hybrid)",
+      "timeline": [
+        {
+          "deadline": "2025-01-29 23:59:00",
+          "abstract_deadline": "2025-01-22 23:59:00",
+          "comment": "Full papers (traditional category) "
+        },
+        {
+          "deadline": "2025-01-29 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Poster-only papers "
+        }
+      ]
+    },
+    {
+      "title": "GECCO",
+      "description": "Genetic and Evolutionary Computation Conference",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "gecco",
+      "year": 2026,
+      "id": "gecco26",
+      "link": "https://gecco-2026.sigevo.org/HomePage",
+      "timezone": "AoE",
+      "date": "July 13-17, 2026",
+      "place": "San José, Costa Rica (hybrid)",
+      "timeline": [
+        {
+          "deadline": "2026-01-26 23:59:00",
+          "abstract_deadline": "2026-01-19 23:59:00",
+          "comment": "Full papers (traditional category) "
+        },
+        {
+          "deadline": "2026-01-26 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Poster-only papers "
+        }
+      ]
+    },
+    {
+      "title": "ICAPS",
+      "description": "International Conference on Automated Planning and Scheduling",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "B",
+      "dblp": "icaps",
+      "year": 2025,
+      "id": "icaps25",
+      "link": "https://icaps25.icaps-conference.org/",
+      "timezone": "UTC-12",
+      "date": "November 9-14, 2025",
+      "place": "Melbourne, Victoria, Australia",
+      "timeline": [
+        {
+          "deadline": "2024-11-01 23:59:59",
+          "abstract_deadline": "2024-10-25 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICAPS",
+      "description": "International Conference on Automated Planning and Scheduling",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "B",
+      "dblp": "icaps",
+      "year": 2026,
+      "id": "icaps26",
+      "link": "https://icaps26.icaps-conference.org/",
+      "timezone": "UTC-12",
+      "date": "June 27 - July 2, 2026",
+      "place": "Dublin, Ireland",
+      "timeline": [
+        {
+          "deadline": "2025-12-08 23:59:59",
+          "abstract_deadline": "2025-12-02 23:59:59",
           "comment": null
         }
       ]
@@ -1336,6 +1836,131 @@
       ]
     },
     {
+      "title": "ICRA",
+      "description": "IEEE International Conference on Robotics and Automation",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "icra",
+      "year": 2022,
+      "id": "icra22",
+      "link": "https://www.icra2022.org/",
+      "timezone": "UTC-8",
+      "date": "May 23-27, 2022",
+      "place": "Philadelphia (PA), USA",
+      "timeline": [
+        {
+          "deadline": "2021-09-15 02:59:00",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICRA",
+      "description": "IEEE International Conference on Robotics and Automation",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "icra",
+      "year": 2023,
+      "id": "icra23",
+      "link": "https://www.icra2023.org/",
+      "timezone": "UTC-8",
+      "date": "May 29- June 2, 2023",
+      "place": "ExCeL London, UK",
+      "timeline": [
+        {
+          "deadline": "2022-09-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICRA",
+      "description": "IEEE International Conference on Robotics and Automation",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "icra",
+      "year": 2024,
+      "id": "icra24",
+      "link": "https://2024.ieee-icra.org",
+      "timezone": "UTC-8",
+      "date": "May 13-17, 2024",
+      "place": "Yokohama, Japan",
+      "timeline": [
+        {
+          "deadline": "2023-09-15 23:59:00",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICRA",
+      "description": "IEEE International Conference on Robotics and Automation",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "icra",
+      "year": 2025,
+      "id": "icra25",
+      "link": "https://2025.ieee-icra.org",
+      "timezone": "UTC-4",
+      "date": "May 19-23, 2025",
+      "place": "Atlanta (GA), USA",
+      "timeline": [
+        {
+          "deadline": "2024-07-15 12:00:00",
+          "abstract_deadline": null,
+          "comment": "submission open"
+        },
+        {
+          "deadline": "2024-09-15 00:00:00",
+          "abstract_deadline": null,
+          "comment": "submission close"
+        }
+      ]
+    },
+    {
+      "title": "ICRA",
+      "description": "IEEE International Conference on Robotics and Automation",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "icra",
+      "year": 2026,
+      "id": "icra26",
+      "link": "https://2026.ieee-icra.org/",
+      "timezone": "UTC-8",
+      "date": "Jun 1-5, 2026",
+      "place": "Vienna, Austria",
+      "timeline": [
+        {
+          "deadline": "2025-09-15 23:59:00",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
       "title": "IJCAI",
       "description": "International Joint Conference on Artificial Intelligence",
       "sub": "AI",
@@ -1451,6 +2076,198 @@
         {
           "deadline": "2026-01-19 23:59:59",
           "abstract_deadline": "2026-01-12 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "IROS",
+      "description": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "iros",
+      "year": 2023,
+      "id": "iros23",
+      "link": "https://ieee-iros.org/",
+      "timezone": "UTC-8",
+      "date": "October 1-5, 2023",
+      "place": "Detroit, Michigan, USA",
+      "timeline": [
+        {
+          "deadline": "2023-03-01 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "IROS",
+      "description": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "iros",
+      "year": 2024,
+      "id": "iros24",
+      "link": "http://iros2024-abudhabi.org/",
+      "timezone": "UTC-8",
+      "date": "October 13-17, 2024",
+      "place": "Abu Dhabi, UAE",
+      "timeline": [
+        {
+          "deadline": "2024-03-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "IROS",
+      "description": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "iros",
+      "year": 2025,
+      "id": "iros25",
+      "link": "http://www.iros25.org/",
+      "timezone": "UTC-8",
+      "date": "October 19-25, 2025",
+      "place": "Hangzhou, China",
+      "timeline": [
+        {
+          "deadline": "2025-03-01 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "IROS",
+      "description": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "iros",
+      "year": 2026,
+      "id": "iros26",
+      "link": "https://2026.ieee-iros.org/",
+      "timezone": "UTC-8",
+      "date": "September 27 - October 1, 2026",
+      "place": "Pittsburgh, PA, USA",
+      "timeline": [
+        {
+          "deadline": "2026-03-02 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "KR",
+      "description": "International Conference on Principles of Knowledge Representation and Reasoning",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "N",
+      "dblp": "kr",
+      "year": 2023,
+      "id": "krd23",
+      "link": "https://kr.org/KR2023/",
+      "timezone": "UTC-8",
+      "date": "Sep 2-8, 2023",
+      "place": "Rhodes, Greece",
+      "timeline": [
+        {
+          "deadline": "2023-03-14 00:00:00",
+          "abstract_deadline": "2023-03-03 00:00:00",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "KR",
+      "description": "International Conference on Principles of Knowledge Representation and Reasoning",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "N",
+      "dblp": "kr",
+      "year": 2024,
+      "id": "krd24",
+      "link": "https://kr.org/KR2024/",
+      "timezone": "UTC-12",
+      "date": "November 2-8, 2024",
+      "place": "Hanoi, Vietnam",
+      "timeline": [
+        {
+          "deadline": "2024-05-01 23:59:59",
+          "abstract_deadline": "2024-04-24 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "KR",
+      "description": "International Conference on Principles of Knowledge Representation and Reasoning",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "N",
+      "dblp": "kr",
+      "year": 2025,
+      "id": "krd25",
+      "link": "https://kr.org/KR2025/",
+      "timezone": "UTC-12",
+      "date": "November 11-17, 2025",
+      "place": "Melbourne, Australia",
+      "timeline": [
+        {
+          "deadline": "2025-05-12 23:59:59",
+          "abstract_deadline": "2025-05-07 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "KR",
+      "description": "International Conference on Principles of Knowledge Representation and Reasoning",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "N",
+      "dblp": "kr",
+      "year": 2026,
+      "id": "krd26",
+      "link": "https://kr.org/KR2026/",
+      "timezone": "UTC-12",
+      "date": "July 20-23, 2026",
+      "place": "Lisbon, Portugal",
+      "timeline": [
+        {
+          "deadline": "2026-02-13 23:59:59",
+          "abstract_deadline": "2026-02-08 23:59:59",
           "comment": null
         }
       ]
@@ -1672,6 +2489,150 @@
       ]
     },
     {
+      "title": "PPSN",
+      "description": "International Conference on Parallel Problem Solving From Nature",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "ppsn",
+      "year": 2024,
+      "id": "ppsn24",
+      "link": "https://ppsn2024.fh-ooe.at/",
+      "timezone": "UTC-12",
+      "date": "September 14-18, 2024",
+      "place": "University of Applied Sciences Upper Austria, Softwarepark Hagenberg, Austria",
+      "timeline": [
+        {
+          "deadline": "2024-04-18 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "PPSN",
+      "description": "International Conference on Parallel Problem Solving From Nature",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "ppsn",
+      "year": 2026,
+      "id": "ppsn26",
+      "link": "https://ppsn2026.disi.unitn.it/",
+      "timezone": "AoE",
+      "date": "August 29-September 2, 2026",
+      "place": "University of Trento, Trento, Italy",
+      "timeline": [
+        {
+          "deadline": "2026-03-28 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "RSS",
+      "description": "Robotics Science and Systems",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "N",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "rss",
+      "year": 2023,
+      "id": "rss23",
+      "link": "https://roboticsconference.org/",
+      "timezone": "AoE",
+      "date": "July 10-14, 2023",
+      "place": "Daegu, Republic of Korea",
+      "timeline": [
+        {
+          "deadline": "2023-02-03 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "RSS",
+      "description": "Robotics Science and Systems",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "N",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "rss",
+      "year": 2024,
+      "id": "rss24",
+      "link": "https://roboticsconference.org/",
+      "timezone": "AoE",
+      "date": "July 15-19, 2024",
+      "place": "Delft, Netherlands",
+      "timeline": [
+        {
+          "deadline": "2024-02-02 23:59:00",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "RSS",
+      "description": "Robotics Science and Systems",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "N",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "rss",
+      "year": 2025,
+      "id": "rss25",
+      "link": "https://roboticsconference.org",
+      "timezone": "AoE",
+      "date": "June 21-25, 2025",
+      "place": "Los Angeles, California, USA",
+      "timeline": [
+        {
+          "deadline": "2025-01-24 23:59:00",
+          "abstract_deadline": "2025-01-17 23:59:00",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "RSS",
+      "description": "Robotics Science and Systems",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "N",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "rss",
+      "year": 2026,
+      "id": "rss26",
+      "link": "https://roboticsconference.org",
+      "timezone": "AoE",
+      "date": "July 13-17, 2026",
+      "place": "Sydney, Australia",
+      "timeline": [
+        {
+          "deadline": "2026-01-30 23:59:00",
+          "abstract_deadline": "2026-01-23 23:59:00",
+          "comment": null
+        }
+      ]
+    },
+    {
       "title": "UAI",
       "description": "Conference on Uncertainty in Artificial Intelligence",
       "sub": "AI",
@@ -1787,6 +2748,621 @@
         {
           "deadline": "2026-02-25 23:59:59",
           "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "WACV",
+      "description": "IEEE/CVF Winter Conference on Applications of Computer Vision",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "N",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "wacv",
+      "year": 2025,
+      "id": "wacv25",
+      "link": "https://wacv2025.thecvf.com/",
+      "timezone": "UTC-7",
+      "date": "February 28 - March 4, 2025",
+      "place": "Tucson, Arizona, USA",
+      "timeline": [
+        {
+          "deadline": "2024-07-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "first round"
+        },
+        {
+          "deadline": "2024-09-09 23:59:59",
+          "abstract_deadline": null,
+          "comment": "second round"
+        }
+      ]
+    },
+    {
+      "title": "WACV",
+      "description": "IEEE/CVF Winter Conference on Applications of Computer Vision",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "N",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "wacv",
+      "year": 2026,
+      "id": "wacv26",
+      "link": "https://wacv.thecvf.com/",
+      "timezone": "AoE",
+      "date": "Mar 6 - 10, 2026",
+      "place": "Tucson, Arizona, USA",
+      "timeline": [
+        {
+          "deadline": "2025-07-18 23:59:59",
+          "abstract_deadline": "2025-07-11 23:59:00",
+          "comment": "First round"
+        },
+        {
+          "deadline": "2025-09-19 23:59:59",
+          "abstract_deadline": "2025-09-12 23:59:00",
+          "comment": "Second round"
+        }
+      ]
+    },
+    {
+      "title": "WACV",
+      "description": "IEEE/CVF Winter Conference on Applications of Computer Vision",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "N",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "wacv",
+      "year": 2027,
+      "id": "wacv27",
+      "link": "https://wacv.thecvf.com/",
+      "timezone": "AoE",
+      "date": "Jan 5 - 9, 2027",
+      "place": "Disney Springs, Buena Vista, FL, USA",
+      "timeline": [
+        {
+          "deadline": "2026-06-25 23:59:59",
+          "abstract_deadline": "2026-06-18 23:59:00",
+          "comment": "First round"
+        },
+        {
+          "deadline": "2026-08-27 23:59:59",
+          "abstract_deadline": "2026-08-20 23:59:00",
+          "comment": "Second round"
+        }
+      ]
+    },
+    {
+      "title": "ICASSP",
+      "description": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "icassp",
+      "year": 2022,
+      "id": "icassp22",
+      "link": "https://2022.ieeeicassp.org",
+      "timezone": "UTC+0",
+      "date": "May 22-27, 2022",
+      "place": "Singapore",
+      "timeline": [
+        {
+          "deadline": "2021-10-06 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICASSP",
+      "description": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "icassp",
+      "year": 2023,
+      "id": "icassp23",
+      "link": "https://2023.ieeeicassp.org",
+      "timezone": "UTC-12",
+      "date": "June 4-9, 2023",
+      "place": "Rhodes Island, Greece",
+      "timeline": [
+        {
+          "deadline": "2022-10-26 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICASSP",
+      "description": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "icassp",
+      "year": 2024,
+      "id": "icassp24",
+      "link": "https://2024.ieeeicassp.org/",
+      "timezone": "UTC-12",
+      "date": "April 14-19, 2024",
+      "place": "COEX, Seoul, Korea",
+      "timeline": [
+        {
+          "deadline": "2023-09-06 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICASSP",
+      "description": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "icassp",
+      "year": 2025,
+      "id": "icassp25",
+      "link": "https://2025.ieeeicassp.org/",
+      "timezone": "UTC-7",
+      "date": "April 6-11, 2025",
+      "place": "Hyderabad, India",
+      "timeline": [
+        {
+          "deadline": "2024-09-12 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICASSP",
+      "description": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "icassp",
+      "year": 2026,
+      "id": "icassp26",
+      "link": "https://2026.ieeeicassp.org/",
+      "timezone": "UTC-12",
+      "date": "May 4-8, 2026",
+      "place": "Barcelona, Spain",
+      "timeline": [
+        {
+          "deadline": "2025-09-17 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICASSP",
+      "description": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "icassp",
+      "year": 2027,
+      "id": "icassp27",
+      "link": "https://2027.ieeeicassp.org/",
+      "timezone": "UTC-12",
+      "date": "May 16-21, 2027",
+      "place": "Toronto, Canada",
+      "timeline": [
+        {
+          "deadline": "2026-09-16 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "InterSpeech",
+      "description": "Conference of the International Speech Communication Association",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "interspeech",
+      "year": 2022,
+      "id": "interspeech22",
+      "link": "https://www.interspeech2022.org/",
+      "timezone": "UTC+9",
+      "date": "September 18-22, 2022",
+      "place": "Incheon, South Korea",
+      "timeline": [
+        {
+          "deadline": "2022-03-21 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "InterSpeech",
+      "description": "Conference of the International Speech Communication Association",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "interspeech",
+      "year": 2023,
+      "id": "interspeech23",
+      "link": "https://www.interspeech2023.org/",
+      "timezone": "UTC+0",
+      "date": "August 20-24, 2023",
+      "place": "Dublin, Ireland",
+      "timeline": [
+        {
+          "deadline": "2023-03-08 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "InterSpeech",
+      "description": "Conference of the International Speech Communication Association",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "interspeech",
+      "year": 2024,
+      "id": "interspeech24",
+      "link": "https://www.interspeech2024.org/",
+      "timezone": "UTC+0",
+      "date": "September 1-5, 2024",
+      "place": "Greece",
+      "timeline": [
+        {
+          "deadline": "2024-03-09 23:59:59",
+          "abstract_deadline": "2024-03-01 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "InterSpeech",
+      "description": "Conference of the International Speech Communication Association",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "interspeech",
+      "year": 2025,
+      "id": "interspeech25",
+      "link": "https://www.interspeech2025.org/home",
+      "timezone": "UTC+0",
+      "date": "August 17-22, 2025",
+      "place": "Rotterdam, Netherlands",
+      "timeline": [
+        {
+          "deadline": "2025-02-19 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "InterSpeech",
+      "description": "Conference of the International Speech Communication Association",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "interspeech",
+      "year": 2026,
+      "id": "interspeech26",
+      "link": "https://interspeech2026.org/",
+      "timezone": "UTC+0",
+      "date": "September 27 - October 1, 2026",
+      "place": "Sydney, Australia",
+      "timeline": [
+        {
+          "deadline": "2026-02-25 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ACM SIGGRAPH",
+      "description": "ACM SIGGRAPH Annual Conference",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "siggraph",
+      "year": 2026,
+      "id": "siggraph26",
+      "link": "https://s2026.siggraph.org/",
+      "timezone": "UTC+0",
+      "date": "July 19 - 23, 2026",
+      "place": "Los Angeles, California",
+      "timeline": [
+        {
+          "deadline": "2026-01-22 22:00:00",
+          "abstract_deadline": "2026-01-15 22:00:00",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ACM SIGGRAPH",
+      "description": "ACM SIGGRAPH Annual Conference",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "siggraph",
+      "year": 2025,
+      "id": "siggraph25",
+      "link": "https://s2025.siggraph.org/",
+      "timezone": "UTC+0",
+      "date": "August 10 - 14, 2025",
+      "place": "Vancouver, BC, Canada",
+      "timeline": [
+        {
+          "deadline": "2025-01-23 22:00:00",
+          "abstract_deadline": "2025-01-16 22:00:00",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ACM SIGGRAPH",
+      "description": "ACM SIGGRAPH Annual Conference",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "siggraph",
+      "year": 2024,
+      "id": "siggraph24",
+      "link": "https://s2024.siggraph.org/",
+      "timezone": "UTC+0",
+      "date": "July 28 - August 1, 2024",
+      "place": "Denver",
+      "timeline": [
+        {
+          "deadline": "2024-01-24 22:00:00",
+          "abstract_deadline": "2024-01-23 22:00:00",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ACM SIGGRAPH",
+      "description": "ACM SIGGRAPH Annual Conference",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "siggraph",
+      "year": 2023,
+      "id": "siggraph23",
+      "link": "https://s2023.siggraph.org/",
+      "timezone": "UTC+0",
+      "date": "August 6-10, 2023",
+      "place": "Los Angeles",
+      "timeline": [
+        {
+          "deadline": "2023-01-25 22:00:00",
+          "abstract_deadline": "2023-01-24 22:00:00",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ACM SIGGRAPH",
+      "description": "ACM SIGGRAPH Annual Conference",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "siggraph",
+      "year": 2022,
+      "id": "siggraph22",
+      "link": "https://s2022.siggraph.org/",
+      "timezone": "UTC+0",
+      "date": "August 7-11, 2022",
+      "place": "Vancouver",
+      "timeline": [
+        {
+          "deadline": "2022-01-27 22:00:00",
+          "abstract_deadline": "2022-01-26 22:00:00",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ACM SIGGRAPH",
+      "description": "ACM SIGGRAPH Annual Conference",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "siggraph",
+      "year": 2021,
+      "id": "siggraph21",
+      "link": "https://s2021.siggraph.org/",
+      "timezone": "UTC+0",
+      "date": "August 9-13, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2021-01-28 22:00:00",
+          "abstract_deadline": "2021-01-27 22:00:00",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ACM SIGGRAPH ASIA",
+      "description": "ACM SIGGRAPH Annual Conference in Asia",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "siggrapha",
+      "year": 2026,
+      "id": "siggrapha26",
+      "link": "https://asia.siggraph.org/2026/",
+      "timezone": "UTC-12",
+      "date": "December 1-4, 2026",
+      "place": "KLCC, Kuala Lumpur, Malaysia",
+      "timeline": [
+        {
+          "deadline": "2026-05-12 23:59:00",
+          "abstract_deadline": "2026-05-05 23:59:00",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ACM SIGGRAPH ASIA",
+      "description": "ACM SIGGRAPH Annual Conference in Asia",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "siggrapha",
+      "year": 2025,
+      "id": "siggrapha25",
+      "link": "https://asia.siggraph.org/2025/",
+      "timezone": "UTC-12",
+      "date": "December 15-18, 2025",
+      "place": "Hong Kong, China",
+      "timeline": [
+        {
+          "deadline": "2025-05-23 23:59:00",
+          "abstract_deadline": "2025-05-16 23:59:00",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ACM SIGGRAPH ASIA",
+      "description": "ACM SIGGRAPH Annual Conference in Asia",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "siggrapha",
+      "year": 2024,
+      "id": "siggrapha24",
+      "link": "https://asia.siggraph.org/2024/",
+      "timezone": "UTC-12",
+      "date": "December 3-6, 2024",
+      "place": "Tokyo, Japan",
+      "timeline": [
+        {
+          "deadline": "2024-05-19 23:59:00",
+          "abstract_deadline": "2024-05-12 23:59:00",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ACM SIGGRAPH ASIA",
+      "description": "ACM SIGGRAPH Annual Conference in Asia",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "siggrapha",
+      "year": 2023,
+      "id": "siggrapha23",
+      "link": "https://asia.siggraph.org/2023/",
+      "timezone": "UTC-12",
+      "date": "December 12-15, 2023",
+      "place": "Sydney, Australia",
+      "timeline": [
+        {
+          "deadline": "2023-05-23 23:59:00",
+          "abstract_deadline": "2023-05-16 23:59:00",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ACM SIGGRAPH ASIA",
+      "description": "ACM SIGGRAPH Annual Conference in Asia",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "siggrapha",
+      "year": 2021,
+      "id": "siggrapha21",
+      "link": "https://sa2021.siggraph.org/",
+      "timezone": "UTC+0",
+      "date": "December 14-17, 2021",
+      "place": "Tokyo, Japan",
+      "timeline": [
+        {
+          "deadline": "2021-05-21 22:00:00",
+          "abstract_deadline": "2021-05-20 22:00:00",
           "comment": null
         }
       ]
@@ -2027,6 +3603,30 @@
         {
           "deadline": "2026-02-06 23:59:59",
           "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "IJCAR",
+      "description": "International Joint Conference on Automated Reasoning",
+      "sub": "CT",
+      "area": "theory",
+      "ccfddl_category": "CT",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ijcar",
+      "year": 2026,
+      "id": "ijcar26",
+      "link": "https://www.floc26.org/ijcar",
+      "timezone": "AoE",
+      "date": "July 26-29, 2026",
+      "place": "Lisbon, Portugal",
+      "timeline": [
+        {
+          "deadline": "2025-02-15 23:59:59",
+          "abstract_deadline": "2026-02-06 23:59:59",
           "comment": null
         }
       ]
@@ -3236,6 +4836,150 @@
       ]
     },
     {
+      "title": "ECML-PKDD",
+      "description": "European Conference on Machine Learning and 25th Principles and Practice of Knowledge Discovery in Databases",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "pkdd",
+      "year": 2021,
+      "id": "ecmlpkdd21",
+      "link": "https://2021.ecmlpkdd.org/",
+      "timezone": "AoE",
+      "date": "September 13-17, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2021-04-02 23:59:59",
+          "abstract_deadline": "2021-03-26 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ECML-PKDD",
+      "description": "European Conference on Machine Learning and 25th Principles and Practice of Knowledge Discovery in Databases",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "pkdd",
+      "year": 2022,
+      "id": "ecmlpkdd22",
+      "link": "https://2022.ecmlpkdd.org/index.php/key-dates-deadlines/",
+      "timezone": "AoE",
+      "date": "September 19-23, 2022",
+      "place": "Grenoble, France",
+      "timeline": [
+        {
+          "deadline": "2022-04-06 23:59:59",
+          "abstract_deadline": "2022-03-30 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ECML-PKDD",
+      "description": "European Conference on Machine Learning and 25th Principles and Practice of Knowledge Discovery in Databases",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "pkdd",
+      "year": 2023,
+      "id": "ecmlpkdd23",
+      "link": "https://2023.ecmlpkdd.org/submissions/key-dates-deadlines/",
+      "timezone": "AoE",
+      "date": "September 18-22, 2023",
+      "place": "Turin, Italy",
+      "timeline": [
+        {
+          "deadline": "2023-04-02 23:59:59",
+          "abstract_deadline": "2023-03-26 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ECML-PKDD",
+      "description": "European Conference on Machine Learning and 25th Principles and Practice of Knowledge Discovery in Databases",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "pkdd",
+      "year": 2024,
+      "id": "ecmlpkdd2024",
+      "link": "https://2024.ecmlpkdd.org/submissions/key-dates-and-deadlines/",
+      "timezone": "AoE",
+      "date": "September 9-13, 2024",
+      "place": "Vilnius, Lithuania",
+      "timeline": [
+        {
+          "deadline": "2024-03-22 23:59:59",
+          "abstract_deadline": "2024-03-15 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ECML-PKDD",
+      "description": "European Conference on Machine Learning and 25th Principles and Practice of Knowledge Discovery in Databases",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "pkdd",
+      "year": 2025,
+      "id": "ecmlpkdd2025",
+      "link": "https://ecmlpkdd.org/2025/",
+      "timezone": "AoE",
+      "date": "September 15-19, 2025",
+      "place": "Porto, Portugal",
+      "timeline": [
+        {
+          "deadline": "2025-03-14 23:59:59",
+          "abstract_deadline": "2025-03-07 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ECML-PKDD",
+      "description": "European Conference on Machine Learning and 25th Principles and Practice of Knowledge Discovery in Databases",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "pkdd",
+      "year": 2026,
+      "id": "ecmlpkdd2026",
+      "link": "https://ecmlpkdd.org/2026/",
+      "timezone": "AoE",
+      "date": "September 7-11, 2026",
+      "place": "Naples, Italy",
+      "timeline": [
+        {
+          "deadline": "2026-03-12 23:59:59",
+          "abstract_deadline": "2026-03-05 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
       "title": "PODS",
       "description": "ACM Symposium on Principles of Database Systems",
       "sub": "DB",
@@ -3261,6 +5005,150 @@
           "deadline": "2024-12-09 17:00:00",
           "abstract_deadline": "2024-12-02 17:00:00",
           "comment": "SECOND SUBMISSION CYCLE"
+        }
+      ]
+    },
+    {
+      "title": "RecSys",
+      "description": "ACM Conference on Recommender Systems",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "recsys",
+      "year": 2023,
+      "id": "recsys23",
+      "link": "https://recsys.acm.org/recsys23",
+      "timezone": "AoE",
+      "date": "September 18-22, 2023",
+      "place": "Singapore",
+      "timeline": [
+        {
+          "deadline": "2023-04-21 23:59:59",
+          "abstract_deadline": "2023-04-14 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "RecSys",
+      "description": "ACM Conference on Recommender Systems",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "recsys",
+      "year": 2024,
+      "id": "recsys24",
+      "link": "https://recsys.acm.org/recsys24",
+      "timezone": "AoE",
+      "date": "October 14-18, 2024",
+      "place": "Bari, Italy",
+      "timeline": [
+        {
+          "deadline": "2024-04-29 23:59:59",
+          "abstract_deadline": "2024-04-22 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "RecSys",
+      "description": "ACM Conference on Recommender Systems",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "recsys",
+      "year": 2025,
+      "id": "recsys25",
+      "link": "https://recsys.acm.org/recsys25",
+      "timezone": "AoE",
+      "date": "September 22-26, 2025",
+      "place": "Prague, Czech Republic",
+      "timeline": [
+        {
+          "deadline": "2025-04-08 23:59:59",
+          "abstract_deadline": "2025-04-01 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "RecSys",
+      "description": "ACM Conference on Recommender Systems",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "recsys",
+      "year": 2026,
+      "id": "recsys26",
+      "link": "https://recsys.acm.org/recsys26",
+      "timezone": "AoE",
+      "date": "September 28 - October 2, 2026",
+      "place": "Minneapolis, Minnesota, USA",
+      "timeline": [
+        {
+          "deadline": "2026-04-21 23:59:59",
+          "abstract_deadline": "2026-04-14 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "SDM",
+      "description": "SIAM International Conference on Data Mining",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "sdm",
+      "year": 2024,
+      "id": "sdm2024",
+      "link": "https://www.siam.org/conferences/cm/conference/sdm24",
+      "timezone": "UTC-8",
+      "date": "April 18-20, 2024",
+      "place": "Houston, TX, USA",
+      "timeline": [
+        {
+          "deadline": "2023-09-16 15:00:00",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "SDM",
+      "description": "SIAM International Conference on Data Mining",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "sdm",
+      "year": 2025,
+      "id": "sdm2025",
+      "link": "https://www.siam.org/conferences-events/siam-conferences/sdm25",
+      "timezone": "UTC-8",
+      "date": "May 1-3, 2025",
+      "place": "Alexandria, Virginia, USA",
+      "timeline": [
+        {
+          "deadline": "2024-10-04 23:59:59",
+          "abstract_deadline": "2024-09-27 23:59:59",
+          "comment": null
         }
       ]
     },
@@ -4359,6 +6247,222 @@
       ]
     },
     {
+      "title": "WSDM",
+      "description": "International Conference on Web Search and Data Mining",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "wsdm",
+      "year": 2022,
+      "id": "wsdm22",
+      "link": "https://www.wsdm-conference.org/2022/",
+      "timezone": "UTC-12",
+      "date": "February 21-25, 2022",
+      "place": "Phoenix, Arizona, USA",
+      "timeline": [
+        {
+          "deadline": "2021-08-09 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "WSDM",
+      "description": "International Conference on Web Search and Data Mining",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "wsdm",
+      "year": 2023,
+      "id": "wsdm23",
+      "link": "https://www.wsdm-conference.org/2023/",
+      "timezone": "UTC-12",
+      "date": "February 27 - March 3, 2023",
+      "place": "Singapore",
+      "timeline": [
+        {
+          "deadline": "2022-08-12 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "WSDM",
+      "description": "International Conference on Web Search and Data Mining",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "wsdm",
+      "year": 2024,
+      "id": "wsdm24",
+      "link": "https://www.wsdm-conference.org/2024/",
+      "timezone": "UTC-12",
+      "date": "March 4 - March 8, 2024",
+      "place": "Mérida, México",
+      "timeline": [
+        {
+          "deadline": "2023-08-10 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "WSDM",
+      "description": "International Conference on Web Search and Data Mining",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "wsdm",
+      "year": 2025,
+      "id": "wsdm25",
+      "link": "https://www.wsdm-conference.org/2025/",
+      "timezone": "UTC-12",
+      "date": "March 10 - March 14, 2025",
+      "place": "Hannover, Germany",
+      "timeline": [
+        {
+          "deadline": "2024-08-14 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "WSDM",
+      "description": "International Conference on Web Search and Data Mining",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "wsdm",
+      "year": 2026,
+      "id": "wsdm26",
+      "link": "https://wsdm-conference.org/2026/",
+      "timezone": "UTC-12",
+      "date": "February 22 - 26, 2026",
+      "place": "Boise, Idaho, USA",
+      "timeline": [
+        {
+          "deadline": "2025-08-14 23:59:59",
+          "abstract_deadline": "2025-08-07 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "WSDM",
+      "description": "International Conference on Web Search and Data Mining",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "wsdm",
+      "year": 2027,
+      "id": "wsdm27",
+      "link": "https://wsdm-conference.org/2027/",
+      "timezone": "UTC-12",
+      "date": "February 15 - 19, 2027",
+      "place": "Cordis, Hong Kong SAR, China",
+      "timeline": [
+        {
+          "deadline": "2026-08-18 23:59:59",
+          "abstract_deadline": "2026-08-11 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "APSys",
+      "description": "ACM SIGOPS Asia-Pacific Workshop on Systems",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "apsys",
+      "year": 2024,
+      "id": "apsys2024",
+      "link": "https://apsys2024.github.io/",
+      "timezone": "AoE",
+      "date": "September 4-5, 2024",
+      "place": "Kyoto, Japan",
+      "timeline": [
+        {
+          "deadline": "2024-05-02 23:59:00",
+          "abstract_deadline": "2024-04-25 23:59:00",
+          "comment": "call for papers"
+        }
+      ]
+    },
+    {
+      "title": "APSys",
+      "description": "ACM SIGOPS Asia-Pacific Workshop on Systems",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "apsys",
+      "year": 2025,
+      "id": "apsys2025",
+      "link": "https://apsys2025.github.io/",
+      "timezone": "AoE",
+      "date": "October 12-13, 2025",
+      "place": "Seoul, South Korea",
+      "timeline": [
+        {
+          "deadline": "2025-06-05 23:59:00",
+          "abstract_deadline": "2025-05-29 23:59:00",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "APSys",
+      "description": "ACM SIGOPS Asia-Pacific Workshop on Systems",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "apsys",
+      "year": 2026,
+      "id": "apsys2026",
+      "link": "https://ap-sys.org/",
+      "timezone": "AoE",
+      "date": "September 17-18, 2026",
+      "place": "Bangkok, Thailand",
+      "timeline": [
+        {
+          "deadline": "2026-05-20 23:59:00",
+          "abstract_deadline": "2026-05-13 23:59:00",
+          "comment": null
+        }
+      ]
+    },
+    {
       "title": "ASPLOS",
       "description": "International Conference on Architectural Support for Programming Languages and Operating Systems",
       "sub": "DS",
@@ -4741,6 +6845,386 @@
       ]
     },
     {
+      "title": "CCGRID",
+      "description": "IEEE International Symposium on Cluster, Cloud and Internet Computing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "ccgrid",
+      "year": 2026,
+      "id": "ccgrid26",
+      "link": "https://www.ccgrid2026.org/",
+      "timezone": "AoE",
+      "date": "May 18-21, 2026",
+      "place": "Sydney, Australia",
+      "timeline": [
+        {
+          "deadline": "2025-12-21 23:59:59",
+          "abstract_deadline": "2025-12-21 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "IEEE/ACM CGO",
+      "description": "The International Symposium on Code Generation and Optimization",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "cgo",
+      "year": 2027,
+      "id": "cgo2027",
+      "link": "https://conf.researchr.org/home/cgo-2027",
+      "timezone": "AoE",
+      "date": "TBD",
+      "place": "Salt Lake City, Utah, USA",
+      "timeline": [
+        {
+          "deadline": "2026-06-11 23:59:59",
+          "abstract_deadline": null,
+          "comment": "First Submission"
+        },
+        {
+          "deadline": "2026-09-10 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Second Submission"
+        }
+      ]
+    },
+    {
+      "title": "IEEE/ACM CGO",
+      "description": "The International Symposium on Code Generation and Optimization",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "cgo",
+      "year": 2026,
+      "id": "cgo2026",
+      "link": "https://conf.researchr.org/home/cgo-2026",
+      "timezone": "AoE",
+      "date": "January 31 - 4 February, 2026",
+      "place": "Sydney, Australia",
+      "timeline": [
+        {
+          "deadline": "2025-05-29 23:59:59",
+          "abstract_deadline": null,
+          "comment": "First Submission"
+        },
+        {
+          "deadline": "2025-09-11 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Second Submission"
+        }
+      ]
+    },
+    {
+      "title": "IEEE/ACM CGO",
+      "description": "The International Symposium on Code Generation and Optimization",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "cgo",
+      "year": 2025,
+      "id": "cgo2025",
+      "link": "https://conf.researchr.org/home/cgo-2025",
+      "timezone": "AoE",
+      "date": "TBD",
+      "place": "TBD",
+      "timeline": [
+        {
+          "deadline": "2024-05-30 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "IEEE/ACM CGO",
+      "description": "The International Symposium on Code Generation and Optimization",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "cgo",
+      "year": 2024,
+      "id": "cgo2024",
+      "link": "https://conf.researchr.org/home/cgo-2024",
+      "timezone": "AoE",
+      "date": "March 2-6, 2024",
+      "place": "Edinburgh, United Kingdom",
+      "timeline": [
+        {
+          "deadline": "2023-05-19 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "CLUSTER",
+      "description": "IEEE International Conference on Cluster Computing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "C",
+      "thcpl": "B",
+      "dblp": "cluster",
+      "year": 2022,
+      "id": "cluster22",
+      "link": "https://clustercomp.org/2022",
+      "timezone": "UTC-12",
+      "date": "September 6-9, 2022",
+      "place": "Heidelberg, Germany",
+      "timeline": [
+        {
+          "deadline": "2022-05-13 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Full Paper Deadline"
+        }
+      ]
+    },
+    {
+      "title": "CLUSTER",
+      "description": "IEEE International Conference on Cluster Computing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "C",
+      "thcpl": "B",
+      "dblp": "cluster",
+      "year": 2023,
+      "id": "cluster23",
+      "link": "https://clustercomp.org/2023",
+      "timezone": "AoE",
+      "date": "October 31-November 3, 2023",
+      "place": "Santa Fe, New Mexico, USA",
+      "timeline": [
+        {
+          "deadline": "2023-05-11 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Full Paper Deadline"
+        }
+      ]
+    },
+    {
+      "title": "CLUSTER",
+      "description": "IEEE International Conference on Cluster Computing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "C",
+      "thcpl": "B",
+      "dblp": "cluster",
+      "year": 2024,
+      "id": "cluster24",
+      "link": "https://clustercomp.org/2024",
+      "timezone": "AoE",
+      "date": "September 24-27, 2024",
+      "place": "Kobe, Japan",
+      "timeline": [
+        {
+          "deadline": "2024-05-09 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Full Paper Deadline"
+        }
+      ]
+    },
+    {
+      "title": "CLUSTER",
+      "description": "IEEE International Conference on Cluster Computing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "C",
+      "thcpl": "B",
+      "dblp": "cluster",
+      "year": 2025,
+      "id": "cluster25",
+      "link": "https://clustercomp.org/2025",
+      "timezone": "AoE",
+      "date": "September 2-5, 2025",
+      "place": "Edinburgh, United Kingdom",
+      "timeline": [
+        {
+          "deadline": "2025-05-02 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Full Paper Deadline"
+        }
+      ]
+    },
+    {
+      "title": "CLUSTER",
+      "description": "IEEE International Conference on Cluster Computing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "C",
+      "thcpl": "B",
+      "dblp": "cluster",
+      "year": 2026,
+      "id": "cluster26",
+      "link": "https://clustercomp.org/2026",
+      "timezone": "AoE",
+      "date": "September 22-25, 2026",
+      "place": "Alexandria, Virginia, USA",
+      "timeline": [
+        {
+          "deadline": "2026-05-07 23:59:59",
+          "abstract_deadline": "2026-04-30 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "DAC",
+      "description": "Design Automation Conference",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "dac",
+      "year": 2022,
+      "id": "dac22",
+      "link": "https://www.dac.com/DAC-2022",
+      "timezone": "UTC-8",
+      "date": "July 10-14, 2022",
+      "place": "San Francisco, CA",
+      "timeline": [
+        {
+          "deadline": "2021-11-15 17:00:00",
+          "abstract_deadline": null,
+          "comment": "abstract deadline"
+        },
+        {
+          "deadline": "2021-11-22 17:00:00",
+          "abstract_deadline": null,
+          "comment": "full paper deadline"
+        }
+      ]
+    },
+    {
+      "title": "DAC",
+      "description": "Design Automation Conference",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "dac",
+      "year": 2023,
+      "id": "dac23",
+      "link": "https://www.dac.com/Conference/2023-Call-for-Contributions",
+      "timezone": "UTC-8",
+      "date": "July 9-13, 2023",
+      "place": "San Francisco, CA",
+      "timeline": [
+        {
+          "deadline": "2022-11-14 17:00:00",
+          "abstract_deadline": null,
+          "comment": "abstract deadline"
+        },
+        {
+          "deadline": "2022-11-21 17:00:00",
+          "abstract_deadline": null,
+          "comment": "full paper deadline"
+        }
+      ]
+    },
+    {
+      "title": "DAC",
+      "description": "Design Automation Conference",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "dac",
+      "year": 2024,
+      "id": "dac24",
+      "link": "https://www.dac.com/Conference/2024-Call-for-Contributions",
+      "timezone": "UTC-8",
+      "date": "June 23-27, 2024",
+      "place": "San Francisco, CA",
+      "timeline": [
+        {
+          "deadline": "2023-11-20 17:00:00",
+          "abstract_deadline": "2023-11-13 17:00:00",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "DAC",
+      "description": "Design Automation Conference",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "dac",
+      "year": 2025,
+      "id": "dac25",
+      "link": "https://www.dac.com/Conference/2025-Call-for-Contributions",
+      "timezone": "UTC-8",
+      "date": "June 22-25, 2025",
+      "place": "San Francisco, CA",
+      "timeline": [
+        {
+          "deadline": "2024-11-19 17:00:00",
+          "abstract_deadline": "2024-11-12 17:00:00",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "DAC",
+      "description": "Design Automation Conference",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "dac",
+      "year": 2026,
+      "id": "dac26",
+      "link": "https://dac.com/2026/call-for-contributions",
+      "timezone": "UTC-8",
+      "date": "July 26-29, 2026",
+      "place": "Long Beach, CA",
+      "timeline": [
+        {
+          "deadline": "2025-11-18 17:00:00",
+          "abstract_deadline": "2025-11-11 17:00:00",
+          "comment": null
+        }
+      ]
+    },
+    {
       "title": "EuroSys",
       "description": "European Conference on Computer Systems",
       "sub": "DS",
@@ -5112,6 +7596,30 @@
       ]
     },
     {
+      "title": "HotStorage",
+      "description": "ACM Workshop on Hot Topics in Storage and File Systems",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "hotstorage",
+      "year": 2026,
+      "id": "hotstorage2026",
+      "link": "https://www.hotstorage.org/2026/",
+      "timezone": "AoE",
+      "date": "September 28-29, 2026",
+      "place": "Prague, Czechia",
+      "timeline": [
+        {
+          "deadline": "2026-06-05 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
       "title": "HPCA",
       "description": "IEEE International Symposium on High-Performance Computer Architecture",
       "sub": "DS",
@@ -5300,6 +7808,136 @@
       ]
     },
     {
+      "title": "ICCAD",
+      "description": "IEEE/ACM International Conference on Computer-Aided Design",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "iccad",
+      "year": 2022,
+      "id": "iccad22",
+      "link": "https://iccad.com/",
+      "timezone": "UTC-12",
+      "date": "Oct 29 - Nov 3, 2022",
+      "place": "San Diego, CA, USA",
+      "timeline": [
+        {
+          "deadline": "2022-05-16 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Abstract Deadline"
+        },
+        {
+          "deadline": "2022-05-23 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Full Paper Deadline"
+        }
+      ]
+    },
+    {
+      "title": "ICCAD",
+      "description": "IEEE/ACM International Conference on Computer-Aided Design",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "iccad",
+      "year": 2023,
+      "id": "iccad23",
+      "link": "https://iccad.com/",
+      "timezone": "UTC-12",
+      "date": "Oct 29 - Nov 2, 2023",
+      "place": "San Diego, CA, USA",
+      "timeline": [
+        {
+          "deadline": "2023-05-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Abstract Deadline"
+        },
+        {
+          "deadline": "2023-05-22 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Full Paper Deadline"
+        }
+      ]
+    },
+    {
+      "title": "ICCAD",
+      "description": "IEEE/ACM International Conference on Computer-Aided Design",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "iccad",
+      "year": 2024,
+      "id": "iccad24",
+      "link": "https://2024.iccad.com/",
+      "timezone": "UTC-12",
+      "date": "October 27 - 31, 2024",
+      "place": "New Jersey, USA",
+      "timeline": [
+        {
+          "deadline": "2024-05-05 23:59:59",
+          "abstract_deadline": "2024-04-28 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICCAD",
+      "description": "IEEE/ACM International Conference on Computer-Aided Design",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "iccad",
+      "year": 2025,
+      "id": "iccad25",
+      "link": "https://2025.iccad.com",
+      "timezone": "UTC-12",
+      "date": "October 26 - 30, 2025",
+      "place": "MUNICH, GERMANY",
+      "timeline": [
+        {
+          "deadline": "2025-04-21 23:59:59",
+          "abstract_deadline": "2025-04-14 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICCAD",
+      "description": "IEEE/ACM International Conference on Computer-Aided Design",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "iccad",
+      "year": 2026,
+      "id": "iccad26",
+      "link": "https://iccad.com/2026",
+      "timezone": "UTC-12",
+      "date": "November 8 - 12, 2026",
+      "place": "San Jose, California, USA",
+      "timeline": [
+        {
+          "deadline": "2026-04-14 23:59:59",
+          "abstract_deadline": "2026-04-07 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
       "title": "ICDCS",
       "description": "IEEE International Conference on Distributed Computing Systems",
       "sub": "DS",
@@ -5463,6 +8101,352 @@
         {
           "deadline": "2026-01-21 23:59:59",
           "abstract_deadline": "2026-01-21 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICPP",
+      "description": "International Conference on Parallel Processing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "icpp",
+      "year": 2021,
+      "id": "icpp21",
+      "link": "https://oaciss.uoregon.edu/icpp21/",
+      "timezone": "AoE",
+      "date": "August 9-12, 2021",
+      "place": "Chicago, USA",
+      "timeline": [
+        {
+          "deadline": "2021-04-16 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICPP",
+      "description": "International Conference on Parallel Processing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "icpp",
+      "year": 2022,
+      "id": "icpp22",
+      "link": "https://icpp22.gitlabpages.inria.fr/",
+      "timezone": "AoE",
+      "date": "August 29-Sept 12, 2022",
+      "place": "Bordeaux, France",
+      "timeline": [
+        {
+          "deadline": "2022-04-14 23:59:59",
+          "abstract_deadline": "2022-04-08 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICPP",
+      "description": "International Conference on Parallel Processing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "icpp",
+      "year": 2023,
+      "id": "icpp23",
+      "link": "https://icpp23.sci.utah.edu/",
+      "timezone": "AoE",
+      "date": "August 7-August 10, 2023",
+      "place": "Salt Lake City, UTAH, USA",
+      "timeline": [
+        {
+          "deadline": "2023-04-14 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Abstract Submission"
+        },
+        {
+          "deadline": "2023-04-22 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Paper Submission"
+        }
+      ]
+    },
+    {
+      "title": "ICPP",
+      "description": "International Conference on Parallel Processing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "icpp",
+      "year": 2024,
+      "id": "icpp24",
+      "link": "https://icpp2024.org/",
+      "timezone": "AoE",
+      "date": "August 12-15, 2024",
+      "place": "Gotland, Sweden",
+      "timeline": [
+        {
+          "deadline": "2024-04-29 23:59:59",
+          "abstract_deadline": "2024-04-22 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICPP",
+      "description": "International Conference on Parallel Processing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "icpp",
+      "year": 2025,
+      "id": "icpp25",
+      "link": "https://icpp2025.sdsc.edu",
+      "timezone": "AoE",
+      "date": "September 8-11, 2025",
+      "place": "San Diego, CA, USA",
+      "timeline": [
+        {
+          "deadline": "2025-05-01 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICPP",
+      "description": "International Conference on Parallel Processing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "icpp",
+      "year": 2026,
+      "id": "icpp26",
+      "link": "https://icpp2026.github.io/",
+      "timezone": "AoE",
+      "date": "September 28-October 1, 2026",
+      "place": "Singapore",
+      "timeline": [
+        {
+          "deadline": "2026-05-01 23:59:59",
+          "abstract_deadline": "2026-04-24 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICS",
+      "description": "ACM International Conference on Supercomputing",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ics",
+      "year": 2024,
+      "id": "ics24",
+      "link": "https://ics2024.github.io/",
+      "timezone": "AoE",
+      "date": "June 4-7, 2024",
+      "place": "Kyoto University, Kyoto, Japan",
+      "timeline": [
+        {
+          "deadline": "2024-01-18 23:59:59",
+          "abstract_deadline": "2024-01-11 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICS",
+      "description": "ACM International Conference on Supercomputing",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ics",
+      "year": 2025,
+      "id": "ics25",
+      "link": "https://hpcrl.github.io/ICS2025-webpage/",
+      "timezone": "AoE",
+      "date": "June 9-11, 2025",
+      "place": "Salt Lake City, U.S.A.",
+      "timeline": [
+        {
+          "deadline": "2025-01-16 23:59:59",
+          "abstract_deadline": "2025-01-13 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICS",
+      "description": "ACM International Conference on Supercomputing",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ics",
+      "year": 2026,
+      "id": "ics26",
+      "link": "https://dipsa-qub.github.io/ICS2026-webpage/",
+      "timezone": "AoE",
+      "date": "July 6-9, 2026",
+      "place": "Belfast, Northern Ireland, United Kingdom",
+      "timeline": [
+        {
+          "deadline": "2025-12-16 23:59:59",
+          "abstract_deadline": "2025-12-09 23:59:59",
+          "comment": "Cycle 1"
+        },
+        {
+          "deadline": "2026-02-09 23:59:59",
+          "abstract_deadline": "2026-02-02 23:59:59",
+          "comment": "Cycle 2"
+        }
+      ]
+    },
+    {
+      "title": "IPDPS",
+      "description": "IEEE International Parallel and Distributed Processing Symposium",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ipps",
+      "year": 2022,
+      "id": "ipdps22",
+      "link": "https://www.ipdps.org/ipdps2022/",
+      "timezone": "AoE",
+      "date": "May 30-June 3, 2022",
+      "place": "Lyon, France",
+      "timeline": [
+        {
+          "deadline": "2021-10-08 23:59:59",
+          "abstract_deadline": "2021-10-01 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "IPDPS",
+      "description": "IEEE International Parallel and Distributed Processing Symposium",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ipps",
+      "year": 2023,
+      "id": "ipdps23",
+      "link": "https://www.ipdps.org/ipdps2023/",
+      "timezone": "AoE",
+      "date": "May 15-19, 2023",
+      "place": "St. Petersburg, Florida USA",
+      "timeline": [
+        {
+          "deadline": "2022-10-06 23:59:59",
+          "abstract_deadline": "2022-09-29 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "IPDPS",
+      "description": "IEEE International Parallel and Distributed Processing Symposium",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ipps",
+      "year": 2024,
+      "id": "ipdps24",
+      "link": "https://www.ipdps.org/",
+      "timezone": "AoE",
+      "date": "May 27-31, 2024",
+      "place": "San Francisco, California USA",
+      "timeline": [
+        {
+          "deadline": "2023-10-05 23:59:59",
+          "abstract_deadline": "2023-09-28 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "IPDPS",
+      "description": "IEEE International Parallel and Distributed Processing Symposium",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ipps",
+      "year": 2025,
+      "id": "ipdps25",
+      "link": "https://www.ipdps.org/",
+      "timezone": "AoE",
+      "date": "June 3-7, 2025",
+      "place": "Politecnico di Milano, Milan, Italy",
+      "timeline": [
+        {
+          "deadline": "2024-10-10 23:59:59",
+          "abstract_deadline": "2024-10-03 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "IPDPS",
+      "description": "IEEE International Parallel and Distributed Processing Symposium",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ipps",
+      "year": 2026,
+      "id": "ipdps26",
+      "link": "https://www.ipdps.org/",
+      "timezone": "AoE",
+      "date": "May 25-29, 2026",
+      "place": "New Orleans, USA",
+      "timeline": [
+        {
+          "deadline": "2025-10-09 23:59:59",
+          "abstract_deadline": "2025-10-02 23:59:59",
           "comment": null
         }
       ]
@@ -5801,6 +8785,198 @@
       ]
     },
     {
+      "title": "PPoPP",
+      "description": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "A",
+      "core": "B",
+      "thcpl": "A",
+      "dblp": "ppopp",
+      "year": 2021,
+      "id": "ppopp21",
+      "link": "https://ppopp21.sigplan.org/",
+      "timezone": "AoE",
+      "date": "February 27-Mar 3, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2020-08-13 23:59:59",
+          "abstract_deadline": "2020-08-06 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "PPoPP",
+      "description": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "A",
+      "core": "B",
+      "thcpl": "A",
+      "dblp": "ppopp",
+      "year": 2022,
+      "id": "ppopp22",
+      "link": "https://ppopp22.sigplan.org/",
+      "timezone": "AoE",
+      "date": "February 12-16, 2022",
+      "place": "Seoul, S. Korea",
+      "timeline": [
+        {
+          "deadline": "2021-08-13 23:59:59",
+          "abstract_deadline": "2021-08-09 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "PPoPP",
+      "description": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "A",
+      "core": "B",
+      "thcpl": "A",
+      "dblp": "ppopp",
+      "year": 2023,
+      "id": "ppopp23",
+      "link": "https://ppopp23.sigplan.org/",
+      "timezone": "AoE",
+      "date": "February 25-Mar 1, 2023",
+      "place": "Montreal, Canada",
+      "timeline": [
+        {
+          "deadline": "2022-08-17 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "PPoPP",
+      "description": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "A",
+      "core": "B",
+      "thcpl": "A",
+      "dblp": "ppopp",
+      "year": 2024,
+      "id": "ppopp24",
+      "link": "https://conf.researchr.org/home/ppopp-2024",
+      "timezone": "AoE",
+      "date": "Mar 2-Mar 6, 2024",
+      "place": "Edinburgh, United Kingdom",
+      "timeline": [
+        {
+          "deadline": "2023-08-04 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "PPoPP",
+      "description": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "A",
+      "core": "B",
+      "thcpl": "A",
+      "dblp": "ppopp",
+      "year": 2025,
+      "id": "ppopp25",
+      "link": "https://ppopp25.sigplan.org/",
+      "timezone": "AoE",
+      "date": "Mar 1-5, 2025",
+      "place": "Las Vegas, Nevada, USA",
+      "timeline": [
+        {
+          "deadline": "2024-08-16 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "PPoPP",
+      "description": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "A",
+      "core": "B",
+      "thcpl": "A",
+      "dblp": "ppopp",
+      "year": 2026,
+      "id": "ppopp26",
+      "link": "https://ppopp26.sigplan.org/",
+      "timezone": "AoE",
+      "date": "Jan 31-Feb 4, 2026",
+      "place": "Sydney, Australia",
+      "timeline": [
+        {
+          "deadline": "2025-09-01 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "RTAS",
+      "description": "IEEE Real-Time and Embedded Technology and Applications Symposium",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "rtas",
+      "year": 2024,
+      "id": "rtas2024",
+      "link": "https://2024.rtas.org/",
+      "timezone": "AoE",
+      "date": "May 13-16, 2024",
+      "place": "Hong Kong, China",
+      "timeline": [
+        {
+          "deadline": "2023-10-31 11:59:59",
+          "abstract_deadline": null,
+          "comment": "Submission Deadline (firm)"
+        }
+      ]
+    },
+    {
+      "title": "RTAS",
+      "description": "IEEE Real-Time and Embedded Technology and Applications Symposium",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "rtas",
+      "year": 2026,
+      "id": "rtas2026",
+      "link": "https://2026.rtas.org/",
+      "timezone": "AoE",
+      "date": "May 12-14, 2026",
+      "place": "Saint Malo, France",
+      "timeline": [
+        {
+          "deadline": "2025-11-13 11:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
       "title": "SC",
       "description": "International Conference for High Performance Computing, Networking, Storage, and Analysis",
       "sub": "DS",
@@ -5916,6 +9092,1011 @@
         {
           "deadline": "2026-04-08 23:59:00",
           "abstract_deadline": "2026-04-01 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "SIGMETRICS",
+      "description": "ACM Special Interest Group on Measurement and Evaluation",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "sigmetrics",
+      "year": 2025,
+      "id": "sigmetrics25",
+      "link": "https://www.sigmetrics.org/sigmetrics2025/",
+      "timezone": "AoE",
+      "date": "June 9-13, 2025",
+      "place": "Stony Brook, New York, USA",
+      "timeline": [
+        {
+          "deadline": "2024-08-07 23:59:00",
+          "abstract_deadline": "2024-07-31 23:59:00",
+          "comment": "summer round"
+        },
+        {
+          "deadline": "2024-10-09 23:59:00",
+          "abstract_deadline": "2024-10-02 23:59:00",
+          "comment": "fall round"
+        },
+        {
+          "deadline": "2025-01-22 23:59:00",
+          "abstract_deadline": "2025-01-15 23:59:00",
+          "comment": "winter round"
+        }
+      ]
+    },
+    {
+      "title": "SIGMETRICS",
+      "description": "ACM Special Interest Group on Measurement and Evaluation",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "sigmetrics",
+      "year": 2026,
+      "id": "sigmetrics26",
+      "link": "https://www.sigmetrics.org/sigmetrics2026/",
+      "timezone": "AoE",
+      "date": "June 8-12, 2026",
+      "place": "Ann Arbor, Michigan, USA",
+      "timeline": [
+        {
+          "deadline": "2025-07-29 23:59:00",
+          "abstract_deadline": "2025-07-22 23:59:00",
+          "comment": "summer round"
+        },
+        {
+          "deadline": "2025-10-14 23:59:00",
+          "abstract_deadline": "2025-10-07 23:59:00",
+          "comment": "fall round"
+        },
+        {
+          "deadline": "2026-01-13 23:59:00",
+          "abstract_deadline": "2026-01-06 23:59:00",
+          "comment": "winter round"
+        }
+      ]
+    },
+    {
+      "title": "SIGMETRICS",
+      "description": "ACM Special Interest Group on Measurement and Evaluation",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "sigmetrics",
+      "year": 2027,
+      "id": "sigmetrics27",
+      "link": "https://www.sigmetrics.org/sigmetrics2027/",
+      "timezone": "AoE",
+      "date": "TBD",
+      "place": "Atlanta, Georgia, USA",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "SoCC",
+      "description": "ACM Symposium on Cloud Computing",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "N",
+      "thcpl": "B",
+      "dblp": "cloud",
+      "year": 2023,
+      "id": "socc23",
+      "link": "https://acmsocc.org/2023/",
+      "timezone": "UTC-7",
+      "date": "October 30 - November 1, 2023",
+      "place": "California, USA",
+      "timeline": [
+        {
+          "deadline": "2023-06-09 13:59:00",
+          "abstract_deadline": null,
+          "comment": "abstract and full paper deadline"
+        }
+      ]
+    },
+    {
+      "title": "SoCC",
+      "description": "ACM Symposium on Cloud Computing",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "N",
+      "thcpl": "B",
+      "dblp": "cloud",
+      "year": 2024,
+      "id": "socc24",
+      "link": "https://acmsocc.org/2024/",
+      "timezone": "UTC-4",
+      "date": "November 20-22, 2024",
+      "place": "Redmond, USA",
+      "timeline": [
+        {
+          "deadline": "2024-07-15 17:00:00",
+          "abstract_deadline": "2024-07-08 17:00:00",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "SoCC",
+      "description": "ACM Symposium on Cloud Computing",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "N",
+      "thcpl": "B",
+      "dblp": "cloud",
+      "year": 2026,
+      "id": "socc26",
+      "link": "https://acmsocc.org/2026/",
+      "timezone": "AoE",
+      "date": "November 18-20, 2026",
+      "place": "Singapore",
+      "timeline": [
+        {
+          "deadline": "2026-02-13 23:59:59",
+          "abstract_deadline": "2026-02-06 23:59:59",
+          "comment": "First round"
+        },
+        {
+          "deadline": "2026-07-14 23:59:59",
+          "abstract_deadline": "2026-07-07 23:59:59",
+          "comment": "Second round"
+        }
+      ]
+    },
+    {
+      "title": "CHI",
+      "description": "ACM Conference on Human Factors in Computing Systems",
+      "sub": "HI",
+      "area": "ai_ml",
+      "ccfddl_category": "HI",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "chi",
+      "year": 2024,
+      "id": "chi24",
+      "link": "http://chi2024.acm.org/",
+      "timezone": "AoE",
+      "date": "May 11 - May 16, 2024",
+      "place": "Honolulu, Hawaii, USA",
+      "timeline": [
+        {
+          "deadline": "2023-09-14 23:59:59",
+          "abstract_deadline": "2023-09-07 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "CHI",
+      "description": "ACM Conference on Human Factors in Computing Systems",
+      "sub": "HI",
+      "area": "ai_ml",
+      "ccfddl_category": "HI",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "chi",
+      "year": 2025,
+      "id": "chi25",
+      "link": "https://chi2025.acm.org/",
+      "timezone": "AoE",
+      "date": "April 26 - May 1, 2025",
+      "place": "Yokohama, Japan",
+      "timeline": [
+        {
+          "deadline": "2024-09-12 23:59:59",
+          "abstract_deadline": "2024-09-05 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "CHI",
+      "description": "ACM Conference on Human Factors in Computing Systems",
+      "sub": "HI",
+      "area": "ai_ml",
+      "ccfddl_category": "HI",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "chi",
+      "year": 2026,
+      "id": "chi26",
+      "link": "https://chi2026.acm.org/",
+      "timezone": "AoE",
+      "date": "April 13 - 17, 2026",
+      "place": "Centre de Convencions Internacional de Barcelona, Barcelona, Spain",
+      "timeline": [
+        {
+          "deadline": "2025-09-11 23:59:59",
+          "abstract_deadline": "2025-09-04 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "CHI",
+      "description": "ACM Conference on Human Factors in Computing Systems",
+      "sub": "HI",
+      "area": "ai_ml",
+      "ccfddl_category": "HI",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "chi",
+      "year": 2027,
+      "id": "chi27",
+      "link": "https://chi2027.acm.org/",
+      "timezone": "AoE",
+      "date": "May 10 - 14, 2027",
+      "place": "David L. Lawrence Convention Center, Pittsburgh, USA",
+      "timeline": [
+        {
+          "deadline": "2026-09-10 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "CSCW",
+      "description": "ACM Conference on Computer Supported Cooperative Work and Social Computing",
+      "sub": "HI",
+      "area": "ai_ml",
+      "ccfddl_category": "HI",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "cscw",
+      "year": 2021,
+      "id": "cscw21",
+      "link": "https://cscw.acm.org/2021/",
+      "timezone": "AoE",
+      "date": "TBD",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2021-04-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "CSCW",
+      "description": "ACM Conference on Computer Supported Cooperative Work and Social Computing",
+      "sub": "HI",
+      "area": "ai_ml",
+      "ccfddl_category": "HI",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "cscw",
+      "year": 2022,
+      "id": "cscw22",
+      "link": "https://cscw.acm.org/2022/",
+      "timezone": "AoE",
+      "date": "January 1, 2022",
+      "place": "Taiwan",
+      "timeline": [
+        {
+          "deadline": "2022-01-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "CSCW",
+      "description": "ACM Conference on Computer Supported Cooperative Work and Social Computing",
+      "sub": "HI",
+      "area": "ai_ml",
+      "ccfddl_category": "HI",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "cscw",
+      "year": 2023,
+      "id": "cscw23",
+      "link": "https://cscw.acm.org/2023/",
+      "timezone": "AoE",
+      "date": "October 14-18, 2023",
+      "place": "Minneapolis, MN, USA",
+      "timeline": [
+        {
+          "deadline": "2023-06-01 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "CSCW",
+      "description": "ACM Conference on Computer Supported Cooperative Work and Social Computing",
+      "sub": "HI",
+      "area": "ai_ml",
+      "ccfddl_category": "HI",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "cscw",
+      "year": 2024,
+      "id": "cscw24",
+      "link": "https://cscw.acm.org/2024/",
+      "timezone": "AoE",
+      "date": "November 9-13, 2024",
+      "place": "San José, Costa Rica",
+      "timeline": [
+        {
+          "deadline": "2024-01-16 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "CSCW",
+      "description": "ACM Conference on Computer Supported Cooperative Work and Social Computing",
+      "sub": "HI",
+      "area": "ai_ml",
+      "ccfddl_category": "HI",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "cscw",
+      "year": 2025,
+      "id": "cscw25",
+      "link": "https://cscw.acm.org/2025/",
+      "timezone": "AoE",
+      "date": "October 18-22, 2025",
+      "place": "Bergen, Norway",
+      "timeline": [
+        {
+          "deadline": "2024-07-02 23:59:59",
+          "abstract_deadline": null,
+          "comment": "JULY 2024 CYCLE"
+        },
+        {
+          "deadline": "2024-10-29 23:59:59",
+          "abstract_deadline": null,
+          "comment": "OCTOBER 2024 CYCLE"
+        }
+      ]
+    },
+    {
+      "title": "CSCW",
+      "description": "ACM Conference on Computer Supported Cooperative Work and Social Computing",
+      "sub": "HI",
+      "area": "ai_ml",
+      "ccfddl_category": "HI",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "cscw",
+      "year": 2026,
+      "id": "cscw26",
+      "link": "https://cscw.acm.org/2026/",
+      "timezone": "AoE",
+      "date": "October 10-14, 2026",
+      "place": "Salt Lake City, Utah, USA",
+      "timeline": [
+        {
+          "deadline": "2025-05-13 23:59:59",
+          "abstract_deadline": null,
+          "comment": "MAY 2025 SUBMISSION CYCLE"
+        }
+      ]
+    },
+    {
+      "title": "IUI",
+      "description": "ACM Conference on Intelligent User Interfaces",
+      "sub": "HI",
+      "area": "ai_ml",
+      "ccfddl_category": "HI",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "iui",
+      "year": 2024,
+      "id": "iui24",
+      "link": "https://iui.acm.org/2024/",
+      "timezone": "AoE",
+      "date": "March 18 - March 21, 2024",
+      "place": "Greenville, South Carolina USA",
+      "timeline": [
+        {
+          "deadline": "2023-10-09 23:59:59",
+          "abstract_deadline": "2023-10-02 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "IUI",
+      "description": "ACM Conference on Intelligent User Interfaces",
+      "sub": "HI",
+      "area": "ai_ml",
+      "ccfddl_category": "HI",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "iui",
+      "year": 2025,
+      "id": "iui25",
+      "link": "https://iui.acm.org/2025/",
+      "timezone": "AoE",
+      "date": "March 24 - March 27, 2025",
+      "place": "Cagliari, Italy",
+      "timeline": [
+        {
+          "deadline": "2024-10-09 23:59:59",
+          "abstract_deadline": "2024-10-02 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "IUI",
+      "description": "ACM Conference on Intelligent User Interfaces",
+      "sub": "HI",
+      "area": "ai_ml",
+      "ccfddl_category": "HI",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "iui",
+      "year": 2026,
+      "id": "iui26",
+      "link": "https://iui.hosting.acm.org/2026/",
+      "timezone": "AoE",
+      "date": "March 23 - 26, 2026",
+      "place": "Paphos, Cyprus",
+      "timeline": [
+        {
+          "deadline": "2025-10-10 23:59:59",
+          "abstract_deadline": "2025-10-03 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "IUI",
+      "description": "ACM Conference on Intelligent User Interfaces",
+      "sub": "HI",
+      "area": "ai_ml",
+      "ccfddl_category": "HI",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "iui",
+      "year": 2027,
+      "id": "iui27",
+      "link": "https://iui.hosting.acm.org/2027/",
+      "timezone": "AoE",
+      "date": "February 8-11, 2027",
+      "place": "Helsinki, Finland",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "PerCom",
+      "description": "IEEE International Conference on Pervasive Computing and Communications",
+      "sub": "HI",
+      "area": "networking",
+      "ccfddl_category": "HI",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "B",
+      "dblp": "percom",
+      "year": 2025,
+      "id": "percom25",
+      "link": "https://percom.org/",
+      "timezone": "AoE",
+      "date": "March 17 - 21, 2025",
+      "place": "Walter E. Washington Convention Center, Washington DC, USA",
+      "timeline": [
+        {
+          "deadline": "2024-10-04 23:59:00",
+          "abstract_deadline": "2024-09-29 23:59:00",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "PerCom",
+      "description": "IEEE International Conference on Pervasive Computing and Communications",
+      "sub": "HI",
+      "area": "networking",
+      "ccfddl_category": "HI",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "B",
+      "dblp": "percom",
+      "year": 2026,
+      "id": "percom26",
+      "link": "https://percom.org/",
+      "timezone": "AoE",
+      "date": "March 16 - 20, 2026",
+      "place": "Pisa, Italy",
+      "timeline": [
+        {
+          "deadline": "2025-10-03 23:59:00",
+          "abstract_deadline": "2025-10-03 23:59:00",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "UIST",
+      "description": "ACM Symposium on User Interface Software and Technology",
+      "sub": "HI",
+      "area": "ai_ml",
+      "ccfddl_category": "HI",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "uist",
+      "year": 2024,
+      "id": "uist2024",
+      "link": "https://uist.acm.org/2024",
+      "timezone": "UTC-8",
+      "date": "October 13-16, 2024",
+      "place": "Pittsburgh, Pennsylvania, USA",
+      "timeline": [
+        {
+          "deadline": "2024-03-27 17:00:00",
+          "abstract_deadline": null,
+          "comment": "abstract deadline"
+        },
+        {
+          "deadline": "2024-04-03 17:00:00",
+          "abstract_deadline": null,
+          "comment": "paper deadline"
+        }
+      ]
+    },
+    {
+      "title": "UIST",
+      "description": "ACM Symposium on User Interface Software and Technology",
+      "sub": "HI",
+      "area": "ai_ml",
+      "ccfddl_category": "HI",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "uist",
+      "year": 2025,
+      "id": "uist2025",
+      "link": "https://uist.acm.org/2025/",
+      "timezone": "UTC-8",
+      "date": "Sep 28 - Oct 1, 2025",
+      "place": "Busan, Korea",
+      "timeline": [
+        {
+          "deadline": "2025-04-02 17:00:00",
+          "abstract_deadline": null,
+          "comment": "abstract deadline"
+        },
+        {
+          "deadline": "2025-04-09 17:00:00",
+          "abstract_deadline": null,
+          "comment": "paper deadline"
+        }
+      ]
+    },
+    {
+      "title": "UIST",
+      "description": "ACM Symposium on User Interface Software and Technology",
+      "sub": "HI",
+      "area": "ai_ml",
+      "ccfddl_category": "HI",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "uist",
+      "year": 2026,
+      "id": "uist2026",
+      "link": "https://uist.acm.org/2026/",
+      "timezone": "AoE",
+      "date": "November 2 - 5, 2026",
+      "place": "GM Renaissance Center, Detroit, MI, USA",
+      "timeline": [
+        {
+          "deadline": "2026-03-31 23:59:59",
+          "abstract_deadline": "2026-03-24 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "APBC",
+      "description": "Asia Pacific Bioinformatics Conference",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "N",
+      "dblp": "apbc",
+      "year": 2025,
+      "id": "apbc25",
+      "link": "https://bioinfo.nuaa.edu.cn/apbc2025/main.psp",
+      "timezone": "UTC+0",
+      "date": "September 19-22, 2025",
+      "place": "Nanjing， China",
+      "timeline": [
+        {
+          "deadline": "2025-06-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "APBC",
+      "description": "Asia Pacific Bioinformatics Conference",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "N",
+      "dblp": "apbc",
+      "year": 2026,
+      "id": "apbc26",
+      "link": "https://www.apbc2026.com/home",
+      "timezone": "UTC+0",
+      "date": "October 21-24, 2026",
+      "place": "Hsinchu, Taiwan， China",
+      "timeline": [
+        {
+          "deadline": "2026-06-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "BIBM",
+      "description": "IEEE International Conference on Bioinformatics and Biomedicine",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "bibm",
+      "year": 2021,
+      "id": "bibm21",
+      "link": "https://ieeebibm.org/BIBM2021/",
+      "timezone": "UTC-5",
+      "date": "Dec 9-12, 2021",
+      "place": "Online",
+      "timeline": [
+        {
+          "deadline": "2021-08-28 17:00:00",
+          "abstract_deadline": null,
+          "comment": "Electronic submission of full papers"
+        }
+      ]
+    },
+    {
+      "title": "BIBM",
+      "description": "IEEE International Conference on Bioinformatics and Biomedicine",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "bibm",
+      "year": 2022,
+      "id": "bibm22",
+      "link": "http://ieeebibm.org/BIBM2022/",
+      "timezone": "UTC-5",
+      "date": "Dec 6-9, 2022",
+      "place": "Las Vegas, NV, USA",
+      "timeline": [
+        {
+          "deadline": "2022-08-21 17:00:00",
+          "abstract_deadline": null,
+          "comment": "Electronic submission of full papers"
+        }
+      ]
+    },
+    {
+      "title": "BIBM",
+      "description": "IEEE International Conference on Bioinformatics and Biomedicine",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "bibm",
+      "year": 2023,
+      "id": "bibm23",
+      "link": "https://bidma.cpsc.ucalgary.ca/IEEE-BIBM-2023/",
+      "timezone": "UTC-5",
+      "date": "Dec 5-8, 2023",
+      "place": "Istanbul, Turkey",
+      "timeline": [
+        {
+          "deadline": "2023-08-15 17:00:00",
+          "abstract_deadline": null,
+          "comment": "Electronic submission of full papers"
+        }
+      ]
+    },
+    {
+      "title": "BIBM",
+      "description": "IEEE International Conference on Bioinformatics and Biomedicine",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "bibm",
+      "year": 2024,
+      "id": "bibm24",
+      "link": "https://ieeebibm.org/BIBM2024/",
+      "timezone": "UTC-5",
+      "date": "Dec 3-6, 2024",
+      "place": "Lisbon, Portugal",
+      "timeline": [
+        {
+          "deadline": "2024-06-20 17:00:00",
+          "abstract_deadline": null,
+          "comment": "First Round, papers submitted by the June 20 deadline will be reviewed and notified by Aug 15"
+        },
+        {
+          "deadline": "2024-08-16 17:00:00",
+          "abstract_deadline": null,
+          "comment": "Second Round, papers submitted by the Aug 16, 2024 deadline, will be reviewed and notified by the Oct 16, 2024"
+        }
+      ]
+    },
+    {
+      "title": "BIBM",
+      "description": "IEEE International Conference on Bioinformatics and Biomedicine",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "bibm",
+      "year": 2025,
+      "id": "bibm25",
+      "link": "https://ieeebibm.org/BIBM2025/",
+      "timezone": "UTC-5",
+      "date": "Dec 15-18, 2025",
+      "place": "Wuhan, China",
+      "timeline": [
+        {
+          "deadline": "2025-08-03 17:00:00",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "BIBM",
+      "description": "IEEE International Conference on Bioinformatics and Biomedicine",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "bibm",
+      "year": 2026,
+      "id": "bibm26",
+      "link": "https://ieeebibm.org/BIBM2026/",
+      "timezone": "UTC-5",
+      "date": "Dec 1-4, 2026",
+      "place": "Dallas, USA",
+      "timeline": [
+        {
+          "deadline": "2026-07-05 17:00:00",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "EMSOFT",
+      "description": "International Conference on Embedded Software",
+      "sub": "MX",
+      "area": "systems",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "N",
+      "thcpl": "B",
+      "dblp": "emsoft",
+      "year": 2025,
+      "id": "emsoft25",
+      "link": "https://esweek.org/emsoft/",
+      "timezone": "AoE",
+      "date": "September 28 - October 3, 2025",
+      "place": "TAIPEI, TAIWAN",
+      "timeline": [
+        {
+          "deadline": "2025-03-30 23:59:59",
+          "abstract_deadline": "2025-03-23 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "EMSOFT",
+      "description": "International Conference on Embedded Software",
+      "sub": "MX",
+      "area": "systems",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "N",
+      "thcpl": "B",
+      "dblp": "emsoft",
+      "year": 2026,
+      "id": "emsoft26",
+      "link": "https://esweek.org/emsoft/",
+      "timezone": "AoE",
+      "date": "October 4 - 9, 2026",
+      "place": "Barcelona, Spain",
+      "timeline": [
+        {
+          "deadline": "2026-03-30 23:59:59",
+          "abstract_deadline": "2026-03-23 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ISBRA",
+      "description": "International Symposium on Bioinformatics Research and Applications",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "isbra",
+      "year": 2025,
+      "id": "isbra25",
+      "link": "https://www.helsinki.fi/en/conferences/isbra2025",
+      "timezone": "AoE",
+      "date": "August 3-5, 2025",
+      "place": "Helsinki, Finland",
+      "timeline": [
+        {
+          "deadline": "2025-04-01 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "MICCAI",
+      "description": "International Conference on Medical Image Computing and Computer Assisted Intervention",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "miccai",
+      "year": 2023,
+      "id": "miccai23",
+      "link": "https://conferences.miccai.org/2023/en/",
+      "timezone": "UTC+0",
+      "date": "Oct 8-12, 2023",
+      "place": "Vancouver, Canada",
+      "timeline": [
+        {
+          "deadline": "2023-03-09 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Paper submission deadline"
+        }
+      ]
+    },
+    {
+      "title": "MICCAI",
+      "description": "International Conference on Medical Image Computing and Computer Assisted Intervention",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "miccai",
+      "year": 2024,
+      "id": "miccai24",
+      "link": "https://conferences.miccai.org/2024/en/",
+      "timezone": "UTC-8",
+      "date": "Oct 6-10, 2024",
+      "place": "Marrakesh, Morocco",
+      "timeline": [
+        {
+          "deadline": "2024-03-07 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Main conference papers"
+        }
+      ]
+    },
+    {
+      "title": "MICCAI",
+      "description": "International Conference on Medical Image Computing and Computer Assisted Intervention",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "miccai",
+      "year": 2025,
+      "id": "miccai25",
+      "link": "https://conferences.miccai.org/2025/en/default.asp",
+      "timezone": "UTC-8",
+      "date": "Sep 23-27, 2025",
+      "place": "Daejeon, Republic of Korea",
+      "timeline": [
+        {
+          "deadline": "2025-02-27 23:59:00",
+          "abstract_deadline": "2025-02-13 23:59:00",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "MICCAI",
+      "description": "International Conference on Medical Image Computing and Computer Assisted Intervention",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "miccai",
+      "year": 2026,
+      "id": "miccai26",
+      "link": "https://conferences.miccai.org/2026/en/IMPORTANT-DATES.html",
+      "timezone": "UTC-8",
+      "date": "Oct 4-8, 2026",
+      "place": "ADNEC Centre, Abu Dhabi, U.A.E.",
+      "timeline": [
+        {
+          "deadline": "2026-02-26 23:59:00",
+          "abstract_deadline": "2026-02-12 23:59:00",
           "comment": null
         }
       ]
@@ -6059,6 +10240,126 @@
       "timeline": [
         {
           "deadline": "2025-10-30 20:00:00",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "RECOMB",
+      "description": "International Conference on Research inComputational Molecular Biology",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "A",
+      "dblp": "recomb",
+      "year": 2025,
+      "id": "recomb25",
+      "link": "https://recomb.org/recomb2025/index.html",
+      "timezone": "AoE",
+      "date": "April 26-29, 2025",
+      "place": "Seoul, Korea",
+      "timeline": [
+        {
+          "deadline": "2024-10-25 23:59:59",
+          "abstract_deadline": "2024-10-16 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "RECOMB",
+      "description": "International Conference on Research inComputational Molecular Biology",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "A",
+      "dblp": "recomb",
+      "year": 2026,
+      "id": "recomb26",
+      "link": "https://recomb.org/recomb2026/",
+      "timezone": "AoE",
+      "date": "May 26 - 29, 2026",
+      "place": "Thessaloniki, Greece",
+      "timeline": [
+        {
+          "deadline": "2025-11-14 23:59:59",
+          "abstract_deadline": "2025-11-07 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "RTSS",
+      "description": "The IEEE Real-Time Systems Symposium",
+      "sub": "MX",
+      "area": "systems",
+      "ccfddl_category": "MX",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "B",
+      "dblp": "rtss",
+      "year": 2022,
+      "id": "rtss22",
+      "link": "http://2022.rtss.org/",
+      "timezone": "AoE",
+      "date": "December 5-8, 2022",
+      "place": "Houston, USA",
+      "timeline": [
+        {
+          "deadline": "2022-05-26 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "RTSS",
+      "description": "The IEEE Real-Time Systems Symposium",
+      "sub": "MX",
+      "area": "systems",
+      "ccfddl_category": "MX",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "B",
+      "dblp": "rtss",
+      "year": 2025,
+      "id": "rtss25",
+      "link": "http://2025.rtss.org/",
+      "timezone": "AoE",
+      "date": "December 2-5, 2025",
+      "place": "Boston, MA, USA",
+      "timeline": [
+        {
+          "deadline": "2025-05-22 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "RTSS",
+      "description": "The IEEE Real-Time Systems Symposium",
+      "sub": "MX",
+      "area": "systems",
+      "ccfddl_category": "MX",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "B",
+      "dblp": "rtss",
+      "year": 2026,
+      "id": "rtss26",
+      "link": "http://2026.rtss.org/",
+      "timezone": "AoE",
+      "date": "December 9-11, 2026",
+      "place": "Yokohama, Japan",
+      "timeline": [
+        {
+          "deadline": "2026-05-21 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -6685,6 +10986,126 @@
       ]
     },
     {
+      "title": "IWQoS",
+      "description": "IEEE/ACM International Symposium on Quality of Service",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "iwqos",
+      "year": 2022,
+      "id": "iwqos22",
+      "link": "https://iwqos2022.ieee-iwqos.org/",
+      "timezone": "UTC-12",
+      "date": "June 10-12, 2022",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2022-02-07 23:59:59",
+          "abstract_deadline": "2022-02-01 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "IWQoS",
+      "description": "IEEE/ACM International Symposium on Quality of Service",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "iwqos",
+      "year": 2023,
+      "id": "iwqos23",
+      "link": "https://iwqos2023.ieee-iwqos.org/",
+      "timezone": "UTC-12",
+      "date": "June 19-21, 2023",
+      "place": "Orlando, FL, USA",
+      "timeline": [
+        {
+          "deadline": "2023-02-07 23:59:59",
+          "abstract_deadline": "2023-01-29 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "IWQoS",
+      "description": "IEEE/ACM International Symposium on Quality of Service",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "iwqos",
+      "year": 2025,
+      "id": "iwqos25",
+      "link": "https://iwqos2025.ieee-iwqos.org/",
+      "timezone": "AoE",
+      "date": "July 02-04, 2025",
+      "place": "Gold Coast, Australia",
+      "timeline": [
+        {
+          "deadline": "2025-02-23 23:59:59",
+          "abstract_deadline": "2025-02-16 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "IWQoS",
+      "description": "IEEE/ACM International Symposium on Quality of Service",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "iwqos",
+      "year": 2026,
+      "id": "iwqos26",
+      "link": "https://iwqos2026.ieee-iwqos.org/",
+      "timezone": "AoE",
+      "date": "29 June - 2 July, 2026",
+      "place": "Dubai, United Arab Emirates",
+      "timeline": [
+        {
+          "deadline": "2026-02-09 23:59:59",
+          "abstract_deadline": "2026-02-02 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "LCN",
+      "description": "IEEE Conference on Local Computer Networks",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "N",
+      "dblp": "lcn",
+      "year": 2026,
+      "id": "lcn26",
+      "link": "https://www.ieeelcn.org/",
+      "timezone": "AoE",
+      "date": "October 7-9, 2026",
+      "place": "Coimbra, Portugal",
+      "timeline": [
+        {
+          "deadline": "2026-04-20 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
       "title": "MobiCom",
       "description": "ACM Annual International Conference On Mobile Computing And Networking",
       "sub": "NW",
@@ -7042,6 +11463,30 @@
       ]
     },
     {
+      "title": "SECON",
+      "description": "IEEE International Conference on Sensing, Communication, and Networking",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "secon",
+      "year": 2026,
+      "id": "secon26",
+      "link": "https://secon2026.ieee-secon.org/important-dates",
+      "timezone": "AoE",
+      "date": "April 27-29, 2026",
+      "place": "Abu Dhabi, UAE",
+      "timeline": [
+        {
+          "deadline": "2025-12-30 23:59:59",
+          "abstract_deadline": "2025-12-08 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
       "title": "SenSys",
       "description": "ACM Conference on Embedded Networked Sensor Systems",
       "sub": "NW",
@@ -7244,6 +11689,170 @@
       ]
     },
     {
+      "title": "WoWMoM",
+      "description": "IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "wowmom",
+      "year": 2025,
+      "id": "wowmom25",
+      "link": "https://wowmomconference.uta.edu/index.html",
+      "timezone": "AoE",
+      "date": "May 27-30, 2025",
+      "place": "Fort Worth, Texas, USA",
+      "timeline": [
+        {
+          "deadline": "2024-11-22 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "WoWMoM",
+      "description": "IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "wowmom",
+      "year": 2026,
+      "id": "wowmom26",
+      "link": "https://www.cs.unibo.it/wowmom2026/",
+      "timezone": "AoE",
+      "date": "June 16-19, 2026",
+      "place": "Bologna, Italy",
+      "timeline": [
+        {
+          "deadline": "2025-12-05 23:59:59",
+          "abstract_deadline": "2025-11-18 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ACNS",
+      "description": "Applied Cryptography and Network Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "acns",
+      "year": 2022,
+      "id": "acns22",
+      "link": "https://sites.google.com/di.uniroma1.it/acns2022",
+      "timezone": "AoE",
+      "date": "June 20-23, 2022",
+      "place": "Rome, Italy",
+      "timeline": [
+        {
+          "deadline": "2021-09-03 23:59:59",
+          "abstract_deadline": null,
+          "comment": "First submission deadline"
+        },
+        {
+          "deadline": "2022-01-14 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Second submission deadline"
+        }
+      ]
+    },
+    {
+      "title": "ACNS",
+      "description": "Applied Cryptography and Network Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "acns",
+      "year": 2024,
+      "id": "acns24",
+      "link": "https://wp.nyu.edu/acns2024/",
+      "timezone": "AoE",
+      "date": "March 5-8, 2024",
+      "place": "Abu Dhabi, UAE",
+      "timeline": [
+        {
+          "deadline": "2023-07-20 23:59:59",
+          "abstract_deadline": null,
+          "comment": "First submission deadline"
+        },
+        {
+          "deadline": "2023-10-20 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Second submission deadline"
+        }
+      ]
+    },
+    {
+      "title": "ACNS",
+      "description": "Applied Cryptography and Network Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "acns",
+      "year": 2025,
+      "id": "acns25",
+      "link": "http://acns2025.fordaysec.de/",
+      "timezone": "AoE",
+      "date": "June 23-26, 2025",
+      "place": "Munich, Germany",
+      "timeline": [
+        {
+          "deadline": "2024-09-09 23:59:59",
+          "abstract_deadline": null,
+          "comment": "First submission deadline"
+        },
+        {
+          "deadline": "2025-01-13 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Second submission deadline"
+        }
+      ]
+    },
+    {
+      "title": "ACNS",
+      "description": "Applied Cryptography and Network Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "acns",
+      "year": 2026,
+      "id": "acns26",
+      "link": "https://acns2026.github.io/index.html",
+      "timezone": "AoE",
+      "date": "June 22-25, 2026",
+      "place": "New York, United States",
+      "timeline": [
+        {
+          "deadline": "2025-09-26 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Cycle 1 Submission deadline"
+        },
+        {
+          "deadline": "2026-01-23 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Cycle 2 Submission deadline"
+        }
+      ]
+    },
+    {
       "title": "ACSAC",
       "description": "Annual Computer Security Applications Conference",
       "sub": "SC",
@@ -7360,6 +11969,151 @@
           "deadline": "2026-05-26 23:59:59",
           "abstract_deadline": null,
           "comment": null
+        }
+      ]
+    },
+    {
+      "title": "AsiaCCS",
+      "description": "Asia Conference on Computer and Communications Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ccs",
+      "year": 2022,
+      "id": "asiaccs22",
+      "link": "https://asiaccs2022.conferenceservice.jp/",
+      "timezone": "AoE",
+      "date": "May 30-June 3, 2022",
+      "place": "Nagasaki, Japan",
+      "timeline": [
+        {
+          "deadline": "2021-07-30 23:59:59",
+          "abstract_deadline": null,
+          "comment": "1st round Deadline"
+        },
+        {
+          "deadline": "2021-11-19 23:59:59",
+          "abstract_deadline": null,
+          "comment": "2nd round Deadline"
+        }
+      ]
+    },
+    {
+      "title": "AsiaCCS",
+      "description": "Asia Conference on Computer and Communications Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ccs",
+      "year": 2024,
+      "id": "asiaccs24",
+      "link": "https://asiaccs2024.sutd.edu.sg/",
+      "timezone": "AoE",
+      "date": "July 1-5, 2024",
+      "place": "Singapore",
+      "timeline": [
+        {
+          "deadline": "2023-08-21 23:59:59",
+          "abstract_deadline": null,
+          "comment": "1st round Deadline"
+        },
+        {
+          "deadline": "2023-12-07 23:59:59",
+          "abstract_deadline": null,
+          "comment": "2nd round Deadline"
+        }
+      ]
+    },
+    {
+      "title": "AsiaCCS",
+      "description": "Asia Conference on Computer and Communications Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ccs",
+      "year": 2025,
+      "id": "asiaccs25",
+      "link": "https://asiaccs2025.hust.edu.vn/",
+      "timezone": "AoE",
+      "date": "August 25-29, 2025",
+      "place": "Hanoi, Vietnam",
+      "timeline": [
+        {
+          "deadline": "2024-09-20 23:59:59",
+          "abstract_deadline": null,
+          "comment": "1st round Deadline"
+        },
+        {
+          "deadline": "2025-01-20 23:59:59",
+          "abstract_deadline": null,
+          "comment": "2nd round Deadline"
+        }
+      ]
+    },
+    {
+      "title": "AsiaCCS",
+      "description": "Asia Conference on Computer and Communications Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ccs",
+      "year": 2026,
+      "id": "asiaccs26",
+      "link": "https://asiaccs2026.cse.iitkgp.ac.in/",
+      "timezone": "AoE",
+      "date": "June 1-5, 2026",
+      "place": "Bangalore, India",
+      "timeline": [
+        {
+          "deadline": "2025-08-25 23:59:59",
+          "abstract_deadline": null,
+          "comment": "1st round Deadline"
+        },
+        {
+          "deadline": "2025-12-12 23:59:59",
+          "abstract_deadline": null,
+          "comment": "2nd round Deadline"
+        }
+      ]
+    },
+    {
+      "title": "AsiaCCS",
+      "description": "Asia Conference on Computer and Communications Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ccs",
+      "year": 2027,
+      "id": "asiaccs27",
+      "link": "https://asiaccs2027.cityu.edu.mo/index.html",
+      "timezone": "AoE",
+      "date": "July 12-16, 2027",
+      "place": "Macau, China",
+      "timeline": [
+        {
+          "deadline": "2026-08-21 23:59:59",
+          "abstract_deadline": null,
+          "comment": "1st round Deadline"
+        },
+        {
+          "deadline": "2026-12-11 23:59:59",
+          "abstract_deadline": null,
+          "comment": "2nd round Deadline"
         }
       ]
     },
@@ -7682,6 +12436,225 @@
       ]
     },
     {
+      "title": "CHES",
+      "description": "International Conference on Cryptographic Hardware and Embedded Systems",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "ches",
+      "year": 2022,
+      "id": "ches22",
+      "link": "https://ches.iacr.org/2022/",
+      "timezone": "AoE",
+      "date": "September , 2022",
+      "place": "Beijing, China",
+      "timeline": [
+        {
+          "deadline": "2021-07-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2022/1"
+        },
+        {
+          "deadline": "2021-10-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2022/2"
+        },
+        {
+          "deadline": "2022-01-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2022/3"
+        },
+        {
+          "deadline": "2022-04-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2022/4"
+        }
+      ]
+    },
+    {
+      "title": "CHES",
+      "description": "International Conference on Cryptographic Hardware and Embedded Systems",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "ches",
+      "year": 2023,
+      "id": "ches23",
+      "link": "https://ches.iacr.org/2023/",
+      "timezone": "AoE",
+      "date": "September 10-14, 2023",
+      "place": "Prague, Czech Republic",
+      "timeline": [
+        {
+          "deadline": "2022-07-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2023/1"
+        },
+        {
+          "deadline": "2022-10-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2023/2"
+        },
+        {
+          "deadline": "2023-01-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2023/3"
+        },
+        {
+          "deadline": "2023-04-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2023/4"
+        }
+      ]
+    },
+    {
+      "title": "CHES",
+      "description": "International Conference on Cryptographic Hardware and Embedded Systems",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "ches",
+      "year": 2024,
+      "id": "ches24",
+      "link": "https://ches.iacr.org/2024/",
+      "timezone": "AoE",
+      "date": "September, 2024",
+      "place": "Halifax, Canada",
+      "timeline": [
+        {
+          "deadline": "2023-07-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2024/1"
+        },
+        {
+          "deadline": "2023-10-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2024/2"
+        },
+        {
+          "deadline": "2024-01-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2024/3"
+        },
+        {
+          "deadline": "2024-04-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2024/4"
+        }
+      ]
+    },
+    {
+      "title": "CHES",
+      "description": "International Conference on Cryptographic Hardware and Embedded Systems",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "ches",
+      "year": 2025,
+      "id": "ches25",
+      "link": "https://ches.iacr.org/2025/",
+      "timezone": "AoE",
+      "date": "September 14-18, 2025",
+      "place": "Kuala Lumpur, Malaysia",
+      "timeline": [
+        {
+          "deadline": "2024-07-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2025/1"
+        },
+        {
+          "deadline": "2024-10-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2025/2"
+        },
+        {
+          "deadline": "2025-01-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2025/3"
+        },
+        {
+          "deadline": "2025-04-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2025/4"
+        }
+      ]
+    },
+    {
+      "title": "CHES",
+      "description": "International Conference on Cryptographic Hardware and Embedded Systems",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "ches",
+      "year": 2026,
+      "id": "ches26",
+      "link": "https://ches.iacr.org/2026/",
+      "timezone": "AoE",
+      "date": "October 11-15, 2026",
+      "place": "Türkiye",
+      "timeline": [
+        {
+          "deadline": "2025-07-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2026/1"
+        },
+        {
+          "deadline": "2025-10-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2026/2"
+        },
+        {
+          "deadline": "2026-01-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2026/3"
+        },
+        {
+          "deadline": "2026-04-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2026/4"
+        }
+      ]
+    },
+    {
+      "title": "CODASPY",
+      "description": "ACM Conference on Data and Application Security and Privacy",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "codaspy",
+      "year": 2026,
+      "id": "codaspy2026",
+      "link": "https://www.codaspy.org/2026/",
+      "timezone": "AoE",
+      "date": "June 23-25, 2026",
+      "place": "Frankfurt am Main, Germany",
+      "timeline": [
+        {
+          "deadline": "2025-12-26 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
       "title": "CRYPTO",
       "description": "International Cryptology Conference",
       "sub": "SC",
@@ -7798,6 +12771,455 @@
           "deadline": "2026-02-12 23:59:59",
           "abstract_deadline": null,
           "comment": null
+        }
+      ]
+    },
+    {
+      "title": "CSFW",
+      "description": "IEEE Computer Security Foundations Symposium",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "csfw",
+      "year": 2022,
+      "id": "csfw22",
+      "link": "https://www.ieee-security.org/TC/CSF2022/",
+      "timezone": "UTC-12",
+      "date": "August, 2022",
+      "place": "Haifa, Israel",
+      "timeline": [
+        {
+          "deadline": "2021-05-14 23:59:59",
+          "abstract_deadline": null,
+          "comment": "spring"
+        },
+        {
+          "deadline": "2021-10-01 23:59:59",
+          "abstract_deadline": null,
+          "comment": "fall"
+        }
+      ]
+    },
+    {
+      "title": "CSFW",
+      "description": "IEEE Computer Security Foundations Symposium",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "csfw",
+      "year": 2023,
+      "id": "csfw23",
+      "link": "https://www.ieee-security.org/TC/CSF2023/",
+      "timezone": "UTC-12",
+      "date": "July, 2023",
+      "place": "Dubrovnik, Croatia",
+      "timeline": [
+        {
+          "deadline": "2022-05-13 23:59:59",
+          "abstract_deadline": null,
+          "comment": "spring"
+        },
+        {
+          "deadline": "2022-09-30 23:59:59",
+          "abstract_deadline": null,
+          "comment": "fall"
+        },
+        {
+          "deadline": "2023-02-03 23:59:59",
+          "abstract_deadline": null,
+          "comment": "winter"
+        }
+      ]
+    },
+    {
+      "title": "CSFW",
+      "description": "IEEE Computer Security Foundations Symposium",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "csfw",
+      "year": 2024,
+      "id": "csfw24",
+      "link": "https://www.ieee-security.org/TC/CSF2024/",
+      "timezone": "UTC-12",
+      "date": "July 8-12, 2024",
+      "place": "Enschede, The Netherlands",
+      "timeline": [
+        {
+          "deadline": "2023-05-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "spring"
+        },
+        {
+          "deadline": "2023-09-30 23:59:59",
+          "abstract_deadline": null,
+          "comment": "fall"
+        },
+        {
+          "deadline": "2024-02-03 23:59:59",
+          "abstract_deadline": null,
+          "comment": "winter"
+        }
+      ]
+    },
+    {
+      "title": "CSFW",
+      "description": "IEEE Computer Security Foundations Symposium",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "csfw",
+      "year": 2025,
+      "id": "csfw25",
+      "link": "https://csf2025.ieee-security.org/",
+      "timezone": "UTC-12",
+      "date": "June 16-20, 2025",
+      "place": "Santa Cruz, CA, USA",
+      "timeline": [
+        {
+          "deadline": "2024-05-28 23:59:59",
+          "abstract_deadline": null,
+          "comment": "spring"
+        },
+        {
+          "deadline": "2024-10-01 23:59:59",
+          "abstract_deadline": null,
+          "comment": "fall"
+        },
+        {
+          "deadline": "2025-02-04 23:59:59",
+          "abstract_deadline": null,
+          "comment": "winter"
+        }
+      ]
+    },
+    {
+      "title": "CSFW",
+      "description": "IEEE Computer Security Foundations Symposium",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "csfw",
+      "year": 2026,
+      "id": "csfw26",
+      "link": "https://csf2026.ieee-security.org/",
+      "timezone": "UTC-12",
+      "date": "July 26-29, 2026",
+      "place": "Lisbon, Portugal",
+      "timeline": [
+        {
+          "deadline": "2025-07-24 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Summer"
+        },
+        {
+          "deadline": "2025-10-09 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Fall"
+        },
+        {
+          "deadline": "2026-01-29 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Winter"
+        }
+      ]
+    },
+    {
+      "title": "CT-RSA",
+      "description": "Cryptographer's Track at RSA Conference",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "ctrsa",
+      "year": 2022,
+      "id": "ct-rsa22",
+      "link": "https://ct-rsa-2022.auckland.ac.nz/",
+      "timezone": "UTC-12",
+      "date": "February 07-10 , 2022",
+      "place": "San Francisco, CA, USA",
+      "timeline": [
+        {
+          "deadline": "2021-09-13 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Submission deadline"
+        }
+      ]
+    },
+    {
+      "title": "CT-RSA",
+      "description": "Cryptographer's Track at RSA Conference",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "ctrsa",
+      "year": 2024,
+      "id": "ct-rsa24",
+      "link": "https://ct-rsa-2024.aau.at/",
+      "timezone": "UTC-12",
+      "date": "May 06-09 , 2024",
+      "place": "San Francisco, CA, USA",
+      "timeline": [
+        {
+          "deadline": "2023-10-02 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Submission deadline"
+        }
+      ]
+    },
+    {
+      "title": "CT-RSA",
+      "description": "Cryptographer's Track at RSA Conference",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "ctrsa",
+      "year": 2025,
+      "id": "ct-rsa25",
+      "link": "https://ct-rsa-2025.csa.iisc.ac.in/",
+      "timezone": "UTC-12",
+      "date": "April 28-May 1, 2025",
+      "place": "San Francisco, California, USA",
+      "timeline": [
+        {
+          "deadline": "2024-10-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Paper submission deadline"
+        }
+      ]
+    },
+    {
+      "title": "CT-RSA",
+      "description": "Cryptographer's Track at RSA Conference",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "ctrsa",
+      "year": 2026,
+      "id": "ct-rsa26",
+      "link": "https://conference.wsu.edu/ct-rsa-2026/",
+      "timezone": "UTC-12",
+      "date": "March 23-26, 2026",
+      "place": "San Francisco, California, USA",
+      "timeline": [
+        {
+          "deadline": "2025-10-24 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Paper submission deadline"
+        }
+      ]
+    },
+    {
+      "title": "DFRWS",
+      "description": "Digital Forensic Research Workshop",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "dfrws",
+      "year": 2022,
+      "id": "dfrws22",
+      "link": "https://dfrws.org/conferences/dfrws-eu-2022/",
+      "timezone": "AoE",
+      "date": "March 28-31 , 2022",
+      "place": "Online and Physical (Location TBC)",
+      "timeline": [
+        {
+          "deadline": "2021-10-03 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Paper submission deadline"
+        }
+      ]
+    },
+    {
+      "title": "DFRWS",
+      "description": "Digital Forensic Research Workshop",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "dfrws",
+      "year": 2025,
+      "id": "dfrws25",
+      "link": "https://dfrws.org/conferences/dfrws-eu-2025/",
+      "timezone": "AoE",
+      "date": "April 1-4, 2025",
+      "place": "Brno, Czech Republic",
+      "timeline": [
+        {
+          "deadline": "2024-09-27 23:59:59",
+          "abstract_deadline": "2024-09-20 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "DFRWS",
+      "description": "Digital Forensic Research Workshop",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "dfrws",
+      "year": 2026,
+      "id": "dfrws26",
+      "link": "https://dfrws.org/conferences/dfrws-eu-2026/",
+      "timezone": "AoE",
+      "date": "March 24-27, 2026",
+      "place": "Linköping, Sweden",
+      "timeline": [
+        {
+          "deadline": "2025-09-26 23:59:59",
+          "abstract_deadline": "2025-09-19 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "DIMVA",
+      "description": "Detection of Intrusions and Malware & Vulnerability Assessment",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "dimva",
+      "year": 2021,
+      "id": "dimva21",
+      "link": "https://dimva2021.campus.ciencias.ulisboa.pt/",
+      "timezone": "AoE",
+      "date": "July 14-16 , 2022",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2021-03-01 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Paper submission deadline"
+        },
+        {
+          "deadline": "2021-05-14 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Final paper submission deadline"
+        }
+      ]
+    },
+    {
+      "title": "DIMVA",
+      "description": "Detection of Intrusions and Malware & Vulnerability Assessment",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "dimva",
+      "year": 2024,
+      "id": "dimva24",
+      "link": "https://dimva.org/dimva2024/",
+      "timezone": "AoE",
+      "date": "July 17-19, 2024",
+      "place": "Lausanne, Switzerland",
+      "timeline": [
+        {
+          "deadline": "2023-12-19 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Paper submission deadline"
+        },
+        {
+          "deadline": "2024-02-14 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Final paper submission deadline"
+        }
+      ]
+    },
+    {
+      "title": "DIMVA",
+      "description": "Detection of Intrusions and Malware & Vulnerability Assessment",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "dimva",
+      "year": 2025,
+      "id": "dimva25",
+      "link": "https://www.dimva.org/dimva2025/",
+      "timezone": "AoE",
+      "date": "July 9-11, 2025",
+      "place": "Graz University of Technology, Graz, Austria",
+      "timeline": [
+        {
+          "deadline": "2024-12-10 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Paper submission deadline"
+        },
+        {
+          "deadline": "2025-02-12 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Final paper submission deadline"
+        }
+      ]
+    },
+    {
+      "title": "DIMVA",
+      "description": "Detection of Intrusions and Malware & Vulnerability Assessment",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "dimva",
+      "year": 2026,
+      "id": "dimva26",
+      "link": "https://www.dimva.org/dimva2026/",
+      "timezone": "AoE",
+      "date": "July 1-3, 2026",
+      "place": "Chania, Greece",
+      "timeline": [
+        {
+          "deadline": "2025-12-10 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Cycle 1 submission deadline"
+        },
+        {
+          "deadline": "2026-02-18 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Cycle 2 submission deadline"
         }
       ]
     },
@@ -8459,6 +13881,165 @@
       ]
     },
     {
+      "title": "HotSec",
+      "description": "USENIX Workshop on Hot Topics in Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "events",
+      "year": 2021,
+      "id": "hotsec21",
+      "link": "https://www.usenix.org/conferences/byname/158",
+      "timezone": "AoE",
+      "date": "Extended",
+      "place": "Vancouver, British Columbia, Canada",
+      "timeline": [
+        {
+          "deadline": "2021-10-12 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Extended"
+        }
+      ]
+    },
+    {
+      "title": "ICICS",
+      "description": "International Conference on Information and Communications Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "C",
+      "thcpl": "N",
+      "dblp": "icics",
+      "year": 2021,
+      "id": "icics21",
+      "link": "https://icics.cn/",
+      "timezone": "AoE",
+      "date": "September 17-19, 2021",
+      "place": "Chongqing, China",
+      "timeline": [
+        {
+          "deadline": "2021-05-22 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Paper Submission deadline"
+        }
+      ]
+    },
+    {
+      "title": "ICICS",
+      "description": "International Conference on Information and Communications Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "C",
+      "thcpl": "N",
+      "dblp": "icics",
+      "year": 2023,
+      "id": "icics23",
+      "link": "https://icics23.nankai.edu.cn/",
+      "timezone": "AoE",
+      "date": "November 18-20, 2023",
+      "place": "Nankai University, Tianjin, China",
+      "timeline": [
+        {
+          "deadline": "2023-03-30 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICICS",
+      "description": "International Conference on Information and Communications Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "C",
+      "thcpl": "N",
+      "dblp": "icics",
+      "year": 2024,
+      "id": "icics24",
+      "link": "http://icics2024.aegean.gr/",
+      "timezone": "AoE",
+      "date": "August 26-28, 2024",
+      "place": "Mytilene, Greece",
+      "timeline": [
+        {
+          "deadline": "2024-02-16 23:59:59",
+          "abstract_deadline": null,
+          "comment": "First Cycle"
+        },
+        {
+          "deadline": "2024-04-19 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Second Cycle"
+        }
+      ]
+    },
+    {
+      "title": "ICICS",
+      "description": "International Conference on Information and Communications Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "C",
+      "thcpl": "N",
+      "dblp": "icics",
+      "year": 2025,
+      "id": "icics25",
+      "link": "https://www.icics2025.org/",
+      "timezone": "UTC+8",
+      "date": "October 29-31, 2025",
+      "place": "Nanjing, China",
+      "timeline": [
+        {
+          "deadline": "2025-02-28 23:59:59",
+          "abstract_deadline": null,
+          "comment": "First round"
+        },
+        {
+          "deadline": "2025-05-23 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Second round"
+        }
+      ]
+    },
+    {
+      "title": "ICICS",
+      "description": "International Conference on Information and Communications Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "C",
+      "thcpl": "N",
+      "dblp": "icics",
+      "year": 2026,
+      "id": "icics26",
+      "link": "https://sulab-sever.u-aizu.ac.jp/icics2026/cfp.html",
+      "timezone": "AoE",
+      "date": "October 27-30, 2026",
+      "place": "Fukui, Japan",
+      "timeline": [
+        {
+          "deadline": "2026-02-28 23:59:59",
+          "abstract_deadline": null,
+          "comment": "First round"
+        },
+        {
+          "deadline": "2026-05-23 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Second round"
+        }
+      ]
+    },
+    {
       "title": "NDSS",
       "description": "Network and Distributed System Security (NDSS) Symposium",
       "sub": "SC",
@@ -8629,6 +14210,107 @@
           "deadline": "2026-08-19 23:59:59",
           "abstract_deadline": null,
           "comment": "Fall"
+        }
+      ]
+    },
+    {
+      "title": "NSPW",
+      "description": "New Security Paradigms Workshop",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "C",
+      "thcpl": "N",
+      "dblp": "nspw",
+      "year": 2021,
+      "id": "nspw21",
+      "link": "https://www.nspw.org/2021",
+      "timezone": "UTC-11",
+      "date": "October 25-28, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2021-06-04 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Submission deadline"
+        },
+        {
+          "deadline": "2021-11-24 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Final version"
+        }
+      ]
+    },
+    {
+      "title": "NSPW",
+      "description": "New Security Paradigms Workshop",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "C",
+      "thcpl": "N",
+      "dblp": "nspw",
+      "year": 2024,
+      "id": "nspw24",
+      "link": "https://www.nspw.org/2024/cfp",
+      "timezone": "UTC-11",
+      "date": "September 16-18, 2024",
+      "place": "Bedford, PA USA",
+      "timeline": [
+        {
+          "deadline": "2024-04-12 23:59:00",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "NSPW",
+      "description": "New Security Paradigms Workshop",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "C",
+      "thcpl": "N",
+      "dblp": "nspw",
+      "year": 2025,
+      "id": "nspw25",
+      "link": "https://www.nspw.org/2025",
+      "timezone": "AoE",
+      "date": "August 24-27, 2025",
+      "place": "Aerzen, Germany",
+      "timeline": [
+        {
+          "deadline": "2025-04-11 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "NSPW",
+      "description": "New Security Paradigms Workshop",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "C",
+      "thcpl": "N",
+      "dblp": "nspw",
+      "year": 2026,
+      "id": "nspw26",
+      "link": "https://www.nspw.org/2026",
+      "timezone": "AoE",
+      "date": "September 27-30, 2026",
+      "place": "Victoria, BC, Canada",
+      "timeline": [
+        {
+          "deadline": "2026-04-30 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
         }
       ]
     },
@@ -8828,6 +14510,102 @@
       ]
     },
     {
+      "title": "PKC",
+      "description": "International Conference on Practice and Theory of Public-Key Cryptography",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "pkc",
+      "year": 2021,
+      "id": "pkc21",
+      "link": "https://pkc.iacr.org/2021/",
+      "timezone": "UTC-12",
+      "date": "May 10, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2020-11-13 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "PKC",
+      "description": "International Conference on Practice and Theory of Public-Key Cryptography",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "pkc",
+      "year": 2024,
+      "id": "pkc24",
+      "link": "https://pkc.iacr.org/2024/",
+      "timezone": "UTC-12",
+      "date": "April 15-17, 2024",
+      "place": "Sydney, Australia",
+      "timeline": [
+        {
+          "deadline": "2023-10-01 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "PKC",
+      "description": "International Conference on Practice and Theory of Public-Key Cryptography",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "pkc",
+      "year": 2025,
+      "id": "pkc25",
+      "link": "https://pkc.iacr.org/2025/",
+      "timezone": "UTC-12",
+      "date": "May 12-15, 2025",
+      "place": "Røros, Norway",
+      "timeline": [
+        {
+          "deadline": "2024-10-16 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "PKC",
+      "description": "International Conference on Practice and Theory of Public-Key Cryptography",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "pkc",
+      "year": 2026,
+      "id": "pkc26",
+      "link": "https://pkc.iacr.org/2026/",
+      "timezone": "UTC-12",
+      "date": "May 25-28, 2026",
+      "place": "West Palm Beach, USA",
+      "timeline": [
+        {
+          "deadline": "2025-10-24 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
       "title": "RAID",
       "description": "International Symposium on Recent Advances in Intrusion Detection",
       "sub": "SC",
@@ -8944,6 +14722,83 @@
           "deadline": "2026-04-16 23:59:59",
           "abstract_deadline": null,
           "comment": null
+        }
+      ]
+    },
+    {
+      "title": "SACMAT",
+      "description": "ACM Symposium on Access Control Models and Technologies",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "C",
+      "thcpl": "N",
+      "dblp": "sacmat",
+      "year": 2021,
+      "id": "sacmat21",
+      "link": "http://sacmat.dista.uninsubria.it/2021/",
+      "timezone": "AoE",
+      "date": "June 16-18, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2021-02-25 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Paper Submission Deadline"
+        }
+      ]
+    },
+    {
+      "title": "SACMAT",
+      "description": "ACM Symposium on Access Control Models and Technologies",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "C",
+      "thcpl": "N",
+      "dblp": "sacmat",
+      "year": 2025,
+      "id": "sacmat25",
+      "link": "https://www.sacmat.org/2025/index.php",
+      "timezone": "AoE",
+      "date": "July 8-10, 2025",
+      "place": "Stony Brook, NY, USA",
+      "timeline": [
+        {
+          "deadline": "2025-03-24 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Paper Submission Deadline"
+        }
+      ]
+    },
+    {
+      "title": "SACMAT",
+      "description": "ACM Symposium on Access Control Models and Technologies",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "C",
+      "thcpl": "N",
+      "dblp": "sacmat",
+      "year": 2026,
+      "id": "sacmat26",
+      "link": "https://www.sacmat.org/2026/index.php",
+      "timezone": "AoE",
+      "date": "July 8-10, 2026",
+      "place": "Waterloo, Canada",
+      "timeline": [
+        {
+          "deadline": "2025-10-27 23:59:59",
+          "abstract_deadline": null,
+          "comment": "First Cycle"
+        },
+        {
+          "deadline": "2026-03-02 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Second Cycle"
         }
       ]
     },
@@ -9683,6 +15538,112 @@
       ]
     },
     {
+      "title": "WiSec",
+      "description": "ACM Conference on Security and Privacy in Wireless and Mobile Networks",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "wisec",
+      "year": 2021,
+      "id": "wisec21",
+      "link": "https://sites.nyuad.nyu.edu/wisec21/",
+      "timezone": "AoE",
+      "date": "June 28 - July 2, 2021",
+      "place": "Abu Dhabi, UAE",
+      "timeline": [
+        {
+          "deadline": "2021-03-25 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Paper Submission Deadline"
+        }
+      ]
+    },
+    {
+      "title": "WiSec",
+      "description": "ACM Conference on Security and Privacy in Wireless and Mobile Networks",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "wisec",
+      "year": 2024,
+      "id": "wisec24",
+      "link": "https://wisec2024.kaist.ac.kr/",
+      "timezone": "AoE",
+      "date": "May 27 - 30, 2024",
+      "place": "Seoul, Korea",
+      "timeline": [
+        {
+          "deadline": "2024-02-08 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Paper Submission Deadline"
+        }
+      ]
+    },
+    {
+      "title": "WiSec",
+      "description": "ACM Conference on Security and Privacy in Wireless and Mobile Networks",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "wisec",
+      "year": 2025,
+      "id": "wisec25",
+      "link": "https://wisec2025.gmu.edu/",
+      "timezone": "AoE",
+      "date": "June 30 - July 3, 2025",
+      "place": "Arlington, Virginia, USA",
+      "timeline": [
+        {
+          "deadline": "2024-11-21 23:59:59",
+          "abstract_deadline": null,
+          "comment": "First Cycle deadline"
+        },
+        {
+          "deadline": "2025-03-12 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Second Cycle deadline"
+        }
+      ]
+    },
+    {
+      "title": "WiSec",
+      "description": "ACM Conference on Security and Privacy in Wireless and Mobile Networks",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "wisec",
+      "year": 2026,
+      "id": "wisec26",
+      "link": "https://wisec26.events.cispa.de/",
+      "timezone": "AoE",
+      "date": "June 30 - July 3, 2026",
+      "place": "Saarbrücken, Germany",
+      "timeline": [
+        {
+          "deadline": "2025-11-18 23:59:59",
+          "abstract_deadline": null,
+          "comment": "First Cycle deadline"
+        },
+        {
+          "deadline": "2026-03-03 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Second Cycle deadline"
+        }
+      ]
+    },
+    {
       "title": "ASE",
       "description": "International Conference on Automated Software Engineering",
       "sub": "SE",
@@ -9808,6 +15769,203 @@
       ]
     },
     {
+      "title": "CAiSE",
+      "description": "International Conference on Advanced Information Systems Engineering",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "caise",
+      "year": 2022,
+      "id": "caise22",
+      "link": "https://caise22.ugent.be/",
+      "timezone": "AoE",
+      "date": "June 06-10, 2022",
+      "place": "Leuven",
+      "timeline": [
+        {
+          "deadline": "2021-11-22 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Abstract Submission"
+        },
+        {
+          "deadline": "2021-11-29 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Paper Submission"
+        }
+      ]
+    },
+    {
+      "title": "CAiSE",
+      "description": "International Conference on Advanced Information Systems Engineering",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "caise",
+      "year": 2025,
+      "id": "caise25",
+      "link": "https://conferences.big.tuwien.ac.at/caise2025/",
+      "timezone": "AoE",
+      "date": "June 16-20, 2025",
+      "place": "Vienna, Austria",
+      "timeline": [
+        {
+          "deadline": "2024-12-01 23:59:59",
+          "abstract_deadline": "2024-11-22 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "CAiSE",
+      "description": "International Conference on Advanced Information Systems Engineering",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "caise",
+      "year": 2026,
+      "id": "caise26",
+      "link": "https://caise26.polimi.it/",
+      "timezone": "AoE",
+      "date": "June 8-12, 2026",
+      "place": "Verona, Italy",
+      "timeline": [
+        {
+          "deadline": "2025-11-28 23:59:59",
+          "abstract_deadline": "2025-11-14 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "CP",
+      "description": "International Conference on Principles and Practice of Constraint Programming",
+      "sub": "SE",
+      "area": "ai_ml",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "cp",
+      "year": 2022,
+      "id": "cp22",
+      "link": "https://cp2022.a4cp.org/",
+      "timezone": "AoE",
+      "date": "July 31-August 8, 2022",
+      "place": "HAIFA, ISRAEL",
+      "timeline": [
+        {
+          "deadline": "2022-02-25 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Full Paper Submission"
+        }
+      ]
+    },
+    {
+      "title": "CP",
+      "description": "International Conference on Principles and Practice of Constraint Programming",
+      "sub": "SE",
+      "area": "ai_ml",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "cp",
+      "year": 2025,
+      "id": "cp25",
+      "link": "https://cp2025.a4cp.org/",
+      "timezone": "AoE",
+      "date": "August 10-15, 2025",
+      "place": "Glasgow, Scotland",
+      "timeline": [
+        {
+          "deadline": "2025-03-27 22:59:59",
+          "abstract_deadline": "2025-03-20 22:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "CP",
+      "description": "International Conference on Principles and Practice of Constraint Programming",
+      "sub": "SE",
+      "area": "ai_ml",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "cp",
+      "year": 2026,
+      "id": "cp26",
+      "link": "https://cp2026.a4cp.org/",
+      "timezone": "AoE",
+      "date": "July 20-23, 2026",
+      "place": "Lisbon, Portugal",
+      "timeline": [
+        {
+          "deadline": "2026-03-14 23:59:59",
+          "abstract_deadline": "2026-03-02 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "EASE",
+      "description": "International Conference on Evaluation and Assessment in Software Engineering",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ease",
+      "year": 2025,
+      "id": "ease25",
+      "link": "https://conf.researchr.org/home/ease-2025",
+      "timezone": "AoE",
+      "date": "June 17 - 20, 2025",
+      "place": "Istanbul, Turkey",
+      "timeline": [
+        {
+          "deadline": "2025-01-31 23:59:59",
+          "abstract_deadline": "2025-01-24 23:59:59",
+          "comment": "Research Papers"
+        }
+      ]
+    },
+    {
+      "title": "EASE",
+      "description": "International Conference on Evaluation and Assessment in Software Engineering",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ease",
+      "year": 2026,
+      "id": "ease26",
+      "link": "https://conf.researchr.org/home/ease-2026",
+      "timezone": "AoE",
+      "date": "June 9 - 12, 2026",
+      "place": "Glasgow, United Kingdom",
+      "timeline": [
+        {
+          "deadline": "2026-01-23 23:59:59",
+          "abstract_deadline": "2026-01-16 23:59:59",
+          "comment": "Research Papers"
+        }
+      ]
+    },
+    {
       "title": "ECOOP",
       "description": "European Conference on Object-Oriented Programming",
       "sub": "SE",
@@ -9862,6 +16020,175 @@
           "deadline": "2025-03-05 23:59:59",
           "abstract_deadline": null,
           "comment": "Submission R2"
+        }
+      ]
+    },
+    {
+      "title": "ESEM",
+      "description": "International Symposium on Empirical Software Engineering and Measurement",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "esem",
+      "year": 2022,
+      "id": "esem22",
+      "link": "https://conf.researchr.org/home/esem-2022",
+      "timezone": "AoE",
+      "date": "September 19-23, 2022",
+      "place": "Helsinki, Finland",
+      "timeline": [
+        {
+          "deadline": "2022-04-25 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Abstract"
+        },
+        {
+          "deadline": "2022-05-02 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Submission"
+        }
+      ]
+    },
+    {
+      "title": "ESEM",
+      "description": "International Symposium on Empirical Software Engineering and Measurement",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "esem",
+      "year": 2025,
+      "id": "esem25",
+      "link": "https://conf.researchr.org/home/esem-2025",
+      "timezone": "AoE",
+      "date": "September 29 - October 3, 2025",
+      "place": "Honolulu, Hawai, USA",
+      "timeline": [
+        {
+          "deadline": "2025-04-25 23:59:59",
+          "abstract_deadline": "2025-04-18 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ESEM",
+      "description": "International Symposium on Empirical Software Engineering and Measurement",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "esem",
+      "year": 2026,
+      "id": "esem26",
+      "link": "https://conf.researchr.org/home/eseiw-2026",
+      "timezone": "AoE",
+      "date": "October 4 - 9, 2026",
+      "place": "München, Germany",
+      "timeline": [
+        {
+          "deadline": "2026-05-18 23:59:59",
+          "abstract_deadline": "2026-05-11 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "FM",
+      "description": "International Symposium on Formal Methods",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "fm",
+      "year": 2021,
+      "id": "fm21",
+      "link": "http://lcs.ios.ac.cn/fm2021/",
+      "timezone": "AoE",
+      "date": "November 20-26, 2021",
+      "place": "Beijng, China",
+      "timeline": [
+        {
+          "deadline": "2021-04-30 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Abstract submission"
+        },
+        {
+          "deadline": "2021-05-06 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Full paper submission"
+        }
+      ]
+    },
+    {
+      "title": "FM",
+      "description": "International Symposium on Formal Methods",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "fm",
+      "year": 2024,
+      "id": "fm24",
+      "link": "https://www.fm24.polimi.it/",
+      "timezone": "AoE",
+      "date": "September 09-13, 2024",
+      "place": "Milan, Italy",
+      "timeline": [
+        {
+          "deadline": "2024-04-15 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Abstract Submission"
+        },
+        {
+          "deadline": "2024-04-19 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Full Paper Submission"
+        },
+        {
+          "deadline": "2024-06-10 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Paper Notification"
+        },
+        {
+          "deadline": "2024-07-01 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Final Version"
+        }
+      ]
+    },
+    {
+      "title": "FM",
+      "description": "International Symposium on Formal Methods",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "fm",
+      "year": 2026,
+      "id": "fm26",
+      "link": "https://conf.researchr.org/home/fm-2026",
+      "timezone": "AoE",
+      "date": "May 18-22, 2026",
+      "place": "Tokyo, Japan",
+      "timeline": [
+        {
+          "deadline": "2025-12-02 23:59:00",
+          "abstract_deadline": "2025-11-25 23:59:00",
+          "comment": null
         }
       ]
     },
@@ -10150,6 +16477,102 @@
       ]
     },
     {
+      "title": "ICPC",
+      "description": "IEEE International Conference on Program Comprehension",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "icpc",
+      "year": 2022,
+      "id": "icpc22",
+      "link": "https://conf.researchr.org/home/icpc-2022",
+      "timezone": "AoE",
+      "date": "May 21-22, 2022",
+      "place": "Pittsburgh, Pennsylvania, United States",
+      "timeline": [
+        {
+          "deadline": "2022-01-18 23:59:59",
+          "abstract_deadline": "2022-01-13 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICPC",
+      "description": "IEEE International Conference on Program Comprehension",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "icpc",
+      "year": 2024,
+      "id": "icpc24",
+      "link": "https://conf.researchr.org/home/icpc-2024",
+      "timezone": "AoE",
+      "date": "April 14-20, 2024",
+      "place": "Lisbon, Portugal",
+      "timeline": [
+        {
+          "deadline": "2023-11-03 23:59:59",
+          "abstract_deadline": "2023-10-30 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICPC",
+      "description": "IEEE International Conference on Program Comprehension",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "icpc",
+      "year": 2025,
+      "id": "icpc25",
+      "link": "https://conf.researchr.org/home/icpc-2025",
+      "timezone": "AoE",
+      "date": "April 27-28, 2025",
+      "place": "Ottawa, Canada",
+      "timeline": [
+        {
+          "deadline": "2024-11-09 23:59:59",
+          "abstract_deadline": "2024-11-06 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICPC",
+      "description": "IEEE International Conference on Program Comprehension",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "icpc",
+      "year": 2026,
+      "id": "icpc26",
+      "link": "https://conf.researchr.org/home/icpc-2026",
+      "timezone": "AoE",
+      "date": "April 12-13, 2026",
+      "place": "Rio de Janeiro, Brazil",
+      "timeline": [
+        {
+          "deadline": "2025-10-23 23:59:59",
+          "abstract_deadline": "2025-10-19 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
       "title": "ICSE",
       "description": "International Conference on Software Engineering",
       "sub": "SE",
@@ -10305,6 +16728,150 @@
           "deadline": "2026-06-30 23:59:59",
           "abstract_deadline": "2026-06-23 23:59:59",
           "comment": "Single Submission Cycle Deadline"
+        }
+      ]
+    },
+    {
+      "title": "ICSME",
+      "description": "International Conference on Software Maintenance and Evolution",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "icsm",
+      "year": 2022,
+      "id": "icsme22",
+      "link": "https://cyprusconferences.org/icsme2022/",
+      "timezone": "AoE",
+      "date": "October 03-07, 2022",
+      "place": "Limassol, Cyprus",
+      "timeline": [
+        {
+          "deadline": "2022-04-01 23:59:59",
+          "abstract_deadline": "2022-03-25 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICSME",
+      "description": "International Conference on Software Maintenance and Evolution",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "icsm",
+      "year": 2023,
+      "id": "icsme23",
+      "link": "https://conf.researchr.org/home/icsme-2023",
+      "timezone": "AoE",
+      "date": "October 01-06, 2023",
+      "place": "Bogota, Colombia",
+      "timeline": [
+        {
+          "deadline": "2023-04-27 23:59:59",
+          "abstract_deadline": "2023-04-20 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICSME",
+      "description": "International Conference on Software Maintenance and Evolution",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "icsm",
+      "year": 2024,
+      "id": "icsme24",
+      "link": "https://conf.researchr.org/home/icsme-2024",
+      "timezone": "AoE",
+      "date": "October 06-11, 2024",
+      "place": "Flagstaff, Arizona, USA",
+      "timeline": [
+        {
+          "deadline": "2024-04-11 23:59:59",
+          "abstract_deadline": "2024-04-04 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICSME",
+      "description": "International Conference on Software Maintenance and Evolution",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "icsm",
+      "year": 2025,
+      "id": "icsme25",
+      "link": "https://conf.researchr.org/home/icsme-2025",
+      "timezone": "AoE",
+      "date": "September 07-12, 2025",
+      "place": "Auckland, New Zealand",
+      "timeline": [
+        {
+          "deadline": "2025-03-13 23:59:59",
+          "abstract_deadline": "2025-03-06 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "ICSME",
+      "description": "International Conference on Software Maintenance and Evolution",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "icsm",
+      "year": 2026,
+      "id": "icsme26",
+      "link": "https://conf.researchr.org/home/icsme-2026",
+      "timezone": "AoE",
+      "date": "September 14-18, 2026",
+      "place": "Benevento, Italy",
+      "timeline": [
+        {
+          "deadline": "2026-03-06 23:59:59",
+          "abstract_deadline": "2026-02-27 23:59:59",
+          "comment": "Research Papers Track"
+        }
+      ]
+    },
+    {
+      "title": "ICST",
+      "description": "IEEE International Conference on Software Testing, Verification and Validation",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "icst",
+      "year": 2026,
+      "id": "icst2026",
+      "link": "https://conf.researchr.org/home/icst-2026",
+      "timezone": "AoE",
+      "date": "May 18-22, 2026",
+      "place": "Daejeon, South Korea",
+      "timeline": [
+        {
+          "deadline": "2025-12-22 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
         }
       ]
     },
@@ -10469,6 +17036,102 @@
           "deadline": "2022-03-15 23:59:59",
           "abstract_deadline": null,
           "comment": "Submission R2"
+        }
+      ]
+    },
+    {
+      "title": "MoDELS",
+      "description": "International Conference on Model Driven Engineering Languages and Systems",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "models",
+      "year": 2022,
+      "id": "models22",
+      "link": "https://conf.researchr.org/home/models-2022",
+      "timezone": "AoE",
+      "date": "October 23-28, 2022",
+      "place": "Montréal, Canada",
+      "timeline": [
+        {
+          "deadline": "2022-05-18 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "MSR",
+      "description": "International Conference on Mining Software Repositories",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "msr",
+      "year": 2024,
+      "id": "msr24",
+      "link": "https://conf.researchr.org/home/msr-2024",
+      "timezone": "AoE",
+      "date": "April 15-16, 2024",
+      "place": "Lisbon, Portugal",
+      "timeline": [
+        {
+          "deadline": "2023-11-17 23:59:59",
+          "abstract_deadline": "2023-11-14 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "MSR",
+      "description": "International Conference on Mining Software Repositories",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "msr",
+      "year": 2025,
+      "id": "msr25",
+      "link": "https://2025.msrconf.org/",
+      "timezone": "AoE",
+      "date": "April 28-29, 2025",
+      "place": "Ottawa, Canada",
+      "timeline": [
+        {
+          "deadline": "2024-11-09 23:59:59",
+          "abstract_deadline": "2024-11-06 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "MSR",
+      "description": "International Conference on Mining Software Repositories",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "msr",
+      "year": 2026,
+      "id": "msr26",
+      "link": "https://2026.msrconf.org/",
+      "timezone": "AoE",
+      "date": "April 13-14, 2026",
+      "place": "Rio de Janeiro, Brazil",
+      "timeline": [
+        {
+          "deadline": "2025-10-23 23:59:59",
+          "abstract_deadline": "2025-10-20 23:59:59",
+          "comment": null
         }
       ]
     },
@@ -11052,6 +17715,266 @@
           "deadline": "2026-07-09 23:59:59",
           "abstract_deadline": null,
           "comment": "Submission Deadline"
+        }
+      ]
+    },
+    {
+      "title": "RE",
+      "description": "IEEE International Requirements Engineering Conference",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "re",
+      "year": 2022,
+      "id": "re22",
+      "link": "https://conf.researchr.org/home/RE-2022",
+      "timezone": "AoE",
+      "date": "August 15-19, 2022",
+      "place": "Melbourne, Australia",
+      "timeline": [
+        {
+          "deadline": "2022-02-17 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Abstract Submission Deadline"
+        },
+        {
+          "deadline": "2022-02-24 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Paper Submission Deadline"
+        }
+      ]
+    },
+    {
+      "title": "RE",
+      "description": "IEEE International Requirements Engineering Conference",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "re",
+      "year": 2023,
+      "id": "re23",
+      "link": "https://conf.researchr.org/dates/RE-2023",
+      "timezone": "AoE",
+      "date": "September 4-8, 2023",
+      "place": "Hannover, Germany",
+      "timeline": [
+        {
+          "deadline": "2023-03-17 23:59:59",
+          "abstract_deadline": "2023-03-10 23:59:59",
+          "comment": null
+        }
+      ]
+    },
+    {
+      "title": "RE",
+      "description": "IEEE International Requirements Engineering Conference",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "re",
+      "year": 2026,
+      "id": "re26",
+      "link": "https://conf.researchr.org/home/RE-2026",
+      "timezone": "AoE",
+      "date": "August 17-21, 2026",
+      "place": "Montreal, Canada",
+      "timeline": [
+        {
+          "deadline": "2026-02-23 23:59:59",
+          "abstract_deadline": "2026-02-16 23:59:59",
+          "comment": "Research Papers"
+        },
+        {
+          "deadline": "2026-04-13 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Journal Paper"
+        }
+      ]
+    },
+    {
+      "title": "SANER",
+      "description": "IEEE International Conference on Software Analysis, Evolution and Reengineering",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "wcre",
+      "year": 2022,
+      "id": "saner2022",
+      "link": "https://saner2022.uom.gr/",
+      "timezone": "AoE",
+      "date": "March 15-18, 2022",
+      "place": "University of Hawaii in Honolulu, Hawaii",
+      "timeline": [
+        {
+          "deadline": "2021-10-14 23:59:59",
+          "abstract_deadline": null,
+          "comment": "abstract submission deadline"
+        },
+        {
+          "deadline": "2021-10-21 23:59:59",
+          "abstract_deadline": null,
+          "comment": "full paper submission deadline"
+        }
+      ]
+    },
+    {
+      "title": "SANER",
+      "description": "IEEE International Conference on Software Analysis, Evolution and Reengineering",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "wcre",
+      "year": 2024,
+      "id": "saner2024",
+      "link": "https://conf.researchr.org/home/saner-2024",
+      "timezone": "AoE",
+      "date": "March 12-15, 2024",
+      "place": "Rovaniemi, Finland",
+      "timeline": [
+        {
+          "deadline": "2023-10-29 23:59:59",
+          "abstract_deadline": "2023-10-13 23:59:59",
+          "comment": "Research Papers Paper Submission"
+        }
+      ]
+    },
+    {
+      "title": "SANER",
+      "description": "IEEE International Conference on Software Analysis, Evolution and Reengineering",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "wcre",
+      "year": 2025,
+      "id": "saner2025",
+      "link": "https://conf.researchr.org/home/saner-2025",
+      "timezone": "AoE",
+      "date": "March 4-7, 2025",
+      "place": "Montréal, Québec, Canada",
+      "timeline": [
+        {
+          "deadline": "2024-10-11 23:59:59",
+          "abstract_deadline": "2024-10-04 23:59:59",
+          "comment": "Research Papers Paper Submission"
+        }
+      ]
+    },
+    {
+      "title": "SANER",
+      "description": "IEEE International Conference on Software Analysis, Evolution and Reengineering",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "wcre",
+      "year": 2026,
+      "id": "saner2026",
+      "link": "https://conf.researchr.org/home/saner-2026",
+      "timezone": "AoE",
+      "date": "March 17-20, 2026",
+      "place": "Limassol, Cyprus",
+      "timeline": [
+        {
+          "deadline": "2025-10-09 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Research Track Abstract submission (mandatory)"
+        },
+        {
+          "deadline": "2025-10-16 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Research Track Paper submission deadline"
+        }
+      ]
+    },
+    {
+      "title": "SANER",
+      "description": "IEEE International Conference on Software Analysis, Evolution and Reengineering",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "wcre",
+      "year": 2027,
+      "id": "saner2027",
+      "link": "https://conf.researchr.org/home/saner-2027",
+      "timezone": "AoE",
+      "date": "March 9-12, 2027",
+      "place": "Richmond, Virginia, United States",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": "Research Track Paper submission deadline"
+        }
+      ]
+    },
+    {
+      "title": "SCAM",
+      "description": "IEEE International Working Conference on Source Code Analysis and Manipulation",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "C",
+      "core": "C",
+      "thcpl": "N",
+      "dblp": "scam",
+      "year": 2025,
+      "id": "scam25",
+      "link": "https://conf.researchr.org/home/scam-2025",
+      "timezone": "AoE",
+      "date": "September 7-12, 2025",
+      "place": "Auckland, New Zealand",
+      "timeline": [
+        {
+          "deadline": "2025-06-09 23:59:59",
+          "abstract_deadline": "2025-06-05 23:59:59",
+          "comment": "co-located with ICSME 2025"
+        }
+      ]
+    },
+    {
+      "title": "SCAM",
+      "description": "IEEE International Working Conference on Source Code Analysis and Manipulation",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "C",
+      "core": "C",
+      "thcpl": "N",
+      "dblp": "scam",
+      "year": 2026,
+      "id": "scam26",
+      "link": "https://conf.researchr.org/home/scam-2026",
+      "timezone": "AoE",
+      "date": "September 14-15, 2026",
+      "place": "Benevento, Italy",
+      "timeline": [
+        {
+          "deadline": "2026-06-11 23:59:59",
+          "abstract_deadline": null,
+          "comment": "co-located with ICSME 2026"
         }
       ]
     },

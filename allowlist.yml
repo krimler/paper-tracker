@@ -3,6 +3,10 @@
 # matched case-insensitively by the fetcher).
 # Tiers reference CORE Portal rankings + community-respected "gem" venues.
 # Edit freely — the fetcher only includes matching conferences.
+#
+# NOTE: a venue can only be tracked if ccfddl/ccf-deadlines carries an entry
+# for it. Venues absent upstream (e.g. DISC, FAccT, ISMB, most AMIA/ISCB
+# bioinformatics venues) cannot be auto-fetched and are intentionally omitted.
 
 theory:
   # Algorithms & complexity — top-tier (CORE A*)
@@ -18,6 +22,7 @@ theory:
   - CAV          # Computer-Aided Verification
   - CONCUR       # Concurrency Theory
   - SAT          # Satisfiability Testing
+  - IJCAR        # International Joint Conference on Automated Reasoning
 
 security:
   # Top-tier (CORE A*)
@@ -37,6 +42,23 @@ security:
   - SOUPS        # Symposium on Usable Privacy and Security
   - FC           # Financial Cryptography and Data Security
   - TCC          # Theory of Cryptography Conference
+  # Crypto — strong / specialized
+  - CHES         # Cryptographic Hardware and Embedded Systems
+  - PKC          # Public-Key Cryptography
+  - CT-RSA       # RSA Conference cryptographers' track
+  - ACNS         # Applied Cryptography and Network Security
+  # Applied / systems security
+  - AsiaCCS      # ACM Asia Conference on Computer and Communications Security
+  - SACMAT       # Access Control Models and Technologies
+  - CODASPY      # Data and Application Security and Privacy
+  - DIMVA        # Detection of Intrusions and Malware
+  - WiSec        # Wireless and Mobile Network Security
+  - DFRWS        # Digital Forensics Research Workshop
+  - CSFW         # IEEE Computer Security Foundations Symposium (a.k.a. CSF)
+  - ICICS        # Information and Communications Security
+  # Workshop-tier but influential
+  - NSPW         # New Security Paradigms Workshop
+  - HotSec       # Hot Topics in Security
 
 distributed_systems:
   # Top-tier
@@ -49,6 +71,12 @@ distributed_systems:
   - Middleware
   - DSN          # Dependable Systems and Networks
   - HPDC         # High Performance Distributed Computing
+  - IPDPS        # Parallel and Distributed Processing Symposium
+  - ICPP         # International Conference on Parallel Processing
+  - CCGRID       # Cluster, Cloud and Grid Computing
+  - CLUSTER      # IEEE International Conference on Cluster Computing
+  # Workshop-tier but influential
+  - APSys        # SIGOPS Asia-Pacific Workshop on Systems
 
 networking:
   # Top-tier
@@ -63,6 +91,11 @@ networking:
   - SenSys
   - MobiSys
   - IPSN         # Information Processing in Sensor Networks
+  - PerCom       # Pervasive Computing and Communications
+  - SECON        # Sensor, Mesh and Ad Hoc Communications and Networks
+  - IWQoS        # International Workshop on Quality of Service
+  - WoWMoM       # Wireless, Mobile and Multimedia Networks
+  - LCN          # Local Computer Networks
   # Workshop-tier but highly influential
   - HotNets
 
@@ -78,8 +111,22 @@ systems:
   - SIGOPS ATC   # USENIX Annual Technical Conference
   - EuroSys
   - SC           # Supercomputing (HPC flagship)
+  - SoCC         # Symposium on Cloud Computing
+  # HPC / parallelism
+  - ICS          # International Conference on Supercomputing
+  - PPoPP        # Principles and Practice of Parallel Programming
+  # Performance / measurement
+  - SIGMETRICS   # Measurement and Modeling of Computer Systems
+  # Real-time / embedded / EDA
+  - RTSS         # Real-Time Systems Symposium
+  - RTAS         # Real-Time and Embedded Technology and Applications
+  - EMSOFT       # Embedded Software
+  - DAC          # Design Automation Conference
+  - ICCAD        # International Conference on Computer-Aided Design
+  - IEEE/ACM CGO # Code Generation and Optimization
   # Workshop-tier but highly influential
   - HotOS
+  - HotStorage   # Hot Topics in Storage and File Systems
 
 databases:
   # Top-tier (CORE A*)
@@ -98,7 +145,7 @@ databases:
 software_engineering:
   # Top-tier
   - ICSE
-  - FSE          # ESEC/FSE
+  - FSE          # ESEC/FSE — Foundations of Software Engineering
   - ASE
   - ISSTA
   # Programming languages — top-tier
@@ -108,6 +155,20 @@ software_engineering:
   # Strong (CORE A)
   - ICFP         # Functional Programming
   - ECOOP        # Object-Oriented Programming
+  # Maintenance / analysis / empirical
+  - ICSME        # Software Maintenance and Evolution
+  - SANER        # Software Analysis, Evolution and Reengineering
+  - MSR          # Mining Software Repositories
+  - ICPC         # Program Comprehension
+  - SCAM         # Source Code Analysis and Manipulation
+  - ICST         # Software Testing, Verification and Validation
+  - ESEM         # Empirical Software Engineering and Measurement
+  - EASE         # Evaluation and Assessment in Software Engineering
+  # Requirements / modeling / formal methods
+  - RE           # Requirements Engineering
+  - MoDELS       # Model Driven Engineering Languages and Systems
+  - CAiSE        # Advanced Information Systems Engineering
+  - FM           # Formal Methods
 
 ai_ml:
   # General ML — top-tier
@@ -117,22 +178,63 @@ ai_ml:
   # AI — top-tier
   - AAAI
   - IJCAI
-  # Data mining
+  # Data mining / web / IR / recommenders
   - SIGKDD       # ACM SIGKDD Conference on Knowledge Discovery & Data Mining
+  - WSDM         # Web Search and Data Mining
+  - RecSys       # Recommender Systems
+  - SDM          # SIAM Data Mining
+  - ECML-PKDD    # European ML and Principles/Practice of Knowledge Discovery
+  - ACML         # Asian Conference on Machine Learning
   # Vision
   - CVPR
   - ICCV
   - ECCV
+  - WACV         # Winter Conference on Applications of Computer Vision
+  - BMVC         # British Machine Vision Conference
   # NLP
   - ACL
   - EMNLP
   - NAACL
+  - EACL         # European ACL
+  - COLING       # Computational Linguistics
+  - CoNLL        # Computational Natural Language Learning
+  # Robotics
+  - ICRA         # Robotics and Automation
+  - IROS         # Intelligent Robots and Systems
+  - RSS          # Robotics: Science and Systems
+  - CoRL         # Conference on Robot Learning
+  # Agents / planning / reasoning
+  - AAMAS        # Autonomous Agents and Multiagent Systems
+  - ICAPS        # Automated Planning and Scheduling
+  - KR           # Knowledge Representation and Reasoning
+  - CP           # Principles and Practice of Constraint Programming
+  # Speech / signal
+  - ICASSP       # Acoustics, Speech and Signal Processing
+  - InterSpeech  # Speech and language processing
+  # HCI / graphics
+  - CHI          # Human Factors in Computing Systems
+  - CSCW         # Computer-Supported Cooperative Work
+  - IUI          # Intelligent User Interfaces
+  - UIST         # User Interface Software and Technology
+  - ACM SIGGRAPH
+  - ACM SIGGRAPH ASIA
+  # Evolutionary computation
+  - GECCO        # Genetic and Evolutionary Computation
+  - PPSN         # Parallel Problem Solving from Nature
   # Strong (CORE A) and recent gems
   - COLM         # Conference on Language Modeling (new 2024, fast-rising)
   - MLSys        # Machine Learning and Systems (ML + systems engineering)
-  - CoRL         # Conference on Robot Learning
   - UAI          # Uncertainty in AI
   - AISTATS      # AI and Statistics
   - COLT         # Learning Theory
-  - AAMAS        # Autonomous Agents and Multiagent Systems
   - WWW          # The Web Conference (cross-area: ML / DB / networking)
+
+biomedical:
+  # Computational biology / bioinformatics / medical imaging
+  # (only those carried by ccfddl; many clinical-informatics venues such as
+  #  ISMB, ECCB, PSB, AMIA, MIDL, IPMI, ISBI are not upstream and are omitted)
+  - MICCAI       # Medical Image Computing and Computer Assisted Intervention
+  - RECOMB       # Research in Computational Molecular Biology
+  - BIBM         # IEEE International Conference on Bioinformatics and Biomedicine
+  - APBC         # Asia-Pacific Bioinformatics Conference
+  - ISBRA        # Bioinformatics Research and Applications
