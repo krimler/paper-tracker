@@ -8,6 +8,7 @@ from urllib.parse import quote
 
 import pandas as pd
 import streamlit as st
+import streamlit.components.v1 as components
 
 DATA_PATH = Path(__file__).parent / "data" / "conferences.json"
 LOGO_PATH = Path(__file__).parent / "assets" / "logo.jpg"
@@ -104,6 +105,13 @@ section[data-testid="stSidebar"] > div {
 }
 .lucid-by a:hover { text-decoration: underline !important; }
 
+.social { display: flex; justify-content: flex-end; gap: 0.7rem; margin: 0 0 0.4rem; }
+.social a { line-height: 0; }
+.social img { display: block; opacity: 0.8; transition: opacity .12s ease, transform .12s ease; }
+.social a:hover img { opacity: 1; transform: translateY(-2px); }
+.social-copy { background: none; border: none; padding: 0; cursor: pointer; line-height: 0; }
+.social-copy:hover img { opacity: 1; transform: translateY(-2px); }
+
 .metric-card {
     border-radius: 16px; padding: 0.95rem 1.1rem; color: white;
     box-shadow: 0 8px 20px -10px rgba(0,0,0,0.18);
@@ -144,6 +152,7 @@ a.conf-link { text-decoration: none !important; color: inherit !important; displ
     background: #FAF5FF; border-radius: 8px; border-left: 3px solid #7C3AED;
 }
 .conf-days { color: #7C3AED; font-size: 0.82rem; font-weight: 600; margin-top: 0.2rem; }
+.countdown { font-variant-numeric: tabular-nums; }
 .conf-days.past { color: #9CA3AF; }
 .conf-days.soon { color: #EF4444; font-weight: 700; }
 .conf-place { color: #6B7280; font-size: 0.82rem; margin-top: 0.45rem; }
@@ -296,6 +305,68 @@ def render_metrics(df: pd.DataFrame):
     ]
     boxes = "".join(f'<div class="stat-box"><b>{v}</b><span>{lbl}</span></div>' for v, lbl in stats)
     st.markdown(f'<div class="stat-row">{boxes}</div>', unsafe_allow_html=True)
+
+
+LANDING_URL = "https://krimler.github.io/paper-tracker/"
+SHARE_TEXT = ("Every%20CS%20conference%20deadline%20in%20one%20place%20%E2%80%94%20"
+              "free%2C%20daily%2C%20across%209%20areas.")
+_ENC_URL = "https%3A%2F%2Fkrimler.github.io%2Fpaper-tracker%2F"
+
+_ICON_PATHS = {
+    "github": "M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.51 11.51 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .322.216.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12",
+    "x": "M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z",
+    "linkedin": "M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z",
+    "copy": "M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z",
+    "check": "M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z",
+}
+
+
+def _icon_uri(name: str, color: str) -> str:
+    svg = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" '
+           f'fill="#{color}"><path d="{_ICON_PATHS[name]}"/></svg>')
+    return "data:image/svg+xml," + quote(svg)
+
+
+def render_social():
+    gh = "https://github.com/krimler/paper-tracker"
+    x = f"https://twitter.com/intent/tweet?text={SHARE_TEXT}&url={_ENC_URL}"
+    li = f"https://www.linkedin.com/sharing/share-offsite/?url={_ENC_URL}"
+    st.markdown(
+        '<div class="social">'
+        f'<a href="{gh}" target="_blank" rel="noopener" title="GitHub repository">'
+        f'<img src="{_icon_uri("github", "24292F")}" width="22"></a>'
+        f'<a href="{x}" target="_blank" rel="noopener" title="Share on X">'
+        f'<img src="{_icon_uri("x", "000000")}" width="20"></a>'
+        f'<a href="{li}" target="_blank" rel="noopener" title="Share on LinkedIn">'
+        f'<img src="{_icon_uri("linkedin", "0A66C2")}" width="22"></a>'
+        f'<button id="lucid-copy" class="social-copy" title="Copy link">'
+        f'<img src="{_icon_uri("copy", "6B7280")}" width="20"></button>'
+        '</div>',
+        unsafe_allow_html=True,
+    )
+
+
+def render_social_js():
+    """Wire the copy-link button (in the parent doc) from a components iframe."""
+    components.html(
+        f"""<script>
+        (function () {{
+          var doc = window.parent.document;
+          var btn = doc.getElementById('lucid-copy');
+          if (!btn || btn.dataset.wired) return;
+          btn.dataset.wired = '1';
+          var orig = btn.innerHTML;
+          var check = '<img src="{_icon_uri('check', '16A34A')}" width="20">';
+          btn.addEventListener('click', function () {{
+            var cb = window.parent.navigator.clipboard || navigator.clipboard;
+            cb.writeText('{LANDING_URL}');
+            btn.innerHTML = check;
+            setTimeout(function () {{ btn.innerHTML = orig; }}, 1500);
+          }});
+        }})();
+        </script>""",
+        height=0,
+    )
 
 
 def render_about(total_confs: int):
@@ -492,6 +563,36 @@ def build_tooltip_html(row, link: str) -> str:
     return f'<div class="conf-tip">{"".join(pieces)}</div>'
 
 
+def render_countdown_js():
+    """Live-tick every .countdown element. Runs in a components iframe that reaches
+    into the parent Streamlit document (inline <script> in st.markdown won't run)."""
+    components.html(
+        """<script>
+        (function () {
+          function pad(n){ return n < 10 ? '0' + n : '' + n; }
+          function tick() {
+            var doc = window.parent.document;
+            var now = Date.now();
+            doc.querySelectorAll('.countdown').forEach(function (e) {
+              var dl = new Date(e.getAttribute('data-deadline')).getTime();
+              if (isNaN(dl)) return;
+              var diff = Math.floor((dl - now) / 1000);
+              if (diff <= 0) { e.textContent = 'deadline passed'; return; }
+              var d = Math.floor(diff / 86400); diff -= d * 86400;
+              var h = Math.floor(diff / 3600); diff -= h * 3600;
+              var m = Math.floor(diff / 60); var s = diff - m * 60;
+              e.textContent = d + 'd ' + pad(h) + 'h ' + pad(m) + 'm ' + pad(s) + 's';
+            });
+          }
+          tick();
+          if (window.__lucidTimer) clearInterval(window.__lucidTimer);
+          window.__lucidTimer = setInterval(tick, 1000);
+        })();
+        </script>""",
+        height=0,
+    )
+
+
 def render_cards(df: pd.DataFrame, per_page: int = 90):
     if len(df) > per_page:
         st.caption(f"Showing first {per_page} of {len(df)} — narrow filters to see the rest.")
@@ -514,6 +615,12 @@ def render_cards(df: pd.DataFrame, per_page: int = 90):
             title_short = f"{row.title} &lsquo;{str(row.year)[-2:]}"
             title_attr = html_escape(f"{row.description or row.title} — {link}")
 
+            if pd.notna(row.next_deadline) and not is_expired:
+                iso = row.next_deadline.strftime("%Y-%m-%dT%H:%M:%SZ")
+                days_html = f'<div class="conf-days countdown {d_class}" data-deadline="{iso}">{d_text}</div>'
+            else:
+                days_html = f'<div class="conf-days {d_class}">{d_text}</div>'
+
             inner = (
                 f'<div class="{card_cls}" style="border-left:5px solid {accent}">'
                 f'  <div class="conf-row">{area_pill(row.area)}'
@@ -521,7 +628,7 @@ def render_cards(df: pd.DataFrame, per_page: int = 90):
                 f'  </div>'
                 f'  <div class="conf-title">{title_short}</div>'
                 f'  <div class="conf-deadline">{deadline}</div>'
-                f'  <div class="conf-days {d_class}">{d_text}</div>'
+                f'  {days_html}'
                 + (f'  <div class="conf-place">{place}</div>' if place else "")
                 + f'</div>'
             )
@@ -630,7 +737,7 @@ def reset_filters():
 
 def main():
     st.set_page_config(
-        page_title="Lucid Panel — Conference Deadlines",
+        page_title="Lucid Panel",
         page_icon=str(LOGO_PATH) if LOGO_PATH.is_file() else None,
         layout="wide",
         initial_sidebar_state="collapsed",
@@ -649,6 +756,9 @@ def main():
         return
 
     areas = sorted(df["area"].dropna().unique())
+
+    # ---------- top-right social / share / copy ----------
+    render_social()
 
     # ---------- header band: title + About left, metrics + closing-soon right ----------
     hcol, mcol = st.columns([5, 7], vertical_alignment="center")
@@ -743,6 +853,10 @@ def main():
             render_table(past, "tbl_past")
         else:
             render_cards(past)
+
+    if view_mode == "Cards":
+        render_countdown_js()
+    render_social_js()
 
 
 if __name__ == "__main__":
