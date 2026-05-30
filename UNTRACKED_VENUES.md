@@ -1,107 +1,56 @@
 # Venue coverage & wishlist
 
-This tracker pulls deadlines from several sources, in order of trust. **Every
-source is CI-safe** — a `git clone` or a committed repo file, never a live web
-search — so the GitHub Action cannot be rate-limited or denied:
+Deadlines come from several sources, tried in order. Each is a `git clone` or a
+committed repo file — never a live web search — so the GitHub Action can't be
+rate-limited:
 
-1. **[ccfddl/ccf-deadlines](https://github.com/ccfddl/ccf-deadlines)** — primary,
-   matched by the `title` field in `allowlist.yml`.
-2. **[paperswithcode/ai-deadlines](https://github.com/paperswithcode/ai-deadlines)**
-   — AI/ML/CV/NLP wishlist venues. Tagged `source: aideadlines`.
-3. **[sec-deadlines](https://github.com/sec-deadlines/sec-deadlines.github.io)**
-   — Security & Privacy wishlist venues. Tagged `source: secdeadlines`.
-4. **[tcs-conf](https://github.com/tcs-conf/tcs-conf.github.io)** — Theory / TCS
-   wishlist venues (e.g. DISC). Deadlines live in a hand-curated HTML table, so
-   the adapter parses `index.html` and normalizes free-form dates. Tagged
-   `source: tcsconf`.
-5. **`manual.yml`** — hand-curated entries for venues no feed carries. Committed
-   to the repo, so it triggers no external call. Tagged `source: manual`. This
-   file *is* the record: an entry here is "found" and never re-searched.
+1. [ccfddl/ccf-deadlines](https://github.com/ccfddl/ccf-deadlines) — primary,
+   matched by `title` in `allowlist.yml`.
+2. [paperswithcode/ai-deadlines](https://github.com/paperswithcode/ai-deadlines)
+   — AI / ML wishlist venues (`source: aideadlines`).
+3. [sec-deadlines](https://github.com/sec-deadlines/sec-deadlines.github.io)
+   — Security & Privacy (`source: secdeadlines`).
+4. [tcs-conf](https://github.com/tcs-conf/tcs-conf.github.io) — Theory / TCS;
+   deadlines are an HTML table, parsed and date-normalized (`source: tcsconf`).
+5. `manual.yml` — hand-curated entries for venues no feed carries
+   (`source: manual`); this file is the record, so entries are never re-searched.
 
-The wishlist lives in **`untracked.yml`** (single source of truth). Each fetch,
-sources 2–4 run in order; a venue resolved by an earlier source is skipped by
-later ones (recorded once per run). `data/conferences.json` reports the live
-split in its `supplemented` (title → source) and `still_untracked` fields.
+The wishlist is `untracked.yml`. Sources 2–5 run in order; a venue resolved by an
+earlier source is skipped by later ones. `data/conferences.json` records the live
+split in `supplemented` (title → source) and `still_untracked`.
 
-**Auto-recovered so far (14):** FAccT, ISMIR, MIDL, CHIL (ai-deadlines);
-AISec, CCSW, CNS, NCA, SAC, SafeThings, SecDev, WOOT, WPES (sec-deadlines);
-DISC (tcs-conf).
+## Recovered from the wishlist (14)
 
-tcs-conf carries a large theory catalog beyond DISC — adding more theory venues
-to `untracked.yml` will auto-resolve any it lists.
+- ai-deadlines: FAccT, ISMIR, MIDL, CHIL
+- sec-deadlines: AISec, CCSW, CNS, NCA, SAC, SafeThings, SecDev, WOOT, WPES
+- tcs-conf: DISC
 
-The venues below are still unsourced — absent from every structured feed. Each
-is a candidate for a `manual.yml` entry, or for a new `fetch_rows()` source
-module if a structured feed for its field turns up.
+tcs-conf lists many more theory venues; adding them to `untracked.yml` will
+auto-resolve any it carries.
 
-## ✅ Tracked
+## Still unsourced (46)
 
-All venues listed in `allowlist.yml` (171 unique) are matched against ccfddl and
-fetched automatically. Run `python fetcher/fetch.py` to refresh; the run prints a
-`warn: ... unmatched` list for any allowlist title ccfddl didn't resolve.
+No structured feed carries these. Each is a candidate for a `manual.yml` entry,
+or for a new `fetch_rows()` source module if a feed for its field turns up.
 
-## ❌ Wanted but not in ccfddl (cannot auto-track yet)
+Distributed / networking: HotCloud, HotI, ANCS, IC2E, HiPC
 
-### Distributed systems / networking
-- **DISC** — Distributed Computing
-- **HotCloud** — Hot Topics in Cloud Computing
-- **HotI** — Hot Interconnects
-- **ANCS** — Architectures for Networking and Communications Systems
-- **IC2E** — Cloud Engineering
-- **HiPC** — High Performance Computing
-- **NCA** — Network Computing and Applications
+ML & AI: AIES
 
-### ML & AI
-- **FAccT** — Fairness, Accountability, and Transparency
-- **AIES** — AI, Ethics, and Society
-- **ISMIR** — Music Information Retrieval
+Security: Real World Crypto, NDSS BAR, HotPETs, ICISSP, ToSC
 
-### Security & privacy
-- **WPES** — Workshop on Privacy in the Electronic Society
-- **Real World Crypto**
-- **CNS** — IEEE Conference on Communications and Network Security
-- **CCSW** — Cloud Computing Security Workshop
-- **AISec** — AI and Security
-- **SafeThings** — Security for IoT / cyber-physical systems
-- **NDSS BAR** — Binary Analysis Research
-- **WOOT** — Offensive Technologies
-- **HotPETs** — Hot Topics in Privacy
-- **SecDev** — Secure Development
-- **ICISSP** — Information Systems Security and Privacy
-- **ToSC / FSE (crypto)** — Transactions on Symmetric Cryptology (note: ccfddl "FSE" is the SE conference, not Fast Software Encryption)
-- **SAC (crypto)** — Selected Areas in Cryptography (note: ccfddl "SAC" is the ACM Symposium on Applied Computing, a different venue)
+Software engineering: ICPE, FASE, TAP, FMICS, SEFM, ICWE, SPLC, ECSA, ICSA,
+VISSOFT, PROMISE, SSBSE. (ICSE sub-tracks like SEIP, NIER, SEAMS, MOBILESoft are
+co-located with ICSE; tracking ICSE covers their main deadlines.)
 
-### Software engineering
-- **ICPE** — Performance Engineering
-- **FASE** — Fundamental Approaches to Software Engineering
-- **TAP** — Tests and Proofs
-- **FMICS** — Formal Methods for Industrial Critical Systems
-- **SEFM** — Software Engineering and Formal Methods
-- **ICWE** — Web Engineering
-- **SPLC** — Software Product Line Conference
-- **ECSA** — European Conference on Software Architecture
-- **ICSA** — International Conference on Software Architecture
-- **VISSOFT** — Software Visualization
-- **PROMISE** — Predictive Models and Data Analytics in SE
-- **SSBSE** — Search-Based Software Engineering
-- _ICSE sub-tracks_ (SEIP, NIER, SEET, CHASE, SEIS, SEAMS, MOBILESoft, FormaliSE,
-  GREENS, TechDebt, BotSE, DeepTest, NL2SE, AIware, etc.) — these are tracks/
-  workshops co-located with ICSE; tracking **ICSE** covers their main deadlines.
+Biomedical: ISMB, ECCB, PSB, AMIA Annual Symposium, AMIA Informatics Summit,
+AMIA Clinical Informatics Conference, ACM BCB, ISBI, MLHC, IPMI, FIMH,
+SPIE Medical Imaging, ISMRM, SIIM, MedInfo, MIE, IEEE EMBC, CARS, InCoB, GIW,
+ISCB-Latin America, ISCB-Africa ASBCB, ABACBS
 
-### Biomedical / bioinformatics
-ccfddl only carries: MICCAI, RECOMB, BIBM, APBC, ISBRA (now tracked). The rest
-have no upstream data:
-- **ISMB**, **ECCB**, **PSB** — molecular biology / comp-bio flagships
-- **AMIA Annual Symposium**, **AMIA Informatics Summit**, **AMIA Clinical Informatics Conference** — medical informatics
-- **ACM BCB** — Bioinformatics, Computational Biology and Health Informatics
-- **ISBI**, **MIDL**, **IPMI**, **FIMH**, **SPIE Medical Imaging**, **ISMRM**, **SIIM** — medical imaging
-- **MLHC**, **CHIL** — ML for health
-- **MedInfo**, **MIE**, **IEEE EMBC**, **CARS** — biomedical / clinical engineering
-- **InCoB**, **GIW**, **GIW/ISCB-Asia**, **ISCB-Latin America**, **ISCB-Africa ASBCB**, **ABACBS** — regional ISCB bioinformatics venues
+## Two name collisions to watch
 
-## Next steps for untracked venues
-1. **Contribute upstream** — add the venue's YAML to ccfddl (preferred; benefits everyone).
-2. **Custom source** — extend `fetcher/fetch.py` to pull from a second data source
-   (e.g. each venue's CFP page) for venues ccfddl is unlikely to add.
-3. **Re-check periodically** — ccfddl grows; rerun the matcher to see if any of the
-   above have appeared. New matches just need their name added to `allowlist.yml`.
+- ccfddl `FSE` is Foundations of Software Engineering, **not** Fast Software
+  Encryption (the crypto venue we list as `ToSC`).
+- ccfddl `SAC` is the ACM Symposium on Applied Computing; the `SAC` we track is
+  Selected Areas in Cryptography, sourced from sec-deadlines.

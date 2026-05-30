@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
-"""Manual curated deadline source — for venues no structured feed carries.
-
-Reads manual.yml, which is committed to the repo. The GitHub Action makes NO
-external call for these entries, so it can never be rate-limited or denied.
-
-This file IS the record: once a venue's deadline is entered here it is "found"
-and nothing re-searches it. Update an entry once a year when the next CFP drops.
+"""Manual curated source — venues no feed carries. Reads the committed manual.yml,
+so it makes no external call. An entry here is the record and is never re-searched.
 """
 from __future__ import annotations
 
@@ -14,20 +9,16 @@ from pathlib import Path
 
 import yaml
 
+import sources
+
 MANUAL_PATH = Path(__file__).resolve().parent.parent / "manual.yml"
 
 
-def fetch_rows(
-    wishlist: dict[str, str],
-    already_tracked: set[str],
-    *,
-    min_year: int | None = None,
-) -> list[dict]:
+def fetch_rows(wishlist: dict[str, str], already_tracked: set[str]) -> list[dict]:
     """Return rows from manual.yml for venues not already sourced elsewhere."""
     if not MANUAL_PATH.is_file():
         return []
-    with open(MANUAL_PATH) as f:
-        data = yaml.safe_load(f) or []
+    data = yaml.safe_load(MANUAL_PATH.read_text()) or []
 
     rows: list[dict] = []
     for e in data:
@@ -37,41 +28,31 @@ def fetch_rows(
         if not title or title.lower() in already_tracked:
             continue
         deadline = e.get("deadline")
-        if not deadline:  # a deadline tracker entry must carry a deadline
+        if not deadline:
             print(f"warn: manual: '{title}' has no deadline, skipped", file=sys.stderr)
             continue
-        year = e.get("year")
-        if min_year and year and int(year) < min_year:
-            continue
-        area = e.get("area") or wishlist.get(title.lower(), "")
+        abstract = e.get("abstract_deadline")
         rows.append(
-            {
-                "title": title,
-                "description": e.get("description") or title,
-                "sub": "",
-                "area": area,
-                "ccfddl_category": None,
-                "ccf": e.get("ccf"),
-                "core": e.get("core"),
-                "thcpl": None,
-                "dblp": e.get("dblp", ""),
-                "year": year,
-                "id": None,
-                "link": e.get("link"),
-                "timezone": e.get("timezone"),
-                "date": e.get("date"),
-                "place": e.get("place"),
-                "timeline": [
+            sources.row(
+                title=title,
+                area=e.get("area") or wishlist.get(title.lower(), ""),
+                source="manual",
+                year=e.get("year"),
+                description=e.get("description"),
+                link=e.get("link"),
+                place=e.get("place"),
+                date=e.get("date"),
+                tz=e.get("timezone"),
+                dblp=e.get("dblp", ""),
+                core=e.get("core"),
+                ccf=e.get("ccf"),
+                timeline=[
                     {
                         "deadline": str(deadline),
-                        "abstract_deadline": str(e["abstract_deadline"])
-                        if e.get("abstract_deadline")
-                        else None,
+                        "abstract_deadline": str(abstract) if abstract else None,
                         "comment": e.get("comment"),
                     }
                 ],
-                "source": "manual",
-                "hindex": None,
-            }
+            )
         )
     return rows

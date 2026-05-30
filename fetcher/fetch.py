@@ -16,11 +16,9 @@ import manual
 import secdeadlines
 import tcsconf
 
-# Secondary sources tried after ccfddl, in order. Each is CI-safe (a git clone
-# or a committed repo file — never a web search) and exposes the same
-# fetch_rows(wishlist, already_tracked) interface. `manual` runs last so it only
-# fills venues no structured feed resolved. To add a source (e.g. WikiCFP),
-# write a module with that signature and list it here.
+# Secondary sources tried after ccfddl, in order. Each reads a git clone or a
+# committed file (no web search) and exposes fetch_rows(wishlist, already_tracked).
+# `manual` runs last, filling only what no structured feed resolved.
 SECONDARY_SOURCES = [
     ("aideadlines", aideadlines),
     ("secdeadlines", secdeadlines),

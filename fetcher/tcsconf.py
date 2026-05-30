@@ -1,23 +1,20 @@
 #!/usr/bin/env python3
-"""Secondary deadline source: tcs-conf.github.io (Theoretical Computer Science).
+"""Secondary source: tcs-conf.github.io (Theory / TCS), e.g. DISC.
 
-Covers theory/distributed venues the YAML feeds lack (notably DISC). Unlike the
-other sources its deadlines live in a hand-curated HTML table in index.html, not
-YAML, so this adapter parses that table and normalizes free-form dates like
-"27 May / 1 June 2026" (two rounds, shared month/year carried right-to-left).
-
-CI-safe: a plain `git clone`, stdlib-only parsing (no new dependency, no web
-search), so a GitHub Action cannot be rate-limited. All deadlines are 23:59 AoE
-(UTC-12) per the site's stated convention.
+Deadlines live in a hand-curated HTML table (index.html), not YAML, so this
+adapter parses the table and normalizes free-form dates like "27 May / 1 June
+2026" (multiple rounds, month/year carried right-to-left). All deadlines are
+23:59 AoE (UTC-12) per the site convention.
 """
 from __future__ import annotations
 
 import re
-import subprocess
 import sys
 import tempfile
 from datetime import datetime
 from pathlib import Path
+
+import sources
 
 REPO_URL = "https://github.com/tcs-conf/tcs-conf.github.io.git"
 
@@ -38,14 +35,6 @@ _TIP_RE = re.compile(r'class="tooltiptext">([^<]+)<')
 _DL_RE = re.compile(r'class="(?:now-)?deadline">([^<]*)<')
 _LOC_RE = re.compile(r'class="location">([^<]*)<')
 _DATE_RE = re.compile(r'class="date">([^<]*)<')
-
-
-def _clone(dest: Path) -> None:
-    subprocess.run(
-        ["git", "clone", "--depth", "1", REPO_URL, str(dest)],
-        check=True,
-        capture_output=True,
-    )
 
 
 def _month_num(tok: str) -> int | None:
@@ -98,16 +87,11 @@ def parse_deadline_cell(cell: str) -> list[str]:
     return out
 
 
-def fetch_rows(
-    wishlist: dict[str, str],
-    already_tracked: set[str],
-    *,
-    min_year: int | None = None,
-) -> list[dict]:
+def fetch_rows(wishlist: dict[str, str], already_tracked: set[str]) -> list[dict]:
     """Return rows for wishlist venues present in the tcs-conf deadline table."""
     with tempfile.TemporaryDirectory() as tmp:
         repo = Path(tmp) / "tcsconf"
-        _clone(repo)
+        sources.clone(REPO_URL, repo)
         index = repo / "index.html"
         if not index.is_file():
             print(f"warn: tcsconf: {index} missing", file=sys.stderr)
@@ -129,11 +113,9 @@ def fetch_rows(
         if not dlm:
             continue
         dls = parse_deadline_cell(dlm.group(1))
-        if not dls:  # verification gate: need at least one concrete deadline
+        if not dls:  # need at least one concrete deadline
             continue
         year = int(dls[0][:4])
-        if min_year and year < min_year:
-            continue
         if (key, year) in seen:
             continue
         seen.add((key, year))
@@ -141,28 +123,20 @@ def fetch_rows(
         loc = _LOC_RE.search(block)
         date = _DATE_RE.search(block)
         rows.append(
-            {
-                "title": name,
-                "description": (tip.group(1).strip() if tip else name),
-                "sub": "",
-                "area": wishlist[key],
-                "ccfddl_category": None,
-                "ccf": None,
-                "core": None,
-                "thcpl": None,
-                "dblp": "",
-                "year": year,
-                "id": None,
-                "link": link,
-                "timezone": "UTC-12",
-                "date": date.group(1).strip() if date else None,
-                "place": loc.group(1).strip() if loc else None,
-                "timeline": [
+            sources.row(
+                title=name,
+                area=wishlist[key],
+                source="tcsconf",
+                year=year,
+                description=tip.group(1).strip() if tip else None,
+                link=link,
+                place=loc.group(1).strip() if loc else None,
+                date=date.group(1).strip() if date else None,
+                tz="UTC-12",
+                timeline=[
                     {"deadline": d, "abstract_deadline": None, "comment": None}
                     for d in dls
                 ],
-                "source": "tcsconf",
-                "hindex": None,
-            }
+            )
         )
     return rows

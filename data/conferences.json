@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-30T05:36:52.300306+00:00",
+  "fetched_at": "2026-05-30T05:43:54.969059+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -18878,8 +18878,7 @@
           "comment": "Mandatory abstract deadline on April 5th, 2024. More info here."
         }
       ],
-      "source": "aideadlines",
-      "hindex": 43
+      "source": "aideadlines"
     },
     {
       "title": "CHIL",
@@ -18904,8 +18903,7 @@
           "comment": "Please check the website for the latest updates."
         }
       ],
-      "source": "aideadlines",
-      "hindex": null
+      "source": "aideadlines"
     },
     {
       "title": "ISMIR",
@@ -18930,8 +18928,7 @@
           "comment": "Mandatory abstract deadline on May 13, 2022. More info here."
         }
       ],
-      "source": "aideadlines",
-      "hindex": 32
+      "source": "aideadlines"
     },
     {
       "title": "ISMIR",
@@ -18956,8 +18953,7 @@
           "comment": "Mandatory abstract deadline on Apr 10, 2020. More info here."
         }
       ],
-      "source": "aideadlines",
-      "hindex": 32
+      "source": "aideadlines"
     },
     {
       "title": "MIDL",
@@ -18982,8 +18978,7 @@
           "comment": "Abstract deadline on Feb 10, 2021. More info here."
         }
       ],
-      "source": "aideadlines",
-      "hindex": -1
+      "source": "aideadlines"
     },
     {
       "title": "FAccT",
@@ -19008,8 +19003,7 @@
           "comment": "Mandatory abstract deadline on Dec 14, 2021. More info here."
         }
       ],
-      "source": "aideadlines",
-      "hindex": 44
+      "source": "aideadlines"
     },
     {
       "title": "CHIL",
@@ -19034,8 +19028,7 @@
           "comment": null
         }
       ],
-      "source": "aideadlines",
-      "hindex": -1
+      "source": "aideadlines"
     },
     {
       "title": "SAC",
@@ -19065,8 +19058,7 @@
           "comment": null
         }
       ],
-      "source": "secdeadlines",
-      "hindex": null
+      "source": "secdeadlines"
     },
     {
       "title": "NCA",
@@ -19091,8 +19083,7 @@
           "comment": null
         }
       ],
-      "source": "secdeadlines",
-      "hindex": null
+      "source": "secdeadlines"
     },
     {
       "title": "SecDev",
@@ -19117,8 +19108,7 @@
           "comment": null
         }
       ],
-      "source": "secdeadlines",
-      "hindex": null
+      "source": "secdeadlines"
     },
     {
       "title": "AISec",
@@ -19143,8 +19133,7 @@
           "comment": "Co-located with ACM CCS 2025"
         }
       ],
-      "source": "secdeadlines",
-      "hindex": null
+      "source": "secdeadlines"
     },
     {
       "title": "WPES",
@@ -19169,8 +19158,7 @@
           "comment": "In conjunction with ACM CCS"
         }
       ],
-      "source": "secdeadlines",
-      "hindex": null
+      "source": "secdeadlines"
     },
     {
       "title": "CNS",
@@ -19195,8 +19183,7 @@
           "comment": null
         }
       ],
-      "source": "secdeadlines",
-      "hindex": null
+      "source": "secdeadlines"
     },
     {
       "title": "WOOT",
@@ -19226,8 +19213,7 @@
           "comment": "Co-located with USENIX Security; up-and-coming track deadline is Mar 3 (cycle-2)"
         }
       ],
-      "source": "secdeadlines",
-      "hindex": null
+      "source": "secdeadlines"
     },
     {
       "title": "SafeThings",
@@ -19252,8 +19238,7 @@
           "comment": "Co-located with IEEE S&P 2025"
         }
       ],
-      "source": "secdeadlines",
-      "hindex": null
+      "source": "secdeadlines"
     },
     {
       "title": "CCSW",
@@ -19278,8 +19263,7 @@
           "comment": "Co-located with ACM CCS 2025"
         }
       ],
-      "source": "secdeadlines",
-      "hindex": null
+      "source": "secdeadlines"
     },
     {
       "title": "DISC",
@@ -19309,8 +19293,7 @@
           "comment": null
         }
       ],
-      "source": "tcsconf",
-      "hindex": null
+      "source": "tcsconf"
     }
   ]
 }
