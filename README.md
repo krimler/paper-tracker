@@ -20,10 +20,35 @@ By [Madhava Gaikwad](https://www.linkedin.com/in/alignops/).
 allowlist.yml              # curated conferences to track, grouped by area
 fetcher/fetch.py           # clones ccfddl, filters by allowlist, writes JSON
 data/conferences.json      # generated snapshot (committed daily)
+gen_feeds.py               # writes feed.xml + deadlines.ics from the snapshot
+feed.xml                   # RSS of upcoming deadlines (served by Pages)
+deadlines.ics              # iCal subscription of upcoming deadlines (served by Pages)
 app.py                     # Streamlit dashboard
 .github/workflows/fetch.yml  # daily GitHub Actions cron
 requirements.txt
 ```
+
+## Discoverability & client features
+
+- **RSS / iCal feeds.** `gen_feeds.py` runs after the daily fetch and writes
+  `feed.xml` and `deadlines.ics` to the repo root; GitHub Pages serves them at
+  `…/paper-tracker/feed.xml` and `…/paper-tracker/deadlines.ics`. The `.ics`
+  carries 7-day and 1-day `VALARM` reminders, so a Google/Apple Calendar
+  subscription notifies you automatically. Stdlib only — no extra CI deps.
+- **Shareable filtered views.** Filters sync to the URL via `st.query_params`,
+  e.g. `?area=security&rank=astar&sort=core&view=table&within=90`. Opening such
+  a link pre-applies the filters. `area` repeats for multi-select.
+- **Embed mode.** `?mode=embed&area=ai_ml&limit=5` renders a chrome-free card
+  list for an `<iframe>` (pair with Streamlit's native `&embed=true` to also drop
+  Streamlit's own toolbar/footer). Note: `embed` is a *reserved* Streamlit query
+  param, which is why the app uses `mode=embed`.
+- **Watchlist + reminders.** A per-card ★ saves venues to `localStorage`
+  (client-side, no backend). "★ My list" filters to starred venues; "🔔 Reminders"
+  asks for notification permission and fires browser notifications at 7d/1d/1h
+  before a starred deadline *while the tab is open* — the `.ics` feed covers
+  offline reminders.
+- **CSV export** of the current filter selection, and **abstract + full**
+  deadlines shown together on each card.
 
 ## Running locally
 

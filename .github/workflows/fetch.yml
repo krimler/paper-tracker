@@ -24,14 +24,17 @@ jobs:
       - name: Run fetcher
         run: python fetcher/fetch.py
 
+      - name: Generate RSS + iCal feeds
+        run: python gen_feeds.py
+
       - name: Commit refreshed data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/conferences.json
+          git add data/conferences.json feed.xml deadlines.ics
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "data: refresh conference deadlines"
+            git commit -m "data: refresh conference deadlines + feeds"
             git push
           fi

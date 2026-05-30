@@ -62,6 +62,18 @@
   .sbtn.li:hover { color: #0A66C2;  border-color: #0A66C2; }
   .sbtn.gh:hover { color: #181717;  border-color: #181717; }
   .sbtn.cp:hover { color: #6D28D9;  border-color: #DDD6FE; }
+  .subscribe { margin-top: 1.4rem; color: var(--muted); font-size: .9rem; }
+  .subscribe > a { color: #6D28D9; text-decoration: none; font-weight: 600; }
+  .subscribe > a:hover { text-decoration: underline; }
+  .embed { margin: .9rem auto 0; max-width: 52ch; text-align: left;
+    border: 1px solid var(--line); border-radius: 12px; padding: .4rem .9rem; background: #fff; }
+  .embed summary { cursor: pointer; font-weight: 600; color: #4B5563; }
+  .embed p { margin: .6rem 0 .3rem; color: #4B5563; font-size: .85rem; }
+  .embed code { display: block; white-space: pre-wrap; word-break: break-all;
+    background: #F8F5FF; border: 1px solid var(--line); border-radius: 8px;
+    padding: .6rem .7rem; font-size: .78rem; color: #374151; }
+  .embed .embed-note { font-size: .8rem; }
+  .embed .embed-note code { display: inline; padding: .05rem .3rem; }
   footer { margin-top: 2.4rem; color: var(--muted); font-size: .85rem; }
   footer a { color: #6D28D9; text-decoration: none; }
 </style>
@@ -95,6 +107,20 @@
       <a class="btn ghost" href="https://github.com/krimler/paper-tracker">View on GitHub</a>
     </div>
 
+    <div class="subscribe">
+      Subscribe:
+      <a href="deadlines.ics">📅 Calendar (iCal)</a> ·
+      <a href="feed.xml">📰 RSS</a> ·
+      <a href="https://raw.githubusercontent.com/krimler/paper-tracker/main/data/conferences.json">{ } JSON</a>
+      <details class="embed">
+        <summary>Embed on your site</summary>
+        <p>Paste this where you want a live mini-list of the next 5 AI/ML deadlines:</p>
+        <code>&lt;iframe src="https://paper-tracker-madhava.streamlit.app/?embed=true&amp;mode=embed&amp;area=ai_ml&amp;limit=5"
+  width="100%" height="520" style="border:0" loading="lazy"&gt;&lt;/iframe&gt;</code>
+        <p class="embed-note">Swap <b>area</b> (e.g. <code>security</code>, <code>theory</code>) and <b>limit</b> to taste.</p>
+      </details>
+    </div>
+
     <div class="areas">
       <span>Theory</span><span>Security</span><span>Distributed Systems</span><span>Networking</span>
       <span>Systems</span><span>Databases</span><span>SE / PL</span><span>AI / ML</span><span>Biomedical</span>
@@ -120,7 +146,7 @@
 
     <footer>
       Missing a venue, or want something added? Email
-      <b>yavanat&nbsp;[at]&nbsp;outlook&nbsp;[dot]&nbsp;com</b><br>
+      <b>yavan&nbsp;[at]&nbsp;outlook&nbsp;[dot]&nbsp;com</b><br>
       by <a href="https://www.linkedin.com/in/alignops/">Madhava Gaikwad</a>
     </footer>
   </div>

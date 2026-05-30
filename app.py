@@ -209,6 +209,40 @@ hr { border-color: #E5E7EB; }
 /* filter-bar label — matches the Streamlit widget label style (e.g. "Area") */
 .filter-cap { font-size: 0.875rem; font-weight: 600; color: #374151;
     margin: 0 0 0.25rem; }
+
+/* abstract / full split shown under the primary deadline on a card */
+.conf-abs { font-size: 0.78rem; color: #6B7280; margin-top: 0.25rem; }
+.conf-abs b { color: #374151; font-weight: 700; }
+
+/* per-card star (watchlist). Sibling of the <a>, so it never opens the CFP. */
+.star {
+    position: absolute; bottom: 10px; right: 12px; z-index: 6;
+    width: 30px; height: 30px; border-radius: 50%;
+    border: 1px solid #E5E7EB; background: #fff; color: #D1D5DB;
+    font-size: 1rem; line-height: 1; cursor: pointer; padding: 0;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 4px 10px -6px rgba(0,0,0,.25);
+    transition: color .12s ease, transform .12s ease, border-color .12s ease;
+}
+.star:hover { color: #F59E0B; transform: scale(1.12); }
+.star.on { color: #F59E0B; border-color: #FDE68A; background: #FFFBEB; }
+
+/* "My list" client-side filter: hide non-starred cards when active */
+[data-starred-only="1"] .conf-wrap:not(.is-starred) { display: none; }
+
+/* watchlist control bar (star count + reminders toggle) */
+.wl-bar { display: flex; gap: 0.5rem; justify-content: flex-end; margin: 0 0 0.4rem; }
+.wl-btn {
+    border: 1px solid #E5E7EB; background: #fff; border-radius: 10px;
+    padding: 0.3rem 0.7rem; font-size: 0.8rem; font-weight: 700;
+    color: #374151; cursor: pointer; transition: all .12s ease;
+}
+.wl-btn:hover { border-color: #DDD6FE; color: #7C3AED; }
+.wl-btn.active { background: #F5F3FF; border-color: #DDD6FE; color: #7C3AED; }
+
+/* embed mode: hide Streamlit footer + tighten padding */
+.embed-foot { text-align: center; font-size: 0.78rem; color: #9CA3AF; margin-top: 0.6rem; }
+.embed-foot a { color: #7C3AED; text-decoration: none; font-weight: 600; }
 </style>
 """
 
@@ -233,6 +267,19 @@ def soonest_deadline(timeline, now):
         return None
     upcoming = [p for p in parsed if p >= now]
     return min(upcoming) if upcoming else max(parsed)
+
+
+def nearest_round(timeline, next_deadline):
+    """Return the timeline round that owns `next_deadline` (the soonest date),
+    so a card can show that round's abstract + full deadlines together."""
+    if not timeline or pd.isna(next_deadline):
+        return None
+    for t in timeline:
+        for key in ("deadline", "abstract_deadline"):
+            ts = pd.to_datetime(t.get(key), utc=True, errors="coerce")
+            if ts is not pd.NaT and not pd.isna(ts) and ts == next_deadline:
+                return t
+    return timeline[0]
 
 
 def build_dataframe(data: dict) -> pd.DataFrame:
@@ -369,41 +416,205 @@ def render_social_js():
     )
 
 
+def render_watchlist_bar():
+    """Star count + 'My list' filter + reminders toggle. Plain DOM buttons wired
+    by render_watchlist_js — fully client-side, no Streamlit rerun."""
+    st.markdown(
+        '<div class="wl-bar">'
+        '<button id="wl-toggle" class="wl-btn" type="button" '
+        'title="Show only venues you starred">&#9733; My list (<span id="wl-count">0</span>)</button>'
+        '<button id="wl-notify" class="wl-btn" type="button" '
+        'title="Browser reminders at 7d / 1d / 1h before a starred deadline">&#128276; Reminders</button>'
+        '</div>',
+        unsafe_allow_html=True,
+    )
+
+
+def render_watchlist_js():
+    """Stars persisted in localStorage, a client-side 'starred only' filter, and
+    browser notifications for starred deadlines. Runs in a components iframe that
+    reaches into the parent Streamlit document (same trick as the countdown)."""
+    components.html(
+        """<script>
+        (function () {
+          var win = window.parent, doc = win.document;
+          var SKEY = 'lucid_stars', NKEY = 'lucid_notified';
+          var THRESH = [[168, '7 days'], [24, '1 day'], [1, '1 hour']];
+
+          function load(k) { try { return JSON.parse(win.localStorage.getItem(k)) || {}; } catch (e) { return {}; } }
+          function save(k, v) { win.localStorage.setItem(k, JSON.stringify(v)); }
+
+          var wl = {
+            stars: function () { return load(SKEY); },
+            count: function () { return Object.keys(this.stars()).length; },
+            refresh: function () {
+              var s = this.stars();
+              doc.querySelectorAll('.star').forEach(function (b) {
+                var on = !!s[b.getAttribute('data-vid')];
+                b.innerHTML = on ? '\\u2605' : '\\u2606';
+                b.classList.toggle('on', on);
+                var wrap = b.closest('.conf-wrap');
+                if (wrap) wrap.classList.toggle('is-starred', on);
+              });
+              var c = doc.getElementById('wl-count');
+              if (c) c.textContent = this.count();
+            },
+            toggle: function (b) {
+              var s = this.stars(), vid = b.getAttribute('data-vid');
+              if (s[vid]) {
+                delete s[vid];
+              } else {
+                var d = b.getAttribute('data-deadline');
+                s[vid] = { t: b.getAttribute('data-title'), d: d, l: b.getAttribute('data-link') };
+                // Suppress reminders for thresholds already passed when starring.
+                if (d) {
+                  var hrs = (new Date(d).getTime() - Date.now()) / 3600000;
+                  var fired = load(NKEY);
+                  THRESH.forEach(function (th) { if (hrs <= th[0]) fired[vid + '@' + th[0]] = 1; });
+                  save(NKEY, fired);
+                }
+              }
+              save(SKEY, s);
+              this.refresh();
+              this.check();
+            },
+            myList: function (btn) {
+              var root = doc.querySelector('[data-testid="stAppViewContainer"]');
+              if (!root) return;
+              var on = root.getAttribute('data-starred-only') === '1';
+              root.setAttribute('data-starred-only', on ? '0' : '1');
+              btn.classList.toggle('active', !on);
+            },
+            enable: function (btn) {
+              if (!('Notification' in win)) { win.alert('This browser does not support notifications.'); return; }
+              var self = this;
+              win.Notification.requestPermission().then(function (p) {
+                if (p === 'granted') { btn.classList.add('active'); self.check(); }
+              });
+            },
+            check: function () {
+              if (!('Notification' in win) || win.Notification.permission !== 'granted') return;
+              var s = this.stars(), fired = load(NKEY), now = Date.now();
+              Object.keys(s).forEach(function (vid) {
+                var d = s[vid].d; if (!d) return;
+                var hrs = (new Date(d).getTime() - now) / 3600000;
+                if (hrs <= 0) return;
+                THRESH.forEach(function (th) {
+                  var key = vid + '@' + th[0];
+                  if (hrs <= th[0] && !fired[key]) {
+                    fired[key] = 1;
+                    try { new win.Notification('Deadline in ' + th[1], { body: s[vid].t + '\\n' + d + ' UTC', tag: key }); } catch (e) {}
+                  }
+                });
+              });
+              save(NKEY, fired);
+            }
+          };
+          win.__wl = wl;
+
+          // One delegated handler on the parent document; survives reruns.
+          if (!win.__wlBound) {
+            win.__wlBound = true;
+            doc.addEventListener('click', function (e) {
+              var t = e.target.closest ? e.target : e.target.parentElement;
+              var star = t && t.closest('.star');
+              if (star) { e.preventDefault(); e.stopPropagation(); win.__wl.toggle(star); return; }
+              var mine = t && t.closest('#wl-toggle');
+              if (mine) { e.preventDefault(); win.__wl.myList(mine); return; }
+              var notify = t && t.closest('#wl-notify');
+              if (notify) { e.preventDefault(); win.__wl.enable(notify); return; }
+            }, true);
+          }
+          // Reflect notification state, mark stars, then poll for due reminders.
+          var nb = doc.getElementById('wl-notify');
+          if (nb && 'Notification' in win && win.Notification.permission === 'granted') nb.classList.add('active');
+          wl.refresh();
+          wl.check();
+          if (win.__wlTimer) clearInterval(win.__wlTimer);
+          win.__wlTimer = setInterval(function () { win.__wl.check(); }, 60000);
+        })();
+        </script>""",
+        height=0,
+    )
+
+
+def filtered_csv(df: pd.DataFrame) -> str:
+    cols = ["area", "title", "year", "core", "ccf", "next_deadline",
+            "days_left", "place", "link"]
+    out = df[cols].copy()
+    out["area"] = out["area"].map(lambda a: AREA_LABELS.get(a, a))
+    out["days_left"] = out["days_left"].round(0)
+    out = out.rename(columns={
+        "area": "Area", "title": "Venue", "year": "Year", "core": "CORE",
+        "ccf": "CCF", "next_deadline": "Deadline (UTC)", "days_left": "Days left",
+        "place": "Location", "link": "CFP",
+    })
+    return out.to_csv(index=False)
+
+
+def render_embed(df: pd.DataFrame):
+    """Minimal, chrome-free view for iframes: ?mode=embed&area=ai_ml&limit=5
+    (pair with Streamlit's native &embed=true to also drop Streamlit's own chrome)."""
+    st.markdown(
+        "<style>"
+        "[data-testid='stToolbar'],[data-testid='stStatusWidget'],"
+        "footer,#MainMenu{display:none!important;}"
+        ".block-container{padding-top:0.8rem!important;}"
+        ".star{display:none!important;}"  # watchlist JS isn't loaded in embed
+        "</style>",
+        unsafe_allow_html=True,
+    )
+    qp = st.query_params
+    sel_areas = qp.get_all("area")
+    try:
+        limit = max(1, min(30, int(qp.get("limit", 6))))
+    except (TypeError, ValueError):
+        limit = 6
+    f = df.copy()
+    if sel_areas:
+        f = f[f["area"].isin(sel_areas)]
+    f = f[f["days_left"] >= 0].sort_values("next_deadline", na_position="last").head(limit)
+    if f.empty:
+        st.info("No upcoming deadlines.")
+    else:
+        render_cards(f, per_page=limit)
+        render_countdown_js()
+    st.markdown(
+        '<div class="embed-foot">Powered by '
+        f'<a href="{LANDING_URL}" target="_blank" rel="noopener">Lucid Research</a></div>',
+        unsafe_allow_html=True,
+    )
+
+
 def render_about(total_confs: int):
     with st.expander("About this tracker"):
         st.markdown(
             f"""
-**Lucid Research** tracks submission deadlines for {total_confs}+ top computer
-science conferences across nine research areas, refreshed daily.
+Submission deadlines for {total_confs}+ top CS conferences, in nine areas,
+refreshed daily.
 
-Most CS work is published at conferences that open once a year, so a missed
-deadline can cost months. The per-field trackers we build on —
+CS conferences open once a year. A missed deadline costs months.
+
+Deadlines come from
 [ai-deadlines](https://github.com/paperswithcode/ai-deadlines),
 [sec-deadlines](https://sec-deadlines.github.io),
 [tcs-conf](https://tcs-conf.github.io), and
-[ccfddl](https://github.com/ccfddl/ccf-deadlines) — are each excellent but
-siloed by field. This pulls them into one curated, ranked, cross-area view,
-plus a hand-kept list for what they miss.
+[ccfddl](https://github.com/ccfddl/ccf-deadlines),
+with a hand-curated list for venues they miss.
 
-The data is open and downloadable as
+Download the data as
 [JSON](https://raw.githubusercontent.com/krimler/paper-tracker/main/data/conferences.json).
+Subscribe by
+[iCal](https://krimler.github.io/paper-tracker/deadlines.ics) or
+[RSS](https://krimler.github.io/paper-tracker/feed.xml).
 
-Missing a venue, or want something added? Email **yavanat [at] outlook [dot] com**.
+To add a venue, email **yavan [at] outlook [dot] com**.
 
 [Landing page](https://krimler.github.io/paper-tracker/)
 · [source](https://github.com/krimler/paper-tracker)
 · by [Madhava Gaikwad](https://www.linkedin.com/in/alignops/)
 """
         )
-        st.markdown(
-            "**Share** &nbsp;"
-            "[X](https://twitter.com/intent/tweet?text=Every%20CS%20conference%20"
-            "deadline%20in%20one%20place%20%E2%80%94%20free%2C%20daily%2C%20across"
-            "%209%20areas.&url=https%3A%2F%2Fkrimler.github.io%2Fpaper-tracker%2F)"
-            " · [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url="
-            "https%3A%2F%2Fkrimler.github.io%2Fpaper-tracker%2F) · or copy:"
-        )
-        st.code("https://krimler.github.io/paper-tracker/", language=None)
 
 
 def _ics_escape(s) -> str:
@@ -615,11 +826,29 @@ def render_cards(df: pd.DataFrame, per_page: int = 90):
             title_short = f"{row.title} &lsquo;{str(row.year)[-2:]}"
             title_attr = html_escape(f"{row.description or row.title} — {link}")
 
+            iso = ""
             if pd.notna(row.next_deadline) and not is_expired:
                 iso = row.next_deadline.strftime("%Y-%m-%dT%H:%M:%SZ")
                 days_html = f'<div class="conf-days countdown {d_class}" data-deadline="{iso}">{d_text}</div>'
             else:
                 days_html = f'<div class="conf-days {d_class}">{d_text}</div>'
+
+            # Abstract + full split for the relevant round (data already carries both).
+            abs_html = ""
+            rnd = nearest_round(row.timeline, row.next_deadline)
+            if rnd:
+                a = pd.to_datetime(rnd.get("abstract_deadline"), utc=True, errors="coerce")
+                s = pd.to_datetime(rnd.get("deadline"), utc=True, errors="coerce")
+                if pd.notna(a) and pd.notna(s) and a != s:
+                    abs_html = (f'<div class="conf-abs"><b>Abstract</b> {a:%b %d} '
+                                f'· <b>Full</b> {s:%b %d}</div>')
+
+            star_html = (
+                f'<button class="star" data-vid="{row.vid}" '
+                f'data-title="{html_escape(f"{row.title} {fmt_year(row.year)}")}" '
+                f'data-deadline="{iso}" data-link="{html_escape(link)}" '
+                f'title="Save to My list" aria-label="Save to My list">&#9734;</button>'
+            )
 
             inner = (
                 f'<div class="{card_cls}" style="border-left:5px solid {accent}">'
@@ -629,6 +858,7 @@ def render_cards(df: pd.DataFrame, per_page: int = 90):
                 f'  <div class="conf-title">{title_short}</div>'
                 f'  <div class="conf-deadline">{deadline}</div>'
                 f'  {days_html}'
+                f'  {abs_html}'
                 + (f'  <div class="conf-place">{place}</div>' if place else "")
                 + f'</div>'
             )
@@ -638,6 +868,7 @@ def render_cards(df: pd.DataFrame, per_page: int = 90):
                 f'  <a class="conf-link" href="{link}" target="_blank" rel="noopener" title="{title_attr}">'
                 f'    {inner}'
                 f'  </a>'
+                f'  {star_html}'
                 f'</div>'
             )
             st.markdown(html, unsafe_allow_html=True)
@@ -729,10 +960,65 @@ def sort_df(f: pd.DataFrame, sort_by: str, ascending: bool = True) -> pd.DataFra
     return f.sort_values("next_deadline", ascending=ascending, na_position="last")
 
 
+SORT_CODES = {"CORE rank": "core", "Alphabetical": "alpha"}
+SORT_FROM_CODE = {v: k for k, v in SORT_CODES.items()}
+HORIZON_FROM_DAYS = {str(v): k for k, v in HORIZON_DAYS.items()}
+
+
+def seed_state_from_url(areas, valid_years):
+    """On first load of a session, adopt filters from the URL so shared
+    ?area=…&rank=… links open pre-filtered. Subsequent reruns use widget state."""
+    if "_qp_init" in st.session_state:
+        return
+    st.session_state["_qp_init"] = True
+    qp = st.query_params
+
+    if "area" in qp:
+        st.session_state["area_pills"] = [a for a in qp.get_all("area") if a in areas]
+    else:
+        st.session_state["area_pills"] = ["ai_ml"] if "ai_ml" in areas else []
+
+    rank = qp.get("rank", "All")
+    st.session_state["rank_pills"] = rank if rank in RANK_LABELS else "All"
+    st.session_state["sort_pills"] = SORT_FROM_CODE.get(qp.get("sort"), "Deadline")
+    st.session_state["view_mode"] = "Table" if qp.get("view") == "table" else "Cards"
+    st.session_state["search"] = qp.get("q", "")
+    st.session_state["horizon"] = HORIZON_FROM_DAYS.get(qp.get("within"), "Any time")
+    yr = qp.get("year")
+    st.session_state["year_choice"] = int(yr) if yr and yr.isdigit() and int(yr) in valid_years else "All"
+
+
+def sync_url(area_choice, min_rank, sort_by, view_mode, search, horizon, year_choice):
+    """Reflect the current filters into the URL (omitting defaults for clean links)."""
+    desired = {}
+    if area_choice:
+        desired["area"] = list(area_choice)
+    if min_rank != "All":
+        desired["rank"] = min_rank
+    if sort_by in SORT_CODES:
+        desired["sort"] = SORT_CODES[sort_by]
+    if view_mode == "Table":
+        desired["view"] = "table"
+    if search:
+        desired["q"] = search
+    if horizon in HORIZON_DAYS:
+        desired["within"] = str(HORIZON_DAYS[horizon])
+    if year_choice != "All":
+        desired["year"] = str(year_choice)
+
+    current = {k: st.query_params.get_all(k) for k in st.query_params.keys()}
+    norm = {k: (v if isinstance(v, list) else [v]) for k, v in desired.items()}
+    if current != norm:
+        st.query_params.clear()
+        for k, v in desired.items():
+            st.query_params[k] = v
+
+
 def reset_filters():
     for k in ("area_pills", "rank_pills", "sort_pills", "horizon", "search",
-              "year_choice", "view_mode", "detail_vid", "tbl_up", "tbl_past"):
+              "year_choice", "view_mode", "detail_vid", "tbl_up", "tbl_past", "_qp_init"):
         st.session_state.pop(k, None)
+    st.query_params.clear()
 
 
 def main():
@@ -757,6 +1043,16 @@ def main():
 
     areas = sorted(df["area"].dropna().unique())
 
+    # ---------- embed mode (?mode=embed): stripped view for iframes ----------
+    # NB: `embed`/`embed_options` are reserved by Streamlit (native chrome hiding)
+    # and are filtered out of st.query_params, so we use our own `mode` param.
+    if st.query_params.get("mode") == "embed":
+        render_embed(df)
+        return
+
+    valid_years = {int(y) for y in df["year"].dropna().unique()}
+    seed_state_from_url(areas, valid_years)
+
     # ---------- top-right social / share / copy ----------
     render_social()
 
@@ -769,10 +1065,12 @@ def main():
         render_metrics(df)
         render_strip(df)
 
+    # ---------- watchlist controls (star count / My list / reminders) ----------
+    render_watchlist_bar()
+
     # ---------- area pills (full width) ----------
     area_choice = st.pills(
         "Area", options=areas, selection_mode="multi",
-        default=["ai_ml"] if "ai_ml" in areas else [],
         format_func=lambda a: AREA_LABELS.get(a, a), key="area_pills",
     ) or []
 
@@ -785,16 +1083,16 @@ def main():
     with c_rank:
         min_rank = st.pills(
             "Rank", options=list(RANK_LABELS), selection_mode="single",
-            default="All", format_func=lambda r: RANK_LABELS[r], key="rank_pills",
+            format_func=lambda r: RANK_LABELS[r], key="rank_pills",
         ) or "All"
     with c_sort:
         sort_by = st.pills(
             "Sort", options=["Deadline", "CORE rank", "Alphabetical"],
-            selection_mode="single", default="Deadline", key="sort_pills",
+            selection_mode="single", key="sort_pills",
         ) or "Deadline"
     with c_view:
         view_mode = st.segmented_control(
-            "View", options=["Cards", "Table"], default="Cards", key="view_mode",
+            "View", options=["Cards", "Table"], key="view_mode",
             format_func=lambda v: {"Cards": "▦ Cards", "Table": "≣ Table"}[v],
         ) or "Cards"
     with c_more:
@@ -831,8 +1129,21 @@ def main():
         within = HORIZON_DAYS[horizon]
         upcoming = upcoming[upcoming["days_left"].notna() & (upcoming["days_left"] <= within)]
 
+    # ---------- reflect filters into the URL for shareable links ----------
+    sync_url(area_choice, min_rank, sort_by, view_mode, search, horizon, year_choice)
+
     # ---------- detail panel (opened by clicking a card/row/chip) ----------
     render_detail(df)
+
+    # ---------- CSV export of the current filter selection ----------
+    _, csv_col = st.columns([6, 1])
+    with csv_col:
+        st.download_button(
+            "⬇ CSV", filtered_csv(f),
+            file_name="lucid_deadlines.csv", mime="text/csv",
+            use_container_width=True, help="Download the filtered venues as CSV",
+            disabled=f.empty,
+        )
 
     # ---------- output ----------
     tab_up, tab_past = st.tabs(
@@ -857,6 +1168,7 @@ def main():
     if view_mode == "Cards":
         render_countdown_js()
     render_social_js()
+    render_watchlist_js()
 
 
 if __name__ == "__main__":
