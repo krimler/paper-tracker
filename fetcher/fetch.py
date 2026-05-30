@@ -12,6 +12,19 @@ from pathlib import Path
 import yaml
 
 import aideadlines
+import manual
+import secdeadlines
+
+# Secondary sources tried after ccfddl, in order. Each is CI-safe (a git clone
+# or a committed repo file — never a web search) and exposes the same
+# fetch_rows(wishlist, already_tracked) interface. `manual` runs last so it only
+# fills venues no structured feed resolved. To add a source (e.g. WikiCFP),
+# write a module with that signature and list it here.
+SECONDARY_SOURCES = [
+    ("aideadlines", aideadlines),
+    ("secdeadlines", secdeadlines),
+    ("manual", manual),
+]
 
 REPO_URL = "https://github.com/ccfddl/ccf-deadlines.git"
 ROOT = Path(__file__).resolve().parent.parent
@@ -139,28 +152,37 @@ def main() -> int:
             print(f"  - {t}", file=sys.stderr)
 
     # Secondary sources: supplement wishlist venues ccfddl does not carry.
-    # Failures here must never sink the trusted primary result, so we guard them.
+    # A source failure must never sink the trusted primary result, so we guard
+    # each one. `resolved` grows as venues are found, so later sources skip what
+    # earlier ones already supplied (each venue is recorded once per run).
     wishlist = load_yaml_mapping(UNTRACKED_PATH)
-    supplemented: list[str] = []
+    resolved = {t.lower() for t in matched_titles}
+    supplemented: dict[str, str] = {}  # title -> source that resolved it
     if wishlist:
-        try:
-            extra = aideadlines.fetch_rows(wishlist, matched_titles)
+        for sname, mod in SECONDARY_SOURCES:
+            try:
+                extra = mod.fetch_rows(wishlist, resolved)
+            except Exception as e:  # network/parse failure — keep prior data
+                print(f"warn: {sname} source failed: {e}", file=sys.stderr)
+                continue
+            if not extra:
+                continue
             rows.extend(extra)
-            supplemented = sorted({r["title"] for r in extra})
-            print(
-                f"aideadlines: +{len(extra)} rows across "
-                f"{len(supplemented)} wishlist venues"
-            )
-        except Exception as e:  # network/parse failure — keep ccfddl data
-            print(f"warn: aideadlines source failed: {e}", file=sys.stderr)
+            found = sorted({r["title"] for r in extra})
+            for t in found:
+                supplemented.setdefault(t, sname)
+                resolved.add(t.lower())
+            print(f"{sname}: +{len(extra)} rows across {len(found)} wishlist venues")
 
-    still_untracked = sorted(set(wishlist) - {t.lower() for t in supplemented})
+    still_untracked = sorted(t for t in wishlist if t not in resolved)
 
     payload = {
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "sources": [
             "https://github.com/ccfddl/ccf-deadlines",
             "https://github.com/paperswithcode/ai-deadlines",
+            "https://github.com/sec-deadlines/sec-deadlines.github.io",
+            "manual.yml",
         ],
         "matched": len(matched_titles),
         "unmatched": unmatched,

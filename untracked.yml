@@ -36,7 +36,8 @@ security:
   - SecDev        # Secure Development
   - ICISSP        # Information Systems Security and Privacy
   - ToSC          # Transactions on Symmetric Cryptology (Fast Software Encryption)
-  - SAC-crypto    # Selected Areas in Cryptography (distinct from ccfddl's SAC)
+  - SAC           # Selected Areas in Cryptography (sec-deadlines' SAC; NB ccfddl's
+                  # SAC is a different venue — Applied Computing — and is not tracked)
 
 software_engineering:
   - ICPE          # Performance Engineering

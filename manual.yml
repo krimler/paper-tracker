@@ -1,0 +1,26 @@
+# Manually curated deadlines — for venues NO structured feed (ccfddl,
+# ai-deadlines, sec-deadlines) carries. Committed to the repo, so the fetcher
+# makes no external call for these and the GitHub Action can't be denied.
+#
+# Add an entry once you know the official CFP. This file is the record: an entry
+# here is "found" and is never re-searched. Update `year`/`deadline` annually.
+#
+# Required: title, area, year, deadline, link.  Optional: abstract_deadline,
+# place, date, timezone, description, comment, core, ccf.
+# Deadlines are ISO "YYYY-MM-DD HH:MM:SS"; timezone is informational (e.g. UTC-12).
+# DO NOT guess dates — only enter values from the official CFP page.
+#
+# Example (uncomment and edit with a real, verified deadline):
+#
+# - title: ISMB
+#   area: biomedical
+#   year: 2026
+#   deadline: "2026-01-15 23:59:59"
+#   abstract_deadline: "2026-01-08 23:59:59"
+#   link: https://www.iscb.org/ismb2026
+#   place: "TBA"
+#   date: "July 2026"
+#   description: Intelligent Systems for Molecular Biology
+#   comment: Proceedings track; verify on the official site.
+
+[]

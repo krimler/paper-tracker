@@ -1,23 +1,31 @@
 # Venue coverage & wishlist
 
-This tracker pulls deadlines from two sources, in order of trust:
+This tracker pulls deadlines from several sources, in order of trust. **Every
+source is CI-safe** — a `git clone` or a committed repo file, never a live web
+search — so the GitHub Action cannot be rate-limited or denied:
 
 1. **[ccfddl/ccf-deadlines](https://github.com/ccfddl/ccf-deadlines)** — primary,
    matched by the `title` field in `allowlist.yml`.
 2. **[paperswithcode/ai-deadlines](https://github.com/paperswithcode/ai-deadlines)**
-   — secondary, used only for wishlist venues (`untracked.yml`) that ccfddl
-   lacks. Merged rows are tagged `source: aideadlines` in `data/conferences.json`.
+   — AI/ML/CV/NLP wishlist venues. Tagged `source: aideadlines`.
+3. **[sec-deadlines](https://github.com/sec-deadlines/sec-deadlines.github.io)**
+   — Security & Privacy wishlist venues. Tagged `source: secdeadlines`.
+4. **`manual.yml`** — hand-curated entries for venues no feed carries. Committed
+   to the repo, so it triggers no external call. Tagged `source: manual`. This
+   file *is* the record: an entry here is "found" and never re-searched.
 
-The wishlist lives in **`untracked.yml`** (the single source of truth). On each
-fetch, any wishlist title a secondary source resolves is auto-added; the rest
-stay listed below as a TODO. `data/conferences.json` records the live split in
-its `supplemented` and `still_untracked` fields.
+The wishlist lives in **`untracked.yml`** (single source of truth). Each fetch,
+sources 2–4 run in order; a venue resolved by an earlier source is skipped by
+later ones (recorded once per run). `data/conferences.json` reports the live
+split in its `supplemented` (title → source) and `still_untracked` fields.
 
-**Recovered via ai-deadlines so far:** FAccT, ISMIR, MIDL, CHIL.
+**Auto-recovered so far (13):** FAccT, ISMIR, MIDL, CHIL (ai-deadlines);
+AISec, CCSW, CNS, NCA, SAC, SafeThings, SecDev, WOOT, WPES (sec-deadlines).
 
-The venues below are still unsourced — they have no entry in either source and
-need a future WikiCFP scraper (slots into `fetcher/` alongside `aideadlines.py`,
-same `fetch_rows()` signature) or an upstream ccfddl PR.
+The venues below are still unsourced — absent from every structured feed. Each
+is a candidate for a `manual.yml` entry, or for a new `fetch_rows()` source
+module if a structured feed for its field turns up. (Note: `tcs-conf.github.io`
+was evaluated and rejected — it's a name catalog with no deadlines.)
 
 ## ✅ Tracked
 
