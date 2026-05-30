@@ -4,6 +4,7 @@ from __future__ import annotations
 import base64
 import json
 from pathlib import Path
+from urllib.parse import quote
 
 import pandas as pd
 import streamlit as st
@@ -63,13 +64,24 @@ CORE_ORDER = {"A*": 0, "A": 1, "B": 2, "C": 3, "N": 4}
 
 CUSTOM_CSS = """
 <style>
+/* hide Streamlit's top toolbar/decoration so the header isn't cropped under it */
+header[data-testid="stHeader"] { display: none; }
+[data-testid="stDecoration"] { display: none; }
+
 [data-testid="stAppViewContainer"] {
     background: linear-gradient(180deg, #FAF5FF 0%, #FFFFFF 40%);
 }
 section[data-testid="stSidebar"] > div {
     background: linear-gradient(180deg, #F5F3FF, #FFFFFF);
 }
-.block-container { padding-top: 2rem; }
+.block-container { padding-top: 2.2rem; padding-bottom: 1rem; max-width: 100% !important; }
+
+/* compact inline metrics next to the header */
+.stat-row { display:flex; gap:0.5rem; justify-content:flex-end; flex-wrap:wrap; align-items:center; height:100%; }
+.stat-box { text-align:center; padding:0.35rem 0.8rem; border-radius:12px;
+    background:#F5F3FF; border:1px solid #EDE9FE; }
+.stat-box b { display:block; font-size:1.35rem; font-weight:800; color:#7C3AED; line-height:1; }
+.stat-box span { font-size:0.62rem; color:#6B7280; text-transform:uppercase; letter-spacing:0.05em; font-weight:700; }
 
 .lucid-header { display: flex; align-items: center; gap: 1rem; }
 .lucid-logo {
@@ -78,7 +90,7 @@ section[data-testid="stSidebar"] > div {
     object-fit: cover; flex-shrink: 0;
 }
 .lucid-title {
-    font-size: 3rem; font-weight: 900; letter-spacing: -0.04em;
+    font-size: 2.1rem; font-weight: 900; letter-spacing: -0.04em;
     background: linear-gradient(120deg, #7C3AED 0%, #EC4899 50%, #F59E0B 100%);
     -webkit-background-clip: text; -webkit-text-fill-color: transparent;
     line-height: 1; margin: 0;
@@ -170,6 +182,24 @@ div[data-testid="column"] { overflow: visible !important; }
 div[data-testid="stHorizontalBlock"] { overflow: visible !important; }
 
 hr { border-color: #E5E7EB; }
+
+/* next-deadlines strip */
+.strip-cap { text-align: right; font-size: 0.875rem; font-weight: 600; color: #374151; margin: 0 0 0.3rem; }
+.strip { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0; justify-content: flex-end; }
+.strip-chip {
+    display: inline-flex; align-items: baseline; gap: 0.4rem;
+    border: 1px solid #E5E7EB; border-left-width: 4px; border-radius: 10px;
+    padding: 0.3rem 0.7rem; background: #fff; text-decoration: none !important;
+    box-shadow: 0 4px 12px -10px rgba(0,0,0,0.3); transition: transform .12s ease, box-shadow .12s ease;
+}
+.strip-chip:hover { transform: translateY(-1px); box-shadow: 0 10px 20px -12px rgba(124,58,237,0.4); }
+.strip-chip b { color: #111827; font-size: 0.9rem; }
+.strip-chip span { color: #7C3AED; font-size: 0.78rem; font-weight: 700; }
+.strip-chip .ago { color: #9CA3AF; }
+
+/* filter-bar label — matches the Streamlit widget label style (e.g. "Area") */
+.filter-cap { font-size: 0.875rem; font-weight: 600; color: #374151;
+    margin: 0 0 0.25rem; }
 </style>
 """
 
@@ -203,7 +233,12 @@ def build_dataframe(data: dict) -> pd.DataFrame:
     now = pd.Timestamp.now(tz="UTC")
     df["next_deadline"] = df["timeline"].apply(lambda tl: soonest_deadline(tl, now))
     df["days_left"] = (df["next_deadline"] - now).dt.total_seconds() / 86400
+    df["vid"] = df.index.astype(str)  # stable per-row id for detail links
     return df
+
+
+def fmt_year(year) -> str:
+    return str(int(year)) if pd.notna(year) else ""
 
 
 def area_pill(area: str) -> str:
@@ -253,15 +288,159 @@ def render_header(data: dict, total_confs: int):
 
 def render_metrics(df: pd.DataFrame):
     upcoming = df[df["days_left"] >= 0]
-    next30 = len(upcoming[upcoming["days_left"] <= 30])
-    next90 = len(upcoming[upcoming["days_left"] <= 90])
-    a_star = df[df["core"] == "A*"]["title"].nunique()
-    total = df["title"].nunique()
-    c1, c2, c3, c4 = st.columns(4)
-    c1.markdown(metric_card("Venues tracked", total, "#7C3AED", "#A855F7"), unsafe_allow_html=True)
-    c2.markdown(metric_card("CORE A* venues", a_star, "#F59E0B", "#FBBF24"), unsafe_allow_html=True)
-    c3.markdown(metric_card("Deadlines · next 30d", next30, "#EC4899", "#F472B6"), unsafe_allow_html=True)
-    c4.markdown(metric_card("Deadlines · next 90d", next90, "#06B6D4", "#22D3EE"), unsafe_allow_html=True)
+    stats = [
+        (df["title"].nunique(), "venues"),
+        (df[df["core"] == "A*"]["title"].nunique(), "CORE A*"),
+        (len(upcoming[upcoming["days_left"] <= 30]), "next 30d"),
+        (len(upcoming[upcoming["days_left"] <= 90]), "next 90d"),
+    ]
+    boxes = "".join(f'<div class="stat-box"><b>{v}</b><span>{lbl}</span></div>' for v, lbl in stats)
+    st.markdown(f'<div class="stat-row">{boxes}</div>', unsafe_allow_html=True)
+
+
+def render_about(total_confs: int):
+    with st.expander("About this tracker"):
+        st.markdown(
+            f"""
+**Lucid Research** tracks submission deadlines for {total_confs}+ top computer
+science conferences across nine research areas, refreshed daily.
+
+Most CS work is published at conferences that open once a year, so a missed
+deadline can cost months. The per-field trackers we build on —
+[ai-deadlines](https://github.com/paperswithcode/ai-deadlines),
+[sec-deadlines](https://sec-deadlines.github.io),
+[tcs-conf](https://tcs-conf.github.io), and
+[ccfddl](https://github.com/ccfddl/ccf-deadlines) — are each excellent but
+siloed by field. This pulls them into one curated, ranked, cross-area view,
+plus a hand-kept list for what they miss.
+
+The data is open and downloadable as
+[JSON](https://raw.githubusercontent.com/krimler/paper-tracker/main/data/conferences.json).
+
+Missing a venue, or want something added? Email **yavanat [at] outlook [dot] com**.
+
+[Landing page](https://krimler.github.io/paper-tracker/)
+· [source](https://github.com/krimler/paper-tracker)
+· by [Madhava Gaikwad](https://www.linkedin.com/in/alignops/)
+"""
+        )
+        st.markdown(
+            "**Share** &nbsp;"
+            "[X](https://twitter.com/intent/tweet?text=Every%20CS%20conference%20"
+            "deadline%20in%20one%20place%20%E2%80%94%20free%2C%20daily%2C%20across"
+            "%209%20areas.&url=https%3A%2F%2Fkrimler.github.io%2Fpaper-tracker%2F)"
+            " · [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url="
+            "https%3A%2F%2Fkrimler.github.io%2Fpaper-tracker%2F) · or copy:"
+        )
+        st.code("https://krimler.github.io/paper-tracker/", language=None)
+
+
+def _ics_escape(s) -> str:
+    return (str(s or "").replace("\\", "\\\\").replace(",", "\\,")
+            .replace(";", "\\;").replace("\n", "\\n"))
+
+
+def _ics_dt(v):
+    ts = pd.to_datetime(v, utc=True, errors="coerce")
+    return None if pd.isna(ts) else ts.strftime("%Y%m%dT%H%M%SZ")
+
+
+def build_ics(row) -> str:
+    title, year = row["title"], fmt_year(row["year"])
+    lines = ["BEGIN:VCALENDAR", "VERSION:2.0",
+             "PRODID:-//Lucid Research//Conference Tracker//EN", "CALSCALE:GREGORIAN"]
+    for i, t in enumerate(row["timeline"] or []):
+        for kind, key in (("abstract", "abstract_deadline"), ("submission", "deadline")):
+            dt = _ics_dt(t.get(key))
+            if not dt:
+                continue
+            lines += [
+                "BEGIN:VEVENT",
+                f"UID:{quote(title)}-{year}-{kind}-{i}@lucid-research",
+                f"DTSTAMP:{dt}", f"DTSTART:{dt}", f"DTEND:{dt}",
+                f"SUMMARY:{_ics_escape(f'{title} {year} {kind} deadline')}",
+                f"URL:{row.get('link') or ''}",
+                f"DESCRIPTION:{_ics_escape(row.get('description') or title)}",
+                "END:VEVENT",
+            ]
+    lines.append("END:VCALENDAR")
+    return "\r\n".join(lines)
+
+
+def render_strip(df: pd.DataFrame):
+    up = df[df["days_left"] >= 0].sort_values("days_left").head(6)
+    if up.empty:
+        return
+    chips = ""
+    for r in up.itertuples(index=False):
+        d = int(round(r.days_left))
+        color = AREA_COLORS.get(r.area, "#6B7280")
+        href = r.link or "#"
+        chips += (
+            f'<a class="strip-chip" style="border-left-color:{color}" href="{href}" target="_blank" rel="noopener">'
+            f'<b>{r.title} &lsquo;{fmt_year(r.year)[-2:]}</b>'
+            f'<span>{d}d</span></a>'
+        )
+    st.markdown(
+        f'<div class="strip-cap">Closing soon</div><div class="strip">{chips}</div>',
+        unsafe_allow_html=True,
+    )
+
+
+def render_detail(df: pd.DataFrame):
+    dv = st.session_state.get("detail_vid")
+    if not dv:
+        return
+    match = df[df["vid"] == dv]
+    if match.empty:
+        st.session_state.pop("detail_vid", None)
+        return
+    r = match.iloc[0]
+    with st.container(border=True):
+        top, close = st.columns([5, 1])
+        top.markdown(f"### {r['title']} {fmt_year(r['year'])}")
+        if close.button("✕ Close", key="close_detail", use_container_width=True):
+            for k in ("detail_vid", "tbl_up", "tbl_past"):
+                st.session_state.pop(k, None)
+            st.rerun()
+        st.markdown(
+            area_pill(r["area"]) + " " + core_badge(r["core"]) + ccf_badge(r["ccf"]),
+            unsafe_allow_html=True,
+        )
+        if r.get("description") and r["description"] != r["title"]:
+            st.write(r["description"])
+        meta = []
+        if r.get("place"):
+            meta.append(f"📍 {r['place']}")
+        if r.get("date"):
+            meta.append(f"🗓 {r['date']}")
+        if r.get("source"):
+            meta.append(f"source: {r['source']}")
+        if meta:
+            st.caption(" · ".join(meta))
+        st.markdown("**Deadlines** (UTC)")
+        rounds = []
+        for t in r["timeline"] or []:
+            bits = []
+            if t.get("abstract_deadline"):
+                bits.append(f"abstract {t['abstract_deadline']}")
+            if t.get("deadline"):
+                bits.append(f"submission {t['deadline']}")
+            line = " · ".join(bits) if bits else "TBA"
+            if t.get("comment"):
+                line += f" — {t['comment']}"
+            rounds.append(f"- {line}")
+        st.markdown("\n".join(rounds) if rounds else "- TBA")
+        b1, b2 = st.columns(2)
+        if r.get("link"):
+            b1.link_button("Open call for papers ↗", r["link"], use_container_width=True)
+        b2.download_button(
+            "Add to calendar (.ics)",
+            build_ics(r),
+            file_name=f"{r['title']}_{fmt_year(r['year'])}.ics",
+            mime="text/calendar",
+            use_container_width=True,
+        )
 
 
 def days_text(days):
@@ -330,12 +509,13 @@ def render_cards(df: pd.DataFrame, per_page: int = 90):
             is_expired = pd.notna(row.days_left) and row.days_left < 0
             card_cls = "conf-card expired" if is_expired else "conf-card"
             link = row.link or "#"
+            accent = AREA_COLORS.get(row.area, "#6B7280")
             place = html_escape(row.place or "")
             title_short = f"{row.title} &lsquo;{str(row.year)[-2:]}"
             title_attr = html_escape(f"{row.description or row.title} — {link}")
 
             inner = (
-                f'<div class="{card_cls}">'
+                f'<div class="{card_cls}" style="border-left:5px solid {accent}">'
                 f'  <div class="conf-row">{area_pill(row.area)}'
                 f'    <span>{core_badge(row.core)}{ccf_badge(row.ccf)}</span>'
                 f'  </div>'
@@ -379,39 +559,54 @@ def style_table(df: pd.DataFrame):
     return styler
 
 
-def render_table(df: pd.DataFrame):
+def render_table(df: pd.DataFrame, key: str):
     display = df[
         [
-            "title", "description", "area", "ccf", "core", "year",
-            "next_deadline", "days_left", "date", "place", "link",
+            "area", "title", "year", "core", "ccf",
+            "next_deadline", "days_left", "place", "link",
         ]
     ].rename(
         columns={
-            "title": "Conf", "description": "Full name", "area": "Area",
-            "ccf": "CCF", "core": "CORE", "year": "Year",
-            "next_deadline": "Next deadline (UTC)", "days_left": "Days left",
-            "date": "Conf date", "place": "Location", "link": "URL",
+            "area": "Area", "title": "Venue", "year": "Year",
+            "core": "CORE", "ccf": "CCF",
+            "next_deadline": "Deadline (UTC)", "days_left": "Days",
+            "place": "Location", "link": "CFP",
         }
     ).copy()
     display["Area"] = display["Area"].map(lambda a: AREA_LABELS.get(a, a))
-    display["Days left"] = display["Days left"].round(1)
+    display["Days"] = display["Days"].round(0)
     display["CORE"] = display["CORE"].fillna("N")
     display["CCF"] = display["CCF"].fillna("N")
-    st.dataframe(
+    sel = st.dataframe(
         style_table(display),
         column_config={
-            "URL": st.column_config.LinkColumn("URL", display_text="open"),
-            "Next deadline (UTC)": st.column_config.DatetimeColumn(
-                "Next deadline (UTC)", format="YYYY-MM-DD HH:mm"
+            "Area": st.column_config.TextColumn("Area", width="small"),
+            "Venue": st.column_config.TextColumn("Venue", width="small"),
+            "Year": st.column_config.NumberColumn("Year", format="%d"),
+            "Days": st.column_config.NumberColumn("Days", format="%d d", help="Days until the next deadline (negative = passed)"),
+            "CFP": st.column_config.LinkColumn("CFP", display_text="open ↗"),
+            "Deadline (UTC)": st.column_config.DatetimeColumn(
+                "Deadline (UTC)", format="YYYY-MM-DD HH:mm"
             ),
         },
         hide_index=True,
         use_container_width=True,
-        height=640,
+        height=620,
+        on_select="rerun",
+        selection_mode="single-row",
+        key=key,
     )
+    rows = sel.selection.get("rows", []) if sel and sel.selection else []
+    if rows:
+        chosen = df.iloc[rows[0]]["vid"]
+        if st.session_state.get("detail_vid") != chosen:
+            st.session_state["detail_vid"] = chosen
+            st.rerun()
+    st.caption("Tip: click a row to see full deadlines and add it to your calendar.")
 
 
-RANK_TIERS = {"A* only": ["A*"], "A & above": ["A*", "A"], "B & above": ["A*", "A", "B"]}
+RANK_LABELS = {"All": "All ranks", "astar": "A*", "a": "A & up", "b": "B & up"}
+RANK_TIERS = {"astar": ["A*"], "a": ["A*", "A"], "b": ["A*", "A", "B"]}
 HORIZON_DAYS = {"30 days": 30, "90 days": 90, "6 months": 182, "1 year": 365}
 
 
@@ -428,17 +623,17 @@ def sort_df(f: pd.DataFrame, sort_by: str, ascending: bool = True) -> pd.DataFra
 
 
 def reset_filters():
-    for k in ("area_choice", "min_rank", "horizon", "search",
-              "year_choice", "view_mode", "sort_by"):
+    for k in ("area_pills", "rank_pills", "sort_pills", "horizon", "search",
+              "year_choice", "view_mode", "detail_vid", "tbl_up", "tbl_past"):
         st.session_state.pop(k, None)
 
 
 def main():
     st.set_page_config(
-        page_title="Lucid Research — Conference Deadlines",
+        page_title="Lucid Panel — Conference Deadlines",
         page_icon=str(LOGO_PATH) if LOGO_PATH.is_file() else None,
         layout="wide",
-        initial_sidebar_state="expanded",
+        initial_sidebar_state="collapsed",
     )
     st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
 
@@ -455,48 +650,52 @@ def main():
 
     areas = sorted(df["area"].dropna().unique())
 
-    # ---------- header ----------
-    render_header(data, df["title"].nunique())
-    st.write("")
-    render_metrics(df)
-    st.write("")
+    # ---------- header band: title + About left, metrics + closing-soon right ----------
+    hcol, mcol = st.columns([5, 7], vertical_alignment="center")
+    with hcol:
+        render_header(data, df["title"].nunique())
+        render_about(df["title"].nunique())
+    with mcol:
+        render_metrics(df)
+        render_strip(df)
 
-    # ---------- sidebar ----------
-    sb = st.sidebar
-    sb.markdown("### Filters")
-    search = sb.text_input("Search", placeholder="Title or keyword…", key="search")
-    area_choice = sb.multiselect(
-        "Area",
-        options=areas,
-        default=[],
-        format_func=lambda a: AREA_LABELS.get(a, a),
-        placeholder="All areas",
-        key="area_choice",
-    )
-    min_rank = sb.selectbox(
-        "Rank (CORE)",
-        options=["All ranks", "A* only", "A & above", "B & above"],
-        key="min_rank",
-    )
-    sort_by = sb.selectbox(
-        "Sort by",
-        options=["Deadline", "CORE rank", "Alphabetical"],
-        key="sort_by",
-    )
-    view_mode = sb.segmented_control(
-        "View", options=["Cards", "Table"], default="Cards", key="view_mode"
-    ) or "Cards"
+    # ---------- area pills (full width) ----------
+    area_choice = st.pills(
+        "Area", options=areas, selection_mode="multi",
+        default=["ai_ml"] if "ai_ml" in areas else [],
+        format_func=lambda a: AREA_LABELS.get(a, a), key="area_pills",
+    ) or []
 
-    with sb.expander("More filters"):
-        horizon = st.selectbox(
-            "Upcoming within",
-            options=["Any time"] + list(HORIZON_DAYS),
-            key="horizon",
+    # ---------- filter bar (full width, horizontal) ----------
+    c_search, c_rank, c_sort, c_view, c_more = st.columns([3, 2, 2, 1.4, 1.0])
+    with c_search:
+        search = st.text_input(
+            "Search", placeholder="Search title or keyword…", key="search",
         )
-        years = sorted({int(y) for y in df["year"].dropna().unique()})
-        year_choice = st.selectbox("Year", options=["All"] + years, key="year_choice")
-
-    sb.button("Reset filters", on_click=reset_filters, use_container_width=True)
+    with c_rank:
+        min_rank = st.pills(
+            "Rank", options=list(RANK_LABELS), selection_mode="single",
+            default="All", format_func=lambda r: RANK_LABELS[r], key="rank_pills",
+        ) or "All"
+    with c_sort:
+        sort_by = st.pills(
+            "Sort", options=["Deadline", "CORE rank", "Alphabetical"],
+            selection_mode="single", default="Deadline", key="sort_pills",
+        ) or "Deadline"
+    with c_view:
+        view_mode = st.segmented_control(
+            "View", options=["Cards", "Table"], default="Cards", key="view_mode",
+            format_func=lambda v: {"Cards": "▦ Cards", "Table": "≣ Table"}[v],
+        ) or "Cards"
+    with c_more:
+        st.markdown('<div class="filter-cap">More</div>', unsafe_allow_html=True)
+        with st.popover("⚙", use_container_width=True):
+            horizon = st.selectbox(
+                "Upcoming within", options=["Any time"] + list(HORIZON_DAYS), key="horizon",
+            )
+            years = sorted({int(y) for y in df["year"].dropna().unique()})
+            year_choice = st.selectbox("Year", options=["All"] + years, key="year_choice")
+            st.button("Reset filters", on_click=reset_filters, use_container_width=True)
 
     # ---------- filter ----------
     f = df.copy()
@@ -522,6 +721,9 @@ def main():
         within = HORIZON_DAYS[horizon]
         upcoming = upcoming[upcoming["days_left"].notna() & (upcoming["days_left"] <= within)]
 
+    # ---------- detail panel (opened by clicking a card/row/chip) ----------
+    render_detail(df)
+
     # ---------- output ----------
     tab_up, tab_past = st.tabs(
         [f"Upcoming · {upcoming['title'].nunique()}",
@@ -531,14 +733,14 @@ def main():
         if upcoming.empty:
             st.info("No upcoming deadlines match these filters.")
         elif view_mode == "Table":
-            render_table(upcoming)
+            render_table(upcoming, "tbl_up")
         else:
             render_cards(upcoming)
     with tab_past:
         if past.empty:
             st.info("No past deadlines match these filters.")
         elif view_mode == "Table":
-            render_table(past)
+            render_table(past, "tbl_past")
         else:
             render_cards(past)
 
