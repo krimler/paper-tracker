@@ -411,24 +411,26 @@ def render_table(df: pd.DataFrame):
     )
 
 
-def apply_preset(preset: str, areas: list[str]):
-    ss = st.session_state
-    if preset == "next30":
-        ss["upcoming_only"] = True
-        ss["horizon"] = 30
-    elif preset == "next90":
-        ss["upcoming_only"] = True
-        ss["horizon"] = 90
-    elif preset == "a_star":
-        ss["core_choice"] = ["A*"]
-    elif preset in AREA_LABELS:
-        ss["area_choice"] = [preset]
-    elif preset == "reset":
-        for k in (
-            "area_choice", "core_choice", "ccf_choice", "horizon",
-            "upcoming_only", "search", "year_choice", "view_mode", "sort_by",
-        ):
-            ss.pop(k, None)
+RANK_TIERS = {"A* only": ["A*"], "A & above": ["A*", "A"], "B & above": ["A*", "A", "B"]}
+HORIZON_DAYS = {"30 days": 30, "90 days": 90, "6 months": 182, "1 year": 365}
+
+
+def sort_df(f: pd.DataFrame, sort_by: str, ascending: bool = True) -> pd.DataFrame:
+    if sort_by.startswith("CORE"):
+        return (
+            f.assign(_o=f["core"].fillna("N").map(CORE_ORDER))
+            .sort_values(["_o", "next_deadline"], na_position="last")
+            .drop(columns="_o")
+        )
+    if sort_by.startswith("Alpha"):
+        return f.sort_values(["title", "year"])
+    return f.sort_values("next_deadline", ascending=ascending, na_position="last")
+
+
+def reset_filters():
+    for k in ("area_choice", "min_rank", "horizon", "search",
+              "year_choice", "view_mode", "sort_by"):
+        st.session_state.pop(k, None)
 
 
 def main():
@@ -459,120 +461,51 @@ def main():
     render_metrics(df)
     st.write("")
 
-    # ---------- presets ----------
-    st.markdown("**Quick filters**")
-    preset_specs = [
-        ("Next 30 days", "next30"),
-        ("Next 90 days", "next90"),
-        ("CORE A* only", "a_star"),
-        ("AI / ML", "ai_ml"),
-        ("Security", "security"),
-        ("Theory", "theory"),
-        ("Systems", "systems"),
-        ("Reset", "reset"),
-    ]
-    preset_cols = st.columns(len(preset_specs))
-    for col, (label, key) in zip(preset_cols, preset_specs):
-        if col.button(label, use_container_width=True, key=f"preset_{key}"):
-            apply_preset(key, areas)
-
-    st.divider()
-
     # ---------- sidebar ----------
-    st.sidebar.markdown("### Filters")
-
-    area_choice = st.sidebar.multiselect(
+    sb = st.sidebar
+    sb.markdown("### Filters")
+    search = sb.text_input("Search", placeholder="Title or keyword…", key="search")
+    area_choice = sb.multiselect(
         "Area",
         options=areas,
-        default=areas,
+        default=[],
         format_func=lambda a: AREA_LABELS.get(a, a),
+        placeholder="All areas",
         key="area_choice",
     )
-
-    core_options = ["A*", "A", "B", "C", "N"]
-    st.sidebar.multiselect(
-        "CORE rank",
-        options=core_options,
-        default=["A*", "A"],
-        key="core_choice",
+    min_rank = sb.selectbox(
+        "Rank (CORE)",
+        options=["All ranks", "A* only", "A & above", "B & above"],
+        key="min_rank",
     )
-    core_choice = st.session_state["core_choice"]
-
-    ccf_options = ["A", "B", "C", "N"]
-    st.sidebar.multiselect(
-        "CCF rank",
-        options=ccf_options,
-        default=ccf_options,
-        key="ccf_choice",
-    )
-    ccf_choice = st.session_state["ccf_choice"]
-
-    st.sidebar.toggle(
-        "Hide expired",
-        value=False,
-        key="upcoming_only",
-        help="When off, expired conferences are still shown but grayed out.",
-    )
-    upcoming_only = st.session_state["upcoming_only"]
-
-    st.sidebar.radio(
-        "Horizon",
-        options=[30, 60, 90, 180, 365, 730],
-        format_func=lambda d: f"{d}d" if d < 730 else "2y",
-        index=2,
-        horizontal=True,
-        key="horizon",
-    )
-    horizon = st.session_state["horizon"]
-
-    years = sorted({int(y) for y in df["year"].dropna().unique()})
-    st.sidebar.selectbox(
-        "Year",
-        options=["All"] + years,
-        index=0,
-        key="year_choice",
-    )
-    year_choice = st.session_state["year_choice"]
-
-    search = st.sidebar.text_input("Search title / description", key="search")
-
-    st.sidebar.divider()
-    st.sidebar.markdown("### Display")
-
-    st.sidebar.radio(
-        "View mode",
-        options=["Cards", "Table"],
-        index=0,
-        horizontal=True,
-        key="view_mode",
-    )
-    view_mode = st.session_state["view_mode"]
-
-    st.sidebar.selectbox(
+    sort_by = sb.selectbox(
         "Sort by",
-        options=[
-            "Upcoming first, then most recently expired",
-            "Deadline (latest first)",
-            "CORE rank (best first)",
-            "Alphabetical",
-        ],
-        index=0,
+        options=["Deadline", "CORE rank", "Alphabetical"],
         key="sort_by",
     )
-    sort_by = st.session_state["sort_by"]
+    view_mode = sb.segmented_control(
+        "View", options=["Cards", "Table"], default="Cards", key="view_mode"
+    ) or "Cards"
+
+    with sb.expander("More filters"):
+        horizon = st.selectbox(
+            "Upcoming within",
+            options=["Any time"] + list(HORIZON_DAYS),
+            key="horizon",
+        )
+        years = sorted({int(y) for y in df["year"].dropna().unique()})
+        year_choice = st.selectbox("Year", options=["All"] + years, key="year_choice")
+
+    sb.button("Reset filters", on_click=reset_filters, use_container_width=True)
 
     # ---------- filter ----------
     f = df.copy()
     if area_choice:
         f = f[f["area"].isin(area_choice)]
-    if core_choice:
-        f = f[f["core"].fillna("N").isin(core_choice)]
-    if ccf_choice:
-        f = f[f["ccf"].fillna("N").isin(ccf_choice)]
+    if min_rank in RANK_TIERS:
+        f = f[f["core"].fillna("N").isin(RANK_TIERS[min_rank])]
     if year_choice != "All":
         f = f[f["year"] == year_choice]
-    if upcoming_only:
-        f = f[(f["days_left"] >= 0) & (f["days_left"] <= horizon)]
     if search:
         s = search.lower()
         f = f[
@@ -580,39 +513,34 @@ def main():
             | f["description"].str.lower().str.contains(s, na=False)
         ]
 
-    # ---------- sort ----------
-    if sort_by.startswith("Upcoming"):
-        # bucket=0 for upcoming (asc by days_left), bucket=1 for expired (asc by |days|, i.e. most recent first), NaN last
-        bucket = (f["days_left"].fillna(-(10**9)) < 0).astype(int)
-        sortkey = f["days_left"].where(f["days_left"] >= 0, -f["days_left"])
-        f = f.assign(_b=bucket, _k=sortkey).sort_values(
-            ["_b", "_k"], na_position="last"
-        ).drop(columns=["_b", "_k"])
-    elif sort_by.startswith("Deadline (latest"):
-        f = f.sort_values("next_deadline", ascending=False, na_position="last")
-    elif sort_by.startswith("CORE"):
-        f = f.assign(_o=f["core"].fillna("N").map(CORE_ORDER)).sort_values(
-            ["_o", "next_deadline"], na_position="last"
-        ).drop(columns=["_o"])
-    else:
-        f = f.sort_values(["title", "year"])
+    # ---------- split: upcoming (incl. undated) vs past ----------
+    is_past = f["days_left"] < 0  # NaN -> False, so undated venues stay in Upcoming
+    upcoming = sort_df(f[~is_past], sort_by, ascending=True)
+    past = sort_df(f[is_past], sort_by, ascending=False)
+
+    if horizon in HORIZON_DAYS:
+        within = HORIZON_DAYS[horizon]
+        upcoming = upcoming[upcoming["days_left"].notna() & (upcoming["days_left"] <= within)]
 
     # ---------- output ----------
-    if f.empty:
-        st.info("No conferences match the current filters. Try widening the area / rank selection or pressing Reset.")
-        return
-
-    upcoming_count = int((f["days_left"] >= 0).sum())
-    expired_count = len(f) - upcoming_count - int(f["days_left"].isna().sum())
-    st.caption(
-        f"{f['title'].nunique()} venues · {upcoming_count} upcoming · "
-        f"{expired_count} expired (shown in gray)"
+    tab_up, tab_past = st.tabs(
+        [f"Upcoming · {upcoming['title'].nunique()}",
+         f"Past · {past['title'].nunique()}"]
     )
-
-    if view_mode == "Cards":
-        render_cards(f)
-    else:
-        render_table(f)
+    with tab_up:
+        if upcoming.empty:
+            st.info("No upcoming deadlines match these filters.")
+        elif view_mode == "Table":
+            render_table(upcoming)
+        else:
+            render_cards(upcoming)
+    with tab_past:
+        if past.empty:
+            st.info("No past deadlines match these filters.")
+        elif view_mode == "Table":
+            render_table(past)
+        else:
+            render_cards(past)
 
 
 if __name__ == "__main__":
