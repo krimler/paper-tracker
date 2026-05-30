@@ -10,7 +10,11 @@ search — so the GitHub Action cannot be rate-limited or denied:
    — AI/ML/CV/NLP wishlist venues. Tagged `source: aideadlines`.
 3. **[sec-deadlines](https://github.com/sec-deadlines/sec-deadlines.github.io)**
    — Security & Privacy wishlist venues. Tagged `source: secdeadlines`.
-4. **`manual.yml`** — hand-curated entries for venues no feed carries. Committed
+4. **[tcs-conf](https://github.com/tcs-conf/tcs-conf.github.io)** — Theory / TCS
+   wishlist venues (e.g. DISC). Deadlines live in a hand-curated HTML table, so
+   the adapter parses `index.html` and normalizes free-form dates. Tagged
+   `source: tcsconf`.
+5. **`manual.yml`** — hand-curated entries for venues no feed carries. Committed
    to the repo, so it triggers no external call. Tagged `source: manual`. This
    file *is* the record: an entry here is "found" and never re-searched.
 
@@ -19,13 +23,16 @@ sources 2–4 run in order; a venue resolved by an earlier source is skipped by
 later ones (recorded once per run). `data/conferences.json` reports the live
 split in its `supplemented` (title → source) and `still_untracked` fields.
 
-**Auto-recovered so far (13):** FAccT, ISMIR, MIDL, CHIL (ai-deadlines);
-AISec, CCSW, CNS, NCA, SAC, SafeThings, SecDev, WOOT, WPES (sec-deadlines).
+**Auto-recovered so far (14):** FAccT, ISMIR, MIDL, CHIL (ai-deadlines);
+AISec, CCSW, CNS, NCA, SAC, SafeThings, SecDev, WOOT, WPES (sec-deadlines);
+DISC (tcs-conf).
+
+tcs-conf carries a large theory catalog beyond DISC — adding more theory venues
+to `untracked.yml` will auto-resolve any it lists.
 
 The venues below are still unsourced — absent from every structured feed. Each
 is a candidate for a `manual.yml` entry, or for a new `fetch_rows()` source
-module if a structured feed for its field turns up. (Note: `tcs-conf.github.io`
-was evaluated and rejected — it's a name catalog with no deadlines.)
+module if a structured feed for its field turns up.
 
 ## ✅ Tracked
 

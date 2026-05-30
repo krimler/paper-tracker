@@ -14,6 +14,7 @@ import yaml
 import aideadlines
 import manual
 import secdeadlines
+import tcsconf
 
 # Secondary sources tried after ccfddl, in order. Each is CI-safe (a git clone
 # or a committed repo file — never a web search) and exposes the same
@@ -23,6 +24,7 @@ import secdeadlines
 SECONDARY_SOURCES = [
     ("aideadlines", aideadlines),
     ("secdeadlines", secdeadlines),
+    ("tcsconf", tcsconf),
     ("manual", manual),
 ]
 
@@ -182,6 +184,7 @@ def main() -> int:
             "https://github.com/ccfddl/ccf-deadlines",
             "https://github.com/paperswithcode/ai-deadlines",
             "https://github.com/sec-deadlines/sec-deadlines.github.io",
+            "https://github.com/tcs-conf/tcs-conf.github.io",
             "manual.yml",
         ],
         "matched": len(matched_titles),
