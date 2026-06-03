@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-02T10:54:44.715219+00:00",
+  "fetched_at": "2026-06-03T11:22:57.977234+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -22,8 +22,7 @@
     "SafeThings": "secdeadlines",
     "SecDev": "secdeadlines",
     "WOOT": "secdeadlines",
-    "WPES": "secdeadlines",
-    "DISC": "tcsconf"
+    "WPES": "secdeadlines"
   },
   "still_untracked": [
     "abacbs",
@@ -34,6 +33,7 @@
     "amia informatics summit",
     "ancs",
     "cars",
+    "disc",
     "eccb",
     "ecsa",
     "fase",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 699,
+  "row_count": 698,
   "conferences": [
     {
       "title": "AAAI",
@@ -19264,36 +19264,6 @@
         }
       ],
       "source": "secdeadlines"
-    },
-    {
-      "title": "DISC",
-      "description": "Distributed Computing",
-      "sub": "",
-      "area": "distributed_systems",
-      "ccfddl_category": null,
-      "ccf": null,
-      "core": null,
-      "thcpl": null,
-      "dblp": "",
-      "year": 2026,
-      "id": null,
-      "link": "https://www.disc-conference.org/wp/disc2026/",
-      "timezone": "UTC-12",
-      "date": "9-13 November 2026",
-      "place": "Rome, Italy",
-      "timeline": [
-        {
-          "deadline": "2026-05-27 23:59:00",
-          "abstract_deadline": null,
-          "comment": null
-        },
-        {
-          "deadline": "2026-06-01 23:59:00",
-          "abstract_deadline": null,
-          "comment": null
-        }
-      ],
-      "source": "tcsconf"
     }
   ]
 }
