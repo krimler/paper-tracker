@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-06T08:46:39.186815+00:00",
+  "fetched_at": "2026-06-07T09:36:09.081553+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -578,17 +578,17 @@
       "year": 2026,
       "id": "acml26",
       "link": "https://www.acml-conf.org/2026/",
-      "timezone": "UTC-7",
+      "timezone": "AoE",
       "date": "December 1-4, 2026",
       "place": "Melbourne, Australia",
       "timeline": [
         {
-          "deadline": "2026-06-06 23:59:59",
+          "deadline": "2026-06-20 23:59:59",
           "abstract_deadline": null,
           "comment": "Journal Track"
         },
         {
-          "deadline": "2025-06-26 23:59:59",
+          "deadline": "2026-06-26 23:59:59",
           "abstract_deadline": null,
           "comment": "Conference Track"
         }
@@ -6028,7 +6028,7 @@
       "year": 2021,
       "id": "vldb21",
       "link": "http://www.vldb.org/2021/",
-      "timezone": "UTC-7",
+      "timezone": "PT",
       "date": "August 16-20, 2021",
       "place": "Copenhagen, Denmark",
       "timeline": [
@@ -6108,7 +6108,7 @@
       "year": 2022,
       "id": "vldb22",
       "link": "http://www.vldb.org/2022/",
-      "timezone": "UTC-7",
+      "timezone": "PT",
       "date": "September 05-09, 2022",
       "place": "Sydney, Australia",
       "timeline": [
@@ -6188,7 +6188,7 @@
       "year": 2023,
       "id": "vldb23",
       "link": "http://www.vldb.org/2023/",
-      "timezone": "UTC-7",
+      "timezone": "PT",
       "date": "August 28 - September 01, 2023",
       "place": "Vancouver, Canada",
       "timeline": [
@@ -6268,7 +6268,7 @@
       "year": 2024,
       "id": "vldb24",
       "link": "http://www.vldb.org/2024/",
-      "timezone": "UTC-7",
+      "timezone": "PT",
       "date": "August 25-29, 2024",
       "place": "Guangzhou, China (and hybrid)",
       "timeline": [
@@ -6348,7 +6348,7 @@
       "year": 2025,
       "id": "vldb25",
       "link": "http://www.vldb.org/2025/",
-      "timezone": "UTC-7",
+      "timezone": "PT",
       "date": "September 1-5, 2025",
       "place": "London, United Kingdom",
       "timeline": [
@@ -6428,7 +6428,7 @@
       "year": 2026,
       "id": "vldb26",
       "link": "https://www.vldb.org/2026/",
-      "timezone": "UTC-7",
+      "timezone": "PT",
       "date": "August 31 - September 4, 2026",
       "place": "Boston, MA, USA",
       "timeline": [
@@ -6508,7 +6508,7 @@
       "year": 2027,
       "id": "vldb27",
       "link": "https://www.vldb.org/2027/",
-      "timezone": "UTC-7",
+      "timezone": "PT",
       "date": "August 23 - August 27, 2027",
       "place": "Athens, Greece",
       "timeline": [
