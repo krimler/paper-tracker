@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-08T11:20:58.237545+00:00",
+  "fetched_at": "2026-06-09T10:02:58.898496+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -7188,7 +7188,7 @@
       "place": "Hyatt Hotel, Shatin, Hong Kong, China",
       "timeline": [
         {
-          "deadline": "2026-06-10 23:59:59",
+          "deadline": "2026-06-11 11:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -7294,8 +7294,8 @@
       "id": "cgo2025",
       "link": "https://conf.researchr.org/home/cgo-2025",
       "timezone": "AoE",
-      "date": "TBD",
-      "place": "TBD",
+      "date": "March 1-5, 2025",
+      "place": "Las Vegas, Nevada, United States",
       "timeline": [
         {
           "deadline": "2024-05-30 23:59:59",
@@ -9859,7 +9859,7 @@
       "id": "cscw21",
       "link": "https://cscw.acm.org/2021/",
       "timezone": "AoE",
-      "date": "TBD",
+      "date": "October 23-27, 2021",
       "place": "Virtual",
       "timeline": [
         {
@@ -10093,8 +10093,8 @@
       "place": "Helsinki, Finland",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": "TBD",
+          "deadline": "2026-08-20 23:59:59",
+          "abstract_deadline": "2026-08-13 23:59:59",
           "comment": null
         }
       ],
@@ -11674,8 +11674,8 @@
       "id": "mobicom22",
       "link": "https://www.sigmobile.org/mobicom/2022/",
       "timezone": "UTC-7",
-      "date": "TBD",
-      "place": "TBD",
+      "date": "October 17-21, 2022",
+      "place": "Sydney, Australia",
       "timeline": [
         {
           "deadline": "2021-08-20 23:59:59",
@@ -11814,8 +11814,8 @@
       "id": "mobisys22",
       "link": "https://www.sigmobile.org/mobisys/2022/",
       "timezone": "UTC-12",
-      "date": "TBD",
-      "place": "TBD",
+      "date": "June 27 - July 1, 2022",
+      "place": "Portland, Oregon, USA",
       "timeline": [
         {
           "deadline": "2021-12-20 23:59:59",
@@ -14714,7 +14714,7 @@
       "id": "ndss22",
       "link": "https://www.ndss-symposium.org/ndss2022/",
       "timezone": "UTC-12",
-      "date": "February 27 - March 3, 2022",
+      "date": "April 24-28, 2022",
       "place": "San Diego, California",
       "timeline": [
         {
@@ -14744,7 +14744,7 @@
       "id": "ndss23",
       "link": "https://www.ndss-symposium.org/ndss2023/",
       "timezone": "UTC-12",
-      "date": "TBD",
+      "date": "February 27 - March 3, 2023",
       "place": "San Diego, California",
       "timeline": [
         {
@@ -15159,8 +15159,8 @@
       "id": "pets27",
       "link": "https://petsymposium.org/cfp27.php",
       "timezone": "AoE",
-      "date": "TBD",
-      "place": "TBA (Europe)",
+      "date": "July 19-24, 2027",
+      "place": "Delft, The Netherlands",
       "timeline": [
         {
           "deadline": "2026-05-31 23:59:59",
