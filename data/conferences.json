@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-12T10:39:51.343328+00:00",
+  "fetched_at": "2026-06-13T09:33:49.309139+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -3038,13 +3038,13 @@
       "place": "Disney Springs, Buena Vista, FL, USA",
       "timeline": [
         {
-          "deadline": "2026-06-25 23:59:59",
-          "abstract_deadline": "2026-06-18 23:59:00",
+          "deadline": "2026-06-26 23:59:59",
+          "abstract_deadline": "2026-06-19 23:59:00",
           "comment": "First round"
         },
         {
-          "deadline": "2026-08-27 23:59:59",
-          "abstract_deadline": "2026-08-20 23:59:00",
+          "deadline": "2026-08-28 23:59:59",
+          "abstract_deadline": "2026-08-21 23:59:00",
           "comment": "Second round"
         }
       ],
