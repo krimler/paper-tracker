@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-13T09:33:49.309139+00:00",
+  "fetched_at": "2026-06-14T09:56:20.746004+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 701,
+  "row_count": 702,
   "conferences": [
     {
       "title": "AAAI",
@@ -6718,8 +6718,8 @@
       "place": "Cordis, Hong Kong SAR, China",
       "timeline": [
         {
-          "deadline": "2026-08-18 23:59:59",
-          "abstract_deadline": "2026-08-11 23:59:59",
+          "deadline": "2026-08-24 23:59:59",
+          "abstract_deadline": "2026-08-17 23:59:59",
           "comment": null
         }
       ],
@@ -13215,7 +13215,7 @@
       "link": "https://ches.iacr.org/2026/",
       "timezone": "AoE",
       "date": "October 11-15, 2026",
-      "place": "Türkiye",
+      "place": "Antalya, Türkiye",
       "timeline": [
         {
           "deadline": "2025-07-15 23:59:59",
@@ -13236,6 +13236,46 @@
           "deadline": "2026-04-15 23:59:59",
           "abstract_deadline": null,
           "comment": "Schedule for TCHES Volume 2026/4"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "CHES",
+      "description": "International Conference on Cryptographic Hardware and Embedded Systems",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "ches",
+      "year": 2027,
+      "id": "ches27",
+      "link": "https://ches.iacr.org/2027/",
+      "timezone": "AoE",
+      "date": "TBD, 2027",
+      "place": "TBD, Americas",
+      "timeline": [
+        {
+          "deadline": "2026-07-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2027/1"
+        },
+        {
+          "deadline": "2026-10-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2027/2"
+        },
+        {
+          "deadline": "2027-01-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2027/3"
+        },
+        {
+          "deadline": "2027-04-15 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Schedule for TCHES Volume 2027/4"
         }
       ],
       "source": "ccfddl"
