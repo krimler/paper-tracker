@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-17T11:16:50.880079+00:00",
+  "fetched_at": "2026-06-18T10:47:30.110774+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -19269,16 +19269,16 @@
       "ccf": null,
       "core": null,
       "thcpl": null,
-      "dblp": "",
-      "year": 2025,
+      "dblp": "https://dblp.org/db/conf/wpes/index.html",
+      "year": 2026,
       "id": null,
-      "link": "http://jianying.space/WPES2025/",
+      "link": "https://wpes2026.github.io/",
       "timezone": null,
-      "date": "October 13",
-      "place": "Taipei, Taiwan",
+      "date": "November 16",
+      "place": "The Hague, The Netherlands",
       "timeline": [
         {
-          "deadline": "2025-07-07 23:59",
+          "deadline": "2026-07-17 23:59",
           "abstract_deadline": null,
           "comment": "In conjunction with ACM CCS"
         }
