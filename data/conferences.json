@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-18T10:47:30.110774+00:00",
+  "fetched_at": "2026-06-19T10:56:56.485830+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 702,
+  "row_count": 703,
   "conferences": [
     {
       "title": "AAAI",
@@ -11505,6 +11505,31 @@
         {
           "deadline": "2025-07-31 23:59:59",
           "abstract_deadline": "2025-07-24 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "INFOCOM",
+      "description": "IEEE International Conference on Computer Communications",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "infocom",
+      "year": 2027,
+      "id": "infocom27",
+      "link": "https://infocom2027.ieee-infocom.org/",
+      "timezone": "AoE",
+      "date": "May 24 - 27, 2027",
+      "place": "Honolulu, HI, USA",
+      "timeline": [
+        {
+          "deadline": "2026-07-31 23:59:59",
+          "abstract_deadline": "2026-07-24 23:59:59",
           "comment": null
         }
       ],
