@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-22T12:25:29.253558+00:00",
+  "fetched_at": "2026-06-23T10:02:39.636890+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 704,
+  "row_count": 705,
   "conferences": [
     {
       "title": "AAAI",
@@ -19229,6 +19229,31 @@
         },
         {
           "deadline": "2026-05-11 23:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ],
+      "source": "secdeadlines"
+    },
+    {
+      "title": "SAC",
+      "description": "ACM/SIGAPP Symposium On Applied Computing",
+      "sub": "",
+      "area": "security",
+      "ccfddl_category": null,
+      "ccf": null,
+      "core": null,
+      "thcpl": null,
+      "dblp": "https://dblp.org/db/conf/sac/index.html",
+      "year": 2027,
+      "id": null,
+      "link": "https://www.sigapp.org/sac/sac2027",
+      "timezone": null,
+      "date": "April 5-9",
+      "place": "Gwangju, South Korea",
+      "timeline": [
+        {
+          "deadline": "2026-10-02 23:59",
           "abstract_deadline": null,
           "comment": null
         }
