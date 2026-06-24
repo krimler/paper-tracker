@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23T10:02:39.636890+00:00",
+  "fetched_at": "2026-06-24T09:50:39.338921+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 705,
+  "row_count": 706,
   "conferences": [
     {
       "title": "AAAI",
@@ -5761,6 +5761,31 @@
           "deadline": "2026-02-08 23:59:59",
           "abstract_deadline": "2026-02-01 23:59:59",
           "comment": "2nd round of 2 total rounds"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SIGKDD",
+      "description": "ACM Knowledge Discovery and Data Mining",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "kdd",
+      "year": 2027,
+      "id": "sigkdd27",
+      "link": "https://kdd2027.kdd.org/",
+      "timezone": "AoE",
+      "date": "August 2027 (exact dates TBD)",
+      "place": "San Jose, California, USA",
+      "timeline": [
+        {
+          "deadline": "2026-07-26 23:59:59",
+          "abstract_deadline": "2026-07-19 23:59:59",
+          "comment": "1st round of 2 total rounds"
         }
       ],
       "source": "ccfddl"
