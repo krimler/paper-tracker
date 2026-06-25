@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-24T09:50:39.338921+00:00",
+  "fetched_at": "2026-06-25T09:44:19.826775+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 706,
+  "row_count": 707,
   "conferences": [
     {
       "title": "AAAI",
@@ -588,7 +588,7 @@
           "comment": "Journal Track"
         },
         {
-          "deadline": "2026-06-26 23:59:59",
+          "deadline": "2026-07-05 23:59:59",
           "abstract_deadline": null,
           "comment": "Conference Track"
         }
@@ -18356,6 +18356,31 @@
       "source": "ccfddl"
     },
     {
+      "title": "OSDI",
+      "description": "USENIX Symposium on Operating Systems Design and Implementation",
+      "sub": "SE",
+      "area": "systems",
+      "ccfddl_category": "SE",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "osdi",
+      "year": 2027,
+      "id": "osdi2027",
+      "link": "https://www.usenix.org/conference/osdi27",
+      "timezone": "UTC",
+      "date": "July 7-9, 2027",
+      "place": "Baltimore, MD, USA",
+      "timeline": [
+        {
+          "deadline": "2026-12-08 22:59:59",
+          "abstract_deadline": "2026-12-01 22:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
       "title": "PLDI",
       "description": "ACM SIGPLAN Conference on Programming Language Design & Implementation",
       "sub": "SE",
@@ -19345,17 +19370,17 @@
       "core": null,
       "thcpl": null,
       "dblp": "",
-      "year": 2025,
+      "year": 2026,
       "id": null,
       "link": "https://aisec.cc",
       "timezone": null,
-      "date": "October 17, 2025",
-      "place": "Taipei, Taiwan",
+      "date": "November 15-19, 2026",
+      "place": "The Hague, The Netherlands",
       "timeline": [
         {
-          "deadline": "2025-07-03 23:59",
+          "deadline": "2026-07-24 23:59",
           "abstract_deadline": null,
-          "comment": "Co-located with ACM CCS 2025"
+          "comment": "Co-located with ACM CCS 2026"
         }
       ],
       "source": "secdeadlines"
