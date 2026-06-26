@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-25T09:44:19.826775+00:00",
+  "fetched_at": "2026-06-26T09:51:57.730690+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 707,
+  "row_count": 708,
   "conferences": [
     {
       "title": "AAAI",
@@ -14484,6 +14484,31 @@
       "timeline": [
         {
           "deadline": "2025-09-16 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Submission deadline"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "FC",
+      "description": "Financial Cryptography and Data Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "fc",
+      "year": 2027,
+      "id": "fc27",
+      "link": "https://fc27.ifca.ai/",
+      "timezone": "UTC-12",
+      "date": "February 8-12, 2027",
+      "place": "Barbados (tentative)",
+      "timeline": [
+        {
+          "deadline": "2026-09-17 23:59:59",
           "abstract_deadline": null,
           "comment": "Submission deadline"
         }
