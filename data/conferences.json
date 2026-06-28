@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-27T08:49:27.850548+00:00",
+  "fetched_at": "2026-06-28T09:32:35.542206+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 708,
+  "row_count": 709,
   "conferences": [
     {
       "title": "AAAI",
@@ -320,6 +320,31 @@
         {
           "deadline": "2025-10-08 23:59:59",
           "abstract_deadline": "2025-10-01 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "AAMAS",
+      "description": "International Conference on Autonomous Agents and Multiagent Systems",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "B",
+      "dblp": "ifaamas",
+      "year": 2027,
+      "id": "aamas27",
+      "link": "https://openreview.net/group?id=ifaamas.org/AAMAS/2027/Conference",
+      "timezone": "UTC+0",
+      "date": "May 03, 2027",
+      "place": "Hanoi, Vietnam",
+      "timeline": [
+        {
+          "deadline": "2026-10-09 11:59:00",
+          "abstract_deadline": "2026-10-02 11:59:00",
           "comment": null
         }
       ],
