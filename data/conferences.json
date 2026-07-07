@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-06T11:02:07.885658+00:00",
+  "fetched_at": "2026-07-07T10:00:17.971750+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 709,
+  "row_count": 710,
   "conferences": [
     {
       "title": "AAAI",
@@ -9429,6 +9429,31 @@
       "timeline": [
         {
           "deadline": "2025-09-01 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "PPoPP",
+      "description": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "A",
+      "core": "B",
+      "thcpl": "A",
+      "dblp": "ppopp",
+      "year": 2027,
+      "id": "ppopp27",
+      "link": "https://ppopp27.sigplan.org/",
+      "timezone": "AoE",
+      "date": "Mar 20-24, 2027",
+      "place": "Salt Lake City, Utah, USA",
+      "timeline": [
+        {
+          "deadline": "2026-08-03 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
