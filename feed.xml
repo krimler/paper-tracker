@@ -5,622 +5,615 @@
 <link>https://krimler.github.io/paper-tracker/</link>
 <description>Upcoming submission deadlines for top CS conferences, refreshed daily.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 07 Jul 2026 10:00:18 +0000</lastBuildDate>
+<lastBuildDate>Wed, 08 Jul 2026 08:43:42 +0000</lastBuildDate>
 <atom:link href="https://krimler.github.io/paper-tracker/feed.xml" rel="self" type="application/rss+xml" />
-<item>
-<title>SoCC 2026 — Abstract deadline 2026-07-07 23:59 UTC</title>
-<link>https://acmsocc.org/2026/</link>
-<guid isPermaLink="false">SoCC-2026-abstract-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
-<description>ACM Symposium on Cloud Computing — Systems · CORE N · Singapore · Second round</description>
-</item>
 <item>
 <title>SODA 2027 — Submission deadline 2026-07-09 23:59 UTC</title>
 <link>https://www.siam.org/conferences-events/siam-conferences/soda27/</link>
 <guid isPermaLink="false">SODA-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM-SIAM Symposium on Discrete Algorithms — Theory · CORE A* · Philadelphia, Pennsylvania, USA</description>
 </item>
 <item>
 <title>POPL 2027 — Submission deadline 2026-07-09 23:59 UTC</title>
 <link>https://popl27.sigplan.org/</link>
 <guid isPermaLink="false">POPL-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages — SE / PL · CORE A* · Mexico City · Submission Deadline</description>
 </item>
 <item>
 <title>SIGMOD 2027 — Abstract deadline 2026-07-10 23:59 UTC</title>
 <link>https://2027.sigmod.org/</link>
 <guid isPermaLink="false">SIGMOD-2027-abstract-2</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM Conference on Management of Data — Databases · CORE A* · Huntington Beach, CA, USA · round 3</description>
 </item>
 <item>
 <title>SIGMETRICS 2027 — Submission deadline 2026-07-10 23:59 UTC</title>
 <link>https://www.sigmetrics.org/sigmetrics2027/</link>
 <guid isPermaLink="false">SIGMETRICS-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM Special Interest Group on Measurement and Evaluation — Systems · CORE A* · Atlanta, Georgia, USA · summer round</description>
 </item>
 <item>
 <title>SoCC 2026 — Submission deadline 2026-07-14 23:59 UTC</title>
 <link>https://acmsocc.org/2026/</link>
 <guid isPermaLink="false">SoCC-2026-submission-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM Symposium on Cloud Computing — Systems · CORE N · Singapore · Second round</description>
 </item>
 <item>
 <title>CHES 2027 — Submission deadline 2026-07-15 23:59 UTC</title>
 <link>https://ches.iacr.org/2027/</link>
 <guid isPermaLink="false">CHES-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Cryptographic Hardware and Embedded Systems — Security · CORE A · TBD, Americas · Schedule for TCHES Volume 2027/1</description>
 </item>
 <item>
 <title>HotNets 2026 — Submission deadline 2026-07-16 23:59 UTC</title>
 <link>https://conferences.sigcomm.org/hotnets/2026/</link>
 <guid isPermaLink="false">HotNets-2026-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM Workshop on Hot Topics in Networks — Networking · CORE N · Salt Lake City, Utah, USA</description>
 </item>
 <item>
 <title>SIGMOD 2027 — Submission deadline 2026-07-17 23:59 UTC</title>
 <link>https://2027.sigmod.org/</link>
 <guid isPermaLink="false">SIGMOD-2027-submission-2</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM Conference on Management of Data — Databases · CORE A* · Huntington Beach, CA, USA · round 3</description>
 </item>
 <item>
 <title>WPES 2026 — Submission deadline 2026-07-17 23:59 UTC</title>
 <link>https://wpes2026.github.io/</link>
 <guid isPermaLink="false">WPES-2026-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>Workshop on Privacy in the Electronic Society — Security · CORE N · The Hague, The Netherlands · In conjunction with ACM CCS</description>
 </item>
 <item>
 <title>SIGKDD 2027 — Abstract deadline 2026-07-19 23:59 UTC</title>
 <link>https://kdd2027.kdd.org/</link>
 <guid isPermaLink="false">SIGKDD-2027-abstract-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM Knowledge Discovery and Data Mining — AI / ML · CORE A* · San Jose, California, USA · 1st round of 2 total rounds</description>
 </item>
 <item>
 <title>AAAI 2027 — Abstract deadline 2026-07-20 23:59 UTC</title>
 <link>https://aaai.org/conference/aaai/aaai-27/</link>
 <guid isPermaLink="false">AAAI-2027-abstract-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>AAAI Conference on Artificial Intelligence — AI / ML · CORE A* · Montréal, Québec, Canada</description>
 </item>
 <item>
 <title>AISec 2026 — Submission deadline 2026-07-24 23:59 UTC</title>
 <link>https://aisec.cc</link>
 <guid isPermaLink="false">AISec-2026-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>Workshop on Artificial Intelligence and Security — Security · CORE N · The Hague, The Netherlands · Co-located with ACM CCS 2026</description>
 </item>
 <item>
 <title>HPCA 2027 — Abstract deadline 2026-07-24 23:59 UTC</title>
 <link>https://conf.researchr.org/home/hpca-2027</link>
 <guid isPermaLink="false">HPCA-2027-abstract-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>IEEE International Symposium on High-Performance Computer Architecture — Systems · CORE A* · Salt Lake City, Utah</description>
 </item>
 <item>
 <title>INFOCOM 2027 — Abstract deadline 2026-07-24 23:59 UTC</title>
 <link>https://infocom2027.ieee-infocom.org/</link>
 <guid isPermaLink="false">INFOCOM-2027-abstract-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>IEEE International Conference on Computer Communications — Networking · CORE A* · Honolulu, HI, USA</description>
 </item>
 <item>
 <title>VLDB 2027 — Abstract deadline 2026-07-25 17:00 UTC</title>
 <link>https://www.vldb.org/2027/</link>
 <guid isPermaLink="false">VLDB-2027-abstract-4</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Very Large Data Bases — Databases · CORE A* · Athens, Greece</description>
 </item>
 <item>
 <title>SIGKDD 2027 — Submission deadline 2026-07-26 23:59 UTC</title>
 <link>https://kdd2027.kdd.org/</link>
 <guid isPermaLink="false">SIGKDD-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM Knowledge Discovery and Data Mining — AI / ML · CORE A* · San Jose, California, USA · 1st round of 2 total rounds</description>
 </item>
 <item>
 <title>AAAI 2027 — Submission deadline 2026-07-27 23:59 UTC</title>
 <link>https://aaai.org/conference/aaai/aaai-27/</link>
 <guid isPermaLink="false">AAAI-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>AAAI Conference on Artificial Intelligence — AI / ML · CORE A* · Montréal, Québec, Canada</description>
 </item>
 <item>
 <title>HPCA 2027 — Submission deadline 2026-07-31 23:59 UTC</title>
 <link>https://conf.researchr.org/home/hpca-2027</link>
 <guid isPermaLink="false">HPCA-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>IEEE International Symposium on High-Performance Computer Architecture — Systems · CORE A* · Salt Lake City, Utah</description>
 </item>
 <item>
 <title>INFOCOM 2027 — Submission deadline 2026-07-31 23:59 UTC</title>
 <link>https://infocom2027.ieee-infocom.org/</link>
 <guid isPermaLink="false">INFOCOM-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>IEEE International Conference on Computer Communications — Networking · CORE A* · Honolulu, HI, USA</description>
 </item>
 <item>
 <title>VLDB 2027 — Submission deadline 2026-08-01 17:00 UTC</title>
 <link>https://www.vldb.org/2027/</link>
 <guid isPermaLink="false">VLDB-2027-submission-4</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Very Large Data Bases — Databases · CORE A* · Athens, Greece</description>
 </item>
 <item>
 <title>EACL 2027 — Submission deadline 2026-08-03 23:59 UTC</title>
 <link>https://2027.eacl.org/</link>
 <guid isPermaLink="false">EACL-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>The Annual Conference of the European Chapter of the Association for Computational Linguistics — AI / ML · CORE A · Athens, Greece</description>
 </item>
 <item>
 <title>PPoPP 2027 — Submission deadline 2026-08-03 23:59 UTC</title>
 <link>https://ppopp27.sigplan.org/</link>
 <guid isPermaLink="false">PPoPP-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM SIGPLAN Symposium on Principles &amp; Practice of Parallel Programming — Systems · CORE B · Salt Lake City, Utah, USA</description>
 </item>
 <item>
 <title>CIDR 2027 — Submission deadline 2026-08-04 23:59 UTC</title>
 <link>https://www.cidrdb.org/cidr2027/</link>
 <guid isPermaLink="false">CIDR-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Innovative Data Systems Research — Databases · CORE A · Amsterdam, The Netherlands</description>
 </item>
 <item>
 <title>IUI 2027 — Abstract deadline 2026-08-13 23:59 UTC</title>
 <link>https://iui.hosting.acm.org/2027/</link>
 <guid isPermaLink="false">IUI-2027-abstract-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM Conference on Intelligent User Interfaces — AI / ML · CORE A · Helsinki, Finland</description>
 </item>
 <item>
 <title>WSDM 2027 — Abstract deadline 2026-08-17 23:59 UTC</title>
 <link>https://wsdm-conference.org/2027/</link>
 <guid isPermaLink="false">WSDM-2027-abstract-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Web Search and Data Mining — AI / ML · CORE A · Cordis, Hong Kong SAR, China</description>
 </item>
 <item>
 <title>USENIX Security 2027 — Abstract deadline 2026-08-18 23:59 UTC</title>
 <link>https://www.usenix.org/conference/usenixsecurity27</link>
 <guid isPermaLink="false">USENIX_Security-2027-abstract-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>USENIX Security Symposium — Security · CORE A* · Denver, CO, USA · Cycle 1 Deadline</description>
 </item>
 <item>
 <title>NDSS 2027 — Submission deadline 2026-08-19 23:59 UTC</title>
 <link>https://www.ndss-symposium.org/ndss2027/</link>
 <guid isPermaLink="false">NDSS-2027-submission-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>Network and Distributed System Security (NDSS) Symposium — Security · CORE A* · Seoul, Republic of Korea · Fall</description>
 </item>
 <item>
 <title>IUI 2027 — Submission deadline 2026-08-20 23:59 UTC</title>
 <link>https://iui.hosting.acm.org/2027/</link>
 <guid isPermaLink="false">IUI-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM Conference on Intelligent User Interfaces — AI / ML · CORE A · Helsinki, Finland</description>
 </item>
 <item>
 <title>WACV 2027 — Abstract deadline 2026-08-21 23:59 UTC</title>
 <link>https://wacv.thecvf.com/</link>
 <guid isPermaLink="false">WACV-2027-abstract-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>IEEE/CVF Winter Conference on Applications of Computer Vision — AI / ML · CORE A · Disney Springs, Buena Vista, FL, USA · Second round</description>
 </item>
 <item>
 <title>AsiaCCS 2027 — Submission deadline 2026-08-21 23:59 UTC</title>
 <link>https://asiaccs2027.cityu.edu.mo/index.html</link>
 <guid isPermaLink="false">AsiaCCS-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>Asia Conference on Computer and Communications Security — Security · CORE A · Macau, China · 1st round Deadline</description>
 </item>
 <item>
 <title>WSDM 2027 — Submission deadline 2026-08-24 23:59 UTC</title>
 <link>https://wsdm-conference.org/2027/</link>
 <guid isPermaLink="false">WSDM-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Web Search and Data Mining — AI / ML · CORE A · Cordis, Hong Kong SAR, China</description>
 </item>
 <item>
 <title>VLDB 2027 — Abstract deadline 2026-08-25 17:00 UTC</title>
 <link>https://www.vldb.org/2027/</link>
 <guid isPermaLink="false">VLDB-2027-abstract-5</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Very Large Data Bases — Databases · CORE A* · Athens, Greece</description>
 </item>
 <item>
 <title>USENIX Security 2027 — Submission deadline 2026-08-25 23:59 UTC</title>
 <link>https://www.usenix.org/conference/usenixsecurity27</link>
 <guid isPermaLink="false">USENIX_Security-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>USENIX Security Symposium — Security · CORE A* · Denver, CO, USA · Cycle 1 Deadline</description>
 </item>
 <item>
 <title>WACV 2027 — Submission deadline 2026-08-28 23:59 UTC</title>
 <link>https://wacv.thecvf.com/</link>
 <guid isPermaLink="false">WACV-2027-submission-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>IEEE/CVF Winter Conference on Applications of Computer Vision — AI / ML · CORE A · Disney Springs, Buena Vista, FL, USA · Second round</description>
 </item>
 <item>
 <title>PETS 2027 — Submission deadline 2026-08-31 23:59 UTC</title>
 <link>https://petsymposium.org/cfp27.php</link>
 <guid isPermaLink="false">PETS-2027-submission-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>Privacy Enhancing Technologies Symposium — Security · CORE A · Delft, The Netherlands · Issue 2 Paper Submission Deadline</description>
 </item>
 <item>
 <title>VLDB 2027 — Submission deadline 2026-09-01 17:00 UTC</title>
 <link>https://www.vldb.org/2027/</link>
 <guid isPermaLink="false">VLDB-2027-submission-5</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Very Large Data Bases — Databases · CORE A* · Athens, Greece</description>
 </item>
 <item>
 <title>ICDT 2027 — Abstract deadline 2026-09-03 23:59 UTC</title>
 <link>https://edbticdt2027.github.io/</link>
 <guid isPermaLink="false">ICDT-2027-abstract-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Database Theory — Databases · CORE A · Lille, France</description>
 </item>
 <item>
 <title>ASPLOS 2027 — Submission deadline 2026-09-09 23:59 UTC</title>
 <link>https://www.asplos-conference.org/asplos2027/cfp/</link>
 <guid isPermaLink="false">ASPLOS-2027-submission-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Architectural Support for Programming Languages and Operating Systems — Systems · CORE A* · Crete, Greece · September Cycle Submission Deadline</description>
 </item>
 <item>
 <title>ICDT 2027 — Submission deadline 2026-09-10 23:59 UTC</title>
 <link>https://edbticdt2027.github.io/</link>
 <guid isPermaLink="false">ICDT-2027-submission-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Database Theory — Databases · CORE A · Lille, France</description>
 </item>
 <item>
 <title>IEEE/ACM CGO 2027 — Submission deadline 2026-09-10 23:59 UTC</title>
 <link>https://conf.researchr.org/home/cgo-2027</link>
 <guid isPermaLink="false">IEEE/ACM_CGO-2027-submission-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>The International Symposium on Code Generation and Optimization — Systems · CORE A · Salt Lake City, Utah, USA · Second Submission</description>
 </item>
 <item>
 <title>CHI 2027 — Submission deadline 2026-09-10 23:59 UTC</title>
 <link>https://chi2027.acm.org/</link>
 <guid isPermaLink="false">CHI-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM Conference on Human Factors in Computing Systems — AI / ML · CORE A* · David L. Lawrence Convention Center, Pittsburgh, USA</description>
 </item>
 <item>
 <title>NSDI 2027 — Abstract deadline 2026-09-10 23:59 UTC</title>
 <link>https://www.usenix.org/conference/nsdi27</link>
 <guid isPermaLink="false">NSDI-2027-abstract-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>USENIX Symposium on Networked Systems Design and Implementation — Networking · CORE N · Providence, RI, USA</description>
 </item>
 <item>
 <title>FAST 2027 — Submission deadline 2026-09-15 23:59 UTC</title>
 <link>https://www.usenix.org/conference/fast27</link>
 <guid isPermaLink="false">FAST-2027-submission-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>USENIX Conference on File and Storage Technologies — Systems · CORE A · Renton, WA, USA · Fall deadline</description>
 </item>
 <item>
 <title>ICASSP 2027 — Submission deadline 2026-09-16 23:59 UTC</title>
 <link>https://2027.ieeeicassp.org/</link>
 <guid isPermaLink="false">ICASSP-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>IEEE International Conference on Acoustics, Speech, and Signal Processing — AI / ML · CORE B · Toronto, Canada</description>
 </item>
 <item>
 <title>EuroSys 2027 — Abstract deadline 2026-09-17 23:59 UTC</title>
 <link>https://2027.eurosys.org/</link>
 <guid isPermaLink="false">EuroSys-2027-abstract-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>European Conference on Computer Systems — Systems · CORE A · Rabat, Morocco · Fall Submission Deadline</description>
 </item>
 <item>
 <title>NSDI 2027 — Submission deadline 2026-09-17 23:59 UTC</title>
 <link>https://www.usenix.org/conference/nsdi27</link>
 <guid isPermaLink="false">NSDI-2027-submission-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>USENIX Symposium on Networked Systems Design and Implementation — Networking · CORE N · Providence, RI, USA</description>
 </item>
 <item>
 <title>EUROCRYPT 2027 — Submission deadline 2026-09-17 23:59 UTC</title>
 <link>https://eurocrypt.iacr.org/2027/</link>
 <guid isPermaLink="false">EUROCRYPT-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>European Cryptology Conference — Security · CORE A* · Eindhoven, Netherlands</description>
 </item>
 <item>
 <title>FC 2027 — Submission deadline 2026-09-17 23:59 UTC</title>
 <link>https://fc27.ifca.ai/</link>
 <guid isPermaLink="false">FC-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>Financial Cryptography and Data Security — Security · CORE A · Barbados (tentative) · Submission deadline</description>
 </item>
 <item>
 <title>SANER 2027 — Abstract deadline 2026-09-21 23:59 UTC</title>
 <link>https://conf.researchr.org/home/saner-2027</link>
 <guid isPermaLink="false">SANER-2027-abstract-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>IEEE International Conference on Software Analysis, Evolution and Reengineering — SE / PL · CORE A · Richmond, Virginia, United States · Research Track Paper submission deadline</description>
 </item>
 <item>
 <title>EuroSys 2027 — Submission deadline 2026-09-24 23:59 UTC</title>
 <link>https://2027.eurosys.org/</link>
 <guid isPermaLink="false">EuroSys-2027-submission-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>European Conference on Computer Systems — Systems · CORE A · Rabat, Morocco · Fall Submission Deadline</description>
 </item>
 <item>
 <title>VLDB 2027 — Abstract deadline 2026-09-25 17:00 UTC</title>
 <link>https://www.vldb.org/2027/</link>
 <guid isPermaLink="false">VLDB-2027-abstract-6</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Very Large Data Bases — Databases · CORE A* · Athens, Greece</description>
 </item>
 <item>
 <title>SANER 2027 — Submission deadline 2026-09-25 23:59 UTC</title>
 <link>https://conf.researchr.org/home/saner-2027</link>
 <guid isPermaLink="false">SANER-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>IEEE International Conference on Software Analysis, Evolution and Reengineering — SE / PL · CORE A · Richmond, Virginia, United States · Research Track Paper submission deadline</description>
 </item>
 <item>
 <title>VLDB 2027 — Submission deadline 2026-10-01 17:00 UTC</title>
 <link>https://www.vldb.org/2027/</link>
 <guid isPermaLink="false">VLDB-2027-submission-6</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Very Large Data Bases — Databases · CORE A* · Athens, Greece</description>
 </item>
 <item>
 <title>AAMAS 2027 — Abstract deadline 2026-10-02 11:59 UTC</title>
 <link>https://openreview.net/group?id=ifaamas.org/AAMAS/2027/Conference</link>
 <guid isPermaLink="false">AAMAS-2027-abstract-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Autonomous Agents and Multiagent Systems — AI / ML · CORE A* · Hanoi, Vietnam</description>
 </item>
 <item>
 <title>SIGMETRICS 2027 — Abstract deadline 2026-10-02 23:59 UTC</title>
 <link>https://www.sigmetrics.org/sigmetrics2027/</link>
 <guid isPermaLink="false">SIGMETRICS-2027-abstract-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM Special Interest Group on Measurement and Evaluation — Systems · CORE A* · Atlanta, Georgia, USA · fall round</description>
 </item>
 <item>
 <title>SAC 2027 — Submission deadline 2026-10-02 23:59 UTC</title>
 <link>https://www.sigapp.org/sac/sac2027</link>
 <guid isPermaLink="false">SAC-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM/SIGAPP Symposium On Applied Computing — Security · CORE N · Gwangju, South Korea</description>
 </item>
 <item>
 <title>FSE 2027 — Submission deadline 2026-10-02 23:59 UTC</title>
 <link>https://conf.researchr.org/home/fse-2027</link>
 <guid isPermaLink="false">FSE-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM International Conference on the Foundations of Software Engineering — SE / PL · CORE A* · Shenzhen, China</description>
 </item>
 <item>
 <title>EDBT 2027 — Submission deadline 2026-10-07 23:59 UTC</title>
 <link>https://edbticdt2027.github.io/</link>
 <guid isPermaLink="false">EDBT-2027-submission-2</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Extending Database Technology — Databases · CORE A · Lille, France</description>
 </item>
 <item>
 <title>AAMAS 2027 — Submission deadline 2026-10-09 11:59 UTC</title>
 <link>https://openreview.net/group?id=ifaamas.org/AAMAS/2027/Conference</link>
 <guid isPermaLink="false">AAMAS-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Autonomous Agents and Multiagent Systems — AI / ML · CORE A* · Hanoi, Vietnam</description>
 </item>
 <item>
 <title>SIGMETRICS 2027 — Submission deadline 2026-10-09 23:59 UTC</title>
 <link>https://www.sigmetrics.org/sigmetrics2027/</link>
 <guid isPermaLink="false">SIGMETRICS-2027-submission-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM Special Interest Group on Measurement and Evaluation — Systems · CORE A* · Atlanta, Georgia, USA · fall round</description>
 </item>
 <item>
 <title>SIGMOD 2027 — Abstract deadline 2026-10-10 23:59 UTC</title>
 <link>https://2027.sigmod.org/</link>
 <guid isPermaLink="false">SIGMOD-2027-abstract-3</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM Conference on Management of Data — Databases · CORE A* · Huntington Beach, CA, USA · round 4</description>
 </item>
 <item>
 <title>CHES 2027 — Submission deadline 2026-10-15 23:59 UTC</title>
 <link>https://ches.iacr.org/2027/</link>
 <guid isPermaLink="false">CHES-2027-submission-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Cryptographic Hardware and Embedded Systems — Security · CORE A · TBD, Americas · Schedule for TCHES Volume 2027/2</description>
 </item>
 <item>
 <title>SIGMOD 2027 — Submission deadline 2026-10-17 23:59 UTC</title>
 <link>https://2027.sigmod.org/</link>
 <guid isPermaLink="false">SIGMOD-2027-submission-3</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM Conference on Management of Data — Databases · CORE A* · Huntington Beach, CA, USA · round 4</description>
 </item>
 <item>
 <title>VLDB 2027 — Abstract deadline 2026-10-25 17:00 UTC</title>
 <link>https://www.vldb.org/2027/</link>
 <guid isPermaLink="false">VLDB-2027-abstract-7</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Very Large Data Bases — Databases · CORE A* · Athens, Greece</description>
 </item>
 <item>
 <title>VLDB 2027 — Submission deadline 2026-11-01 17:00 UTC</title>
 <link>https://www.vldb.org/2027/</link>
 <guid isPermaLink="false">VLDB-2027-submission-7</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Very Large Data Bases — Databases · CORE A* · Athens, Greece</description>
 </item>
 <item>
 <title>S&amp;P 2027 — Abstract deadline 2026-11-10 23:59 UTC</title>
 <link>https://sp2027.ieee-security.org/index.html</link>
 <guid isPermaLink="false">S&amp;P-2027-abstract-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>IEEE Symposium on Security and Privacy — Security · CORE A* · MONTREAL, CANADA · Second Paper submission deadline</description>
 </item>
 <item>
 <title>ICDE 2027 — Submission deadline 2026-11-11 17:00 UTC</title>
 <link>https://icde2027.github.io/</link>
 <guid isPermaLink="false">ICDE-2027-submission-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>IEEE International Conference on Data Engineering — Databases · CORE A* · Copenhagen, Denmark · second round</description>
 </item>
 <item>
 <title>S&amp;P 2027 — Submission deadline 2026-11-17 23:59 UTC</title>
 <link>https://sp2027.ieee-security.org/index.html</link>
 <guid isPermaLink="false">S&amp;P-2027-submission-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>IEEE Symposium on Security and Privacy — Security · CORE A* · MONTREAL, CANADA · Second Paper submission deadline</description>
 </item>
 <item>
 <title>VLDB 2027 — Abstract deadline 2026-11-25 17:00 UTC</title>
 <link>https://www.vldb.org/2027/</link>
 <guid isPermaLink="false">VLDB-2027-abstract-8</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Very Large Data Bases — Databases · CORE A* · Athens, Greece</description>
 </item>
 <item>
 <title>PETS 2027 — Submission deadline 2026-11-30 23:59 UTC</title>
 <link>https://petsymposium.org/cfp27.php</link>
 <guid isPermaLink="false">PETS-2027-submission-2</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>Privacy Enhancing Technologies Symposium — Security · CORE A · Delft, The Netherlands · Issue 3 Paper Submission Deadline</description>
 </item>
 <item>
 <title>VLDB 2027 — Submission deadline 2026-12-01 17:00 UTC</title>
 <link>https://www.vldb.org/2027/</link>
 <guid isPermaLink="false">VLDB-2027-submission-8</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Very Large Data Bases — Databases · CORE A* · Athens, Greece</description>
 </item>
 <item>
 <title>OSDI 2027 — Abstract deadline 2026-12-01 22:59 UTC</title>
 <link>https://www.usenix.org/conference/osdi27</link>
 <guid isPermaLink="false">OSDI-2027-abstract-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>USENIX Symposium on Operating Systems Design and Implementation — Systems · CORE A* · Baltimore, MD, USA</description>
 </item>
 <item>
 <title>OSDI 2027 — Submission deadline 2026-12-08 22:59 UTC</title>
 <link>https://www.usenix.org/conference/osdi27</link>
 <guid isPermaLink="false">OSDI-2027-submission-0</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>USENIX Symposium on Operating Systems Design and Implementation — Systems · CORE A* · Baltimore, MD, USA</description>
 </item>
 <item>
 <title>AsiaCCS 2027 — Submission deadline 2026-12-11 23:59 UTC</title>
 <link>https://asiaccs2027.cityu.edu.mo/index.html</link>
 <guid isPermaLink="false">AsiaCCS-2027-submission-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>Asia Conference on Computer and Communications Security — Security · CORE A · Macau, China · 2nd round Deadline</description>
 </item>
 <item>
 <title>VLDB 2027 — Abstract deadline 2026-12-25 17:00 UTC</title>
 <link>https://www.vldb.org/2027/</link>
 <guid isPermaLink="false">VLDB-2027-abstract-9</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Very Large Data Bases — Databases · CORE A* · Athens, Greece</description>
 </item>
 <item>
 <title>VLDB 2027 — Submission deadline 2027-01-01 17:00 UTC</title>
 <link>https://www.vldb.org/2027/</link>
 <guid isPermaLink="false">VLDB-2027-submission-9</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Very Large Data Bases — Databases · CORE A* · Athens, Greece</description>
 </item>
 <item>
 <title>SIGMETRICS 2027 — Abstract deadline 2027-01-04 23:59 UTC</title>
 <link>https://www.sigmetrics.org/sigmetrics2027/</link>
 <guid isPermaLink="false">SIGMETRICS-2027-abstract-2</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM Special Interest Group on Measurement and Evaluation — Systems · CORE A* · Atlanta, Georgia, USA · winter round</description>
 </item>
 <item>
 <title>SIGMETRICS 2027 — Submission deadline 2027-01-11 23:59 UTC</title>
 <link>https://www.sigmetrics.org/sigmetrics2027/</link>
 <guid isPermaLink="false">SIGMETRICS-2027-submission-2</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>ACM Special Interest Group on Measurement and Evaluation — Systems · CORE A* · Atlanta, Georgia, USA · winter round</description>
 </item>
 <item>
 <title>CHES 2027 — Submission deadline 2027-01-15 23:59 UTC</title>
 <link>https://ches.iacr.org/2027/</link>
 <guid isPermaLink="false">CHES-2027-submission-2</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Cryptographic Hardware and Embedded Systems — Security · CORE A · TBD, Americas · Schedule for TCHES Volume 2027/3</description>
 </item>
 <item>
 <title>USENIX Security 2027 — Abstract deadline 2027-01-19 23:59 UTC</title>
 <link>https://www.usenix.org/conference/usenixsecurity27</link>
 <guid isPermaLink="false">USENIX_Security-2027-abstract-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>USENIX Security Symposium — Security · CORE A* · Denver, CO, USA · Cycle 2 Deadline</description>
 </item>
 <item>
 <title>VLDB 2027 — Abstract deadline 2027-01-25 17:00 UTC</title>
 <link>https://www.vldb.org/2027/</link>
 <guid isPermaLink="false">VLDB-2027-abstract-10</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Very Large Data Bases — Databases · CORE A* · Athens, Greece</description>
 </item>
 <item>
 <title>USENIX Security 2027 — Submission deadline 2027-01-26 23:59 UTC</title>
 <link>https://www.usenix.org/conference/usenixsecurity27</link>
 <guid isPermaLink="false">USENIX_Security-2027-submission-1</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>USENIX Security Symposium — Security · CORE A* · Denver, CO, USA · Cycle 2 Deadline</description>
 </item>
 <item>
 <title>VLDB 2027 — Submission deadline 2027-02-01 17:00 UTC</title>
 <link>https://www.vldb.org/2027/</link>
 <guid isPermaLink="false">VLDB-2027-submission-10</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Very Large Data Bases — Databases · CORE A* · Athens, Greece</description>
 </item>
 <item>
 <title>VLDB 2027 — Abstract deadline 2027-02-25 17:00 UTC</title>
 <link>https://www.vldb.org/2027/</link>
 <guid isPermaLink="false">VLDB-2027-abstract-11</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Very Large Data Bases — Databases · CORE A* · Athens, Greece</description>
 </item>
 <item>
 <title>PETS 2027 — Submission deadline 2027-02-28 23:59 UTC</title>
 <link>https://petsymposium.org/cfp27.php</link>
 <guid isPermaLink="false">PETS-2027-submission-3</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>Privacy Enhancing Technologies Symposium — Security · CORE A · Delft, The Netherlands · Issue 4 Paper Submission Deadline</description>
 </item>
 <item>
 <title>VLDB 2027 — Submission deadline 2027-03-01 17:00 UTC</title>
 <link>https://www.vldb.org/2027/</link>
 <guid isPermaLink="false">VLDB-2027-submission-11</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Very Large Data Bases — Databases · CORE A* · Athens, Greece</description>
 </item>
 <item>
 <title>CHES 2027 — Submission deadline 2027-04-15 23:59 UTC</title>
 <link>https://ches.iacr.org/2027/</link>
 <guid isPermaLink="false">CHES-2027-submission-3</guid>
-<pubDate>Tue, 07 Jul 2026 10:00:18 +0000</pubDate>
+<pubDate>Wed, 08 Jul 2026 08:43:42 +0000</pubDate>
 <description>International Conference on Cryptographic Hardware and Embedded Systems — Security · CORE A · TBD, Americas · Schedule for TCHES Volume 2027/4</description>
 </item>
 </channel>
