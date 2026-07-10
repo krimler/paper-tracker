@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-09T09:56:45.858162+00:00",
+  "fetched_at": "2026-07-10T09:52:35.203058+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -11127,14 +11127,14 @@
       "dblp": "www",
       "year": 2027,
       "id": "www27",
-      "link": "https://www2027.thewebconf.org/",
+      "link": "https://acmweb2027.org/",
       "timezone": "AoE",
-      "date": "TBD",
+      "date": "May 10 - 14, 2027",
       "place": "Dublin, Ireland",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": "TBD",
+          "deadline": "2026-10-18 23:59:59",
+          "abstract_deadline": "2026-10-11 23:59:59",
           "comment": null
         }
       ],
