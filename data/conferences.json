@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T08:27:24.776677+00:00",
+  "fetched_at": "2026-07-15T08:34:51.843823+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 710,
+  "row_count": 711,
   "conferences": [
     {
       "title": "AAAI",
@@ -14100,6 +14100,31 @@
         {
           "deadline": "2025-12-04 23:59:59",
           "abstract_deadline": "2025-11-27 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "DSN",
+      "description": "International Conference on Dependable Systems and Networks",
+      "sub": "SC",
+      "area": "distributed_systems",
+      "ccfddl_category": "SC",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "dsn",
+      "year": 2027,
+      "id": "dsn27",
+      "link": "https://dsn2027-berlin.github.io/",
+      "timezone": "AoE",
+      "date": "June 22-25, 2027",
+      "place": "Berlin, Germany",
+      "timeline": [
+        {
+          "deadline": "2026-12-02 23:59:59",
+          "abstract_deadline": "2026-11-25 23:59:59",
           "comment": null
         }
       ],
