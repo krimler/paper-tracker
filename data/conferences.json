@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-20T09:33:13.069711+00:00",
+  "fetched_at": "2026-07-21T08:43:40.866204+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 712,
+  "row_count": 714,
   "conferences": [
     {
       "title": "AAAI",
@@ -5301,6 +5301,31 @@
       "source": "ccfddl"
     },
     {
+      "title": "ECML-PKDD",
+      "description": "European Conference on Machine Learning and 25th Principles and Practice of Knowledge Discovery in Databases",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "pkdd",
+      "year": 2027,
+      "id": "ecmlpkdd2027",
+      "link": "https://ecmlpkdd.org/2027/",
+      "timezone": "AoE",
+      "date": "September 20-24, 2027",
+      "place": "Eindhoven, The Netherlands",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
       "title": "PODS",
       "description": "ACM Symposium on Principles of Database Systems",
       "sub": "DB",
@@ -5475,6 +5500,31 @@
         {
           "deadline": "2024-10-04 23:59:59",
           "abstract_deadline": "2024-09-27 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SDM",
+      "description": "SIAM International Conference on Data Mining",
+      "sub": "DB",
+      "area": "ai_ml",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "sdm",
+      "year": 2026,
+      "id": "sdm2026",
+      "link": "https://www.siam.org/conferences-events/siam-conferences/sdm26/",
+      "timezone": "AoE",
+      "date": "November 19-20, 2026",
+      "place": "Salt Lake City, Utah, USA",
+      "timeline": [
+        {
+          "deadline": "2026-04-17 23:59:59",
+          "abstract_deadline": "2026-04-10 23:59:59",
           "comment": null
         }
       ],
