@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-22T08:43:55.640280+00:00",
+  "fetched_at": "2026-07-23T08:43:50.758907+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 714,
+  "row_count": 717,
   "conferences": [
     {
       "title": "AAAI",
@@ -481,6 +481,31 @@
           "deadline": "2026-01-05 23:59:59",
           "abstract_deadline": null,
           "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ACL",
+      "description": "Annual Meeting of the Association for Computational Linguistics",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "acl",
+      "year": 2027,
+      "id": "acl27",
+      "link": "https://2027.aclweb.org/",
+      "timezone": "UTC-12",
+      "date": "August 17-22, 2027",
+      "place": "Kyoto, Japan",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "ARR Submission"
         }
       ],
       "source": "ccfddl"
@@ -916,6 +941,31 @@
           "deadline": "2024-09-16 23:59:59",
           "abstract_deadline": null,
           "comment": "First Call for Main Conference Papers"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "COLING",
+      "description": "INTERNATIONNAL CONFERENCE ON COMPUTATIONAL LINGUISTICS",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "coling",
+      "year": 2027,
+      "id": "coling27",
+      "link": "https://2027.coling-iccl.org/",
+      "timezone": "UTC-12",
+      "date": "May 9-14, 2027",
+      "place": "Macau SAR, China",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "ARR Submission"
         }
       ],
       "source": "ccfddl"
@@ -1383,14 +1433,14 @@
       "year": 2027,
       "id": "eacl27",
       "link": "https://2027.eacl.org/",
-      "timezone": "AoE",
+      "timezone": "UTC-12",
       "date": "March 9-14, 2027",
       "place": "Athens, Greece",
       "timeline": [
         {
           "deadline": "2026-08-03 23:59:59",
           "abstract_deadline": null,
-          "comment": null
+          "comment": "ARR Submission; commitment deadline: 2026-10-11"
         }
       ],
       "source": "ccfddl"
@@ -1590,7 +1640,7 @@
         {
           "deadline": "2026-05-25 23:59:59",
           "abstract_deadline": null,
-          "comment": null
+          "comment": "ARR Submission; commitment deadline: 2026-08-02"
         }
       ],
       "source": "ccfddl"
@@ -2556,6 +2606,31 @@
           "deadline": "2024-10-15 23:59:59",
           "abstract_deadline": null,
           "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "NAACL",
+      "description": "The Annual Conference of the North American Chapter of the Association for Computational Linguistics",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "naacl",
+      "year": 2027,
+      "id": "naacl27",
+      "link": "https://2027.naacl.org/",
+      "timezone": "UTC-12",
+      "date": "June 1-5, 2027",
+      "place": "San Francisco, California, USA",
+      "timeline": [
+        {
+          "deadline": "2026-10-12 23:59:59",
+          "abstract_deadline": null,
+          "comment": "ARR Submission"
         }
       ],
       "source": "ccfddl"
