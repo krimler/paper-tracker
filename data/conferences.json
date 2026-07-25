@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-24T08:41:59.956293+00:00",
+  "fetched_at": "2026-07-25T08:23:19.497497+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 717,
+  "row_count": 718,
   "conferences": [
     {
       "title": "AAAI",
@@ -12021,6 +12021,31 @@
           "deadline": "2026-03-13 23:59:59",
           "abstract_deadline": "2026-03-06 23:59:59",
           "comment": "Winter Deadlines"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "MobiCom",
+      "description": "ACM Annual International Conference On Mobile Computing And Networking",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "mobicom",
+      "year": 2027,
+      "id": "mobicom27",
+      "link": "https://www.sigmobile.org/mobicom/2027/",
+      "timezone": "AoE",
+      "date": "Oct 18-22, 2027",
+      "place": "TBD",
+      "timeline": [
+        {
+          "deadline": "2026-09-02 23:59:59",
+          "abstract_deadline": "2026-08-26 23:59:59",
+          "comment": "Summer Deadlines"
         }
       ],
       "source": "ccfddl"
