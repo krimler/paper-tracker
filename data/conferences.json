@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-25T08:23:19.497497+00:00",
+  "fetched_at": "2026-07-26T08:38:58.833335+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 718,
+  "row_count": 722,
   "conferences": [
     {
       "title": "AAAI",
@@ -9066,6 +9066,31 @@
       "source": "ccfddl"
     },
     {
+      "title": "IPDPS",
+      "description": "IEEE International Parallel and Distributed Processing Symposium",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ipps",
+      "year": 2027,
+      "id": "ipdps27",
+      "link": "https://www.ipdps.org/",
+      "timezone": "AoE",
+      "date": "June 1-5, 2027",
+      "place": "Seattle, USA",
+      "timeline": [
+        {
+          "deadline": "2026-10-08 23:59:59",
+          "abstract_deadline": "2026-10-01 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
       "title": "ISCA",
       "description": "International Symposium on Computer Architecture",
       "sub": "DS",
@@ -9405,6 +9430,56 @@
         {
           "deadline": "2024-02-15 23:59:59",
           "abstract_deadline": "2024-02-11 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "PODC",
+      "description": "ACM Symposium on Principles of Distributed Computing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "B",
+      "dblp": "podc",
+      "year": 2025,
+      "id": "podc25",
+      "link": "https://www.podc.org/podc2025/",
+      "timezone": "AoE",
+      "date": "June 16-20, 2025",
+      "place": "Santa María Huatulco, Mexico",
+      "timeline": [
+        {
+          "deadline": "2025-02-08 23:59:59",
+          "abstract_deadline": "2025-02-04 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "PODC",
+      "description": "ACM Symposium on Principles of Distributed Computing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "B",
+      "dblp": "podc",
+      "year": 2026,
+      "id": "podc26",
+      "link": "https://www.podc.org/podc2026/",
+      "timezone": "AoE",
+      "date": "July 6-10, 2026",
+      "place": "Egham, England",
+      "timeline": [
+        {
+          "deadline": "2026-02-16 23:59:59",
+          "abstract_deadline": "2026-02-11 23:59:59",
           "comment": null
         }
       ],
@@ -12300,6 +12375,31 @@
         {
           "deadline": "2025-12-30 23:59:59",
           "abstract_deadline": "2025-12-08 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SECON",
+      "description": "IEEE International Conference on Sensing, Communication, and Networking",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "secon",
+      "year": 2027,
+      "id": "secon27",
+      "link": "https://secon2027.ieee-secon.org/",
+      "timezone": "UTC-5",
+      "date": "May 5-7, 2027",
+      "place": "Lisbon, Portugal",
+      "timeline": [
+        {
+          "deadline": "2026-11-30 23:59:59",
+          "abstract_deadline": null,
           "comment": null
         }
       ],
