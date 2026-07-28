@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-27T10:08:47.365729+00:00",
+  "fetched_at": "2026-07-28T08:50:34.628831+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 722,
+  "row_count": 723,
   "conferences": [
     {
       "title": "AAAI",
@@ -2204,6 +2204,31 @@
       "timeline": [
         {
           "deadline": "2025-09-15 23:59:00",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ICRA",
+      "description": "IEEE International Conference on Robotics and Automation",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "icra",
+      "year": 2027,
+      "id": "icra27",
+      "link": "https://2027.ieee-icra.org/",
+      "timezone": "UTC-7",
+      "date": "May 24-28, 2027",
+      "place": "Seoul, Republic of Korea",
+      "timeline": [
+        {
+          "deadline": "2026-09-15 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
