@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-28T08:50:34.628831+00:00",
+  "fetched_at": "2026-07-29T09:07:45.976713+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 723,
+  "row_count": 724,
   "conferences": [
     {
       "title": "AAAI",
@@ -1950,6 +1950,31 @@
         {
           "deadline": "2025-09-24 23:59:59",
           "abstract_deadline": "2025-09-19 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ICLR",
+      "description": "International Conference on Learning Representations",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "iclr",
+      "year": 2027,
+      "id": "iclr27",
+      "link": "https://iclr.cc/Conferences/2027",
+      "timezone": "AoE",
+      "date": "April 27-30, 2027",
+      "place": "San Francisco, CA, USA",
+      "timeline": [
+        {
+          "deadline": "2026-09-16 23:59:59",
+          "abstract_deadline": "2026-09-11 23:59:59",
           "comment": null
         }
       ],
