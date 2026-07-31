@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-30T08:49:27.627756+00:00",
+  "fetched_at": "2026-07-31T09:15:37.381696+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -6945,7 +6945,12 @@
         {
           "deadline": "2026-08-24 23:59:59",
           "abstract_deadline": "2026-08-17 23:59:59",
-          "comment": null
+          "comment": "Full Paper"
+        },
+        {
+          "deadline": "2026-11-17 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Short Paper"
         }
       ],
       "source": "ccfddl"
@@ -7012,7 +7017,7 @@
       "dblp": "apsys",
       "year": 2026,
       "id": "apsys2026",
-      "link": "https://ap-sys.org/",
+      "link": "https://apsys26.github.io/",
       "timezone": "AoE",
       "date": "September 17-18, 2026",
       "place": "Bangkok, Thailand",
