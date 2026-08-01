@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-31T09:15:37.381696+00:00",
+  "fetched_at": "2026-08-01T08:33:26.870701+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 724,
+  "row_count": 725,
   "conferences": [
     {
       "title": "AAAI",
@@ -15834,6 +15834,31 @@
       "timeline": [
         {
           "deadline": "2025-10-24 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "PKC",
+      "description": "International Conference on Practice and Theory of Public-Key Cryptography",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "pkc",
+      "year": 2027,
+      "id": "pkc27",
+      "link": "https://pkc.iacr.org/2027/",
+      "timezone": "UTC-12",
+      "date": "March 1-4, 2027",
+      "place": "Taipei, Taiwan",
+      "timeline": [
+        {
+          "deadline": "2026-08-16 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
