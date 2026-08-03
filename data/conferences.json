@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-02T08:36:25.822232+00:00",
+  "fetched_at": "2026-08-03T10:04:49.016445+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -1969,7 +1969,7 @@
       "id": "iclr27",
       "link": "https://iclr.cc/Conferences/2027",
       "timezone": "AoE",
-      "date": "TBD",
+      "date": "April 26-30, 2027",
       "place": "San Francisco, CA, USA",
       "timeline": [
         {
