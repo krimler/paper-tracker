@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-03T10:04:49.016445+00:00",
+  "fetched_at": "2026-08-04T09:06:19.364440+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -963,7 +963,7 @@
       "place": "Macau SAR, China",
       "timeline": [
         {
-          "deadline": "TBD",
+          "deadline": "2026-10-12 23:59:59",
           "abstract_deadline": null,
           "comment": "ARR Submission"
         }
