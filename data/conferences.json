@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-14T07:49:27.627666+00:00",
+  "fetched_at": "2026-08-15T06:56:37.966548+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -2193,19 +2193,14 @@
       "year": 2025,
       "id": "icra25",
       "link": "https://2025.ieee-icra.org",
-      "timezone": "UTC-4",
+      "timezone": "UTC-7",
       "date": "May 19-23, 2025",
       "place": "Atlanta (GA), USA",
       "timeline": [
         {
-          "deadline": "2024-07-15 12:00:00",
+          "deadline": "2024-09-16 23:59:59",
           "abstract_deadline": null,
-          "comment": "submission open"
-        },
-        {
-          "deadline": "2024-09-15 00:00:00",
-          "abstract_deadline": null,
-          "comment": "submission close"
+          "comment": null
         }
       ],
       "source": "ccfddl"
