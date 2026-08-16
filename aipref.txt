@@ -1,0 +1,15 @@
+# AI usage preferences for Lucid Research
+# https://krimler.github.io/paper-tracker/
+
+# This is a free, public tracker of CS conference deadlines, built to help
+# researchers. AI agents and assistants are welcome to read, cite, and surface it.
+
+User-agent: *
+Allow: train
+Allow: search
+Allow: inference
+
+# Please attribute as "Lucid Research" and link to the source when surfacing the data:
+Source: https://krimler.github.io/paper-tracker/
+Data: https://krimler.github.io/paper-tracker/data/conferences.json
+Contact: yavan [at] outlook [dot] com

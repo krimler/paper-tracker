@@ -7,7 +7,7 @@ Pages serves them at:
     https://krimler.github.io/paper-tracker/deadlines.ics
 
 Stdlib only (no third-party deps) so it is cheap to run in CI. Deadlines are
-treated as UTC, matching the dashboard (app.py parses with utc=True).
+treated as UTC, matching the directory page (index.html reads them the same way).
 """
 from __future__ import annotations
 
@@ -22,7 +22,6 @@ RSS_PATH = ROOT / "feed.xml"
 ICS_PATH = ROOT / "deadlines.ics"
 
 SITE = "https://krimler.github.io/paper-tracker/"
-APP = "https://paper-tracker-madhava.streamlit.app/"
 TITLE = "Lucid Research — CS conference deadlines"
 DESC = "Upcoming submission deadlines for top CS conferences, refreshed daily."
 
@@ -81,7 +80,7 @@ def collect_deadlines(data: dict, now: datetime) -> list[dict]:
                     "area": AREA_LABELS.get(conf.get("area"), conf.get("area") or ""),
                     "core": conf.get("core") or "N",
                     "place": conf.get("place") or "",
-                    "link": conf.get("link") or APP,
+                    "link": conf.get("link") or SITE,
                     "description": conf.get("description") or title,
                     "comment": t.get("comment") or "",
                     "uid": f"{title}-{year}-{kind.lower()}-{i}".replace(" ", "_"),

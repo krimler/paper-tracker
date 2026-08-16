@@ -1,0 +1,27 @@
+# Lucid Research — CS conference deadlines
+
+> A free, daily-refreshed tracker of submission deadlines for 185+ top computer science conferences across nine research areas. The whole directory is a static page; filtering runs in the browser.
+
+Computer science publishes at conferences, and each venue opens its submission window once a year. The dates are public but scattered across dozens of separate calls for papers, and the existing trackers are split by field. This project pulls them together, refreshes daily from public sources, and publishes the result as an open data file plus calendar and RSS feeds.
+
+Each record includes: conference title and full name, research area, year, CORE rank, CCF rank, edition dates and location, the submission link, and a timeline of rounds with the full deadline and (where published) the abstract deadline. Deadlines are stored and displayed in UTC.
+
+## Resources
+- [Directory](https://krimler.github.io/paper-tracker/): the full searchable table of venues, deadlines and countdowns. Static page, filtered in the browser.
+- [Open data (JSON)](https://krimler.github.io/paper-tracker/data/conferences.json): every tracked conference and deadline round
+- [Calendar feed (iCal)](https://krimler.github.io/paper-tracker/deadlines.ics): subscribable, with 7-day and 1-day alarms
+- [RSS feed](https://krimler.github.io/paper-tracker/feed.xml): upcoming deadlines
+- [Workshop tracker](https://krimler.github.io/workshop-tracker/): the companion index of ML/CS workshops
+- [Source on GitHub](https://github.com/krimler/paper-tracker): fetcher and site code
+
+## Shareable views
+Filters are reflected in the URL, so any filtered view can be linked:
+`?area=ai_ml&area=security&rank=astar&within=90&sort=core&q=vision&tab=past`.
+An embed mode renders a chrome-free mini list for an iframe:
+`?mode=embed&area=ai_ml&limit=5`.
+
+## Coverage
+Nine research areas: AI/ML, security, systems, software engineering / PL, databases, networking, distributed systems, theory, biomedical. The list is curated rather than exhaustive: CORE A*/A venues plus community-respected ones such as COLM, MLSys, HotNets, HotOS and CIDR, with a deliberate bias towards the venues practising engineers and developers read. Data is aggregated from ccfddl/ccf-deadlines, ai-deadlines, sec-deadlines, tcs-conf and a small manual list.
+
+## Contact
+To add a venue or send feedback, email yavan [at] outlook [dot] com. Built by Madhava Gaikwad (https://www.linkedin.com/in/alignops/).

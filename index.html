@@ -3,13 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lucid Web</title>
-<link rel="icon" type="image/jpeg" href="logo.jpg">
-<meta name="description" content="A free, daily-refreshed tracker of submission deadlines for 185+ top computer science conferences, across nine research areas.">
+<title>Lucid Research — every CS conference deadline, in one place</title>
+<meta name="description" content="A free, daily-refreshed tracker of submission deadlines for 185+ top computer science conferences across nine research areas. Search, filter, subscribe by calendar or RSS.">
+<link rel="canonical" href="https://krimler.github.io/paper-tracker/">
+<meta name="robots" content="index, follow">
+<meta name="keywords" content="CS conference deadlines, call for papers, CFP tracker, paper deadlines, NeurIPS ICML ICLR deadline, SIGCOMM SOSP OSDI deadline, CORE A* conferences, submission deadline tracker">
+<meta name="author" content="Madhava Gaikwad">
 
-<!-- Open Graph / Twitter: how the link looks when shared (logo + title preview) -->
+<!-- Open Graph / social -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="Lucid Research — CS conference deadlines">
+<meta property="og:title" content="Lucid Research — every CS conference deadline, in one place">
 <meta property="og:description" content="Every CS conference deadline in one place. Free, refreshed daily, across nine research areas.">
 <meta property="og:url" content="https://krimler.github.io/paper-tracker/">
 <meta property="og:image" content="https://krimler.github.io/paper-tracker/og-image.png">
@@ -19,150 +22,1017 @@
 <meta name="twitter:title" content="Lucid Research — CS conference deadlines">
 <meta name="twitter:description" content="Every CS conference deadline in one place. Free, refreshed daily, across nine research areas.">
 <meta name="twitter:image" content="https://krimler.github.io/paper-tracker/og-image.png">
+
+<link rel="icon" type="image/jpeg" href="logo.jpg">
+<link rel="alternate" type="application/rss+xml" title="Upcoming CS conference deadlines" href="feed.xml">
+
+<!-- Structured data for search engines -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Lucid Research",
+  "url": "https://krimler.github.io/paper-tracker/",
+  "description": "A daily-refreshed tracker of submission deadlines for top computer science conferences across nine research areas.",
+  "applicationCategory": "ResearchApplication",
+  "operatingSystem": "Web",
+  "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+  "author": {"@type": "Person", "name": "Madhava Gaikwad", "url": "https://www.linkedin.com/in/alignops/"}
+}
+</script>
+
 <style>
-  :root { --ink:#1F2937; --muted:#6B7280; --line:#ECECF1; --purple:#7C3AED; }
-  * { box-sizing: border-box; }
-  html,body { margin:0; }
-  body {
-    font: 16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    color: var(--ink);
-    background: radial-gradient(1200px 500px at 50% -10%, #F3E8FF 0%, #FAF5FF 35%, #FFFFFF 70%);
-    min-height: 100vh;
+  :root{
+    --silver:#C0C0C0;
+    --paper:#FFFFFF;
+    --navy:#000080;
+    --teal:#008080;
+    --ink:#000000;
+    --grey:#808080;
+    --lite:#DFDFDF;
+    --link:#0000EE;
+    --visited:#551A8B;
+    --alarm:#CC0000;
+    --ui:"MS Sans Serif","Microsoft Sans Serif",Tahoma,Geneva,Verdana,sans-serif;
+    --display:"Times New Roman",Times,serif;
+    --data:"Courier New",Courier,monospace;
   }
-  .wrap { max-width: 680px; margin: 0 auto; padding: 4.5rem 1.25rem 3rem; text-align: center; }
-  .logo { width: 84px; height: 84px; border-radius: 20px; object-fit: cover;
-    box-shadow: 0 14px 34px -14px rgba(124,58,237,.55); }
-  .brand { margin: .9rem 0 0; font-size: 1.7rem; font-weight: 900; letter-spacing: -.02em;
-    background: linear-gradient(120deg,#7C3AED 0%,#EC4899 50%,#F59E0B 100%);
-    -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-  h1 { font-size: 2.3rem; line-height: 1.15; letter-spacing: -.03em; margin: 1.2rem 0 .2rem; color:#1F2937; }
-  h1 .grad { color: var(--purple); -webkit-text-fill-color: currentColor; }
-  p.lead { font-size: 1.12rem; color: #374151; margin: .6rem auto 0; max-width: 52ch; }
-  .story { color: #4B5563; max-width: 56ch; margin: 1.6rem auto 0; text-align: left; }
-  .stats { display: flex; justify-content: center; gap: .6rem; flex-wrap: wrap; margin: 1.8rem 0 .4rem; }
-  .stat { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: .55rem .95rem; }
-  .stat b { display: block; font-size: 1.3rem; color: var(--purple); line-height: 1; }
-  .stat span { font-size: .72rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
-  .cta { margin: 1.8rem 0 .4rem; }
-  .btn { display: inline-block; text-decoration: none; font-weight: 700; padding: .8rem 1.4rem;
-    border-radius: 12px; margin: .3rem .35rem; }
-  .btn.primary { background: var(--purple); color: #fff;
-    box-shadow: 0 12px 26px -12px rgba(124,58,237,.7); }
-  .btn.ghost { color: #6D28D9; border: 1.5px solid #DDD6FE; }
-  .areas { margin-top: 1.6rem; color: var(--muted); font-size: .82rem; }
-  .areas span { display: inline-block; margin: .15rem .2rem; padding: .12rem .55rem;
-    border: 1px solid var(--line); border-radius: 999px; }
-  .share { margin-top: 1.8rem; display: flex; justify-content: center; gap: .55rem; flex-wrap: wrap; }
-  .sbtn { display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px;
-    border-radius: 50%; background: #fff; border: 1px solid var(--line); color: #4B5563;
-    cursor: pointer; padding: 0; transition: transform .12s ease, border-color .12s, color .12s; }
-  .sbtn svg { width: 19px; height: 19px; fill: currentColor; }
-  .sbtn:hover { transform: translateY(-2px); }
-  .sbtn.x:hover  { color: #000;     border-color: #000; }
-  .sbtn.li:hover { color: #0A66C2;  border-color: #0A66C2; }
-  .sbtn.gh:hover { color: #181717;  border-color: #181717; }
-  .sbtn.cp:hover { color: #6D28D9;  border-color: #DDD6FE; }
-  .subscribe { margin-top: 1.4rem; color: var(--muted); font-size: .9rem; }
-  .subscribe > a { color: #6D28D9; text-decoration: none; font-weight: 600; }
-  .subscribe > a:hover { text-decoration: underline; }
-  .embed { margin: .9rem auto 0; max-width: 52ch; text-align: left;
-    border: 1px solid var(--line); border-radius: 12px; padding: .4rem .9rem; background: #fff; }
-  .embed summary { cursor: pointer; font-weight: 600; color: #4B5563; }
-  .embed p { margin: .6rem 0 .3rem; color: #4B5563; font-size: .85rem; }
-  .embed code { display: block; white-space: pre-wrap; word-break: break-all;
-    background: #F8F5FF; border: 1px solid var(--line); border-radius: 8px;
-    padding: .6rem .7rem; font-size: .78rem; color: #374151; }
-  .embed .embed-note { font-size: .8rem; }
-  .embed .embed-note code { display: inline; padding: .05rem .3rem; }
-  footer { margin-top: 2.4rem; color: var(--muted); font-size: .85rem; }
-  footer a { color: #6D28D9; text-decoration: none; }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%; background:var(--teal);}
+  body{
+    margin:0; padding:14px 10px 34px;
+    background:var(--teal);
+    font-family:var(--ui); font-size:13px; line-height:1.45; color:var(--ink);
+  }
+
+  /* ---- Win95 bevels: the whole visual system is built from these two ---- */
+  .out{border:1px solid; border-color:var(--lite) var(--ink) var(--ink) var(--lite);
+       box-shadow:inset 1px 1px 0 #FFF, inset -1px -1px 0 var(--grey); background:var(--silver);}
+  .in {border:1px solid; border-color:var(--grey) #FFF #FFF var(--grey);
+       box-shadow:inset 1px 1px 0 var(--ink), inset -1px -1px 0 var(--lite); background:var(--paper);}
+
+  .window{max-width:1180px; margin:0 auto; padding:3px;}
+  .titlebar{
+    background:linear-gradient(90deg,var(--navy) 0%, #1084D0 100%);
+    color:#FFF; font-weight:700; font-size:12px; letter-spacing:.02em;
+    padding:3px 4px 3px 6px; display:flex; align-items:center; gap:8px;
+  }
+  .titlebar .t{flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .tbtn{width:17px; height:15px; font-size:10px; line-height:11px; text-align:center;
+        color:var(--ink); font-weight:800; font-family:var(--ui);}
+  .winbody{padding:12px;}
+
+  /* ---- masthead ---- */
+  .mast{display:flex; gap:14px; align-items:flex-start; flex-wrap:wrap;}
+  .mast img{width:76px; height:76px; object-fit:cover; padding:2px; background:#FFF; flex:none;}
+  .mast .who{flex:1 1 300px; min-width:260px;}
+  h1{font-family:var(--display); font-size:34px; line-height:1; margin:0 0 2px;
+     color:var(--navy); letter-spacing:-.01em;}
+  h1 .hi{color:var(--alarm);}
+  .tagline{font-family:var(--display); font-size:16px; font-style:italic; margin:0; color:#202020;}
+  .stamp{font-family:var(--data); font-size:11px; color:#303030; margin-top:6px;}
+
+  /* signature 1: odometer. A 90s hit counter, counting the thing the page is for. */
+  .odo{flex:none; text-align:center;}
+  .odo .digits{background:var(--ink); padding:4px 5px; display:inline-flex; gap:2px;}
+  .odo .d{font-family:var(--data); font-size:22px; font-weight:700; line-height:1;
+          color:#33FF66; background:#0A2A12; padding:2px 4px; min-width:16px; text-align:center;}
+  .odo .cap{font-size:10px; text-transform:uppercase; letter-spacing:.08em; margin-top:4px; color:#202020;}
+
+  hr{border:0; border-top:1px solid var(--grey); border-bottom:1px solid #FFF; margin:12px 0;}
+
+  /* ---- nav ---- */
+  .nav{font-size:12px; text-align:center; padding:5px 6px; margin:10px 0;}
+  .nav a{margin:0 2px;}
+  .nav .sep{color:var(--grey); margin:0 4px;}
+
+  /* signature 2: the deadline ticker. Reads as a marquee, carries the payload. */
+  .ticker{margin:10px 0 0; padding:4px 0; overflow:hidden; background:var(--ink);}
+  .ticker .rail{display:inline-block; white-space:nowrap; padding-left:100%;
+                animation:slide 64s linear infinite; font-family:var(--data); font-size:12.5px; color:#FFD24A;}
+  .ticker:hover .rail{animation-play-state:paused;}
+  .ticker b{color:#FFF;}
+  .ticker .hot{color:#FF6B6B; font-weight:700;}
+  .ticker .item{margin-right:34px;}
+  @keyframes slide{from{transform:translateX(0)} to{transform:translateX(-100%)}}
+  @media (prefers-reduced-motion:reduce){
+    .ticker{overflow-x:auto;}
+    .ticker .rail{animation:none; padding-left:8px;}
+  }
+
+  .note{font-size:11.5px; padding:6px 8px; margin:10px 0; background:#FFFFCC;
+        border:1px solid var(--grey); line-height:1.4;}
+  .note b{color:var(--navy);}
+
+  /* ---- two column body ---- */
+  .cols{display:flex; gap:12px; align-items:flex-start; margin-top:12px;}
+  .side{flex:0 0 232px; padding:8px;}
+  .main{flex:1 1 auto; min-width:0;}
+
+  fieldset{margin:0 0 10px; padding:6px 8px 8px; border:1px solid var(--grey);}
+  legend{font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; color:var(--navy); padding:0 4px;}
+  label.row{display:block; font-size:12px; padding:1px 0; cursor:pointer;}
+  label.row input{vertical-align:-1px; margin:0 5px 0 0;}
+  .side h3{font-family:var(--display); font-size:15px; margin:0 0 6px; color:var(--navy);}
+
+  input[type=text], select{
+    font-family:var(--ui); font-size:12px; width:100%; padding:3px 4px; background:#FFF; color:var(--ink);
+    border:1px solid; border-color:var(--grey) #FFF #FFF var(--grey);
+    box-shadow:inset 1px 1px 0 var(--ink), inset -1px -1px 0 var(--lite);
+  }
+  button{
+    font-family:var(--ui); font-size:12px; padding:3px 9px; cursor:pointer;
+    background:var(--silver); color:var(--ink);
+    border:1px solid; border-color:var(--lite) var(--ink) var(--ink) var(--lite);
+    box-shadow:inset 1px 1px 0 #FFF, inset -1px -1px 0 var(--grey);
+  }
+  button:active{border-color:var(--grey) #FFF #FFF var(--grey); box-shadow:inset 1px 1px 0 var(--ink); padding:4px 8px 2px 10px;}
+  button[disabled]{color:var(--grey); text-shadow:1px 1px 0 #FFF; cursor:default;}
+  a.btn{display:inline-block; font-family:var(--ui); font-size:12px; padding:3px 9px; text-decoration:none;
+        color:var(--ink); background:var(--silver);
+        border:1px solid; border-color:var(--lite) var(--ink) var(--ink) var(--lite);
+        box-shadow:inset 1px 1px 0 #FFF, inset -1px -1px 0 var(--grey);}
+  a.btn:visited{color:var(--ink);}
+  a.btn:hover{color:var(--navy);}
+  a.btn:active{border-color:var(--grey) #FFF #FFF var(--grey); box-shadow:inset 1px 1px 0 var(--ink);}
+  p.ask{margin:0 0 6px; font-size:11.5px; line-height:1.4;}
+  .qv{display:flex; flex-wrap:wrap; gap:4px;}
+  .qv button{font-size:11px; padding:2px 6px;}
+  :focus-visible{outline:2px dotted var(--ink); outline-offset:1px;}
+
+  /* ---- stat strip ---- */
+  .stats{display:flex; flex-wrap:wrap; gap:6px; margin-bottom:8px;}
+  .stat{padding:4px 9px; min-width:88px;}
+  .stat b{display:block; font-family:var(--data); font-size:17px; line-height:1.1; color:var(--navy);}
+  .stat span{font-size:10px; text-transform:uppercase; letter-spacing:.05em; color:#303030;}
+
+  .bar{display:flex; flex-wrap:wrap; gap:8px; align-items:center; padding:5px 7px; margin-bottom:8px; font-size:12px;}
+  .bar .grow{flex:1 1 auto;}
+  .bar select{width:auto; min-width:150px;}
+
+  /* ---- tabs ---- */
+  .tabs{display:flex; gap:2px; margin:0 0 -1px 2px; position:relative; z-index:2;}
+  .tab{font-family:var(--ui); font-size:12px; padding:3px 14px 4px; background:#AFAFAF; color:#303030;
+       border:1px solid; border-color:#E8E8E8 var(--grey) var(--silver) #E8E8E8;
+       cursor:pointer; margin-top:4px;}
+  .tab[aria-selected="true"]{font-weight:700; color:var(--ink); background:var(--silver);
+       border-color:#FFF var(--grey) var(--silver) #FFF; box-shadow:inset 1px 1px 0 #FFF;
+       margin-top:0; padding:5px 16px;}
+  .tab:active{color:var(--navy);}
+  .panel{padding:8px; border-top:1px solid #FFF;}
+
+  /* ---- results table ---- */
+  .scroll{overflow-x:auto;}
+  table{border-collapse:collapse; width:100%; background:#FFF; font-size:12px;}
+  th{background:var(--silver); text-align:left; font-size:11px; text-transform:uppercase; letter-spacing:.04em;
+     padding:4px 6px; white-space:nowrap; color:var(--ink);
+     border:1px solid; border-color:#FFF var(--grey) var(--grey) #FFF;}
+  td{border:1px solid #C8C8C8; padding:3px 5px; vertical-align:top;}
+  tbody tr:nth-child(even) td{background:#F2F2F2;}
+  tbody tr:hover td{background:#FFFFCC;}
+  td.pin{width:34px; white-space:nowrap; text-align:center;}
+  td.t{min-width:200px;}
+  td.t a{font-weight:700;}
+  td.ar{max-width:104px;}
+  td.loc{max-width:150px;}
+  .why{color:#404040; font-size:11px; line-height:1.35; margin-top:2px;}
+  td.dl{font-family:var(--data); font-size:11.5px; white-space:nowrap;}
+  .tbd{color:#606060;}
+  td.days{font-family:var(--data); text-align:right; white-space:nowrap;}
+  .soon{color:var(--alarm); font-weight:700;}
+  .star{background:none; border:0; box-shadow:none; padding:0 2px; font-size:13px; line-height:1; color:#909090; cursor:pointer;}
+  .star:active{padding:0 2px;}
+  .star.on{color:#B8860B;}
+  .ics{display:block; font-size:9.5px; font-family:var(--data); text-decoration:none; letter-spacing:.03em;}
+  td.rk{white-space:nowrap; width:66px;}
+  .tier{display:inline-block; font-family:var(--data); font-size:10px; color:#FFF;
+        background:var(--navy); padding:0 3px; min-width:20px; text-align:center;}
+  .tier.a{background:var(--teal);}
+  .tier.b{background:#4A4A8A;}
+  .tier.n{background:#7A0080;}
+  .ccf{display:inline-block; font-family:var(--data); font-size:10px; color:#303030; background:#EDEDED;
+       border:1px solid var(--grey); padding:0 3px; margin-top:2px;}
+  .abs{color:#404040;}
+  .empty{padding:22px 10px; text-align:center; font-family:var(--display); font-size:15px; background:#FFF;}
+
+  .pager{display:flex; gap:8px; align-items:center; justify-content:center; padding:7px; margin-top:8px; font-size:12px;}
+  .pager .of{font-family:var(--data);}
+
+  a{color:var(--link);} a:visited{color:var(--visited);}
+  a:hover{color:var(--alarm);}
+
+  footer{margin-top:14px; padding:9px 10px; font-size:11.5px; line-height:1.5;}
+  footer .fine{color:#303030; font-family:var(--data); font-size:11px; margin-top:6px;}
+  footer code{display:block; white-space:pre-wrap; word-break:break-all; background:#FFF;
+              border:1px solid var(--grey); padding:5px 6px; margin-top:4px; font-size:11px;}
+  footer details{margin-top:6px;}
+  footer summary{cursor:pointer; font-weight:700;}
+
+  /* ---- embed mode (?mode=embed): chrome-free list for an iframe ---- */
+  body.embed{background:#FFF; padding:8px;}
+  body.embed .window, body.embed .titlebar{border:0; box-shadow:none; background:none; padding:0;}
+  .emb h2{font-family:var(--display); font-size:15px; color:var(--navy); margin:0 0 6px;}
+  .emb ul{list-style:none; margin:0; padding:0;}
+  .emb li{border-bottom:1px solid #DDD; padding:5px 2px; font-size:12px;}
+  .emb .m{font-family:var(--data); font-size:11px; color:#404040;}
+  .emb .src{font-size:10.5px; color:#606060; margin-top:6px;}
+
+  @media (max-width:860px){
+    body{padding:8px 6px 26px;}
+    .cols{display:block;}
+    .side{width:100%; margin-bottom:12px;}
+    h1{font-size:27px;}
+    .odo{margin-top:4px;}
+  }
 </style>
 </head>
 <body>
-  <div class="wrap">
-    <img class="logo" src="logo.jpg" alt="Lucid Research logo">
-    <div class="brand">LUCID RESEARCH</div>
 
-    <h1>Every CS conference deadline,<br><span class="grad">in one place.</span></h1>
-    <p class="lead">Free, refreshed daily, across nine research areas.</p>
+<div class="window out">
+  <div class="titlebar">
+    <span class="t">Lucid Research &nbsp;-&nbsp; CS conference deadline tracker</span>
+    <span class="tbtn out" aria-hidden="true">_</span>
+    <span class="tbtn out" aria-hidden="true">&#9633;</span>
+    <span class="tbtn out" aria-hidden="true">&#10005;</span>
+  </div>
 
-    <p class="story">
-      Computer science publishes at conferences, and each one opens its submission
-      window just once a year. Miss it and the paper waits months for the next venue.
-      The dates are public, but they are scattered across dozens of separate calls for
-      papers, and the trackers that do exist are split by field — so anyone working
-      across areas has no single place to look. This is that place: 185+ venues pulled
-      together from the open trackers and refreshed every day.
+  <div class="winbody" id="chrome">
+
+    <div class="mast">
+      <img src="logo.jpg" alt="Lucid Research logo">
+      <div class="who">
+        <h1>Lucid <span class="hi">Research</span></h1>
+        <p class="tagline">Every CS conference deadline, in one place.</p>
+        <div class="stamp" id="stamp">Loading the tracker...</div>
+      </div>
+      <div class="odo">
+        <div class="digits in" id="odometer"><span class="d">0</span></div>
+        <div class="cap">Venues tracked</div>
+      </div>
+    </div>
+
+    <div class="ticker" id="ticker" aria-label="Deadlines closing soonest">
+      <span class="rail" id="tickerRail">Reading deadlines...</span>
+    </div>
+
+    <div class="nav out">
+      <a href="#directory">Directory</a><span class="sep">|</span>
+      <a href="deadlines.ics">Calendar (iCal)</a><span class="sep">|</span>
+      <a href="feed.xml">RSS</a><span class="sep">|</span>
+      <a href="data/conferences.json">Open data (JSON)</a><span class="sep">|</span>
+      <a href="https://krimler.github.io/workshop-tracker/">Workshop tracker</a><span class="sep">|</span>
+      <a href="https://github.com/krimler/paper-tracker">Source on GitHub</a><span class="sep">|</span>
+      <a href="llms.txt">llms.txt</a>
+    </div>
+
+    <p style="font-family:var(--display); font-size:15px; margin:10px 0;">
+      Computer science publishes at conferences, and each one opens its submission window just once a
+      year. Miss it and the paper waits months for the next venue. The dates are public, but they sit in
+      dozens of separate calls for papers, and the trackers that do exist are split by field, so anyone
+      working across areas has no single place to look. This page is that place: every tracked venue,
+      its next deadline, and how long is left. The data is rebuilt daily and the whole table below runs
+      in your browser.
     </p>
 
-    <div class="stats">
-      <div class="stat"><b>185+</b><span>venues</span></div>
-      <div class="stat"><b>9</b><span>areas</span></div>
-      <div class="stat"><b>Daily</b><span>refresh</span></div>
-      <div class="stat"><b>Free</b><span>&amp; open</span></div>
+    <p style="font-family:var(--display); font-size:15px; margin:10px 0;">
+      The list is curated, not exhaustive. It covers the venues that matter, with a deliberate bias
+      towards the ones practising engineers and developers actually read &mdash; systems, security,
+      networking, databases, software engineering and applied AI &mdash; alongside the CORE A*/A
+      theory venues. Missing something you submit to? <b>Email it in</b> and it goes in the next build.
+    </p>
+
+    <div class="note" id="transparency">Checking how complete the data is...</div>
+
+    <div class="cols" id="directory">
+
+      <aside class="side out">
+        <h3>Find a venue</h3>
+        <fieldset>
+          <legend>Search</legend>
+          <input type="text" id="q" placeholder="e.g. vision, crypto, SIGCOMM" aria-label="Search conferences">
+        </fieldset>
+
+        <fieldset>
+          <legend>Quick views</legend>
+          <div class="qv">
+            <button type="button" data-qv="soon">Closing in 30 days</button>
+            <button type="button" data-qv="astar">A* only</button>
+            <button type="button" data-qv="aiml">AI / ML only</button>
+            <button type="button" data-qv="star">My starred</button>
+            <button type="button" data-qv="reset">Reset all</button>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Research area</legend>
+          <div id="areas"></div>
+        </fieldset>
+
+        <fieldset>
+          <legend>CORE rank</legend>
+          <div id="ranks"></div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Deadline within</legend>
+          <select id="within" aria-label="Deadline within">
+            <option value="">Any time</option>
+            <option value="30">30 days</option>
+            <option value="90">90 days</option>
+            <option value="182">6 months</option>
+            <option value="365">1 year</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Conference year</legend>
+          <select id="year" aria-label="Conference year"><option value="">All years</option></select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Show</legend>
+          <label class="row"><input type="checkbox" id="starOnly"> Starred venues only</label>
+          <label class="row"><input type="checkbox" id="datedOnly"> Published deadline only</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Subscribe</legend>
+          <p class="ask">Get these dates where you already work: subscribe the calendar feed once and
+          new deadlines arrive on their own, with 7-day and 1-day alarms.</p>
+          <a class="btn" href="deadlines.ics">Calendar (iCal)</a>
+          <a class="btn" href="feed.xml" style="margin-top:4px">RSS feed</a>
+        </fieldset>
+
+        <fieldset>
+          <legend>Tell someone</legend>
+          <div class="qv">
+            <a class="btn" target="_blank" rel="noopener"
+               href="https://twitter.com/intent/tweet?text=Every%20CS%20conference%20deadline%20in%20one%20place%20%E2%80%94%20free%2C%20daily%2C%20across%209%20areas.&url=https%3A%2F%2Fkrimler.github.io%2Fpaper-tracker%2F">Post on X</a>
+            <a class="btn" target="_blank" rel="noopener"
+               href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fkrimler.github.io%2Fpaper-tracker%2F">LinkedIn</a>
+            <button type="button" id="copylink">Copy link</button>
+          </div>
+        </fieldset>
+      </aside>
+
+      <section class="main">
+        <div class="stats" id="stats"></div>
+
+        <div class="bar out">
+          <span class="grow" id="count">Loading...</span>
+          <label for="sort">Sort by</label>
+          <select id="sort">
+            <option value="deadline">Soonest deadline</option>
+            <option value="core">CORE rank, then deadline</option>
+            <option value="alpha">Conference (A to Z)</option>
+            <option value="year">Year, then deadline</option>
+          </select>
+          <button type="button" id="csv">Download CSV</button>
+        </div>
+
+        <div class="tabs" role="tablist">
+          <button class="tab" id="tabUp" role="tab" aria-selected="true" aria-controls="panel">Upcoming</button>
+          <button class="tab" id="tabPast" role="tab" aria-selected="false" aria-controls="panel">Past</button>
+        </div>
+
+        <div class="panel out" id="panel" role="tabpanel">
+          <div class="scroll in" style="padding:0">
+            <table id="results">
+              <thead>
+                <tr>
+                  <th title="Star a venue to keep it on your list">&#9733;</th>
+                  <th>Conference</th>
+                  <th>Area</th>
+                  <th>Abstract</th>
+                  <th>Deadline</th>
+                  <th title="Time until the next date in this row: the abstract deadline where one is published, otherwise the full deadline">Left</th>
+                  <th>Location</th>
+                  <th>Rank</th>
+                </tr>
+              </thead>
+              <tbody id="rows"></tbody>
+            </table>
+            <div class="empty" id="empty" hidden>No venue matches these filters. Try clearing the search box or pressing "Reset all".</div>
+          </div>
+
+          <div class="pager out" id="pager" hidden>
+            <button type="button" id="prev">&laquo; Previous</button>
+            <span class="of" id="pageOf"></span>
+            <button type="button" id="next">Next &raquo;</button>
+          </div>
+        </div>
+      </section>
     </div>
 
-    <div class="cta">
-      <a class="btn primary" href="https://paper-tracker-madhava.streamlit.app/">Open the tracker →</a>
-      <a class="btn ghost" href="https://workshop-gpt-madhava.streamlit.app/">Workshop GPT →</a>
-    </div>
-
-    <div class="subscribe">
-      Subscribe:
-      <a href="deadlines.ics">📅 Calendar (iCal)</a> ·
-      <a href="feed.xml">📰 RSS</a> ·
-      <a href="https://raw.githubusercontent.com/krimler/paper-tracker/main/data/conferences.json">{ } JSON</a>
-      <details class="embed">
-        <summary>Embed on your site</summary>
-        <p>Paste this where you want a live mini-list of the next 5 AI/ML deadlines:</p>
-        <code>&lt;iframe src="https://paper-tracker-madhava.streamlit.app/?embed=true&amp;mode=embed&amp;area=ai_ml&amp;limit=5"
-  width="100%" height="520" style="border:0" loading="lazy"&gt;&lt;/iframe&gt;</code>
-        <p class="embed-note">Swap <b>area</b> (e.g. <code>security</code>, <code>theory</code>) and <b>limit</b> to taste.</p>
+    <footer class="out">
+      <b>What is inside:</b> 185+ conferences across nine research areas (AI/ML, theory, security,
+      systems, networking, databases, software engineering / PL, distributed systems, biomedical),
+      each with its submission and abstract deadlines, CORE and CCF rank, dates and location.
+      Coverage is curated to CORE A*/A venues plus community-respected ones (COLM, MLSys, HotNets,
+      HotOS, CIDR and similar), leaning towards what practising engineers and developers read.
+      Deadlines are shown in UTC. A venue with no published call yet sits under <b>Past</b> with its
+      most recent round until the next one is announced.
+      <br><br>
+      Built by <a href="https://www.linkedin.com/in/alignops/">Madhava Gaikwad</a>.
+      To add a venue or send feedback, email <b>yavan [at] outlook [dot] com</b>.
+      Looking for workshops rather than main conferences? See the
+      <a href="https://krimler.github.io/workshop-tracker/">workshop tracker</a>.
+      <details>
+        <summary>Embed this list on your site</summary>
+        <p style="margin:6px 0 0">Paste this where you want a live mini-list of the next 5 AI/ML deadlines:</p>
+        <code>&lt;iframe src="https://krimler.github.io/paper-tracker/?mode=embed&amp;area=ai_ml&amp;limit=5"
+  width="100%" height="320" style="border:0" loading="lazy"&gt;&lt;/iframe&gt;</code>
+        <p style="margin:6px 0 0">Swap <b>area</b> (e.g. <code style="display:inline;padding:0 3px">security</code>,
+        <code style="display:inline;padding:0 3px">theory</code>) and <b>limit</b> to taste.</p>
       </details>
-    </div>
-
-    <div class="areas">
-      <span>Theory</span><span>Security</span><span>Distributed Systems</span><span>Networking</span>
-      <span>Systems</span><span>Databases</span><span>SE / PL</span><span>AI / ML</span><span>Biomedical</span>
-    </div>
-
-    <div class="share">
-      <a class="sbtn x" target="_blank" rel="noopener" title="Share on X" aria-label="Share on X"
-         href="https://twitter.com/intent/tweet?text=Every%20CS%20conference%20deadline%20in%20one%20place%20%E2%80%94%20free%2C%20daily%2C%20across%209%20areas.&url=https%3A%2F%2Fkrimler.github.io%2Fpaper-tracker%2F">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
-      </a>
-      <a class="sbtn li" target="_blank" rel="noopener" title="Share on LinkedIn" aria-label="Share on LinkedIn"
-         href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fkrimler.github.io%2Fpaper-tracker%2F">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
-      </a>
-      <a class="sbtn gh" target="_blank" rel="noopener" title="View on GitHub" aria-label="View on GitHub"
-         href="https://github.com/krimler/paper-tracker">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.51 11.51 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .322.216.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-      </a>
-      <button class="sbtn cp" id="copybtn" type="button" title="Copy link" aria-label="Copy link">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
-      </button>
-    </div>
-
-    <footer>
-      Missing a venue, or want something added? Email
-      <b>yavan&nbsp;[at]&nbsp;outlook&nbsp;[dot]&nbsp;com</b><br>
-      by <a href="https://www.linkedin.com/in/alignops/">Madhava Gaikwad</a>
+      <div class="fine">
+        Machine-readable: <a href="llms.txt">llms.txt</a> &middot;
+        <a href="data/conferences.json">conferences.json</a> &middot;
+        <a href="feed.xml">feed.xml</a> &middot;
+        <a href="deadlines.ics">deadlines.ics</a> &middot;
+        <a href="sitemap.xml">sitemap.xml</a><br>
+        Rebuilt daily by a GitHub Action. This page is static: every filter above runs in your browser.
+      </div>
     </footer>
-  </div>
-  <script>
-    var copyBtn = document.getElementById('copybtn');
-    var copyIcon = copyBtn.innerHTML;
-    var checkIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>';
-    copyBtn.addEventListener('click', function () {
-      navigator.clipboard.writeText('https://krimler.github.io/paper-tracker/');
-      copyBtn.innerHTML = checkIcon;
-      setTimeout(function () { copyBtn.innerHTML = copyIcon; }, 1500);
-    });
-  </script>
 
-  <!-- GoatCounter: privacy-friendly, cookieless visitor counts -->
-  <script data-goatcounter="https://li69nux.goatcounter.com/count"
-          async src="//gc.zgo.at/count.js"></script>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var AREA_LABELS = {
+    ai_ml:"AI / ML", theory:"Theory", security:"Security", systems:"Systems",
+    networking:"Networking", databases:"Databases", software_engineering:"SE / PL",
+    distributed_systems:"Distributed Sys", biomedical:"Biomedical"
+  };
+  var AREA_ORDER = ["ai_ml","security","systems","software_engineering","databases",
+                    "networking","distributed_systems","theory","biomedical"];
+  var RANK_TIERS = {all:null, astar:["A*"], a:["A*","A"], b:["A*","A","B"]};
+  var RANK_LABELS = {all:"All ranks", astar:"A* only", a:"A and up", b:"B and up"};
+  var CORE_ORDER = {"A*":0, "A":1, "B":2, "C":3, "N":4};
+
+  var PAGE_SIZE = 60;
+  var DAY = 86400000;
+  var NOW = Date.now();
+  var STORE = "lucid.watchlist";
+
+  var $ = function (id) { return document.getElementById(id); };
+  function esc(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  }
+  // Deadlines arrive as naive "YYYY-MM-DD HH:MM:SS" strings and are read as UTC,
+  // matching the RSS and iCal feeds generated from the same snapshot.
+  function parseDate(v) {
+    if (!v) return null;
+    var s = String(v).trim().replace(" ", "T");
+    if (!/[Zz]|[+\-]\d\d:?\d\d$/.test(s)) s += "Z";
+    var t = Date.parse(s);
+    return isNaN(t) ? null : t;
+  }
+  function fmt(ts) {
+    if (ts === null) return "";
+    var d = new Date(ts);
+    return d.toISOString().slice(0, 16).replace("T", " ");
+  }
+
+  var rows = [], view = [], page = 0, tab = "up", meta = {};
+
+  // ---- watchlist (client-side only, no backend) --------------------------
+  var starred = {};
+  try {
+    (JSON.parse(localStorage.getItem(STORE) || "[]") || []).forEach(function (k) { starred[k] = 1; });
+  } catch (e) { starred = {}; }
+  function saveStars() {
+    try { localStorage.setItem(STORE, JSON.stringify(Object.keys(starred))); } catch (e) {}
+  }
+
+  // ---- derive the fields the table needs ---------------------------------
+  function allDates(tl) {
+    var out = [];
+    (tl || []).forEach(function (t) {
+      ["deadline","abstract_deadline"].forEach(function (k) {
+        var p = parseDate(t[k]);
+        if (p !== null) out.push(p);
+      });
+    });
+    return out;
+  }
+  // The next deadline is the soonest date still ahead; when a venue has none
+  // left, we keep its most recent past date so the row still says something.
+  function nextDate(tl) {
+    var parsed = allDates(tl);
+    if (!parsed.length) return null;
+    var up = parsed.filter(function (t) { return t >= NOW; });
+    return up.length ? Math.min.apply(null, up) : Math.max.apply(null, parsed);
+  }
+  // The round that owns the next date, so abstract + full show together.
+  function ownerRound(tl, nd) {
+    if (!tl || !tl.length || nd === null) return null;
+    for (var i = 0; i < tl.length; i++) {
+      if (parseDate(tl[i].deadline) === nd || parseDate(tl[i].abstract_deadline) === nd) return tl[i];
+    }
+    return tl[0];
+  }
+
+  function prepare(raw) {
+    return raw.map(function (r, i) {
+      var nd = nextDate(r.timeline);
+      var round = ownerRound(r.timeline, nd) || {};
+      return {
+        key: r.id || (r.title + "-" + r.year + "-" + i),
+        title: r.title || "(untitled)",
+        desc: r.description || "",
+        area: r.area || "",
+        areaText: AREA_LABELS[r.area] || r.area || "",
+        year: r.year || "",
+        core: r.core || "N",
+        ccf: r.ccf || "",
+        place: r.place || "",
+        date: r.date || "",
+        link: r.link || "",
+        comment: round.comment || "",
+        abs: parseDate(round.abstract_deadline),
+        full: parseDate(round.deadline),
+        nd: nd,
+        days: nd === null ? null : Math.floor((nd - NOW) / DAY),
+        hay: [r.title, r.description, r.place, r.sub, AREA_LABELS[r.area] || ""].join(" ").toLowerCase()
+      };
+    });
+  }
+
+  // ---- filter controls ---------------------------------------------------
+  function checkboxes(host, items, checkedByDefault) {
+    host.innerHTML = items.map(function (it) {
+      return '<label class="row"><input type="checkbox" value="' + esc(it.value) + '"' +
+             (checkedByDefault ? " checked" : "") + "> " + esc(it.label) + "</label>";
+    }).join("");
+  }
+  function radios(host, name, items, selected) {
+    host.innerHTML = items.map(function (it) {
+      return '<label class="row"><input type="radio" name="' + name + '" value="' + esc(it.value) + '"' +
+             (it.value === selected ? " checked" : "") + "> " + esc(it.label) + "</label>";
+    }).join("");
+  }
+  function checked(host) {
+    return Array.prototype.filter.call(host.querySelectorAll("input"), function (i) { return i.checked; })
+      .map(function (i) { return i.value; });
+  }
+  function setChecked(host, values) {
+    Array.prototype.forEach.call(host.querySelectorAll("input"), function (i) {
+      i.checked = values === "all" ? true : values.indexOf(i.value) > -1;
+    });
+  }
+  function radioValue(host) {
+    var hit = host.querySelector("input:checked");
+    return hit ? hit.value : "all";
+  }
+
+  function buildControls() {
+    var present = AREA_ORDER.filter(function (a) {
+      return rows.some(function (r) { return r.area === a; });
+    });
+    checkboxes($("areas"), present.map(function (a) {
+      return {value: a, label: AREA_LABELS[a] || a};
+    }), true);
+
+    radios($("ranks"), "rank", ["all","astar","a","b"].map(function (k) {
+      return {value: k, label: RANK_LABELS[k]};
+    }), "all");
+
+    var years = {};
+    rows.forEach(function (r) { if (r.year) years[r.year] = 1; });
+    var ySel = $("year");
+    Object.keys(years).sort().forEach(function (y) {
+      var o = document.createElement("option");
+      o.value = y; o.textContent = y;
+      ySel.appendChild(o);
+    });
+  }
+
+  // ---- filtering + sorting -----------------------------------------------
+  function currentFilters() {
+    return {
+      q: $("q").value.trim().toLowerCase(),
+      areas: checked($("areas")),
+      rank: radioValue($("ranks")),
+      within: $("within").value,
+      year: $("year").value,
+      starOnly: $("starOnly").checked,
+      datedOnly: $("datedOnly").checked,
+      sort: $("sort").value
+    };
+  }
+
+  function apply(skipUrl) {
+    var f = currentFilters();
+    var tiers = RANK_TIERS[f.rank];
+
+    var out = rows.filter(function (r) {
+      if (f.areas.indexOf(r.area) === -1) return false;
+      if (tiers && tiers.indexOf(r.core) === -1) return false;
+      if (f.year && String(r.year) !== f.year) return false;
+      if (f.starOnly && !starred[r.key]) return false;
+      if (f.datedOnly && r.nd === null) return false;
+      if (f.q && r.hay.indexOf(f.q) === -1) return false;
+
+      // Undated venues stay under Upcoming: nothing has closed on them yet.
+      var isPast = r.nd !== null && r.nd < NOW;
+      if (tab === "past" ? !isPast : isPast) return false;
+
+      if (f.within && tab === "up") {
+        var w = parseInt(f.within, 10);
+        if (r.days === null || r.days > w) return false;
+      }
+      return true;
+    });
+
+    sortRows(out, f.sort);
+    view = out;
+    page = 0;
+    render();
+    if (!skipUrl) syncUrl(f);
+  }
+
+  function byDeadline(a, b) {
+    // Dated rows first (soonest ahead, most recent behind), undated last.
+    if (a.nd === null || b.nd === null) return (a.nd === null) - (b.nd === null);
+    if (a.nd !== b.nd) return tab === "past" ? b.nd - a.nd : a.nd - b.nd;
+    return a.title.localeCompare(b.title);
+  }
+  function sortRows(list, mode) {
+    if (mode === "core") {
+      list.sort(function (a, b) {
+        var ca = CORE_ORDER[a.core], cb = CORE_ORDER[b.core];
+        return ((ca === undefined ? 9 : ca) - (cb === undefined ? 9 : cb)) || byDeadline(a, b);
+      });
+    } else if (mode === "alpha") {
+      list.sort(function (a, b) { return a.title.localeCompare(b.title) || (a.year - b.year); });
+    } else if (mode === "year") {
+      list.sort(function (a, b) { return (a.year - b.year) || byDeadline(a, b); });
+    } else {
+      list.sort(byDeadline);
+    }
+  }
+
+  // ---- rendering ---------------------------------------------------------
+  function tierBadge(core) {
+    var cls = core === "A*" ? "" : (core === "A" ? " a" : (core === "B" ? " b" : " n"));
+    return '<span class="tier' + cls + '">' + esc(core || "N") + "</span>";
+  }
+  function leftText(ts) {
+    if (ts === null) return {text: "not out yet", soon: false, tbd: true};
+    var ms = ts - Date.now();
+    if (ms <= 0) return {text: "closed", soon: false, tbd: true};
+    var d = Math.floor(ms / DAY);
+    var h = Math.floor((ms % DAY) / 3600000);
+    var m = Math.floor((ms % 3600000) / 60000);
+    var text = d >= 7 ? d + "d" : (d >= 1 ? d + "d " + h + "h" : h + "h " + m + "m");
+    return {text: text, soon: d < 7, tbd: false};
+  }
+  function daysCell(r) {
+    var l = leftText(r.nd);
+    return '<td class="days' + (l.soon ? " soon" : "") + (l.tbd ? " tbd" : "") +
+           '" data-ts="' + (r.nd === null ? "" : r.nd) + '">' + esc(l.text) + "</td>";
+  }
+  function dateCell(ts, cls) {
+    if (ts === null) return '<td class="dl tbd">&mdash;</td>';
+    return '<td class="dl' + (cls ? " " + cls : "") + '">' + esc(fmt(ts)) + "</td>";
+  }
+
+  function render() {
+    var total = view.length;
+    var pages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+    if (page >= pages) page = pages - 1;
+    var slice = view.slice(page * PAGE_SIZE, page * PAGE_SIZE + PAGE_SIZE);
+
+    var venues = {};
+    view.forEach(function (r) { venues[r.title] = 1; });
+    var nv = Object.keys(venues).length;
+    $("count").innerHTML = "<b>" + total + "</b> round" + (total === 1 ? "" : "s") +
+      " across <b>" + nv + "</b> venue" + (nv === 1 ? "" : "s");
+
+    $("rows").innerHTML = slice.map(function (r) {
+      var name = r.link
+        ? '<a href="' + esc(r.link) + '" rel="noopener">' + esc(r.title) + "</a>"
+        : "<b>" + esc(r.title) + "</b>";
+      var sub = [r.desc, r.date].filter(Boolean).join(" &middot; ");
+      var note = r.comment ? '<div class="why">' + esc(r.comment) + "</div>" : "";
+      var cal = r.nd !== null && r.nd >= NOW
+        ? '<a class="ics" href="#" data-ics="' + esc(r.key) + '" title="Add this deadline to a calendar">cal</a>'
+        : "";
+      return '<tr data-key="' + esc(r.key) + '">' +
+        '<td class="pin"><button type="button" class="star' + (starred[r.key] ? " on" : "") +
+          '" data-star="' + esc(r.key) + '" title="Save to my list" aria-label="Save to my list">' +
+          (starred[r.key] ? "★" : "☆") + "</button>" + cal + "</td>" +
+        '<td class="t">' + name + " <span class=\"why\" style=\"display:inline\">" + esc(r.year) + "</span>" +
+          (sub ? '<div class="why">' + sub + "</div>" : "") + note + "</td>" +
+        '<td class="ar">' + esc(r.areaText) + "</td>" +
+        dateCell(r.abs, "abs") +
+        dateCell(r.full) +
+        daysCell(r) +
+        '<td class="loc">' + (r.place ? esc(r.place) : '<span class="tbd">TBD</span>') + "</td>" +
+        '<td class="rk">' + tierBadge(r.core) +
+          (r.ccf ? '<br><span class="ccf">CCF ' + esc(r.ccf) + "</span>" : "") + "</td>" +
+      "</tr>";
+    }).join("");
+
+    $("empty").hidden = total > 0;
+    $("pager").hidden = pages < 2;
+    $("pageOf").textContent = "Page " + (page + 1) + " of " + pages;
+    $("prev").disabled = page === 0;
+    $("next").disabled = page >= pages - 1;
+  }
+
+  function renderStats() {
+    var venues = {};
+    rows.forEach(function (r) { venues[r.title] = 1; });
+    var open = rows.filter(function (r) { return r.nd !== null && r.nd >= NOW; });
+    var soon = open.filter(function (r) { return r.days <= 30; });
+    var areas = {};
+    rows.forEach(function (r) { if (r.area) areas[r.area] = 1; });
+
+    var stats = [
+      [Object.keys(venues).length, "venues"],
+      [open.length, "open deadlines"],
+      [soon.length, "close in 30d"],
+      [Object.keys(areas).length, "areas"]
+    ];
+    $("stats").innerHTML = stats.map(function (s) {
+      return '<div class="stat out"><b>' + s[0] + "</b><span>" + s[1] + "</span></div>";
+    }).join("");
+
+    var openVenues = {};
+    open.forEach(function (r) { openVenues[r.title] = 1; });
+    var nOpen = Object.keys(openVenues).length, nAll = Object.keys(venues).length;
+    var srcs = (meta.sources || []).length;
+    $("transparency").innerHTML = "<b>Transparency:</b> " + nOpen + " of " + nAll +
+      " tracked venues have a deadline still ahead (" + open.length + " rounds in total, " +
+      soon.length + " of them inside 30 days). The rest have not announced their next call yet and sit " +
+      "under <b>Past</b> with the round they last ran. Rebuilt daily from " + srcs +
+      " public sources; times are UTC.";
+
+    var digits = String(Object.keys(venues).length).padStart(4, "0").split("");
+    $("odometer").innerHTML = digits.map(function (d) {
+      return '<span class="d">' + d + "</span>";
+    }).join("");
+  }
+
+  function renderTicker() {
+    var soon = rows.filter(function (r) {
+      return r.nd !== null && r.nd >= NOW && r.days <= 90;
+    }).sort(function (a, b) { return a.nd - b.nd; }).slice(0, 24);
+
+    if (!soon.length) {
+      $("tickerRail").textContent = "No deadlines inside the next 90 days are published yet.";
+      return;
+    }
+    $("tickerRail").innerHTML = soon.map(function (r) {
+      var d = r.days === 0 ? "closes today" : r.days + (r.days === 1 ? " day left" : " days left");
+      var cls = r.days <= 7 ? ' class="hot"' : "";
+      return '<span class="item">&#9656; <b>' + esc(r.title) + " " + esc(r.year) +
+             "</b> <span" + cls + ">[" + d + "]</span></span>";
+    }).join("");
+  }
+
+  // Keep the "Left" column honest while the page sits open.
+  function tick() {
+    Array.prototype.forEach.call(document.querySelectorAll("td.days[data-ts]"), function (td) {
+      var ts = td.getAttribute("data-ts");
+      if (!ts) return;
+      var l = leftText(parseInt(ts, 10));
+      td.textContent = l.text;
+      td.className = "days" + (l.soon ? " soon" : "") + (l.tbd ? " tbd" : "");
+    });
+  }
+
+  // ---- shareable URLs ----------------------------------------------------
+  function syncUrl(f) {
+    var p = new URLSearchParams();
+    if (f.q) p.set("q", f.q);
+    if (f.areas.length && f.areas.length !== $("areas").querySelectorAll("input").length) {
+      f.areas.forEach(function (a) { p.append("area", a); });
+    }
+    if (f.rank !== "all") p.set("rank", f.rank);
+    if (f.within) p.set("within", f.within);
+    if (f.year) p.set("year", f.year);
+    if (f.sort !== "deadline") p.set("sort", f.sort);
+    if (f.starOnly) p.set("starred", "1");
+    if (f.datedOnly) p.set("dated", "1");
+    if (tab === "past") p.set("tab", "past");
+    var qs = p.toString();
+    history.replaceState(null, "", qs ? "?" + qs : location.pathname);
+  }
+
+  function seedFromUrl() {
+    var p = new URLSearchParams(location.search);
+    var areas = p.getAll("area");
+    if (areas.length) setChecked($("areas"), areas);
+    if (p.get("rank") && RANK_TIERS[p.get("rank")] !== undefined) {
+      var hit = $("ranks").querySelector('input[value="' + p.get("rank") + '"]');
+      if (hit) hit.checked = true;
+    }
+    if (p.get("q")) $("q").value = p.get("q");
+    if (p.get("within")) $("within").value = p.get("within");
+    if (p.get("year")) $("year").value = p.get("year");
+    if (p.get("sort")) $("sort").value = p.get("sort");
+    if (p.get("starred")) $("starOnly").checked = true;
+    if (p.get("dated")) $("datedOnly").checked = true;
+    if (p.get("tab") === "past") setTab("past");
+  }
+
+  function setTab(which) {
+    tab = which;
+    $("tabUp").setAttribute("aria-selected", String(which === "up"));
+    $("tabPast").setAttribute("aria-selected", String(which === "past"));
+  }
+
+  // ---- quick views -------------------------------------------------------
+  function resetAll() {
+    $("q").value = "";
+    setChecked($("areas"), "all");
+    var all = $("ranks").querySelector('input[value="all"]');
+    if (all) all.checked = true;
+    $("within").value = "";
+    $("year").value = "";
+    $("starOnly").checked = false;
+    $("datedOnly").checked = false;
+    $("sort").value = "deadline";
+    setTab("up");
+  }
+  function quickView(kind) {
+    resetAll();
+    if (kind === "soon") $("within").value = "30";
+    else if (kind === "astar") $("ranks").querySelector('input[value="astar"]').checked = true;
+    else if (kind === "aiml") setChecked($("areas"), ["ai_ml"]);
+    else if (kind === "star") $("starOnly").checked = true;
+    apply();
+  }
+
+  // ---- exports -----------------------------------------------------------
+  function download(name, text, type) {
+    var blob = new Blob([text], {type: type});
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement("a");
+    a.href = url; a.download = name;
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+  }
+  function csvCell(v) {
+    var s = v == null ? "" : String(v);
+    return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+  }
+  function exportCsv() {
+    var head = ["conference","description","area","year","core","ccf","abstract_deadline",
+                "deadline","days_left","place","dates","link"];
+    var lines = [head.join(",")];
+    view.forEach(function (r) {
+      lines.push([r.title, r.desc, r.areaText, r.year, r.core, r.ccf, fmt(r.abs), fmt(r.full),
+                  r.days === null ? "" : r.days, r.place, r.date, r.link].map(csvCell).join(","));
+    });
+    download("lucid-deadlines.csv", lines.join("\n"), "text/csv;charset=utf-8");
+  }
+  function icsStamp(ts) {
+    return new Date(ts).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
+  }
+  function exportIcs(key) {
+    var r = null;
+    rows.some(function (x) { if (x.key === key) { r = x; return true; } });
+    if (!r || r.nd === null) return;
+    var esc2 = function (s) { return String(s || "").replace(/[\\;,]/g, "\\$&").replace(/\n/g, "\\n"); };
+    var body = [
+      "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Lucid Research//Paper Tracker//EN",
+      "BEGIN:VEVENT",
+      "UID:" + esc2(r.key) + "@krimler.github.io",
+      "DTSTAMP:" + icsStamp(Date.now()),
+      "DTSTART:" + icsStamp(r.nd),
+      "DTEND:" + icsStamp(r.nd + 3600000),
+      "SUMMARY:" + esc2(r.title + " " + r.year + " deadline"),
+      "DESCRIPTION:" + esc2(r.desc + (r.place ? " — " + r.place : "")),
+      "URL:" + esc2(r.link),
+      "BEGIN:VALARM", "TRIGGER:-P7D", "ACTION:DISPLAY",
+      "DESCRIPTION:" + esc2(r.title + " deadline in 7 days"), "END:VALARM",
+      "BEGIN:VALARM", "TRIGGER:-P1D", "ACTION:DISPLAY",
+      "DESCRIPTION:" + esc2(r.title + " deadline tomorrow"), "END:VALARM",
+      "END:VEVENT", "END:VCALENDAR"
+    ].join("\r\n");
+    download(r.title.toLowerCase().replace(/[^a-z0-9]+/g, "-") + "-" + r.year + ".ics",
+             body, "text/calendar;charset=utf-8");
+  }
+
+  // ---- embed mode (?mode=embed): a chrome-free list for an iframe --------
+  function renderEmbed(list) {
+    var p = new URLSearchParams(location.search);
+    var area = p.get("area");
+    var limit = Math.max(1, Math.min(50, parseInt(p.get("limit") || "5", 10) || 5));
+    var sel = list.filter(function (r) {
+      return r.nd !== null && r.nd >= NOW && (!area || r.area === area);
+    }).sort(function (a, b) { return a.nd - b.nd; }).slice(0, limit);
+
+    document.documentElement.style.background = "#FFF";
+    document.body.className = "embed";
+    document.body.innerHTML =
+      '<div class="emb"><h2>' + (area ? esc(AREA_LABELS[area] || area) + " " : "") +
+      "deadlines &mdash; next " + sel.length + "</h2><ul>" +
+      (sel.length ? sel.map(function (r) {
+        var l = leftText(r.nd);
+        var kind = r.abs !== null && r.abs === r.nd ? " abstract" : "";
+        return "<li><b>" + esc(r.title) + " " + esc(r.year) + "</b> &mdash; " +
+               '<span class="m">' + esc(fmt(r.nd)) + " UTC" + kind + " &middot; " +
+               esc(l.text) + " left</span></li>";
+      }).join("") : "<li>No published deadlines ahead.</li>") +
+      '</ul><div class="src">via <a href="https://krimler.github.io/paper-tracker/" target="_blank" rel="noopener">Lucid Research</a>, rebuilt daily</div></div>';
+  }
+
+  // ---- boot --------------------------------------------------------------
+  function wire() {
+    var debounce;
+    $("q").addEventListener("input", function () {
+      clearTimeout(debounce);
+      debounce = setTimeout(function () { apply(); }, 140);
+    });
+    ["areas","ranks"].forEach(function (id) {
+      $(id).addEventListener("change", function () { apply(); });
+    });
+    ["within","year","sort","starOnly","datedOnly"].forEach(function (id) {
+      $(id).addEventListener("change", function () { apply(); });
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("[data-qv]"), function (b) {
+      b.addEventListener("click", function () { quickView(b.getAttribute("data-qv")); });
+    });
+    $("tabUp").addEventListener("click", function () { setTab("up"); apply(); });
+    $("tabPast").addEventListener("click", function () { setTab("past"); apply(); });
+    $("prev").addEventListener("click", function () {
+      if (page > 0) { page--; render(); $("directory").scrollIntoView({block:"start"}); }
+    });
+    $("next").addEventListener("click", function () {
+      page++; render(); $("directory").scrollIntoView({block:"start"});
+    });
+    $("csv").addEventListener("click", exportCsv);
+    $("copylink").addEventListener("click", function () {
+      var btn = $("copylink");
+      navigator.clipboard.writeText(location.href).then(function () {
+        btn.textContent = "Copied";
+        setTimeout(function () { btn.textContent = "Copy link"; }, 1500);
+      }, function () {});
+    });
+    $("rows").addEventListener("click", function (ev) {
+      var star = ev.target.closest("[data-star]");
+      if (star) {
+        var k = star.getAttribute("data-star");
+        if (starred[k]) { delete starred[k]; } else { starred[k] = 1; }
+        saveStars();
+        star.classList.toggle("on", !!starred[k]);
+        star.textContent = starred[k] ? "★" : "☆";
+        if ($("starOnly").checked) apply();
+        return;
+      }
+      var ics = ev.target.closest("[data-ics]");
+      if (ics) { ev.preventDefault(); exportIcs(ics.getAttribute("data-ics")); }
+    });
+    setInterval(tick, 30000);
+  }
+
+  fetch("data/conferences.json")
+    .then(function (res) {
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return res.json();
+    })
+    .then(function (data) {
+      meta = data;
+      rows = prepare(data.conferences || []);
+
+      if (new URLSearchParams(location.search).get("mode") === "embed") {
+        renderEmbed(rows);
+        return;
+      }
+
+      var when = data.fetched_at ? new Date(data.fetched_at) : null;
+      $("stamp").textContent = "Last rebuilt: " +
+        (when && !isNaN(when) ? when.toISOString().slice(0,16).replace("T"," ") + " UTC" : "unknown") +
+        "  |  source: " + (data.sources || []).length + " public deadline trackers";
+      buildControls();
+      renderStats();
+      renderTicker();
+      wire();
+      seedFromUrl();
+      apply(true);
+    })
+    .catch(function (err) {
+      $("stamp").textContent = "";
+      $("count").textContent = "";
+      $("transparency").innerHTML = "<b>The tracker did not load.</b> " + esc(err.message) +
+        '. You can still read the raw data at <a href="data/conferences.json">conferences.json</a>, ' +
+        'the <a href="feed.xml">RSS feed</a> or the <a href="deadlines.ics">calendar feed</a>.';
+      $("tickerRail").textContent = "Data unavailable.";
+    });
+})();
+</script>
+
+<!-- Visitor analytics: GoatCounter (free, cookie-less). -->
+<script data-goatcounter="https://li69nux.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>

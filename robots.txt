@@ -1,0 +1,15 @@
+# Lucid Research — crawlers welcome
+User-agent: *
+Allow: /
+
+# AI / LLM crawlers explicitly allowed
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://krimler.github.io/paper-tracker/sitemap.xml
