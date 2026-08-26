@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-25T07:07:43.531740+00:00",
+  "fetched_at": "2026-08-26T07:08:19.140711+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -5974,7 +5974,7 @@
       "id": "sigkdd27",
       "link": "https://kdd2027.kdd.org/",
       "timezone": "AoE",
-      "date": "August 2027 (exact dates TBD)",
+      "date": "August 1-5, 2027",
       "place": "San Jose, California, USA",
       "timeline": [
         {
@@ -12524,7 +12524,7 @@
       "id": "sensys27",
       "link": "https://sensys.acm.org/2027/",
       "timezone": "AoE",
-      "date": "2027",
+      "date": "May 17-20, 2027",
       "place": "New York, USA",
       "timeline": [
         {
@@ -16444,7 +16444,7 @@
       "id": "sp27",
       "link": "https://sp2027.ieee-security.org/index.html",
       "timezone": "UTC-12",
-      "date": "TBD",
+      "date": "May 17-19, 2027",
       "place": "MONTREAL, CANADA",
       "timeline": [
         {
