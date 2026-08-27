@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-26T07:08:19.140711+00:00",
+  "fetched_at": "2026-08-27T17:37:54.205666+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 730,
+  "row_count": 732,
   "conferences": [
     {
       "title": "AAAI",
@@ -11116,6 +11116,31 @@
       "source": "ccfddl"
     },
     {
+      "title": "MLSys",
+      "description": "Conference on Machine Learning and Systems",
+      "sub": "MX",
+      "area": "ai_ml",
+      "ccfddl_category": "MX",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "mlsys",
+      "year": 2027,
+      "id": "mlsys27",
+      "link": "https://mlsys.org/",
+      "timezone": "UTC",
+      "date": "TBD",
+      "place": "Bellevue, Washington, USA",
+      "timeline": [
+        {
+          "deadline": "2026-10-30 20:00:00",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
       "title": "RECOMB",
       "description": "International Conference on Research inComputational Molecular Biology",
       "sub": "MX",
@@ -18455,6 +18480,31 @@
         {
           "deadline": "2026-01-29 23:59:59",
           "abstract_deadline": null,
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ISSTA",
+      "description": "ACM SIGSOFT International Symposium on Software Testing and Analysis",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "issta",
+      "year": 2027,
+      "id": "issta27",
+      "link": "https://conf.researchr.org/home/issta-2027",
+      "timezone": "AoE",
+      "date": "September 7-10, 2027",
+      "place": "Singapore",
+      "timeline": [
+        {
+          "deadline": "2027-01-11 23:59:59",
+          "abstract_deadline": "2027-01-08 23:59:59",
           "comment": null
         }
       ],
