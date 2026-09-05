@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-04T11:17:21.780968+00:00",
+  "fetched_at": "2026-09-05T10:34:48.112596+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 733,
+  "row_count": 734,
   "conferences": [
     {
       "title": "AAAI",
@@ -740,6 +740,31 @@
         {
           "deadline": "2025-10-02 23:59:59",
           "abstract_deadline": "2025-09-25 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "AISTATS",
+      "description": "International Conference on Artificial Intelligence and Statistics",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "aistats",
+      "year": 2027,
+      "id": "aistats27",
+      "link": "https://virtual.aistats.org/Conferences/2027",
+      "timezone": "UTC-12",
+      "date": "May 3, 2027",
+      "place": "Montréal, Canada",
+      "timeline": [
+        {
+          "deadline": "2026-10-06 23:59:59",
+          "abstract_deadline": "2026-09-29 23:59:59",
           "comment": null
         }
       ],
@@ -15045,10 +15070,10 @@
       "link": "https://fc27.ifca.ai/",
       "timezone": "UTC-12",
       "date": "February 8-12, 2027",
-      "place": "Barbados (tentative)",
+      "place": "Barbados",
       "timeline": [
         {
-          "deadline": "2026-09-17 23:59:59",
+          "deadline": "2026-09-24 23:59:59",
           "abstract_deadline": null,
           "comment": "Submission deadline"
         }
