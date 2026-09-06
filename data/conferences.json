@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-05T10:34:48.112596+00:00",
+  "fetched_at": "2026-09-06T10:55:58.309567+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 734,
+  "row_count": 735,
   "conferences": [
     {
       "title": "AAAI",
@@ -3864,6 +3864,31 @@
       "timeline": [
         {
           "deadline": "2026-01-28 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "CAV",
+      "description": "International Conference on Computer-Aided Verification",
+      "sub": "CT",
+      "area": "theory",
+      "ccfddl_category": "CT",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "cav",
+      "year": 2027,
+      "id": "cav27",
+      "link": "https://conferences.i-cav.org/2027/",
+      "timezone": "AoE",
+      "date": "July 19-23, 2027",
+      "place": "KIT, Amsterdam, The Netherlands",
+      "timeline": [
+        {
+          "deadline": "2027-01-20 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
