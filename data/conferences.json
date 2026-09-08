@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-07T12:32:06.645702+00:00",
+  "fetched_at": "2026-09-08T11:18:44.340515+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -897,7 +897,7 @@
     },
     {
       "title": "COLING",
-      "description": "INTERNATIONNAL CONFERENCE ON COMPUTATIONAL LINGUISTICS",
+      "description": "International Conference on Computational Linguistics",
       "sub": "AI",
       "area": "ai_ml",
       "ccfddl_category": "AI",
@@ -922,7 +922,7 @@
     },
     {
       "title": "COLING",
-      "description": "INTERNATIONNAL CONFERENCE ON COMPUTATIONAL LINGUISTICS",
+      "description": "International Conference on Computational Linguistics",
       "sub": "AI",
       "area": "ai_ml",
       "ccfddl_category": "AI",
@@ -947,7 +947,7 @@
     },
     {
       "title": "COLING",
-      "description": "INTERNATIONNAL CONFERENCE ON COMPUTATIONAL LINGUISTICS",
+      "description": "International Conference on Computational Linguistics",
       "sub": "AI",
       "area": "ai_ml",
       "ccfddl_category": "AI",
@@ -972,7 +972,7 @@
     },
     {
       "title": "COLING",
-      "description": "INTERNATIONNAL CONFERENCE ON COMPUTATIONAL LINGUISTICS",
+      "description": "International Conference on Computational Linguistics",
       "sub": "AI",
       "area": "ai_ml",
       "ccfddl_category": "AI",
