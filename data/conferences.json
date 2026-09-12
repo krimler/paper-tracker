@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-11T11:20:36.909645+00:00",
+  "fetched_at": "2026-09-12T10:45:53.304046+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 735,
+  "row_count": 736,
   "conferences": [
     {
       "title": "AAAI",
@@ -7885,6 +7885,31 @@
         {
           "deadline": "2025-11-18 17:00:00",
           "abstract_deadline": "2025-11-11 17:00:00",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "DAC",
+      "description": "Design Automation Conference",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "dac",
+      "year": 2027,
+      "id": "dac27",
+      "link": "https://dac.com/2027/authors/call-for-contributions",
+      "timezone": "UTC-8",
+      "date": "July 11-14, 2027",
+      "place": "San Jose, CA",
+      "timeline": [
+        {
+          "deadline": "2026-11-18 17:00:00",
+          "abstract_deadline": null,
           "comment": null
         }
       ],
