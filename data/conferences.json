@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-12T10:45:53.304046+00:00",
+  "fetched_at": "2026-09-13T11:51:31.899324+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -2869,7 +2869,7 @@
       "id": "nips26",
       "link": "https://neurips.cc/Conferences/2026",
       "timezone": "UTC+0",
-      "date": "December 6, 2026",
+      "date": "December 6-12, 2026",
       "place": "Sydney, Australia",
       "timeline": [
         {
