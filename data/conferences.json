@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-14T12:46:14.743840+00:00",
+  "fetched_at": "2026-09-15T11:44:07.233166+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 736,
+  "row_count": 742,
   "conferences": [
     {
       "title": "AAAI",
@@ -5551,6 +5551,36 @@
       "source": "ccfddl"
     },
     {
+      "title": "PODS",
+      "description": "ACM Symposium on Principles of Database Systems",
+      "sub": "DB",
+      "area": "databases",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "pods",
+      "year": 2027,
+      "id": "pods27",
+      "link": "https://2027.sigmod.org/",
+      "timezone": "AoE",
+      "date": "June 13-19, 2027",
+      "place": "Huntington Beach, California, USA",
+      "timeline": [
+        {
+          "deadline": "2026-05-30 23:59:59",
+          "abstract_deadline": "2026-05-23 23:59:59",
+          "comment": "First Submission Cycle"
+        },
+        {
+          "deadline": "2026-12-10 23:59:59",
+          "abstract_deadline": "2026-12-03 23:59:59",
+          "comment": "Second Submission Cycle"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
       "title": "RecSys",
       "description": "ACM Conference on Recommender Systems",
       "sub": "DB",
@@ -7521,6 +7551,31 @@
       "source": "ccfddl"
     },
     {
+      "title": "CCGRID",
+      "description": "IEEE International Symposium on Cluster, Cloud and Internet Computing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "ccgrid",
+      "year": 2027,
+      "id": "ccgrid27",
+      "link": "https://hpcclab.org/ccgrid27/",
+      "timezone": "AoE",
+      "date": "May 24-27, 2027",
+      "place": "Dallas-Fort Worth, Texas, USA",
+      "timeline": [
+        {
+          "deadline": "2026-12-01 23:59:59",
+          "abstract_deadline": "2026-11-24 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
       "title": "IEEE/ACM CGO",
       "description": "The International Symposium on Code Generation and Optimization",
       "sub": "DS",
@@ -7534,7 +7589,7 @@
       "id": "cgo2027",
       "link": "https://conf.researchr.org/home/cgo-2027",
       "timezone": "AoE",
-      "date": "TBD",
+      "date": "March 20-24, 2027",
       "place": "Salt Lake City, Utah, USA",
       "timeline": [
         {
@@ -7749,7 +7804,7 @@
       "timeline": [
         {
           "deadline": "2026-05-07 23:59:59",
-          "abstract_deadline": "2026-04-30 23:59:59",
+          "abstract_deadline": "2026-05-07 23:59:59",
           "comment": null
         }
       ],
@@ -11060,6 +11115,56 @@
         {
           "deadline": "2026-02-26 23:59:00",
           "abstract_deadline": "2026-02-12 23:59:00",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "MICCAI",
+      "description": "International Conference on Medical Image Computing and Computer Assisted Intervention",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "miccai",
+      "year": 2027,
+      "id": "miccai27",
+      "link": "https://conferences.miccai.org/2027/en/",
+      "timezone": "UTC-8",
+      "date": "Sep 27 - Oct 1, 2027",
+      "place": "Auckland, New Zealand",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "MICCAI",
+      "description": "International Conference on Medical Image Computing and Computer Assisted Intervention",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "miccai",
+      "year": 2028,
+      "id": "miccai28",
+      "link": "https://conferences.miccai.org/2028/en/",
+      "timezone": "UTC-8",
+      "date": "Oct 16-20, 2028",
+      "place": "São Paulo, Brazil",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
           "comment": null
         }
       ],
@@ -14995,6 +15100,31 @@
         {
           "deadline": "2025-11-20 23:59:59",
           "abstract_deadline": null,
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "EuroS&P",
+      "description": "IEEE European Symposium on Security and Privacy",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "eurosp",
+      "year": 2027,
+      "id": "eurosp27",
+      "link": "https://eurosp2027.ieee-security.org/",
+      "timezone": "UTC-12",
+      "date": "July 5 - 9, 2027",
+      "place": "Madrid, Spain",
+      "timeline": [
+        {
+          "deadline": "2026-12-02 23:59:59",
+          "abstract_deadline": "2026-11-25 23:59:59",
           "comment": null
         }
       ],
@@ -18939,6 +19069,36 @@
         },
         {
           "deadline": "2026-03-17 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Submission Deadline Round 2"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "OOPSLA",
+      "description": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "oopsla",
+      "year": 2027,
+      "id": "oopsla27",
+      "link": "https://2027.splashcon.org/track/splashoopsla2027",
+      "timezone": "AoE",
+      "date": "October 10-15, 2027",
+      "place": "Prague, Czechia",
+      "timeline": [
+        {
+          "deadline": "2026-10-14 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Submission Deadline Round 1"
+        },
+        {
+          "deadline": "2027-04-07 23:59:59",
           "abstract_deadline": null,
           "comment": "Submission Deadline Round 2"
         }
