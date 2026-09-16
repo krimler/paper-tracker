@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-15T11:44:07.233166+00:00",
+  "fetched_at": "2026-09-16T11:33:03.559259+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 742,
+  "row_count": 745,
   "conferences": [
     {
       "title": "AAAI",
@@ -13991,6 +13991,31 @@
       "source": "ccfddl"
     },
     {
+      "title": "CODASPY",
+      "description": "ACM Conference on Data and Application Security and Privacy",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "codaspy",
+      "year": 2027,
+      "id": "codaspy2027",
+      "link": "https://www.codaspy.org/2027/",
+      "timezone": "AoE",
+      "date": "June 14-17, 2027",
+      "place": "Fort Collins, Colorado, USA",
+      "timeline": [
+        {
+          "deadline": "2026-11-23 23:59:59",
+          "abstract_deadline": "2026-11-16 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
       "title": "CRYPTO",
       "description": "International Cryptology Conference",
       "sub": "SC",
@@ -14521,6 +14546,31 @@
       "source": "ccfddl"
     },
     {
+      "title": "DFRWS",
+      "description": "Digital Forensic Research Workshop",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "dfrws",
+      "year": 2027,
+      "id": "dfrws27",
+      "link": "https://dfrws.org/conferences/dfceurope2027/",
+      "timezone": "AoE",
+      "date": "March 30 - April 2, 2027",
+      "place": "Edinburgh, Scotland",
+      "timeline": [
+        {
+          "deadline": "2026-09-25 23:59:59",
+          "abstract_deadline": "2026-09-18 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
       "title": "DIMVA",
       "description": "Detection of Intrusions and Malware & Vulnerability Assessment",
       "sub": "SC",
@@ -15037,7 +15087,7 @@
       "area": "security",
       "ccfddl_category": "SC",
       "ccf": "C",
-      "core": "N",
+      "core": "A",
       "thcpl": "N",
       "dblp": "eurosp",
       "year": 2024,
@@ -15062,7 +15112,7 @@
       "area": "security",
       "ccfddl_category": "SC",
       "ccf": "C",
-      "core": "N",
+      "core": "A",
       "thcpl": "N",
       "dblp": "eurosp",
       "year": 2025,
@@ -15087,7 +15137,7 @@
       "area": "security",
       "ccfddl_category": "SC",
       "ccf": "C",
-      "core": "N",
+      "core": "A",
       "thcpl": "N",
       "dblp": "eurosp",
       "year": 2026,
@@ -15112,7 +15162,7 @@
       "area": "security",
       "ccfddl_category": "SC",
       "ccf": "C",
-      "core": "N",
+      "core": "A",
       "thcpl": "N",
       "dblp": "eurosp",
       "year": 2027,
@@ -16394,6 +16444,36 @@
         },
         {
           "deadline": "2026-03-02 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Second Cycle"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SACMAT",
+      "description": "ACM Symposium on Access Control Models and Technologies",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "C",
+      "thcpl": "N",
+      "dblp": "sacmat",
+      "year": 2027,
+      "id": "sacmat27",
+      "link": "https://www.sacmat.org/2027/",
+      "timezone": "AoE",
+      "date": "July 19-21, 2027",
+      "place": "Durham, England, United Kingdom",
+      "timeline": [
+        {
+          "deadline": "2026-10-30 23:59:59",
+          "abstract_deadline": null,
+          "comment": "First Cycle"
+        },
+        {
+          "deadline": "2027-02-12 23:59:59",
           "abstract_deadline": null,
           "comment": "Second Cycle"
         }
