@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-17T11:40:42.058731+00:00",
+  "fetched_at": "2026-09-18T11:14:02.353849+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 745,
+  "row_count": 746,
   "conferences": [
     {
       "title": "AAAI",
@@ -4389,6 +4389,31 @@
       "timeline": [
         {
           "deadline": "2025-11-04 16:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "STOC",
+      "description": "ACM Symposium on the Theory of Computing",
+      "sub": "CT",
+      "area": "theory",
+      "ccfddl_category": "CT",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "stoc",
+      "year": 2027,
+      "id": "stoc27",
+      "link": "https://acm-stoc.org/stoc2027/",
+      "timezone": "UTC-12",
+      "date": "June 6-11, 2027",
+      "place": "Atlanta, Georgia, USA",
+      "timeline": [
+        {
+          "deadline": "2026-11-02 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
