@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-19T10:58:30.271192+00:00",
+  "fetched_at": "2026-09-20T11:23:14.942632+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 746,
+  "row_count": 747,
   "conferences": [
     {
       "title": "AAAI",
@@ -12940,6 +12940,31 @@
         {
           "deadline": "2026-02-06 23:59:59",
           "abstract_deadline": "2026-01-30 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SIGCOMM",
+      "description": "ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "sigcomm",
+      "year": 2027,
+      "id": "sigcomm27",
+      "link": "https://conferences.sigcomm.org/sigcomm/2027/",
+      "timezone": "AoE",
+      "date": "August 8 - 12, 2027",
+      "place": "Bangkok, Thailand",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
           "comment": null
         }
       ],
