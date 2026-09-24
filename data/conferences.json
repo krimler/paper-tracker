@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-23T11:35:54.213954+00:00",
+  "fetched_at": "2026-09-24T11:45:20.127850+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 750,
+  "row_count": 751,
   "conferences": [
     {
       "title": "AAAI",
@@ -1800,6 +1800,31 @@
         {
           "deadline": "2025-12-08 23:59:59",
           "abstract_deadline": "2025-12-02 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ICAPS",
+      "description": "International Conference on Automated Planning and Scheduling",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "B",
+      "dblp": "icaps",
+      "year": 2027,
+      "id": "icaps27",
+      "link": "https://icaps27.icaps-conference.org/",
+      "timezone": "UTC-12",
+      "date": "June 27 - July 2, 2027",
+      "place": "Columbia, SC, USA",
+      "timeline": [
+        {
+          "deadline": "2026-12-14 23:59:59",
+          "abstract_deadline": "2026-12-07 23:59:59",
           "comment": null
         }
       ],
