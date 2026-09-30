@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-29T12:51:57.875742+00:00",
+  "fetched_at": "2026-09-30T12:34:03.873104+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 972,
+  "row_count": 1047,
   "conferences": [
     {
       "title": "AAAI",
@@ -239,7 +239,7 @@
       "id": "aamas21",
       "link": "https://www.ifaamas.org/AAMAS/aamas2021/",
       "timezone": "UTC-12",
-      "date": "May 3-7, 2021",
+      "date": "May 5-7, 2021",
       "place": "Virtual",
       "timeline": [
         {
@@ -2246,6 +2246,81 @@
           "deadline": "2026-08-02 23:59:59",
           "abstract_deadline": null,
           "comment": "Commitment deadline for papers with ARR reviews and meta-reviews"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "GECCO",
+      "description": "Genetic and Evolutionary Computation Conference",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "gecco",
+      "year": 2021,
+      "id": "gecco21",
+      "link": "https://gecco-2021.sigevo.org/",
+      "timezone": "AoE",
+      "date": "July 12-14, 2021",
+      "place": "Online",
+      "timeline": [
+        {
+          "deadline": "2021-02-04 23:59:00",
+          "abstract_deadline": "2021-01-28 23:59:00",
+          "comment": "Regular full papers; mandatory abstract. Cutoff clocks and timezone unpublished. 23:59:00 uses the repository default where the source gives no clear cutoff clock. AoE uses the repository default because the source gives no timezone."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "GECCO",
+      "description": "Genetic and Evolutionary Computation Conference",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "gecco",
+      "year": 2022,
+      "id": "gecco22",
+      "link": "https://gecco-2022.sigevo.org/",
+      "timezone": "AoE",
+      "date": "July 11-13, 2022",
+      "place": "Boston, USA (Hybrid)",
+      "timeline": [
+        {
+          "deadline": "2022-02-03 23:59:00",
+          "abstract_deadline": "2022-01-27 23:59:00",
+          "comment": "Regular full papers; mandatory abstract. Cutoff clocks and timezone unpublished. 23:59:00 uses the repository default where the source gives no clear cutoff clock. AoE uses the repository default because the source gives no timezone."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "GECCO",
+      "description": "Genetic and Evolutionary Computation Conference",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "gecco",
+      "year": 2024,
+      "id": "gecco24",
+      "link": "https://gecco-2024.sigevo.org/",
+      "timezone": "AoE",
+      "date": "July 16-18, 2024",
+      "place": "Melbourne, Australia (Hybrid)",
+      "timeline": [
+        {
+          "deadline": "2024-02-01 23:59:00",
+          "abstract_deadline": "2024-01-25 23:59:00",
+          "comment": "Regular full papers; mandatory abstract. Cutoff clocks and timezone unpublished. 23:59:00 uses the repository default where the source gives no clear cutoff clock. AoE uses the repository default because the source gives no timezone."
         }
       ],
       "source": "ccfddl"
@@ -4435,6 +4510,31 @@
       "core": "B",
       "thcpl": "B",
       "dblp": "icassp",
+      "year": 2021,
+      "id": "icassp21",
+      "link": "https://www.2021.ieeeicassp.org/2021.ieeeicassp.org/index.html",
+      "timezone": "AoE",
+      "date": "June 8-11, 2021",
+      "place": "Online",
+      "timeline": [
+        {
+          "deadline": "2020-10-21 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Regular full-paper date verified; 23:59:00 and AoE are repository defaults for the unpublished time and zone."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ICASSP",
+      "description": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "icassp",
       "year": 2022,
       "id": "icassp22",
       "link": "https://2022.ieeeicassp.org",
@@ -4985,6 +5085,31 @@
       "core": "A*",
       "thcpl": "N",
       "dblp": "siggrapha",
+      "year": 2022,
+      "id": "siggrapha22",
+      "link": "https://sa2022.siggraph.org/",
+      "timezone": "UTC-12",
+      "date": "December 6-9, 2022",
+      "place": "EXCO, Daegu, South Korea",
+      "timeline": [
+        {
+          "deadline": "2022-05-20 23:59:00",
+          "abstract_deadline": "2022-05-19 23:59:00",
+          "comment": "Regular Conference Papers; initial submission form and full paper"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ACM SIGGRAPH ASIA",
+      "description": "ACM SIGGRAPH Annual Conference in Asia",
+      "sub": "CG",
+      "area": "ai_ml",
+      "ccfddl_category": "CG",
+      "ccf": "N",
+      "core": "A*",
+      "thcpl": "N",
+      "dblp": "siggrapha",
       "year": 2023,
       "id": "siggrapha23",
       "link": "https://asia.siggraph.org/2023/",
@@ -5118,9 +5243,9 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2021-01-28 23:59:59",
+          "deadline": "2021-01-28 23:59:00",
           "abstract_deadline": null,
-          "comment": null
+          "comment": "Initial submissions; clock defaults to 23:59:00; February 4 was updates only"
         }
       ],
       "source": "ccfddl"
@@ -7283,9 +7408,9 @@
       "place": "Lille, France",
       "timeline": [
         {
-          "deadline": "2026-02-04 23:59:59",
+          "deadline": "2026-02-04 13:00:00",
           "abstract_deadline": null,
-          "comment": null
+          "comment": "Official February cutoff is 17:00 PST (UTC-8), represented as the equivalent 13:00 AoE."
         },
         {
           "deadline": "2026-06-10 23:59:59",
@@ -9885,6 +10010,81 @@
       "core": "N",
       "thcpl": "N",
       "dblp": "apsys",
+      "year": 2021,
+      "id": "apsys2021",
+      "link": "https://i.cs.hku.hk/apsys2021/",
+      "timezone": "UTC-4",
+      "date": "August 24-25, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2021-05-27 23:59:59",
+          "abstract_deadline": "2021-05-20 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "APSys",
+      "description": "ACM SIGOPS Asia-Pacific Workshop on Systems",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "apsys",
+      "year": 2022,
+      "id": "apsys2022",
+      "link": "https://apsys2022.comp.nus.edu.sg/",
+      "timezone": "UTC-7",
+      "date": "August 23-24, 2022",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2022-05-06 20:59:59",
+          "abstract_deadline": "2022-04-29 20:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "APSys",
+      "description": "ACM SIGOPS Asia-Pacific Workshop on Systems",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "apsys",
+      "year": 2023,
+      "id": "apsys2023",
+      "link": "https://apsys23.skku.edu/",
+      "timezone": "AoE",
+      "date": "August 24-25, 2023",
+      "place": "Seoul, South Korea",
+      "timeline": [
+        {
+          "deadline": "2023-05-05 23:59:59",
+          "abstract_deadline": "2023-04-28 23:59:00",
+          "comment": "Regular papers; abstract date is AoE with no published clock. Full-paper cutoff from official HotCRP. 23:59:00 uses the repository default where the source gives no clear cutoff clock."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "APSys",
+      "description": "ACM SIGOPS Asia-Pacific Workshop on Systems",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "N",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "apsys",
       "year": 2024,
       "id": "apsys2024",
       "link": "https://apsys2024.github.io/",
@@ -10183,7 +10383,7 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-01-12 23:59:59",
+          "deadline": "2021-01-12 23:59:00",
           "abstract_deadline": null,
           "comment": null
         }
@@ -10325,6 +10525,56 @@
       "core": "B",
       "thcpl": "B",
       "dblp": "ccgrid",
+      "year": 2021,
+      "id": "ccgrid21",
+      "link": "https://clouds.cis.unimelb.edu.au/ccgrid2021/",
+      "timezone": "AoE",
+      "date": "May 11-13, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2020-12-15 23:59:00",
+          "abstract_deadline": "2020-12-08 23:59:00",
+          "comment": "Calendar dates and AoE verified; 23:59:00 is the repository default for unpublished times"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "CCGRID",
+      "description": "IEEE International Symposium on Cluster, Cloud and Internet Computing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "ccgrid",
+      "year": 2024,
+      "id": "ccgrid24",
+      "link": "https://2024.ccgrid-conference.org/",
+      "timezone": "AoE",
+      "date": "May 7-9, 2024",
+      "place": "Philadelphia, USA",
+      "timeline": [
+        {
+          "deadline": "2023-12-11 23:59:00",
+          "abstract_deadline": "2023-12-04 23:59:00",
+          "comment": "Final extended dates and AoE verified; 23:59:00 is the repository default for unpublished times"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "CCGRID",
+      "description": "IEEE International Symposium on Cluster, Cloud and Internet Computing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "ccgrid",
       "year": 2026,
       "id": "ccgrid26",
       "link": "https://www.ccgrid2026.org/",
@@ -10375,6 +10625,56 @@
       "core": "A",
       "thcpl": "B",
       "dblp": "cgo",
+      "year": 2022,
+      "id": "cgo2022",
+      "link": "https://conf.researchr.org/home/cgo-2022",
+      "timezone": "AoE",
+      "date": "April 4-6, 2022",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2021-09-03 23:59:00",
+          "abstract_deadline": "2021-08-27 23:59:00",
+          "comment": "Calendar dates and AoE verified; 23:59:00 is the repository default for unpublished times"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "IEEE/ACM CGO",
+      "description": "The International Symposium on Code Generation and Optimization",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "cgo",
+      "year": 2023,
+      "id": "cgo2023",
+      "link": "https://conf.researchr.org/home/cgo-2023",
+      "timezone": "AoE",
+      "date": "February 27-March 1, 2023",
+      "place": "Montreal, Canada",
+      "timeline": [
+        {
+          "deadline": "2022-09-02 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Calendar date and AoE verified; 23:59:00 is the repository default for the unpublished time"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "IEEE/ACM CGO",
+      "description": "The International Symposium on Code Generation and Optimization",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "cgo",
       "year": 2024,
       "id": "cgo2024",
       "link": "https://conf.researchr.org/home/cgo-2024",
@@ -10385,7 +10685,12 @@
         {
           "deadline": "2023-05-19 23:59:59",
           "abstract_deadline": null,
-          "comment": null
+          "comment": "First submission round"
+        },
+        {
+          "deadline": "2023-09-01 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Second initial submission round; 23:59:00 is the repository default for the unpublished time (AoE verified)"
         }
       ],
       "source": "ccfddl"
@@ -10410,7 +10715,12 @@
         {
           "deadline": "2024-05-30 23:59:59",
           "abstract_deadline": null,
-          "comment": null
+          "comment": "First submission round"
+        },
+        {
+          "deadline": "2024-09-12 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Second initial submission round; 23:59:00 is the repository default for the unpublished time (AoE verified)"
         }
       ],
       "source": "ccfddl"
@@ -10485,6 +10795,31 @@
       "core": "C",
       "thcpl": "B",
       "dblp": "cluster",
+      "year": 2021,
+      "id": "cluster21",
+      "link": "https://clustercomp.org/2021/",
+      "timezone": "AoE",
+      "date": "September 8-10, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2021-05-24 23:59:00",
+          "abstract_deadline": "2021-05-10 23:59:00",
+          "comment": "Calendar dates and AoE verified; 23:59:00 is the repository default because the source does not specify a time."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "CLUSTER",
+      "description": "IEEE International Conference on Cluster Computing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "C",
+      "thcpl": "B",
+      "dblp": "cluster",
       "year": 2022,
       "id": "cluster22",
       "link": "https://clustercomp.org/2022",
@@ -10493,9 +10828,9 @@
       "place": "Heidelberg, Germany",
       "timeline": [
         {
-          "deadline": "2022-05-13 23:59:59",
+          "deadline": "2022-05-20 23:59:00",
           "abstract_deadline": null,
-          "comment": "Full Paper Deadline"
+          "comment": "Calendar dates and AoE verified; 23:59:00 is the repository default because the source does not specify a time."
         }
       ],
       "source": "ccfddl"
@@ -10518,9 +10853,9 @@
       "place": "Santa Fe, New Mexico, USA",
       "timeline": [
         {
-          "deadline": "2023-05-11 23:59:59",
+          "deadline": "2023-05-15 23:59:00",
           "abstract_deadline": null,
-          "comment": "Full Paper Deadline"
+          "comment": "Calendar dates and AoE verified; 23:59:00 is the repository default because the source does not specify a time."
         }
       ],
       "source": "ccfddl"
@@ -10568,9 +10903,9 @@
       "place": "Edinburgh, United Kingdom",
       "timeline": [
         {
-          "deadline": "2025-05-02 23:59:59",
+          "deadline": "2025-05-06 23:59:00",
           "abstract_deadline": null,
-          "comment": "Full Paper Deadline"
+          "comment": "Calendar dates and AoE verified; 23:59:00 is the repository default because the source does not specify a time."
         }
       ],
       "source": "ccfddl"
@@ -10978,7 +11313,7 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-09-24 23:59:59",
+          "deadline": "2020-09-24 23:59:00",
           "abstract_deadline": null,
           "comment": null
         }
@@ -11378,14 +11713,9 @@
       "place": "Cleveland, OH, USA",
       "timeline": [
         {
-          "deadline": "2026-01-29 23:59:59",
-          "abstract_deadline": null,
-          "comment": "abstract registration deadline"
-        },
-        {
-          "deadline": "2026-02-05 23:59:59",
-          "abstract_deadline": null,
-          "comment": "paper submission deadline"
+          "deadline": "2026-02-05 23:59:00",
+          "abstract_deadline": "2026-01-29 23:59:00",
+          "comment": "Dates and AoE verified; 23:59:00 is the repository default for the unpublished cutoff time."
         }
       ],
       "source": "ccfddl"
@@ -11783,9 +12113,9 @@
       "place": "Bordeaux, France",
       "timeline": [
         {
-          "deadline": "2022-04-14 23:59:59",
-          "abstract_deadline": "2022-04-08 23:59:59",
-          "comment": null
+          "deadline": "2022-04-22 23:59:00",
+          "abstract_deadline": "2022-04-14 23:59:00",
+          "comment": "Final extended dates and AoE verified; 23:59:00 is the repository default for the unpublished time."
         }
       ],
       "source": "ccfddl"
@@ -11808,14 +12138,9 @@
       "place": "Salt Lake City, UTAH, USA",
       "timeline": [
         {
-          "deadline": "2023-04-14 23:59:59",
-          "abstract_deadline": null,
-          "comment": "Abstract Submission"
-        },
-        {
-          "deadline": "2023-04-22 23:59:59",
-          "abstract_deadline": null,
-          "comment": "Paper Submission"
+          "deadline": "2023-04-22 23:59:00",
+          "abstract_deadline": "2023-04-14 23:59:00",
+          "comment": "Dates and AoE verified; 23:59:00 is the repository default for the unpublished time."
         }
       ],
       "source": "ccfddl"
@@ -12273,14 +12598,9 @@
       "place": "New York City, USA",
       "timeline": [
         {
-          "deadline": "2021-11-16 23:59:59",
-          "abstract_deadline": null,
-          "comment": "abstract deadline"
-        },
-        {
-          "deadline": "2021-11-23 23:59:59",
-          "abstract_deadline": null,
-          "comment": "full paper deadline"
+          "deadline": "2021-11-23 23:59:00",
+          "abstract_deadline": "2021-11-16 23:59:00",
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -12303,14 +12623,9 @@
       "place": "Orlando, FL, USA",
       "timeline": [
         {
-          "deadline": "2022-11-14 23:59:59",
-          "abstract_deadline": null,
-          "comment": "abstract deadline"
-        },
-        {
-          "deadline": "2022-11-21 23:59:59",
-          "abstract_deadline": null,
-          "comment": "full paper deadline"
+          "deadline": "2022-11-21 23:59:00",
+          "abstract_deadline": "2022-11-14 23:59:00",
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -12333,14 +12648,9 @@
       "place": "Buenos Aires, Argentina",
       "timeline": [
         {
-          "deadline": "2023-11-14 23:59:59",
-          "abstract_deadline": null,
-          "comment": "abstract deadline"
-        },
-        {
-          "deadline": "2023-11-21 23:59:59",
-          "abstract_deadline": null,
-          "comment": "full paper deadline"
+          "deadline": "2023-11-21 23:59:00",
+          "abstract_deadline": "2023-11-14 23:59:00",
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -12363,14 +12673,9 @@
       "place": "Tokyo, Japan",
       "timeline": [
         {
-          "deadline": "2024-11-15 23:59:59",
-          "abstract_deadline": null,
-          "comment": "abstract deadline"
-        },
-        {
-          "deadline": "2024-11-22 23:59:59",
-          "abstract_deadline": null,
-          "comment": "full paper deadline"
+          "deadline": "2024-11-22 23:59:00",
+          "abstract_deadline": "2024-11-15 23:59:00",
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -12393,14 +12698,9 @@
       "place": "Raleigh, USA",
       "timeline": [
         {
-          "deadline": "2025-11-10 23:59:59",
-          "abstract_deadline": null,
-          "comment": "abstract deadline"
-        },
-        {
-          "deadline": "2025-11-17 23:59:59",
-          "abstract_deadline": null,
-          "comment": "full paper deadline"
+          "deadline": "2025-11-17 23:59:00",
+          "abstract_deadline": "2025-11-10 23:59:00",
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -13235,6 +13535,146 @@
       "core": "A*",
       "thcpl": "A",
       "dblp": "sigmetrics",
+      "year": 2021,
+      "id": "sigmetrics21",
+      "link": "https://www.sigmetrics.org/sigmetrics2021/",
+      "timezone": "UTC+0",
+      "date": "June 15-17, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2020-08-07 15:59:00",
+          "abstract_deadline": "2020-07-31 15:59:00",
+          "comment": "Summer cycle; 11:59 AM New York time converted to UTC"
+        },
+        {
+          "deadline": "2020-10-23 15:59:00",
+          "abstract_deadline": "2020-10-16 15:59:00",
+          "comment": "Fall cycle; 11:59 AM New York time converted to UTC"
+        },
+        {
+          "deadline": "2021-02-05 16:59:00",
+          "abstract_deadline": "2021-01-29 16:59:00",
+          "comment": "Winter cycle; 11:59 AM New York time converted to UTC"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SIGMETRICS",
+      "description": "ACM Special Interest Group on Measurement and Evaluation",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "sigmetrics",
+      "year": 2022,
+      "id": "sigmetrics22",
+      "link": "https://www.sigmetrics.org/sigmetrics2022/",
+      "timezone": "UTC+0",
+      "date": "June 7-9, 2022",
+      "place": "Mumbai, India",
+      "timeline": [
+        {
+          "deadline": "2021-08-11 15:59:00",
+          "abstract_deadline": "2021-08-04 15:59:00",
+          "comment": "Summer cycle; 11:59 AM New York time converted to UTC"
+        },
+        {
+          "deadline": "2021-10-20 15:59:00",
+          "abstract_deadline": "2021-10-13 15:59:00",
+          "comment": "Fall cycle; 11:59 AM New York time converted to UTC"
+        },
+        {
+          "deadline": "2022-02-03 16:59:00",
+          "abstract_deadline": "2022-01-26 16:59:00",
+          "comment": "Winter cycle; extended full-paper deadline; 11:59 AM New York time converted to UTC"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SIGMETRICS",
+      "description": "ACM Special Interest Group on Measurement and Evaluation",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "sigmetrics",
+      "year": 2023,
+      "id": "sigmetrics23",
+      "link": "https://www.sigmetrics.org/sigmetrics2023/",
+      "timezone": "AoE",
+      "date": "June 20-22, 2023",
+      "place": "Orlando, Florida, USA",
+      "timeline": [
+        {
+          "deadline": "2022-08-10 23:59:59",
+          "abstract_deadline": "2022-08-03 23:59:59",
+          "comment": "Summer cycle"
+        },
+        {
+          "deadline": "2022-10-19 23:59:59",
+          "abstract_deadline": "2022-10-12 23:59:59",
+          "comment": "Fall cycle"
+        },
+        {
+          "deadline": "2023-02-01 23:59:59",
+          "abstract_deadline": "2023-01-25 23:59:59",
+          "comment": "Winter cycle"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SIGMETRICS",
+      "description": "ACM Special Interest Group on Measurement and Evaluation",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "sigmetrics",
+      "year": 2024,
+      "id": "sigmetrics24",
+      "link": "https://www.sigmetrics.org/sigmetrics2024/",
+      "timezone": "AoE",
+      "date": "June 11-13, 2024",
+      "place": "Venice, Italy",
+      "timeline": [
+        {
+          "deadline": "2023-08-09 23:59:00",
+          "abstract_deadline": "2023-08-02 23:59:00",
+          "comment": "Summer cycle"
+        },
+        {
+          "deadline": "2023-10-11 23:59:00",
+          "abstract_deadline": "2023-10-04 23:59:00",
+          "comment": "Fall cycle"
+        },
+        {
+          "deadline": "2024-01-31 23:59:00",
+          "abstract_deadline": "2024-01-24 23:59:00",
+          "comment": "Winter cycle"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SIGMETRICS",
+      "description": "ACM Special Interest Group on Measurement and Evaluation",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "sigmetrics",
       "year": 2025,
       "id": "sigmetrics25",
       "link": "https://www.sigmetrics.org/sigmetrics2025/",
@@ -14038,14 +14478,14 @@
       "year": 2026,
       "id": "apbc26",
       "link": "https://www.apbc2026.com/home",
-      "timezone": "UTC+0",
+      "timezone": "AoE",
       "date": "October 21-24, 2026",
       "place": "Hsinchu, Taiwan， China",
       "timeline": [
         {
-          "deadline": "2026-06-15 23:59:59",
+          "deadline": "2026-07-17 23:59:00",
           "abstract_deadline": null,
-          "comment": null
+          "comment": "Regular full papers; extended submission deadline in the organizer EasyChair CFP. 23:59:00 uses the repository default where the source gives no clear cutoff clock. AoE uses the repository default because the source gives no timezone."
         }
       ],
       "source": "ccfddl"
@@ -14965,6 +15405,116 @@
       "core": "A",
       "thcpl": "A",
       "dblp": "conext",
+      "year": 2021,
+      "id": "conext21",
+      "link": "https://conferences2.sigcomm.org/co-next/2021/#!/home",
+      "timezone": "UTC+2",
+      "date": "December 8-10, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2021-06-28 23:59:00",
+          "abstract_deadline": "2021-06-21 23:59:00",
+          "comment": "Regular papers"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "CoNEXT",
+      "description": "International Conference on Emerging Networking Experiments and Technologies",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "conext",
+      "year": 2022,
+      "id": "conext22",
+      "link": "https://conferences2.sigcomm.org/co-next/2022/#!/home",
+      "timezone": "AoE",
+      "date": "December 6-8, 2022",
+      "place": "Rome, Italy",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": "Regular papers: registration June 23-29 and submission June 29, 2022; CFP says 23:59 CET but HotCRP says 23:59 CEST; timezone unresolved; AoE is an unused repository placeholder for TBD fields"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "CoNEXT",
+      "description": "International Conference on Emerging Networking Experiments and Technologies",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "conext",
+      "year": 2023,
+      "id": "conext23",
+      "link": "https://conferences.sigcomm.org/co-next/2023/#!/home",
+      "timezone": "AoE",
+      "date": "December 5-7, 2023",
+      "place": "Paris, France",
+      "timeline": [
+        {
+          "deadline": "2022-11-30 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Regular papers; November cycle"
+        },
+        {
+          "deadline": "2023-06-28 00:00:00",
+          "abstract_deadline": null,
+          "comment": "Regular papers; June 27 at 24:00 AoE normalized to June 28 at 00:00."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "CoNEXT",
+      "description": "International Conference on Emerging Networking Experiments and Technologies",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "conext",
+      "year": 2024,
+      "id": "conext24",
+      "link": "https://conferences.sigcomm.org/co-next/2024/#!/home",
+      "timezone": "AoE",
+      "date": "December 10-12, 2024",
+      "place": "Los Angeles, California, USA",
+      "timeline": [
+        {
+          "deadline": "2023-12-05 00:00:00",
+          "abstract_deadline": "2023-11-28 00:00:00",
+          "comment": "Regular papers; published November 27 / December 4 at 24:00 AoE normalized to next-day 00:00."
+        },
+        {
+          "deadline": "2024-06-15 00:00:00",
+          "abstract_deadline": "2024-06-08 00:00:00",
+          "comment": "Regular papers; published June 7 / June 14 at 24:00 AoE normalized to next-day 00:00."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "CoNEXT",
+      "description": "International Conference on Emerging Networking Experiments and Technologies",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "conext",
       "year": 2025,
       "id": "conext25",
       "link": "https://conferences.sigcomm.org/co-next/2025/#!/home",
@@ -15860,6 +16410,131 @@
       "core": "B",
       "thcpl": "N",
       "dblp": "lcn",
+      "year": 2021,
+      "id": "lcn21",
+      "link": "https://www.ieeelcn.org/prior/LCN46/index.html",
+      "timezone": "AoE",
+      "date": "October 4-7, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2021-05-31 23:59:00",
+          "abstract_deadline": "2021-05-31 23:59:00",
+          "comment": "Regular-paper registration and submission; 23:59:00 and AoE are repository defaults because the source publishes dates only."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "LCN",
+      "description": "IEEE Conference on Local Computer Networks",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "N",
+      "dblp": "lcn",
+      "year": 2022,
+      "id": "lcn22",
+      "link": "https://www.ieeelcn.org/prior/LCN47/index.html",
+      "timezone": "AoE",
+      "date": "September 26-29, 2022",
+      "place": "Edmonton, Canada / Hybrid",
+      "timeline": [
+        {
+          "deadline": "2022-04-24 23:59:00",
+          "abstract_deadline": "2022-04-24 23:59:00",
+          "comment": "Regular-paper registration and submission; 23:59:00 and AoE are repository defaults because the source publishes dates only."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "LCN",
+      "description": "IEEE Conference on Local Computer Networks",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "N",
+      "dblp": "lcn",
+      "year": 2023,
+      "id": "lcn23",
+      "link": "https://www.ieeelcn.org/prior/LCN48/index.html",
+      "timezone": "AoE",
+      "date": "October 2-4, 2023",
+      "place": "Daytona Beach, FL, USA",
+      "timeline": [
+        {
+          "deadline": "2023-04-28 23:59:00",
+          "abstract_deadline": "2023-04-28 23:59:00",
+          "comment": "Regular-paper registration and submission; 23:59:00 and AoE are repository defaults because the source publishes dates only."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "LCN",
+      "description": "IEEE Conference on Local Computer Networks",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "N",
+      "dblp": "lcn",
+      "year": 2024,
+      "id": "lcn24",
+      "link": "https://www.ieeelcn.org/prior/LCN49/index.html",
+      "timezone": "AoE",
+      "date": "October 8-10, 2024",
+      "place": "Caen, France",
+      "timeline": [
+        {
+          "deadline": "2024-05-03 23:59:00",
+          "abstract_deadline": "2024-05-03 23:59:00",
+          "comment": "Regular-paper registration and submission; 23:59:00 and AoE are repository defaults because the source publishes dates only."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "LCN",
+      "description": "IEEE Conference on Local Computer Networks",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "N",
+      "dblp": "lcn",
+      "year": 2025,
+      "id": "lcn25",
+      "link": "https://www.ieeelcn.org/prior/LCN50/index.html",
+      "timezone": "AoE",
+      "date": "October 14-16, 2025",
+      "place": "Sydney, Australia",
+      "timeline": [
+        {
+          "deadline": "2025-05-11 23:59:00",
+          "abstract_deadline": "2025-05-11 23:59:00",
+          "comment": "Regular-paper registration and submission; source specifies AoE; 23:59:00 is the repository default for unpublished clock."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "LCN",
+      "description": "IEEE Conference on Local Computer Networks",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "N",
+      "dblp": "lcn",
       "year": 2026,
       "id": "lcn26",
       "link": "https://www.ieeelcn.org/",
@@ -16090,6 +16765,31 @@
       "core": "A",
       "thcpl": "A",
       "dblp": "mobisys",
+      "year": 2021,
+      "id": "mobisys21",
+      "link": "https://www.sigmobile.org/mobisys/2021/",
+      "timezone": "AoE",
+      "date": "June 28-July 2, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2021-01-15 23:59:59",
+          "abstract_deadline": "2021-01-08 23:59:59",
+          "comment": "Regular papers"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "MobiSys",
+      "description": "ACM International Conference on Mobile Systems, Applications, and Services",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "mobisys",
       "year": 2022,
       "id": "mobisys22",
       "link": "https://www.sigmobile.org/mobisys/2022/",
@@ -16101,6 +16801,81 @@
           "deadline": "2021-12-20 23:59:59",
           "abstract_deadline": "2021-12-13 23:59:59",
           "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "MobiSys",
+      "description": "ACM International Conference on Mobile Systems, Applications, and Services",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "mobisys",
+      "year": 2023,
+      "id": "mobisys23",
+      "link": "https://www.sigmobile.org/mobisys/2023/",
+      "timezone": "AoE",
+      "date": "June 20-22, 2023",
+      "place": "Helsinki, Finland",
+      "timeline": [
+        {
+          "deadline": "2022-12-09 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Regular papers; no independent abstract-registration deadline"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "MobiSys",
+      "description": "ACM International Conference on Mobile Systems, Applications, and Services",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "mobisys",
+      "year": 2024,
+      "id": "mobisys24",
+      "link": "https://www.sigmobile.org/mobisys/2024/",
+      "timezone": "AoE",
+      "date": "June 4-6, 2024",
+      "place": "Tokyo, Japan",
+      "timeline": [
+        {
+          "deadline": "2023-11-30 23:59:00",
+          "abstract_deadline": "2023-11-23 23:59:00",
+          "comment": "Regular papers"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "MobiSys",
+      "description": "ACM International Conference on Mobile Systems, Applications, and Services",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "mobisys",
+      "year": 2025,
+      "id": "mobisys25",
+      "link": "https://www.sigmobile.org/mobisys/2025/",
+      "timezone": "AoE",
+      "date": "June 24-26, 2025",
+      "place": "Anaheim, California, USA",
+      "timeline": [
+        {
+          "deadline": "2024-12-09 23:59:00",
+          "abstract_deadline": "2024-12-02 23:59:00",
+          "comment": "Regular papers"
         }
       ],
       "source": "ccfddl"
@@ -16375,6 +17150,106 @@
       "core": "B",
       "thcpl": "B",
       "dblp": "secon",
+      "year": 2021,
+      "id": "secon21",
+      "link": "https://secon2021.ieee-secon.org/",
+      "timezone": "AoE",
+      "date": "July 6-8, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "2021-02-22 23:59:59",
+          "comment": "Registration matches the official HotCRP cutoff; full submission conflicts: CFP February 22 versus HotCRP February 27, 2021 AoE, with no extension explanation (https://secon21.hotcrp.com/deadlines)"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SECON",
+      "description": "IEEE International Conference on Sensing, Communication, and Networking",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "secon",
+      "year": 2022,
+      "id": "secon22",
+      "link": "https://secon2022.ieee-secon.org/",
+      "timezone": "AoE",
+      "date": "September 20-22, 2022",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2022-05-16 23:59:00",
+          "abstract_deadline": "2022-05-09 23:59:00",
+          "comment": "Regular paper registration: May 9, 2022; submission: May 16, 2022; exact cutoff time and timezone not specified; 23:59:00 is the repository default; AoE is the repository default for unspecified timezone"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SECON",
+      "description": "IEEE International Conference on Sensing, Communication, and Networking",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "secon",
+      "year": 2023,
+      "id": "secon23",
+      "link": "https://secon2023.ieee-secon.org/",
+      "timezone": "AoE",
+      "date": "September 12-14, 2023",
+      "place": "Madrid, Spain",
+      "timeline": [
+        {
+          "deadline": "2023-04-05 23:59:00",
+          "abstract_deadline": "2023-04-05 23:59:00",
+          "comment": "Regular paper registration and submission extended to April 5, 2023; exact cutoff time and timezone not specified; 23:59:00 is the repository default; AoE is the repository default for unspecified timezone"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SECON",
+      "description": "IEEE International Conference on Sensing, Communication, and Networking",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "secon",
+      "year": 2024,
+      "id": "secon24",
+      "link": "https://secon2024.ieee-secon.org/",
+      "timezone": "AoE",
+      "date": "December 3-4, 2024",
+      "place": "Phoenix, AZ, USA",
+      "timeline": [
+        {
+          "deadline": "2024-08-30 23:59:00",
+          "abstract_deadline": "2024-08-30 23:59:00",
+          "comment": "Regular paper registration and submission extended to August 30, 2024; exact cutoff time and timezone not specified; 23:59:00 is the repository default; AoE is the repository default for unspecified timezone"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SECON",
+      "description": "IEEE International Conference on Sensing, Communication, and Networking",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "secon",
       "year": 2026,
       "id": "secon26",
       "link": "https://secon2026.ieee-secon.org/important-dates",
@@ -16411,6 +17286,131 @@
           "deadline": "2026-11-30 23:59:59",
           "abstract_deadline": null,
           "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SenSys",
+      "description": "ACM Conference on Embedded Networked Sensor Systems",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "sensys",
+      "year": 2021,
+      "id": "sensys21",
+      "link": "https://sensys.acm.org/2021/",
+      "timezone": "AoE",
+      "date": "November 15-17, 2021",
+      "place": "Coimbra, Portugal",
+      "timeline": [
+        {
+          "deadline": "2021-06-04 23:59:00",
+          "abstract_deadline": "2021-05-28 23:59:00",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SenSys",
+      "description": "ACM Conference on Embedded Networked Sensor Systems",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "sensys",
+      "year": 2022,
+      "id": "sensys22",
+      "link": "https://sensys.acm.org/2022/",
+      "timezone": "AoE",
+      "date": "November 7-9, 2022",
+      "place": "Boston, MA, USA",
+      "timeline": [
+        {
+          "deadline": "2022-06-21 23:59:00",
+          "abstract_deadline": "2022-06-14 23:59:00",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SenSys",
+      "description": "ACM Conference on Embedded Networked Sensor Systems",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "sensys",
+      "year": 2023,
+      "id": "sensys23",
+      "link": "https://sensys.acm.org/2023/",
+      "timezone": "AoE",
+      "date": "November 13-15, 2023",
+      "place": "Istanbul, Turkiye",
+      "timeline": [
+        {
+          "deadline": "2023-06-29 23:59:00",
+          "abstract_deadline": "2023-06-22 23:59:00",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SenSys",
+      "description": "ACM Conference on Embedded Networked Sensor Systems",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "sensys",
+      "year": 2024,
+      "id": "sensys24",
+      "link": "https://sensys.acm.org/2024/",
+      "timezone": "AoE",
+      "date": "November 5-7, 2024",
+      "place": "Hangzhou, China",
+      "timeline": [
+        {
+          "deadline": "2024-07-01 23:59:00",
+          "abstract_deadline": "2024-06-24 23:59:00",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SenSys",
+      "description": "ACM Conference on Embedded Networked Sensor Systems",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "sensys",
+      "year": 2025,
+      "id": "sensys25",
+      "link": "https://sensys.acm.org/2025/",
+      "timezone": "AoE",
+      "date": "May 7-9, 2025",
+      "place": "Irvine, CA, USA",
+      "timeline": [
+        {
+          "deadline": "2024-11-14 23:59:00",
+          "abstract_deadline": "2024-11-14 23:59:00",
+          "comment": "Abstract registration is optional; final registration and submission deadlines coincide."
         }
       ],
       "source": "ccfddl"
@@ -16660,6 +17660,31 @@
       "core": "B",
       "thcpl": "B",
       "dblp": "wowmom",
+      "year": 2021,
+      "id": "wowmom21",
+      "link": "https://wowmom2021.iit.cnr.it/",
+      "timezone": "AoE",
+      "date": "June 8-10, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2020-12-31 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Verified calendar date; 23:59:00 and AoE are repository defaults because the source does not specify time or timezone."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "WoWMoM",
+      "description": "IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "wowmom",
       "year": 2025,
       "id": "wowmom25",
       "link": "https://wowmomconference.uta.edu/index.html",
@@ -16735,6 +17760,36 @@
       "core": "B",
       "thcpl": "B",
       "dblp": "acns",
+      "year": 2021,
+      "id": "acns21",
+      "link": "https://sulab-sever.u-aizu.ac.jp/ACNS2021/",
+      "timezone": "AoE",
+      "date": "June 21-24, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2020-09-07 23:59:00",
+          "abstract_deadline": null,
+          "comment": "First regular paper final deadline; 23:59:00 is the repository default for unspecified cutoff time"
+        },
+        {
+          "deadline": "2021-01-15 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Second regular paper final deadline; 23:59:00 is the repository default for unspecified cutoff time"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ACNS",
+      "description": "Applied Cryptography and Network Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "acns",
       "year": 2022,
       "id": "acns22",
       "link": "https://sites.google.com/di.uniroma1.it/acns2022",
@@ -16765,6 +17820,36 @@
       "core": "B",
       "thcpl": "B",
       "dblp": "acns",
+      "year": 2023,
+      "id": "acns23",
+      "link": "https://sulab-sever.u-aizu.ac.jp/acns2023/",
+      "timezone": "AoE",
+      "date": "June 19-22, 2023",
+      "place": "Kyoto, Japan",
+      "timeline": [
+        {
+          "deadline": "2022-09-08 23:59:00",
+          "abstract_deadline": null,
+          "comment": "First regular paper submission deadline"
+        },
+        {
+          "deadline": "2023-01-12 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Second regular paper submission deadline"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ACNS",
+      "description": "Applied Cryptography and Network Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "acns",
       "year": 2024,
       "id": "acns24",
       "link": "https://wp.nyu.edu/acns2024/",
@@ -16778,9 +17863,9 @@
           "comment": "First submission deadline"
         },
         {
-          "deadline": "2023-10-20 23:59:59",
+          "deadline": "TBD",
           "abstract_deadline": null,
-          "comment": "Second submission deadline"
+          "comment": "Second regular paper deadline: October 20, 2023; CFP cycle-specific 11:59 AoE conflicts with global 23:59 AoE and HotCRP 23:59:59 AoE"
         }
       ],
       "source": "ccfddl"
@@ -17035,6 +18120,31 @@
       "core": "A",
       "thcpl": "B",
       "dblp": "ccs",
+      "year": 2021,
+      "id": "asiaccs21",
+      "link": "https://asiaccs2021.comp.polyu.edu.hk/",
+      "timezone": "UTC-5",
+      "date": "June 8-10, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2020-12-12 07:59:00",
+          "abstract_deadline": null,
+          "comment": "2nd round regular paper; linked HotCRP cutoff December 12, 2020 at 07:59 EST; first-round primary source unavailable"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "AsiaCCS",
+      "description": "Asia Conference on Computer and Communications Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ccs",
       "year": 2022,
       "id": "asiaccs22",
       "link": "https://asiaccs2022.conferenceservice.jp/",
@@ -17051,6 +18161,36 @@
           "deadline": "2021-11-19 23:59:59",
           "abstract_deadline": null,
           "comment": "2nd round Deadline"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "AsiaCCS",
+      "description": "Asia Conference on Computer and Communications Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ccs",
+      "year": 2023,
+      "id": "asiaccs23",
+      "link": "https://asiaccs2023.org/",
+      "timezone": "AoE",
+      "date": "July 11-14, 2023",
+      "place": "Melbourne, Australia",
+      "timeline": [
+        {
+          "deadline": "2022-09-01 23:59:00",
+          "abstract_deadline": null,
+          "comment": "1st round regular paper"
+        },
+        {
+          "deadline": "2022-12-15 23:59:00",
+          "abstract_deadline": null,
+          "comment": "2nd round regular paper"
         }
       ],
       "source": "ccfddl"
@@ -18751,11 +19891,31 @@
           "deadline": "2021-03-01 23:59:59",
           "abstract_deadline": null,
           "comment": "Paper submission deadline"
-        },
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "DIMVA",
+      "description": "Detection of Intrusions and Malware & Vulnerability Assessment",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "dimva",
+      "year": 2022,
+      "id": "dimva22",
+      "link": "https://sites.unica.it/dimva2022/",
+      "timezone": "AoE",
+      "date": "June 29-July 1, 2022",
+      "place": "Cagliari, Italy",
+      "timeline": [
         {
-          "deadline": "2021-05-14 23:59:59",
+          "deadline": "2022-03-17 23:59:59",
           "abstract_deadline": null,
-          "comment": "Final paper submission deadline"
+          "comment": "Regular full paper submission deadline (extended)"
         }
       ],
       "source": "ccfddl"
@@ -18774,7 +19934,7 @@
       "id": "dimva24",
       "link": "https://dimva.org/dimva2024/",
       "timezone": "AoE",
-      "date": "July 17-19, 2024",
+      "date": "July 18-19, 2024",
       "place": "Lausanne, Switzerland",
       "timeline": [
         {
@@ -18783,9 +19943,9 @@
           "comment": "Paper submission deadline"
         },
         {
-          "deadline": "2024-02-14 23:59:59",
+          "deadline": "2024-02-21 23:59:59",
           "abstract_deadline": null,
-          "comment": "Final paper submission deadline"
+          "comment": "Cycle 2 regular full paper submission deadline (extended)"
         }
       ],
       "source": "ccfddl"
@@ -18804,7 +19964,7 @@
       "id": "dimva25",
       "link": "https://www.dimva.org/dimva2025/",
       "timezone": "AoE",
-      "date": "July 9-11, 2025",
+      "date": "July 10-11, 2025",
       "place": "Graz University of Technology, Graz, Austria",
       "timeline": [
         {
@@ -18813,9 +19973,9 @@
           "comment": "Paper submission deadline"
         },
         {
-          "deadline": "2025-02-12 23:59:59",
+          "deadline": "2025-02-19 23:59:00",
           "abstract_deadline": null,
-          "comment": "Final paper submission deadline"
+          "comment": "Cycle 2 regular full paper submission deadline (extended); linked HotCRP confirms 2025, homepage year is a typo"
         }
       ],
       "source": "ccfddl"
@@ -18860,6 +20020,31 @@
       "core": "A",
       "thcpl": "B",
       "dblp": "dsn",
+      "year": 2021,
+      "id": "dsn21",
+      "link": "https://www.dependability.org/dsn2021/",
+      "timezone": "AoE",
+      "date": "June 22-24, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2020-12-11 23:59:59",
+          "abstract_deadline": "2020-12-11 23:59:00",
+          "comment": "Regular paper submission; abstract date and AoE are official, abstract 23:59 is the default convention because its clock is unpublished"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "DSN",
+      "description": "International Conference on Dependable Systems and Networks",
+      "sub": "SC",
+      "area": "distributed_systems",
+      "ccfddl_category": "SC",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "dsn",
       "year": 2022,
       "id": "dsn22",
       "link": "https://dsn2022.github.io/",
@@ -18868,14 +20053,34 @@
       "place": "Baltimore, Maryland, USA",
       "timeline": [
         {
-          "deadline": "2021-12-03 23:59:59",
-          "abstract_deadline": null,
-          "comment": "Abstract submission deadline"
-        },
-        {
-          "deadline": "2021-12-10 23:59:59",
-          "abstract_deadline": null,
+          "deadline": "2021-12-10 23:59:00",
+          "abstract_deadline": "2021-12-03 23:59:00",
           "comment": "Paper submission deadline"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "DSN",
+      "description": "International Conference on Dependable Systems and Networks",
+      "sub": "SC",
+      "area": "distributed_systems",
+      "ccfddl_category": "SC",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "dsn",
+      "year": 2023,
+      "id": "dsn23",
+      "link": "https://dsn2023.dei.uc.pt/",
+      "timezone": "AoE",
+      "date": "June 28-30, 2023",
+      "place": "Porto, Portugal",
+      "timeline": [
+        {
+          "deadline": "2022-12-07 00:00:00",
+          "abstract_deadline": null,
+          "comment": "Regular paper submission; linked official HotCRP explicitly displays December 7, 2022 at 12 AM AoE (start of day)"
         }
       ],
       "source": "ccfddl"
@@ -19311,6 +20516,81 @@
           "deadline": "2026-09-17 23:59:59",
           "abstract_deadline": null,
           "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "EuroS&P",
+      "description": "IEEE European Symposium on Security and Privacy",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "eurosp",
+      "year": 2021,
+      "id": "eurosp21",
+      "link": "https://www.ieee-security.org/TC/EuroSP2021/",
+      "timezone": "UTC-12",
+      "date": "September 8-10, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2020-11-05 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Regular paper deadline: November 5, 2020 AoE; exact time not verified.; 23:59:00 is the repository default"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "EuroS&P",
+      "description": "IEEE European Symposium on Security and Privacy",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "eurosp",
+      "year": 2022,
+      "id": "eurosp22",
+      "link": "https://www.ieee-security.org/TC/EuroSP2022/",
+      "timezone": "UTC-12",
+      "date": "June 7-9, 2022",
+      "place": "Genoa, Italy",
+      "timeline": [
+        {
+          "deadline": "2021-09-22 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "EuroS&P",
+      "description": "IEEE European Symposium on Security and Privacy",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "N",
+      "dblp": "eurosp",
+      "year": 2023,
+      "id": "eurosp23",
+      "link": "https://eurosp2023.ieee-security.org/",
+      "timezone": "UTC-12",
+      "date": "July 4-6, 2023",
+      "place": "Delft, Netherlands",
+      "timeline": [
+        {
+          "deadline": "2022-10-26 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Regular paper deadline: October 26, 2022 AoE; exact time not verified.; 23:59:00 is the repository default"
         }
       ],
       "source": "ccfddl"
@@ -20960,6 +22240,91 @@
       "core": "C",
       "thcpl": "N",
       "dblp": "sacmat",
+      "year": 2022,
+      "id": "sacmat22",
+      "link": "https://www.sacmat.org/2022/",
+      "timezone": "AoE",
+      "date": "June 8-10, 2022",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Cycle 1 originally November 15, 2021, now struck through on the CFP; final cutoff unverified."
+        },
+        {
+          "deadline": "2022-02-25 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Second cycle"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SACMAT",
+      "description": "ACM Symposium on Access Control Models and Technologies",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "C",
+      "thcpl": "N",
+      "dblp": "sacmat",
+      "year": 2023,
+      "id": "sacmat23",
+      "link": "https://www.sacmat.org/2023/",
+      "timezone": "AoE",
+      "date": "June 7-9, 2023",
+      "place": "Trento, Italy",
+      "timeline": [
+        {
+          "deadline": "2022-12-15 23:59:00",
+          "abstract_deadline": null,
+          "comment": "First cycle"
+        },
+        {
+          "deadline": "2023-03-02 23:59:00",
+          "abstract_deadline": "TBD",
+          "comment": "Second cycle; recommended, non-mandatory abstract registration February 23, 2023, time unverified."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SACMAT",
+      "description": "ACM Symposium on Access Control Models and Technologies",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "C",
+      "thcpl": "N",
+      "dblp": "sacmat",
+      "year": 2024,
+      "id": "sacmat24",
+      "link": "https://www.sacmat.org/2024/",
+      "timezone": "AoE",
+      "date": "May 15-17, 2024",
+      "place": "San Antonio, TX, USA",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": "Recommended, non-mandatory abstract registration February 1, 2024; full submission extended to February 18, 2024, final time unverified."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SACMAT",
+      "description": "ACM Symposium on Access Control Models and Technologies",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "C",
+      "thcpl": "N",
+      "dblp": "sacmat",
       "year": 2025,
       "id": "sacmat25",
       "link": "https://www.sacmat.org/2025/index.php",
@@ -22318,14 +23683,59 @@
       "place": "Leuven",
       "timeline": [
         {
-          "deadline": "2021-11-22 23:59:59",
-          "abstract_deadline": null,
-          "comment": "Abstract Submission"
-        },
+          "deadline": "2021-11-29 23:59:00",
+          "abstract_deadline": "2021-11-22 23:59:00",
+          "comment": "Official November 22/29 AoE dates; cutoff clocks use repository default 23:59:00."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "CAiSE",
+      "description": "International Conference on Advanced Information Systems Engineering",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "caise",
+      "year": 2023,
+      "id": "caise23",
+      "link": "https://caise23.svit.usj.es/",
+      "timezone": "AoE",
+      "date": "June 14-16, 2023",
+      "place": "Zaragoza, Spain",
+      "timeline": [
         {
-          "deadline": "2021-11-29 23:59:59",
-          "abstract_deadline": null,
-          "comment": "Paper Submission"
+          "deadline": "2022-11-29 23:59:00",
+          "abstract_deadline": "2022-11-22 23:59:00",
+          "comment": "Abstract on November 22 and full paper on November 29, 2022 AoE; clock uses repository default 23:59:00"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "CAiSE",
+      "description": "International Conference on Advanced Information Systems Engineering",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "caise",
+      "year": 2024,
+      "id": "caise24",
+      "link": "https://cyprusconferences.org/caise2024/",
+      "timezone": "AoE",
+      "date": "June 5-7, 2024",
+      "place": "Limassol, Cyprus",
+      "timeline": [
+        {
+          "deadline": "2023-12-08 23:59:00",
+          "abstract_deadline": "2023-12-01 23:59:00",
+          "comment": "Extended abstract on December 1 and full paper on December 8, 2023 AoE; clock uses repository default 23:59:00"
         }
       ],
       "source": "ccfddl"
@@ -22344,13 +23754,13 @@
       "id": "caise25",
       "link": "https://conferences.big.tuwien.ac.at/caise2025/",
       "timezone": "AoE",
-      "date": "June 16-20, 2025",
+      "date": "June 18-20, 2025",
       "place": "Vienna, Austria",
       "timeline": [
         {
-          "deadline": "2024-12-01 23:59:59",
-          "abstract_deadline": "2024-11-22 23:59:59",
-          "comment": null
+          "deadline": "2024-12-06 23:59:00",
+          "abstract_deadline": "2024-11-29 23:59:00",
+          "comment": "Extended mandatory abstract on November 29 and full paper on December 6, 2024 AoE; clock uses repository default 23:59:00"
         }
       ],
       "source": "ccfddl"
@@ -22565,6 +23975,106 @@
       "core": "A",
       "thcpl": "B",
       "dblp": "ease",
+      "year": 2021,
+      "id": "ease21",
+      "link": "https://conf.researchr.org/home/ease-2021",
+      "timezone": "UTC",
+      "date": "June 21-23, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": "Regular research abstract: 2021-03-05; full paper: 2021-03-12; exact time and timezone unpublished."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "EASE",
+      "description": "International Conference on Evaluation and Assessment in Software Engineering",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ease",
+      "year": 2022,
+      "id": "ease22",
+      "link": "https://conf.researchr.org/home/ease-2022",
+      "timezone": "UTC",
+      "date": "June 14-15, 2022",
+      "place": "Gothenburg, Sweden (Hybrid)",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": "Regular research abstract: 2022-01-24; full paper: 2022-01-31; exact time and timezone unpublished."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "EASE",
+      "description": "International Conference on Evaluation and Assessment in Software Engineering",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ease",
+      "year": 2023,
+      "id": "ease23",
+      "link": "https://conf.researchr.org/home/ease-2023",
+      "timezone": "AoE",
+      "date": "June 14-15, 2023",
+      "place": "Oulu, Finland",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": "Regular research abstract: 2023-01-13; full paper: 2023-01-20; exact time unpublished."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "EASE",
+      "description": "International Conference on Evaluation and Assessment in Software Engineering",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ease",
+      "year": 2024,
+      "id": "ease24",
+      "link": "https://conf.researchr.org/home/ease-2024",
+      "timezone": "AoE",
+      "date": "June 19-20, 2024",
+      "place": "Salerno, Italy",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": "Regular research abstract: 2024-01-11; full paper: 2024-01-18; exact time unpublished."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "EASE",
+      "description": "International Conference on Evaluation and Assessment in Software Engineering",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ease",
       "year": 2025,
       "id": "ease25",
       "link": "https://conf.researchr.org/home/ease-2025",
@@ -22640,6 +24150,31 @@
       "core": "A",
       "thcpl": "B",
       "dblp": "ecoop",
+      "year": 2021,
+      "id": "ecoop21",
+      "link": "https://2021.ecoop.org/",
+      "timezone": "AoE",
+      "date": "July 14-17, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2021-01-11 23:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ECOOP",
+      "description": "European Conference on Object-Oriented Programming",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ecoop",
       "year": 2022,
       "id": "ecoop22",
       "link": "https://2022.ecoop.org/",
@@ -22654,6 +24189,66 @@
         },
         {
           "deadline": "2022-03-01 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Submission R2"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ECOOP",
+      "description": "European Conference on Object-Oriented Programming",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ecoop",
+      "year": 2023,
+      "id": "ecoop23",
+      "link": "https://2023.ecoop.org/",
+      "timezone": "AoE",
+      "date": "July 19-21, 2023",
+      "place": "Seattle, Washington, USA",
+      "timeline": [
+        {
+          "deadline": "2022-12-01 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Regular submission R1: 2022-12-01 AoE; missing clock uses repository default 23:59:00."
+        },
+        {
+          "deadline": "2023-03-01 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Submission R2"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ECOOP",
+      "description": "European Conference on Object-Oriented Programming",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "ecoop",
+      "year": 2024,
+      "id": "ecoop24",
+      "link": "https://2024.ecoop.org/",
+      "timezone": "AoE",
+      "date": "September 16-18, 2024",
+      "place": "Vienna, Austria",
+      "timeline": [
+        {
+          "deadline": "2024-01-17 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Submission R1"
+        },
+        {
+          "deadline": "2024-04-17 23:59:59",
           "abstract_deadline": null,
           "comment": "Submission R2"
         }
@@ -23485,6 +25080,31 @@
       "core": "A",
       "thcpl": "B",
       "dblp": "icpc",
+      "year": 2021,
+      "id": "icpc21",
+      "link": "https://conf.researchr.org/home/icpc-2021",
+      "timezone": "AoE",
+      "date": "May 18-21, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2021-01-29 23:59:00",
+          "abstract_deadline": "2021-01-22 23:59:00",
+          "comment": "Research track: abstract January 22, 2021; paper January 29, 2021 (AoE); exact clock not published."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ICPC",
+      "description": "IEEE International Conference on Program Comprehension",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "icpc",
       "year": 2022,
       "id": "icpc22",
       "link": "https://conf.researchr.org/home/icpc-2022",
@@ -23510,6 +25130,31 @@
       "core": "A",
       "thcpl": "B",
       "dblp": "icpc",
+      "year": 2023,
+      "id": "icpc23",
+      "link": "https://conf.researchr.org/home/icpc-2023",
+      "timezone": "AoE",
+      "date": "May 15-16, 2023",
+      "place": "Melbourne, Australia",
+      "timeline": [
+        {
+          "deadline": "2022-12-19 23:59:59",
+          "abstract_deadline": "2022-12-12 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ICPC",
+      "description": "IEEE International Conference on Program Comprehension",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "icpc",
       "year": 2024,
       "id": "icpc24",
       "link": "https://conf.researchr.org/home/icpc-2024",
@@ -23518,9 +25163,9 @@
       "place": "Lisbon, Portugal",
       "timeline": [
         {
-          "deadline": "2023-11-03 23:59:59",
+          "deadline": "TBD",
           "abstract_deadline": "2023-10-30 23:59:59",
-          "comment": null
+          "comment": "Research track paper deadline conflict: CFP November 3, 2023 AoE; public HotCRP November 6, 2023 07:59:59 EST (November 6, 2023 00:59:59 AoE)."
         }
       ],
       "source": "ccfddl"
@@ -23568,9 +25213,9 @@
       "place": "Rio de Janeiro, Brazil",
       "timeline": [
         {
-          "deadline": "2025-10-23 23:59:59",
-          "abstract_deadline": "2025-10-19 23:59:59",
-          "comment": null
+          "deadline": "2025-10-23 23:59:00",
+          "abstract_deadline": "TBD",
+          "comment": "Research track abstract deadline conflict: CFP October 19, 2025 AoE; public HotCRP October 20, 2025 09:00 AoE."
         }
       ],
       "source": "ccfddl"
@@ -23975,6 +25620,131 @@
       "core": "A",
       "thcpl": "B",
       "dblp": "icst",
+      "year": 2021,
+      "id": "icst2021",
+      "link": "https://icst2021.icmc.usp.br/",
+      "timezone": "AoE",
+      "date": "April 13-15, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2020-10-19 23:59:00",
+          "abstract_deadline": "2020-10-05 23:59:00",
+          "comment": "Research papers: abstract October 5, 2020; extended full paper October 19, 2020 (AoE); clock uses repository default 23:59:00."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ICST",
+      "description": "IEEE International Conference on Software Testing, Verification and Validation",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "icst",
+      "year": 2022,
+      "id": "icst2022",
+      "link": "https://icst2022.vrain.upv.es/",
+      "timezone": "AoE",
+      "date": "April 5-7, 2022",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2021-10-04 23:59:00",
+          "abstract_deadline": "2021-09-27 23:59:00",
+          "comment": "Research papers: abstract September 27, 2021; full paper October 4, 2021 (AoE); clock uses repository default 23:59:00."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ICST",
+      "description": "IEEE International Conference on Software Testing, Verification and Validation",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "icst",
+      "year": 2023,
+      "id": "icst2023",
+      "link": "https://conf.researchr.org/home/icst-2023",
+      "timezone": "AoE",
+      "date": "April 17-19, 2023",
+      "place": "Dublin, Ireland",
+      "timeline": [
+        {
+          "deadline": "2022-11-03 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Research papers: November 3, 2022 (AoE); clock uses repository default 23:59:00; no separate earlier abstract deadline published."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ICST",
+      "description": "IEEE International Conference on Software Testing, Verification and Validation",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "icst",
+      "year": 2024,
+      "id": "icst2024",
+      "link": "https://conf.researchr.org/home/icst-2024",
+      "timezone": "AoE",
+      "date": "May 29-31, 2024",
+      "place": "Toronto, Canada",
+      "timeline": [
+        {
+          "deadline": "2023-10-25 23:59:00",
+          "abstract_deadline": "2023-10-18 23:59:00",
+          "comment": "Research papers: abstract October 18, 2023; full paper October 25, 2023 (AoE); clock uses repository default 23:59:00."
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ICST",
+      "description": "IEEE International Conference on Software Testing, Verification and Validation",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "icst",
+      "year": 2025,
+      "id": "icst2025",
+      "link": "https://conf.researchr.org/home/icst-2025",
+      "timezone": "AoE",
+      "date": "April 2-4, 2025",
+      "place": "Naples, Italy",
+      "timeline": [
+        {
+          "deadline": "2024-10-02 23:59:59",
+          "abstract_deadline": "2024-09-25 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ICST",
+      "description": "IEEE International Conference on Software Testing, Verification and Validation",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "icst",
       "year": 2026,
       "id": "icst2026",
       "link": "https://conf.researchr.org/home/icst-2026",
@@ -24240,6 +26010,66 @@
       "core": "A",
       "thcpl": "B",
       "dblp": "middleware",
+      "year": 2023,
+      "id": "middleware23",
+      "link": "https://middleware-conf.github.io/2023/",
+      "timezone": "AoE",
+      "date": "December 13-15, 2023",
+      "place": "Bologna, Italy",
+      "timeline": [
+        {
+          "deadline": "2022-12-02 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Round 1"
+        },
+        {
+          "deadline": "2023-06-02 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Round 2 (extended)"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "Middleware",
+      "description": "International Middleware Conference",
+      "sub": "SE",
+      "area": "distributed_systems",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "middleware",
+      "year": 2024,
+      "id": "middleware24",
+      "link": "https://middleware-conf.github.io/2024/",
+      "timezone": "AoE",
+      "date": "December 4-6, 2024",
+      "place": "Hong Kong, China",
+      "timeline": [
+        {
+          "deadline": "2023-12-01 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Round 1: official AoE date; 23:59 is the default convention because the source omits the clock"
+        },
+        {
+          "deadline": "2024-05-31 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Round 2"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "Middleware",
+      "description": "International Middleware Conference",
+      "sub": "SE",
+      "area": "distributed_systems",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "middleware",
       "year": 2026,
       "id": "middleware26",
       "link": "https://middleware-conf.github.io/2026/",
@@ -24270,6 +26100,31 @@
       "core": "A",
       "thcpl": "B",
       "dblp": "models",
+      "year": 2021,
+      "id": "models21",
+      "link": "https://conf.researchr.org/home/models-2021",
+      "timezone": "AoE",
+      "date": "October 13-16, 2021",
+      "place": "Online",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": "TBD",
+          "comment": "Regular research papers: CFP prose gives abstract April 30 / full May 7, 2021, but the same page's Important Dates widget gives May 3 / May 14; AoE; date conflict unresolved"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "MoDELS",
+      "description": "International Conference on Model Driven Engineering Languages and Systems",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "models",
       "year": 2022,
       "id": "models22",
       "link": "https://conf.researchr.org/home/models-2022",
@@ -24279,8 +26134,83 @@
       "timeline": [
         {
           "deadline": "2022-05-18 23:59:59",
-          "abstract_deadline": null,
-          "comment": null
+          "abstract_deadline": "2022-05-18 23:59:00",
+          "comment": "Regular research papers: official abstract date and AoE; abstract 23:59 is the default convention because the source omits its clock"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "MoDELS",
+      "description": "International Conference on Model Driven Engineering Languages and Systems",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "models",
+      "year": 2023,
+      "id": "models23",
+      "link": "https://conf.researchr.org/home/models-2023",
+      "timezone": "AoE",
+      "date": "October 4-6, 2023",
+      "place": "Västerås, Sweden",
+      "timeline": [
+        {
+          "deadline": "2023-04-14 23:59:00",
+          "abstract_deadline": "2023-04-07 23:59:00",
+          "comment": "Regular research papers: official dates and AoE; 23:59 is the default convention because the source omits the clock"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "MoDELS",
+      "description": "International Conference on Model Driven Engineering Languages and Systems",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "models",
+      "year": 2024,
+      "id": "models24",
+      "link": "https://conf.researchr.org/home/models-2024",
+      "timezone": "AoE",
+      "date": "September 25-27, 2024",
+      "place": "Linz, Austria",
+      "timeline": [
+        {
+          "deadline": "2024-03-28 23:59:00",
+          "abstract_deadline": "2024-03-21 23:59:00",
+          "comment": "Regular research papers: official dates and AoE; 23:59 is the default convention because the source omits the clock"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "MoDELS",
+      "description": "International Conference on Model Driven Engineering Languages and Systems",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "models",
+      "year": 2025,
+      "id": "models25",
+      "link": "https://conf.researchr.org/home/models-2025",
+      "timezone": "AoE",
+      "date": "October 8-10, 2025",
+      "place": "Grand Rapids, Michigan, USA",
+      "timeline": [
+        {
+          "deadline": "2025-04-03 23:59:00",
+          "abstract_deadline": "2025-03-27 23:59:00",
+          "comment": "Regular research papers"
         }
       ],
       "source": "ccfddl"
@@ -26033,7 +27963,7 @@
       "year": 2027,
       "id": null,
       "link": "https://www.sigapp.org/sac/sac2027",
-      "timezone": "EST",
+      "timezone": "Etc/GMT+5",
       "date": "April 5-9",
       "place": "Gwangju, South Korea",
       "timeline": [
