@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-01T13:13:47.235031+00:00",
+  "fetched_at": "2026-10-02T12:34:15.910303+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 1104,
+  "row_count": 1122,
   "conferences": [
     {
       "title": "AAAI",
@@ -474,13 +474,13 @@
       "id": "acl21",
       "link": "https://2021.aclweb.org/",
       "timezone": "UTC-12",
-      "date": "August 1-6, 2021",
+      "date": "August 2-4, 2021",
       "place": "Virtual",
       "timeline": [
         {
           "deadline": "2021-02-02 23:59:59",
           "abstract_deadline": "2021-01-25 23:59:59",
-          "comment": "ACL-IJCNLP 2021; extended full-paper deadline"
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -499,9 +499,29 @@
       "id": "acl22",
       "link": "https://2022.aclweb.org/",
       "timezone": "UTC-12",
-      "date": "May 22-27, 2022",
-      "place": "Dublin, Ireland",
+      "date": "May 23-25, 2022",
+      "place": "Dublin, Ireland (Hybrid)",
       "timeline": [
+        {
+          "deadline": "2021-05-15 23:59:00",
+          "abstract_deadline": null,
+          "comment": "ARR May cycle"
+        },
+        {
+          "deadline": "2021-06-15 23:59:00",
+          "abstract_deadline": null,
+          "comment": "ARR June cycle"
+        },
+        {
+          "deadline": "2021-07-15 23:59:00",
+          "abstract_deadline": null,
+          "comment": "ARR July cycle"
+        },
+        {
+          "deadline": "2021-08-15 23:59:00",
+          "abstract_deadline": null,
+          "comment": "ARR August cycle"
+        },
         {
           "deadline": "2021-09-15 23:59:59",
           "abstract_deadline": null,
@@ -515,7 +535,12 @@
         {
           "deadline": "2021-11-15 23:59:59",
           "abstract_deadline": null,
-          "comment": "Final ARR submission deadline; ACL commitment deadline: January 15, 2022."
+          "comment": "Final ARR submission"
+        },
+        {
+          "deadline": "2022-01-15 23:59:00",
+          "abstract_deadline": null,
+          "comment": "ARR commitment; reviewed papers only"
         }
       ],
       "source": "ccfddl"
@@ -534,8 +559,8 @@
       "id": "acl23",
       "link": "https://2023.aclweb.org/",
       "timezone": "UTC-12",
-      "date": "July 9-14, 2023",
-      "place": "Toronto, Canada",
+      "date": "July 10-12, 2023",
+      "place": "Toronto, Canada (Hybrid)",
       "timeline": [
         {
           "deadline": "2022-12-15 23:59:59",
@@ -545,7 +570,12 @@
         {
           "deadline": "2023-01-20 23:59:59",
           "abstract_deadline": "2023-01-13 23:59:59",
-          "comment": "Direct submission; ARR commitment deadline: March 17, 2023."
+          "comment": "Direct submission"
+        },
+        {
+          "deadline": "2023-03-17 23:59:00",
+          "abstract_deadline": null,
+          "comment": "ARR commitment; reviewed papers only"
         }
       ],
       "source": "ccfddl"
@@ -564,13 +594,18 @@
       "id": "acl24",
       "link": "https://2024.aclweb.org/",
       "timezone": "UTC-12",
-      "date": "August 11-16, 2024",
+      "date": "August 12-14, 2024",
       "place": "Bangkok, Thailand",
       "timeline": [
         {
           "deadline": "2024-02-15 23:59:59",
           "abstract_deadline": null,
-          "comment": "ARR submission; ACL commitment deadline: April 20, 2024."
+          "comment": "ARR submission"
+        },
+        {
+          "deadline": "2024-04-20 23:59:00",
+          "abstract_deadline": null,
+          "comment": "ARR commitment; reviewed papers only"
         }
       ],
       "source": "ccfddl"
@@ -589,13 +624,18 @@
       "id": "acl25",
       "link": "https://2025.aclweb.org/",
       "timezone": "UTC-12",
-      "date": "July 27 - August 1, 2025",
-      "place": "Vienna, Austria",
+      "date": "July 28-30, 2025",
+      "place": "Vienna, Austria (Hybrid)",
       "timeline": [
         {
           "deadline": "2025-02-15 23:59:59",
           "abstract_deadline": null,
-          "comment": "ARR submission; ACL commitment deadline: April 20, 2025."
+          "comment": "ARR submission"
+        },
+        {
+          "deadline": "2025-04-20 23:59:00",
+          "abstract_deadline": null,
+          "comment": "ARR commitment; reviewed papers only"
         }
       ],
       "source": "ccfddl"
@@ -614,13 +654,23 @@
       "id": "acl26",
       "link": "https://2026.aclweb.org/",
       "timezone": "UTC-12",
-      "date": "July 2 - 7, 2026",
-      "place": "San Diego, California, United States",
+      "date": "July 5-7, 2026",
+      "place": "San Diego, California, United States (Hybrid)",
       "timeline": [
+        {
+          "deadline": "2025-10-06 23:59:00",
+          "abstract_deadline": null,
+          "comment": "ARR October cycle"
+        },
         {
           "deadline": "2026-01-05 23:59:59",
           "abstract_deadline": null,
-          "comment": "ARR submission; ACL commitment deadline: March 14, 2026."
+          "comment": "ARR January cycle"
+        },
+        {
+          "deadline": "2026-03-14 23:59:00",
+          "abstract_deadline": null,
+          "comment": "ARR commitment; reviewed papers only"
         }
       ],
       "source": "ccfddl"
@@ -1069,12 +1119,12 @@
       "id": "bmvc23",
       "link": "https://www.bmvc2023.org/",
       "timezone": "UTC+1",
-      "date": "November 20-24, 2023",
+      "date": "November 20-23, 2023",
       "place": "Aberdeen, UK",
       "timeline": [
         {
           "deadline": "2023-05-12 23:59:59",
-          "abstract_deadline": null,
+          "abstract_deadline": "2023-05-05 23:59:00",
           "comment": null
         }
       ],
@@ -1119,7 +1169,7 @@
       "id": "bmvc25",
       "link": "https://bmvc2025.bmva.org/",
       "timezone": "UTC+0",
-      "date": "November 24-27, 2025",
+      "date": "November 24-26, 2025",
       "place": "Sheffield, UK",
       "timeline": [
         {
@@ -2430,7 +2480,7 @@
         {
           "deadline": "2021-02-04 23:59:00",
           "abstract_deadline": "2021-01-28 23:59:00",
-          "comment": "Regular full papers; mandatory abstract. Cutoff clocks and timezone unpublished. 23:59:00 uses the repository default where the source gives no clear cutoff clock. AoE uses the repository default because the source gives no timezone."
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -2455,7 +2505,32 @@
         {
           "deadline": "2022-02-03 23:59:00",
           "abstract_deadline": "2022-01-27 23:59:00",
-          "comment": "Regular full papers; mandatory abstract. Cutoff clocks and timezone unpublished. 23:59:00 uses the repository default where the source gives no clear cutoff clock. AoE uses the repository default because the source gives no timezone."
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "GECCO",
+      "description": "Genetic and Evolutionary Computation Conference",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "gecco",
+      "year": 2023,
+      "id": "gecco23",
+      "link": "https://gecco-2023.sigevo.org/HomePage.html",
+      "timezone": "AoE",
+      "date": "July 17-19, 2023",
+      "place": "Lisbon, Portugal (Hybrid)",
+      "timeline": [
+        {
+          "deadline": "2023-02-10 23:59:00",
+          "abstract_deadline": "2023-02-03 23:59:00",
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -2480,7 +2555,7 @@
         {
           "deadline": "2024-02-01 23:59:00",
           "abstract_deadline": "2024-01-25 23:59:00",
-          "comment": "Regular full papers; mandatory abstract. Cutoff clocks and timezone unpublished. 23:59:00 uses the repository default where the source gives no clear cutoff clock. AoE uses the repository default because the source gives no timezone."
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -2499,13 +2574,13 @@
       "id": "gecco25",
       "link": "https://gecco-2025.sigevo.org/HomePage",
       "timezone": "AoE",
-      "date": "July 14-18, 2025",
+      "date": "July 16-18, 2025",
       "place": "Málaga, Spain (hybrid)",
       "timeline": [
         {
           "deadline": "2025-01-29 23:59:00",
           "abstract_deadline": "2025-01-22 23:59:00",
-          "comment": "Full papers (traditional category) "
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -2524,13 +2599,13 @@
       "id": "gecco26",
       "link": "https://gecco-2026.sigevo.org/HomePage",
       "timezone": "AoE",
-      "date": "July 13-17, 2026",
+      "date": "July 15-17, 2026",
       "place": "San José, Costa Rica (hybrid)",
       "timeline": [
         {
           "deadline": "2026-01-26 23:59:00",
           "abstract_deadline": "2026-01-19 23:59:00",
-          "comment": "Full papers (traditional category) "
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -3170,17 +3245,52 @@
       "core": "A*",
       "thcpl": "A",
       "dblp": "icra",
+      "year": 2021,
+      "id": "icra21",
+      "link": "https://web.archive.org/web/20210615211913/http://ieee-icra.org/",
+      "timezone": "AoE",
+      "date": "TBD",
+      "place": "Xi'an, China (Hybrid)",
+      "timeline": [
+        {
+          "deadline": "2020-10-15 23:59:00",
+          "abstract_deadline": null,
+          "comment": "RA-L with ICRA option"
+        },
+        {
+          "deadline": "2020-10-31 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Conference papers"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ICRA",
+      "description": "IEEE International Conference on Robotics and Automation",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "icra",
       "year": 2022,
       "id": "icra22",
       "link": "https://ewh.ieee.org/soc/ras/conf/fullysponsored/icra/2022/icra2022.org/",
       "timezone": "UTC-7",
-      "date": "May 23-27, 2022",
-      "place": "Philadelphia (PA), USA",
+      "date": "May 24-26, 2022",
+      "place": "Philadelphia (PA), USA (Hybrid)",
       "timeline": [
+        {
+          "deadline": "2021-09-09 23:59:00",
+          "abstract_deadline": null,
+          "comment": "RA-L with ICRA option"
+        },
         {
           "deadline": "2021-09-15 23:59:00",
           "abstract_deadline": null,
-          "comment": null
+          "comment": "Conference papers"
         }
       ],
       "source": "ccfddl"
@@ -3199,8 +3309,8 @@
       "id": "icra23",
       "link": "https://ewh.ieee.org/soc/ras/conf/fullysponsored/icra/ICRA%202023/www.icra2023.org/",
       "timezone": "UTC-8",
-      "date": "May 29- June 2, 2023",
-      "place": "ExCeL London, UK",
+      "date": "May 30 - June 1, 2023",
+      "place": "ExCeL London, UK (Hybrid)",
       "timeline": [
         {
           "deadline": "2022-09-15 23:59:59",
@@ -3224,8 +3334,8 @@
       "id": "icra24",
       "link": "https://2024.ieee-icra.org",
       "timezone": "UTC-8",
-      "date": "May 13-17, 2024",
-      "place": "Yokohama, Japan",
+      "date": "May 14-16, 2024",
+      "place": "Yokohama, Japan (Hybrid)",
       "timeline": [
         {
           "deadline": "2023-09-15 23:59:00",
@@ -3249,13 +3359,13 @@
       "id": "icra25",
       "link": "https://2025.ieee-icra.org",
       "timezone": "UTC-8",
-      "date": "May 19-23, 2025",
+      "date": "May 20-22, 2025",
       "place": "Atlanta (GA), USA",
       "timeline": [
         {
           "deadline": "2024-09-16 23:59:59",
           "abstract_deadline": null,
-          "comment": "Extended deadline; the official announcement explicitly specifies PST (UTC-8)"
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -3274,7 +3384,7 @@
       "id": "icra26",
       "link": "https://2026.ieee-icra.org/",
       "timezone": "UTC-8",
-      "date": "Jun 1-5, 2026",
+      "date": "June 2-4, 2026",
       "place": "Vienna, Austria",
       "timeline": [
         {
@@ -3495,17 +3605,52 @@
       "core": "A",
       "thcpl": "B",
       "dblp": "iros",
+      "year": 2021,
+      "id": "iros21",
+      "link": "https://www.iros2021.org/",
+      "timezone": "UTC-8",
+      "date": "September 28-30, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2021-02-24 23:59:00",
+          "abstract_deadline": null,
+          "comment": "RA-L with IROS option"
+        },
+        {
+          "deadline": "2021-03-05 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Conference papers"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "IROS",
+      "description": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "iros",
       "year": 2022,
       "id": "iros22",
       "link": "https://iros2022.org/",
       "timezone": "UTC-8",
-      "date": "October 23-27, 2022",
+      "date": "October 23-26, 2022",
       "place": "Kyoto, Japan (Hybrid)",
       "timeline": [
         {
+          "deadline": "2022-02-24 23:59:00",
+          "abstract_deadline": null,
+          "comment": "RA-L with IROS option"
+        },
+        {
           "deadline": "2022-03-01 23:59:00",
           "abstract_deadline": null,
-          "comment": null
+          "comment": "Conference papers"
         }
       ],
       "source": "ccfddl"
@@ -3522,13 +3667,13 @@
       "dblp": "iros",
       "year": 2023,
       "id": "iros23",
-      "link": "https://ieee-iros.org/",
+      "link": "https://2023.ieee-iros.org/",
       "timezone": "UTC-8",
-      "date": "October 1-5, 2023",
+      "date": "October 2-4, 2023",
       "place": "Detroit, Michigan, USA",
       "timeline": [
         {
-          "deadline": "2023-03-01 23:59:59",
+          "deadline": "2023-03-02 23:59:00",
           "abstract_deadline": null,
           "comment": null
         }
@@ -3549,7 +3694,7 @@
       "id": "iros24",
       "link": "http://iros2024-abudhabi.org/",
       "timezone": "UTC-8",
-      "date": "October 13-17, 2024",
+      "date": "October 15-18, 2024",
       "place": "Abu Dhabi, UAE",
       "timeline": [
         {
@@ -3574,7 +3719,7 @@
       "id": "iros25",
       "link": "http://www.iros25.org/",
       "timezone": "UTC-8",
-      "date": "October 19-25, 2025",
+      "date": "October 21-23, 2025",
       "place": "Hangzhou, China",
       "timeline": [
         {
@@ -3628,7 +3773,7 @@
       "place": "Florence, Italy",
       "timeline": [
         {
-          "deadline": "TBD",
+          "deadline": "2027-03-01 23:59:00",
           "abstract_deadline": null,
           "comment": "Paper submission deadline: March 1, 2027; exact cutoff time and timezone not specified on the official IEEE RAS event page"
         }
@@ -3974,7 +4119,7 @@
       "id": "nips21",
       "link": "https://neurips.cc/Conferences/2021/",
       "timezone": "UTC+0",
-      "date": "December 6-14, 2021",
+      "date": "December 7-10, 2021",
       "place": "Virtual",
       "timeline": [
         {
@@ -3999,8 +4144,8 @@
       "id": "nips22",
       "link": "https://neurips.cc/Conferences/2022",
       "timezone": "UTC+0",
-      "date": "November 28-December 9, 2022",
-      "place": "New Orleans, Louisiana, USA",
+      "date": "November 28-December 1 (In-person) and December 6-8 (Virtual), 2022",
+      "place": "New Orleans, Louisiana, USA (Hybrid)",
       "timeline": [
         {
           "deadline": "2022-05-19 20:00:00",
@@ -4024,7 +4169,7 @@
       "id": "nips23",
       "link": "https://neurips.cc/Conferences/2023",
       "timezone": "UTC+0",
-      "date": "December 10-16, 2023",
+      "date": "December 12-14, 2023",
       "place": "New Orleans, Louisiana, USA",
       "timeline": [
         {
@@ -4049,7 +4194,7 @@
       "id": "nips24",
       "link": "https://neurips.cc/Conferences/2024",
       "timezone": "UTC+0",
-      "date": "December 10-15, 2024",
+      "date": "December 11-13, 2024",
       "place": "Vancouver, Canada",
       "timeline": [
         {
@@ -4074,7 +4219,7 @@
       "id": "nips25",
       "link": "https://neurips.cc/Conferences/2025",
       "timezone": "AoE",
-      "date": "December 2-7 (San Diego), November 30-December 5 (Mexico City), 2025",
+      "date": "December 3-5 (San Diego and Mexico City), 2025",
       "place": "San Diego Convention Center, USA; Mexico City, Mexico",
       "timeline": [
         {
@@ -4099,7 +4244,7 @@
       "id": "nips26",
       "link": "https://neurips.cc/Conferences/2026",
       "timezone": "UTC+0",
-      "date": "December 6-12 (Sydney), December 9-13 (Atlanta and Paris), 2026",
+      "date": "December 8-10 (Sydney), December 9-11 (Atlanta and Paris), 2026",
       "place": "Sydney, Australia; Atlanta, USA; Paris, France",
       "timeline": [
         {
@@ -4934,13 +5079,13 @@
       "id": "interspeech21",
       "link": "https://www.interspeech2021.org/",
       "timezone": "UTC-12",
-      "date": "August 30 - September 3, 2021",
-      "place": "Brno, Czech Republic",
+      "date": "August 31 - September 3, 2021",
+      "place": "Brno, Czech Republic and Online",
       "timeline": [
         {
           "deadline": "2021-03-26 23:59:00",
           "abstract_deadline": null,
-          "comment": "Regular papers; later paper updates excluded"
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -4959,8 +5104,8 @@
       "id": "interspeech22",
       "link": "https://www.interspeech2022.org/",
       "timezone": "UTC-12",
-      "date": "September 18-22, 2022",
-      "place": "Incheon, South Korea",
+      "date": "September 19-22, 2022",
+      "place": "Incheon, South Korea and Online",
       "timeline": [
         {
           "deadline": "2022-03-21 23:59:59",
@@ -4984,13 +5129,13 @@
       "id": "interspeech23",
       "link": "https://www.interspeech2023.org/",
       "timezone": "UTC-12",
-      "date": "August 20-24, 2023",
+      "date": "August 21-24, 2023",
       "place": "Dublin, Ireland",
       "timeline": [
         {
           "deadline": "2023-03-01 23:59:00",
           "abstract_deadline": null,
-          "comment": "Regular papers; March 8 updates excluded"
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -5009,13 +5154,13 @@
       "id": "interspeech24",
       "link": "https://www.interspeech2024.org/",
       "timezone": "UTC-12",
-      "date": "September 1-5, 2024",
+      "date": "September 2-5, 2024",
       "place": "Greece",
       "timeline": [
         {
           "deadline": "2024-03-02 23:59:00",
           "abstract_deadline": null,
-          "comment": "Regular papers; later paper updates excluded"
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -5034,13 +5179,13 @@
       "id": "interspeech25",
       "link": "https://www.interspeech2025.org/home",
       "timezone": "UTC-12",
-      "date": "August 17-22, 2025",
+      "date": "August 18-21, 2025",
       "place": "Rotterdam, Netherlands",
       "timeline": [
         {
           "deadline": "2025-02-12 23:59:00",
           "abstract_deadline": null,
-          "comment": "Regular papers; February 19 updates excluded"
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -5058,12 +5203,12 @@
       "year": 2026,
       "id": "interspeech26",
       "link": "https://interspeech2026.org/",
-      "timezone": "UTC+0",
-      "date": "September 27 - October 1, 2026",
+      "timezone": "AoE",
+      "date": "September 28 - October 1, 2026",
       "place": "Sydney, Australia",
       "timeline": [
         {
-          "deadline": "2026-02-25 23:59:59",
+          "deadline": "2026-02-25 23:59:00",
           "abstract_deadline": null,
           "comment": null
         }
@@ -7530,17 +7675,47 @@
       "core": "A",
       "thcpl": "B",
       "dblp": "edbt",
+      "year": 2021,
+      "id": "edbt21",
+      "link": "https://edbticdt2021.cs.ucy.ac.cy/index.html",
+      "timezone": "AoE",
+      "date": "March 24-26, 2021",
+      "place": "Online",
+      "timeline": [
+        {
+          "deadline": "2020-10-09 23:59:00",
+          "abstract_deadline": "2020-10-02 23:59:00",
+          "comment": "Abstract optional"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "EDBT",
+      "description": "International Conference on Extending Database Technology",
+      "sub": "DB",
+      "area": "databases",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "edbt",
       "year": 2022,
       "id": "edbt22",
       "link": "https://conferences.inf.ed.ac.uk/edbticdt2022/",
       "timezone": "AoE",
-      "date": "Mar 29-April 01, 2022",
-      "place": "Edinburgh, UK",
+      "date": "March 30 - April 1, 2022",
+      "place": "Online",
       "timeline": [
+        {
+          "deadline": "2021-06-01 23:59:00",
+          "abstract_deadline": null,
+          "comment": "First cycle"
+        },
         {
           "deadline": "2021-10-01 23:59:59",
           "abstract_deadline": null,
-          "comment": null
+          "comment": "Second cycle"
         }
       ],
       "source": "ccfddl"
@@ -7560,7 +7735,7 @@
       "link": "http://edbticdt2023.cs.uoi.gr/",
       "timezone": "AoE",
       "date": "March 28-31, 2023",
-      "place": "Ioannina, Greece",
+      "place": "Ioannina, Greece / Online",
       "timeline": [
         {
           "deadline": "2022-02-15 23:59:59",
@@ -8764,8 +8939,8 @@
       "id": "recsys21",
       "link": "https://recsys.acm.org/recsys21/",
       "timezone": "AoE",
-      "date": "September 27 - October 1, 2021",
-      "place": "Amsterdam, Netherlands",
+      "date": "September 27-30, 2021",
+      "place": "Amsterdam, Netherlands / Online",
       "timeline": [
         {
           "deadline": "2021-05-04 23:59:00",
@@ -8789,7 +8964,7 @@
       "id": "recsys22",
       "link": "https://recsys.acm.org/recsys22/",
       "timezone": "AoE",
-      "date": "September 18-23, 2022",
+      "date": "September 19-21, 2022",
       "place": "Seattle, WA, USA (with remote attendance)",
       "timeline": [
         {
@@ -8814,8 +8989,8 @@
       "id": "recsys23",
       "link": "https://recsys.acm.org/recsys23",
       "timezone": "AoE",
-      "date": "September 18-22, 2023",
-      "place": "Singapore",
+      "date": "September 20-22, 2023",
+      "place": "Singapore / Online",
       "timeline": [
         {
           "deadline": "2023-04-21 23:59:59",
@@ -8839,7 +9014,7 @@
       "id": "recsys24",
       "link": "https://recsys.acm.org/recsys24",
       "timezone": "AoE",
-      "date": "October 14-18, 2024",
+      "date": "October 15-17, 2024",
       "place": "Bari, Italy",
       "timeline": [
         {
@@ -8864,7 +9039,7 @@
       "id": "recsys25",
       "link": "https://recsys.acm.org/recsys25",
       "timezone": "AoE",
-      "date": "September 22-26, 2025",
+      "date": "September 23-25, 2025",
       "place": "Prague, Czech Republic",
       "timeline": [
         {
@@ -8889,7 +9064,7 @@
       "id": "recsys26",
       "link": "https://recsys.acm.org/recsys26",
       "timezone": "AoE",
-      "date": "September 28 - October 2, 2026",
+      "date": "September 29 - October 1, 2026",
       "place": "Minneapolis, Minnesota, USA",
       "timeline": [
         {
@@ -9449,8 +9624,8 @@
       "id": "sigmod21",
       "link": "http://2021.sigmod.org/",
       "timezone": "PT",
-      "date": "June 20-25, 2021",
-      "place": "Xi'an, China",
+      "date": "June 22-24, 2021",
+      "place": "Online / Xi'an, China (local event)",
       "timeline": [
         {
           "deadline": "2020-07-07 17:00:00",
@@ -9479,8 +9654,8 @@
       "id": "sigmod22",
       "link": "http://2022.sigmod.org/",
       "timezone": "PT",
-      "date": "June 12-17, 2022",
-      "place": "Philadelphia, PA, USA",
+      "date": "June 14-16, 2022",
+      "place": "Philadelphia, PA, USA / Online",
       "timeline": [
         {
           "deadline": "2021-07-02 17:00:00",
@@ -9509,7 +9684,7 @@
       "id": "sigmod23",
       "link": "http://2023.sigmod.org/",
       "timezone": "PT",
-      "date": "June 18-23, 2023",
+      "date": "June 20-22, 2023",
       "place": "Seattle, WA, USA",
       "timeline": [
         {
@@ -9544,7 +9719,7 @@
       "id": "sigmod24",
       "link": "http://2024.sigmod.org/",
       "timezone": "PT",
-      "date": "June 11-16, 2024",
+      "date": "June 11-13, 2024",
       "place": "Santiago, Chile",
       "timeline": [
         {
@@ -9584,7 +9759,7 @@
       "id": "sigmod25",
       "link": "https://2025.sigmod.org/",
       "timezone": "AoE",
-      "date": "June 22-27, 2025",
+      "date": "June 22 and June 24-26, 2025",
       "place": "Berlin, Germany",
       "timeline": [
         {
@@ -9624,7 +9799,7 @@
       "id": "sigmod26",
       "link": "https://2026.sigmod.org/",
       "timezone": "AoE",
-      "date": "May 31-June 5, 2026",
+      "date": "May 31 and June 2-4, 2026",
       "place": "Bangalore, India",
       "timeline": [
         {
@@ -9704,8 +9879,8 @@
       "id": "vldb21",
       "link": "http://www.vldb.org/2021/",
       "timezone": "PT",
-      "date": "August 16-20, 2021",
-      "place": "Copenhagen, Denmark",
+      "date": "August 16-19, 2021",
+      "place": "Copenhagen, Denmark / Online",
       "timeline": [
         {
           "deadline": "2020-04-01 17:00:00",
@@ -9784,8 +9959,8 @@
       "id": "vldb22",
       "link": "http://www.vldb.org/2022/",
       "timezone": "PT",
-      "date": "September 05-09, 2022",
-      "place": "Sydney, Australia",
+      "date": "September 6-8, 2022",
+      "place": "Sydney, Australia / Online",
       "timeline": [
         {
           "deadline": "2021-04-01 17:00:00",
@@ -9864,8 +10039,8 @@
       "id": "vldb23",
       "link": "http://www.vldb.org/2023/",
       "timezone": "PT",
-      "date": "August 28 - September 01, 2023",
-      "place": "Vancouver, Canada",
+      "date": "August 29-31 (In-person) and September 1 (Online), 2023",
+      "place": "Vancouver, Canada / Online (September 1 presentations)",
       "timeline": [
         {
           "deadline": "2022-04-01 17:00:00",
@@ -9944,7 +10119,7 @@
       "id": "vldb24",
       "link": "http://www.vldb.org/2024/",
       "timezone": "PT",
-      "date": "August 25-29, 2024",
+      "date": "August 27-29, 2024",
       "place": "Guangzhou, China (and hybrid)",
       "timeline": [
         {
@@ -10024,7 +10199,7 @@
       "id": "vldb25",
       "link": "http://www.vldb.org/2025/",
       "timezone": "PT",
-      "date": "September 1-5, 2025",
+      "date": "September 2-4, 2025",
       "place": "London, United Kingdom",
       "timeline": [
         {
@@ -10104,7 +10279,7 @@
       "id": "vldb26",
       "link": "https://www.vldb.org/2026/",
       "timezone": "PT",
-      "date": "August 31 - September 4, 2026",
+      "date": "September 1-3, 2026",
       "place": "Boston, MA, USA",
       "timeline": [
         {
@@ -10960,7 +11135,57 @@
         {
           "deadline": "2020-12-15 23:59:00",
           "abstract_deadline": "2020-12-08 23:59:00",
-          "comment": "Calendar dates and AoE verified; 23:59:00 is the repository default for unpublished times"
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "CCGRID",
+      "description": "IEEE International Symposium on Cluster, Cloud and Internet Computing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "ccgrid",
+      "year": 2022,
+      "id": "ccgrid22",
+      "link": "https://fcrlab.unime.it/ccgrid22/",
+      "timezone": "AoE",
+      "date": "TBD",
+      "place": "Taormina, Sicily, Italy",
+      "timeline": [
+        {
+          "deadline": "2021-12-19 23:59:00",
+          "abstract_deadline": "2021-12-19 23:59:00",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "CCGRID",
+      "description": "IEEE International Symposium on Cluster, Cloud and Internet Computing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "ccgrid",
+      "year": 2023,
+      "id": "ccgrid23",
+      "link": "https://ccgrid2023.iisc.ac.in/",
+      "timezone": "AoE",
+      "date": "May 1-4, 2023",
+      "place": "Bangalore, India",
+      "timeline": [
+        {
+          "deadline": "2022-12-12 23:59:00",
+          "abstract_deadline": "2022-12-05 23:59:00",
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -10985,7 +11210,32 @@
         {
           "deadline": "2023-12-11 23:59:00",
           "abstract_deadline": "2023-12-04 23:59:00",
-          "comment": "Final extended dates and AoE verified; 23:59:00 is the repository default for unpublished times"
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "CCGRID",
+      "description": "IEEE International Symposium on Cluster, Cloud and Internet Computing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "C",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "ccgrid",
+      "year": 2025,
+      "id": "ccgrid25",
+      "link": "https://site.uit.no/ccgrid2025/",
+      "timezone": "AoE",
+      "date": "May 20-22, 2025",
+      "place": "Tromsø, Norway",
+      "timeline": [
+        {
+          "deadline": "2024-12-23 23:59:00",
+          "abstract_deadline": "2024-12-09 23:59:00",
+          "comment": "Abstract optional; full required"
         }
       ],
       "source": "ccfddl"
@@ -11004,7 +11254,7 @@
       "id": "ccgrid26",
       "link": "https://www.ccgrid2026.org/",
       "timezone": "AoE",
-      "date": "May 18-21, 2026",
+      "date": "May 19-21, 2026",
       "place": "Sydney, Australia",
       "timeline": [
         {
@@ -11395,22 +11645,42 @@
       "core": "A*",
       "thcpl": "A",
       "dblp": "dac",
+      "year": 2021,
+      "id": "dac21",
+      "link": "https://dac.com/58th-dac",
+      "timezone": "UTC-8",
+      "date": "December 6-9, 2021",
+      "place": "San Francisco, CA, USA / Hybrid",
+      "timeline": [
+        {
+          "deadline": "2020-11-23 17:00:00",
+          "abstract_deadline": "2020-11-16 17:00:00",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "DAC",
+      "description": "Design Automation Conference",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "dac",
       "year": 2022,
       "id": "dac22",
       "link": "https://www.dac.com/DAC-2022",
       "timezone": "UTC-8",
-      "date": "July 10-14, 2022",
+      "date": "July 11-14, 2022",
       "place": "San Francisco, CA",
       "timeline": [
         {
-          "deadline": "2021-11-15 17:00:00",
-          "abstract_deadline": null,
-          "comment": "abstract deadline"
-        },
-        {
           "deadline": "2021-11-22 17:00:00",
-          "abstract_deadline": null,
-          "comment": "full paper deadline"
+          "abstract_deadline": "2021-11-15 17:00:00",
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -11429,18 +11699,13 @@
       "id": "dac23",
       "link": "https://www.dac.com/Conference/2023-Call-for-Contributions",
       "timezone": "UTC-8",
-      "date": "July 9-13, 2023",
+      "date": "July 10-13, 2023",
       "place": "San Francisco, CA",
       "timeline": [
         {
-          "deadline": "2022-11-14 17:00:00",
-          "abstract_deadline": null,
-          "comment": "abstract deadline"
-        },
-        {
           "deadline": "2022-11-21 17:00:00",
-          "abstract_deadline": null,
-          "comment": "full paper deadline"
+          "abstract_deadline": "2022-11-14 17:00:00",
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -11488,7 +11753,7 @@
       "place": "San Francisco, CA",
       "timeline": [
         {
-          "deadline": "2024-11-19 17:00:00",
+          "deadline": "2024-11-20 17:00:00",
           "abstract_deadline": "2024-11-12 17:00:00",
           "comment": null
         }
@@ -11513,7 +11778,7 @@
       "place": "Long Beach, CA",
       "timeline": [
         {
-          "deadline": "2025-11-18 17:00:00",
+          "deadline": "2025-11-19 17:00:00",
           "abstract_deadline": "2025-11-11 17:00:00",
           "comment": null
         }
@@ -13083,8 +13348,8 @@
       "place": "Atlanta, Georgia, USA",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": null,
+          "deadline": "2026-12-07 23:59:00",
+          "abstract_deadline": "2026-12-01 23:59:00",
           "comment": null
         }
       ],
@@ -13454,18 +13719,13 @@
       "id": "micro21",
       "link": "https://www.microarch.org/micro54/",
       "timezone": "UTC-7",
-      "date": "Oct 18-22, 2021",
-      "place": "Athens, Greece",
+      "date": "October 19-21, 2021",
+      "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-04-09 23:59:59",
-          "abstract_deadline": null,
-          "comment": "abstract deadline"
-        },
-        {
           "deadline": "2021-04-16 23:59:59",
-          "abstract_deadline": null,
-          "comment": "full paper deadline"
+          "abstract_deadline": "2021-04-09 23:59:59",
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -13484,18 +13744,13 @@
       "id": "micro22",
       "link": "https://www.microarch.org/micro55/",
       "timezone": "UTC-7",
-      "date": "Oct, 2022",
+      "date": "October 3-5, 2022",
       "place": "Chicago, Illinois, USA",
       "timeline": [
         {
-          "deadline": "2022-04-14 23:59:59",
-          "abstract_deadline": null,
-          "comment": "Abstract Deadline"
-        },
-        {
           "deadline": "2022-04-21 23:59:59",
-          "abstract_deadline": null,
-          "comment": "Full Paper Deadline"
+          "abstract_deadline": "2022-04-14 23:59:59",
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -13514,18 +13769,13 @@
       "id": "micro23",
       "link": "https://www.microarch.org/micro56/",
       "timezone": "UTC-7",
-      "date": "Oct, 2023",
+      "date": "October 30-November 1, 2023",
       "place": "Toronto, Canada",
       "timeline": [
         {
-          "deadline": "2023-04-21 23:59:59",
-          "abstract_deadline": null,
-          "comment": "Abstract Deadline"
-        },
-        {
           "deadline": "2023-04-28 23:59:59",
-          "abstract_deadline": null,
-          "comment": "Full Paper Deadline"
+          "abstract_deadline": "2023-04-21 23:59:59",
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -13544,18 +13794,13 @@
       "id": "micro24",
       "link": "https://microarch.org/micro57/",
       "timezone": "UTC-5",
-      "date": "November 2-6, 2024",
+      "date": "November 4-6, 2024",
       "place": "Austin, Texas, USA",
       "timeline": [
         {
-          "deadline": "2024-04-11 23:59:59",
-          "abstract_deadline": null,
-          "comment": "Abstract Deadline"
-        },
-        {
           "deadline": "2024-04-18 23:59:59",
-          "abstract_deadline": null,
-          "comment": "Full Paper Deadline"
+          "abstract_deadline": "2024-04-11 23:59:59",
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -13574,7 +13819,7 @@
       "id": "micro25",
       "link": "https://microarch.org/micro58/",
       "timezone": "UTC-4",
-      "date": "October 18-22, 2025",
+      "date": "October 20-22, 2025",
       "place": "Seoul, Korea",
       "timeline": [
         {
@@ -13599,7 +13844,7 @@
       "id": "micro26",
       "link": "https://microarch.org/micro59/",
       "timezone": "UTC-4",
-      "date": "October 31-November 4, 2026",
+      "date": "November 2-4, 2026",
       "place": "Athens, Greece",
       "timeline": [
         {
@@ -15533,7 +15778,7 @@
       "place": "Nanjing， China",
       "timeline": [
         {
-          "deadline": "2025-06-15 23:59:59",
+          "deadline": "2025-07-15 23:59:00",
           "abstract_deadline": null,
           "comment": null
         }
@@ -15554,13 +15799,13 @@
       "id": "apbc26",
       "link": "https://www.apbc2026.com/home",
       "timezone": "AoE",
-      "date": "October 21-24, 2026",
+      "date": "October 22-24, 2026",
       "place": "Hsinchu, Taiwan， China",
       "timeline": [
         {
           "deadline": "2026-07-17 23:59:00",
           "abstract_deadline": null,
-          "comment": "Regular full papers; extended submission deadline in the organizer EasyChair CFP. 23:59:00 uses the repository default where the source gives no clear cutoff clock. AoE uses the repository default because the source gives no timezone."
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -15579,13 +15824,13 @@
       "id": "bibm21",
       "link": "https://ieeebibm.org/BIBM2021/",
       "timezone": "UTC-5",
-      "date": "Dec 9-12, 2021",
+      "date": "December 10-12, 2021",
       "place": "Online",
       "timeline": [
         {
           "deadline": "2021-08-28 17:00:00",
           "abstract_deadline": null,
-          "comment": "Electronic submission of full papers"
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -15604,13 +15849,13 @@
       "id": "bibm22",
       "link": "http://ieeebibm.org/BIBM2022/",
       "timezone": "UTC-5",
-      "date": "Dec 6-9, 2022",
-      "place": "Las Vegas, NV, USA",
+      "date": "December 6-8, 2022",
+      "place": "Las Vegas, NV, USA; Changsha, China",
       "timeline": [
         {
           "deadline": "2022-08-21 17:00:00",
           "abstract_deadline": null,
-          "comment": "Electronic submission of full papers"
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -15629,13 +15874,13 @@
       "id": "bibm23",
       "link": "https://bidma.cpsc.ucalgary.ca/IEEE-BIBM-2023/",
       "timezone": "UTC-5",
-      "date": "Dec 5-8, 2023",
+      "date": "December 6-8, 2023",
       "place": "Istanbul, Turkey",
       "timeline": [
         {
           "deadline": "2023-08-15 17:00:00",
           "abstract_deadline": null,
-          "comment": "Electronic submission of full papers"
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -15654,18 +15899,18 @@
       "id": "bibm24",
       "link": "https://ieeebibm.org/BIBM2024/",
       "timezone": "UTC-5",
-      "date": "Dec 3-6, 2024",
+      "date": "December 4-6, 2024",
       "place": "Lisbon, Portugal",
       "timeline": [
         {
           "deadline": "2024-06-20 17:00:00",
           "abstract_deadline": null,
-          "comment": "First Round, papers submitted by the June 20 deadline will be reviewed and notified by Aug 15"
+          "comment": "Round 1"
         },
         {
           "deadline": "2024-08-16 17:00:00",
           "abstract_deadline": null,
-          "comment": "Second Round, papers submitted by the Aug 16, 2024 deadline, will be reviewed and notified by the Oct 16, 2024"
+          "comment": "Round 2"
         }
       ],
       "source": "ccfddl"
@@ -15684,7 +15929,7 @@
       "id": "bibm25",
       "link": "https://ieeebibm.org/BIBM2025/",
       "timezone": "UTC-5",
-      "date": "Dec 15-18, 2025",
+      "date": "December 16-18, 2025",
       "place": "Wuhan, China",
       "timeline": [
         {
@@ -15708,12 +15953,12 @@
       "year": 2026,
       "id": "bibm26",
       "link": "https://ieeebibm.org/BIBM2026/",
-      "timezone": "UTC-5",
+      "timezone": "UTC-12",
       "date": "Dec 1-4, 2026",
       "place": "Dallas, USA",
       "timeline": [
         {
-          "deadline": "2026-07-05 17:00:00",
+          "deadline": "2026-07-05 23:59:00",
           "abstract_deadline": null,
           "comment": null
         }
@@ -15880,12 +16125,87 @@
       "core": "N",
       "thcpl": "N",
       "dblp": "isbra",
+      "year": 2022,
+      "id": "isbra2022",
+      "link": "https://mangul-lab-usc.github.io/ISBRA22/",
+      "timezone": "AoE",
+      "date": "November 15-17, 2022",
+      "place": "Haifa, Israel (Hybrid)",
+      "timeline": [
+        {
+          "deadline": "2022-08-08 23:59:00",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ISBRA",
+      "description": "International Symposium on Bioinformatics Research and Applications",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "isbra",
+      "year": 2023,
+      "id": "isbra2023",
+      "link": "https://mangul-lab-usc.github.io/ISBRA23/",
+      "timezone": "AoE",
+      "date": "October 10-12, 2023",
+      "place": "Wrocław, Poland",
+      "timeline": [
+        {
+          "deadline": "2023-07-12 23:59:00",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ISBRA",
+      "description": "International Symposium on Bioinformatics Research and Applications",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "isbra",
+      "year": 2024,
+      "id": "isbra2024",
+      "link": "https://bio.csu.edu.cn/ISBRA2024/ISBRA2024_Home.html",
+      "timezone": "AoE",
+      "date": "July 20-21, 2024",
+      "place": "Kunming, China",
+      "timeline": [
+        {
+          "deadline": "2024-04-08 23:59:00",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ISBRA",
+      "description": "International Symposium on Bioinformatics Research and Applications",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "C",
+      "core": "N",
+      "thcpl": "N",
+      "dblp": "isbra",
       "year": 2025,
       "id": "isbra25",
       "link": "https://www.helsinki.fi/en/conferences/isbra2025",
       "timezone": "AoE",
-      "date": "August 3-5, 2025",
-      "place": "Helsinki, Finland",
+      "date": "August 4-5, 2025",
+      "place": "Helsinki, Finland (Hybrid)",
       "timeline": [
         {
           "deadline": "2025-04-01 23:59:59",
@@ -15915,7 +16235,57 @@
         {
           "deadline": "2026-03-22 23:59:59",
           "abstract_deadline": null,
-          "comment": "Extended submission deadline"
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "MICCAI",
+      "description": "International Conference on Medical Image Computing and Computer Assisted Intervention",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "miccai",
+      "year": 2021,
+      "id": "miccai21",
+      "link": "https://miccai2021.org/en/default.asp",
+      "timezone": "UTC-8",
+      "date": "September 28-30, 2021",
+      "place": "Online",
+      "timeline": [
+        {
+          "deadline": "2021-03-03 23:59:00",
+          "abstract_deadline": "2021-02-22 23:59:00",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "MICCAI",
+      "description": "International Conference on Medical Image Computing and Computer Assisted Intervention",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "miccai",
+      "year": 2022,
+      "id": "miccai22",
+      "link": "https://conferences.miccai.org/2022/en/",
+      "timezone": "UTC-8",
+      "date": "September 19-21, 2022",
+      "place": "Singapore (Hybrid)",
+      "timeline": [
+        {
+          "deadline": "2022-03-01 23:59:00",
+          "abstract_deadline": "2022-02-15 23:59:00",
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -15933,14 +16303,14 @@
       "year": 2023,
       "id": "miccai23",
       "link": "https://conferences.miccai.org/2023/en/",
-      "timezone": "UTC+0",
-      "date": "Oct 8-12, 2023",
-      "place": "Vancouver, Canada",
+      "timezone": "UTC-8",
+      "date": "Oct 9-11, 2023",
+      "place": "Vancouver, Canada (Hybrid)",
       "timeline": [
         {
           "deadline": "2023-03-09 23:59:59",
-          "abstract_deadline": null,
-          "comment": "Paper submission deadline"
+          "abstract_deadline": "2023-02-23 23:59:00",
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -15959,13 +16329,13 @@
       "id": "miccai24",
       "link": "https://conferences.miccai.org/2024/en/",
       "timezone": "UTC-8",
-      "date": "Oct 6-10, 2024",
+      "date": "Oct 7-9, 2024",
       "place": "Marrakesh, Morocco",
       "timeline": [
         {
           "deadline": "2024-03-07 23:59:59",
-          "abstract_deadline": null,
-          "comment": "Main conference papers"
+          "abstract_deadline": "2024-02-22 23:59:00",
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -15984,7 +16354,7 @@
       "id": "miccai25",
       "link": "https://conferences.miccai.org/2025/en/default.asp",
       "timezone": "UTC-8",
-      "date": "Sep 23-27, 2025",
+      "date": "Sep 24-26, 2025",
       "place": "Daejeon, Republic of Korea",
       "timeline": [
         {
@@ -16009,7 +16379,7 @@
       "id": "miccai26",
       "link": "https://conferences.miccai.org/2026/en/IMPORTANT-DATES.html",
       "timezone": "UTC-8",
-      "date": "September 27 - October 1, 2026",
+      "date": "September 28-30, 2026",
       "place": "Strasbourg, France",
       "timeline": [
         {
@@ -16240,6 +16610,106 @@
         {
           "deadline": "2026-10-30 20:00:00",
           "abstract_deadline": null,
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "RECOMB",
+      "description": "International Conference on Research inComputational Molecular Biology",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "A",
+      "dblp": "recomb",
+      "year": 2021,
+      "id": "recomb21",
+      "link": "https://sistemacongressi.wixsite.com/recomb2021",
+      "timezone": "AoE",
+      "date": "August 29 - September 1, 2021",
+      "place": "Online",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "RECOMB",
+      "description": "International Conference on Research inComputational Molecular Biology",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "A",
+      "dblp": "recomb",
+      "year": 2022,
+      "id": "recomb22",
+      "link": "https://recomb.org/recomb2022/",
+      "timezone": "AoE",
+      "date": "May 22-25, 2022",
+      "place": "La Jolla, CA, USA",
+      "timeline": [
+        {
+          "deadline": "2021-11-04 23:59:00",
+          "abstract_deadline": "2021-11-04 23:59:00",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "RECOMB",
+      "description": "International Conference on Research inComputational Molecular Biology",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "A",
+      "dblp": "recomb",
+      "year": 2023,
+      "id": "recomb23",
+      "link": "https://recomb.org/recomb2023/",
+      "timezone": "AoE",
+      "date": "April 16-19, 2023",
+      "place": "Istanbul, Turkey",
+      "timeline": [
+        {
+          "deadline": "2022-10-14 23:59:00",
+          "abstract_deadline": "2022-10-07 23:59:00",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "RECOMB",
+      "description": "International Conference on Research inComputational Molecular Biology",
+      "sub": "MX",
+      "area": "biomedical",
+      "ccfddl_category": "MX",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "A",
+      "dblp": "recomb",
+      "year": 2024,
+      "id": "recomb24",
+      "link": "https://recomb.org/recomb2024/",
+      "timezone": "AoE",
+      "date": "April 29 - May 2, 2024",
+      "place": "Cambridge, MA, USA",
+      "timeline": [
+        {
+          "deadline": "2023-11-03 23:59:00",
+          "abstract_deadline": "2023-10-23 23:59:00",
           "comment": null
         }
       ],
@@ -22185,17 +22655,42 @@
       "core": "A",
       "thcpl": "B",
       "dblp": "fc",
+      "year": 2021,
+      "id": "fc21",
+      "link": "https://fc21.ifca.ai/",
+      "timezone": "UTC-12",
+      "date": "March 1-4, 2021",
+      "place": "Virtual",
+      "timeline": [
+        {
+          "deadline": "2020-09-24 23:59:59",
+          "abstract_deadline": "2020-09-17 23:59:59",
+          "comment": "Registration / full paper"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "FC",
+      "description": "Financial Cryptography and Data Security",
+      "sub": "SC",
+      "area": "security",
+      "ccfddl_category": "SC",
+      "ccf": "C",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "fc",
       "year": 2022,
       "id": "fc22",
       "link": "https://fc22.ifca.ai/",
       "timezone": "UTC-12",
-      "date": "February 14-18, 2022",
+      "date": "May 2-5, 2022",
       "place": "Radisson Grenada Beach Resort Grenada",
       "timeline": [
         {
           "deadline": "2021-09-13 23:59:00",
           "abstract_deadline": "2021-09-02 23:59:59",
-          "comment": "Regular paper submission deadline; final randomized extension confirmed by official CFP"
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -22220,7 +22715,7 @@
         {
           "deadline": "2022-10-19 23:59:00",
           "abstract_deadline": null,
-          "comment": "Regular paper submission deadline"
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -22239,13 +22734,13 @@
       "id": "fc24",
       "link": "https://fc24.ifca.ai/",
       "timezone": "UTC-12",
-      "date": "March 4-8, 2024",
+      "date": "March 4-7, 2024",
       "place": "Willemstad, Curaçao",
       "timeline": [
         {
           "deadline": "2023-09-20 23:59:00",
           "abstract_deadline": null,
-          "comment": "Regular paper submission deadline; final randomized extension confirmed by official CFP"
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -22264,13 +22759,13 @@
       "id": "fc25",
       "link": "https://fc25.ifca.ai/",
       "timezone": "UTC-12",
-      "date": "April 14-18, 2025",
+      "date": "April 14-17, 2025",
       "place": "Miyakojima, Japan",
       "timeline": [
         {
           "deadline": "2024-10-11 23:59:59",
           "abstract_deadline": null,
-          "comment": "Submission deadline"
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -22289,13 +22784,13 @@
       "id": "fc26",
       "link": "https://fc26.ifca.ai/",
       "timezone": "UTC-12",
-      "date": "March 2-6, 2026",
+      "date": "March 2-5, 2026",
       "place": "St. Kitts",
       "timeline": [
         {
           "deadline": "2025-09-20 23:59:59",
           "abstract_deadline": null,
-          "comment": "Submission deadline"
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -23399,7 +23894,7 @@
       "id": "pkc21",
       "link": "https://pkc.iacr.org/2021/",
       "timezone": "UTC-12",
-      "date": "May 10, 2021",
+      "date": "May 10-13, 2021",
       "place": "Virtual",
       "timeline": [
         {
@@ -23448,14 +23943,14 @@
       "year": 2023,
       "id": "pkc23",
       "link": "https://pkc.iacr.org/2023/",
-      "timezone": "UTC",
+      "timezone": "AoE",
       "date": "May 7-10, 2023",
       "place": "Atlanta, USA",
       "timeline": [
         {
-          "deadline": "TBD",
+          "deadline": "2022-11-01 23:59:00",
           "abstract_deadline": null,
-          "comment": "Regular paper submission: November 1, 2022; time and timezone unverified."
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -25333,8 +25828,8 @@
       "place": "Seville, Spain",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": null,
+          "deadline": "2026-11-15 23:59:00",
+          "abstract_deadline": "2026-11-04 23:59:00",
           "comment": null
         }
       ],
@@ -26413,7 +26908,7 @@
       "place": "Burghausen, Bavaria, Germany",
       "timeline": [
         {
-          "deadline": "TBD",
+          "deadline": "2027-02-01 23:59:00",
           "abstract_deadline": null,
           "comment": null
         }
@@ -27695,7 +28190,7 @@
         {
           "deadline": "TBD",
           "abstract_deadline": "TBD",
-          "comment": "Regular research papers: CFP prose gives abstract April 30 / full May 7, 2021, but the same page's Important Dates widget gives May 3 / May 14; AoE; date conflict unresolved"
+          "comment": "CFP and date-table deadlines conflict"
         }
       ],
       "source": "ccfddl"
@@ -27714,13 +28209,13 @@
       "id": "models22",
       "link": "https://conf.researchr.org/home/models-2022",
       "timezone": "AoE",
-      "date": "October 23-28, 2022",
+      "date": "October 26-28, 2022",
       "place": "Montréal, Canada",
       "timeline": [
         {
           "deadline": "2022-05-18 23:59:59",
           "abstract_deadline": "2022-05-18 23:59:00",
-          "comment": "Regular research papers: official abstract date and AoE; abstract 23:59 is the default convention because the source omits its clock"
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -27745,7 +28240,7 @@
         {
           "deadline": "2023-04-14 23:59:00",
           "abstract_deadline": "2023-04-07 23:59:00",
-          "comment": "Regular research papers: official dates and AoE; 23:59 is the default convention because the source omits the clock"
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -27770,7 +28265,7 @@
         {
           "deadline": "2024-03-28 23:59:00",
           "abstract_deadline": "2024-03-21 23:59:00",
-          "comment": "Regular research papers: official dates and AoE; 23:59 is the default convention because the source omits the clock"
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -27795,7 +28290,7 @@
         {
           "deadline": "2025-04-03 23:59:00",
           "abstract_deadline": "2025-03-27 23:59:00",
-          "comment": "Regular research papers"
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -27814,7 +28309,7 @@
       "id": "models26",
       "link": "https://conf.researchr.org/home/models-2026",
       "timezone": "AoE",
-      "date": "October 4-9, 2026",
+      "date": "October 7-9, 2026",
       "place": "Málaga, Spain",
       "timeline": [
         {
