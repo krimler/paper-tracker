@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-05T14:37:21.943346+00:00",
+  "fetched_at": "2026-10-06T13:17:50.806742+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -93,13 +93,13 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-09-09 23:59:00",
-          "abstract_deadline": "2020-09-01 23:59:00",
+          "deadline": "2020-09-09 23:59:59",
+          "abstract_deadline": "2020-09-01 23:59:59",
           "comment": "Regular round"
         },
         {
-          "deadline": "2020-09-29 23:59:00",
-          "abstract_deadline": "2020-09-29 23:59:00",
+          "deadline": "2020-09-29 23:59:59",
+          "abstract_deadline": "2020-09-29 23:59:59",
           "comment": "NeurIPS/EMNLP fast track"
         }
       ],
@@ -128,8 +128,8 @@
           "comment": "Regular round"
         },
         {
-          "deadline": "2021-10-01 23:59:00",
-          "abstract_deadline": "2021-10-01 23:59:00",
+          "deadline": "2021-10-01 23:59:59",
+          "abstract_deadline": "2021-10-01 23:59:59",
           "comment": "NeurIPS fast track"
         }
       ],
@@ -158,8 +158,8 @@
           "comment": "Regular round"
         },
         {
-          "deadline": "2022-09-16 23:59:00",
-          "abstract_deadline": "2022-09-16 23:59:00",
+          "deadline": "2022-09-16 23:59:59",
+          "abstract_deadline": "2022-09-16 23:59:59",
           "comment": "NeurIPS fast track"
         }
       ],
@@ -188,8 +188,8 @@
           "comment": "Regular round"
         },
         {
-          "deadline": "2023-09-25 23:59:00",
-          "abstract_deadline": "2023-09-25 23:59:00",
+          "deadline": "2023-09-25 23:59:59",
+          "abstract_deadline": "2023-09-25 23:59:59",
           "comment": "NeurIPS fast track"
         }
       ],
@@ -368,7 +368,7 @@
           "comment": "Main track"
         },
         {
-          "deadline": "2024-01-08 23:59:00",
+          "deadline": "2024-01-08 23:59:59",
           "abstract_deadline": null,
           "comment": "AAAI track"
         }
@@ -398,7 +398,7 @@
           "comment": "Main track"
         },
         {
-          "deadline": "2025-01-08 23:59:00",
+          "deadline": "2025-01-08 23:59:59",
           "abstract_deadline": null,
           "comment": "AAAI track"
         }
@@ -428,7 +428,7 @@
           "comment": "Main track"
         },
         {
-          "deadline": "2025-11-17 23:59:00",
+          "deadline": "2025-11-17 23:59:59",
           "abstract_deadline": null,
           "comment": "AAAI track"
         }
@@ -503,22 +503,22 @@
       "place": "Dublin, Ireland (Hybrid)",
       "timeline": [
         {
-          "deadline": "2021-05-15 23:59:00",
+          "deadline": "2021-05-15 23:59:59",
           "abstract_deadline": null,
           "comment": "ARR May cycle"
         },
         {
-          "deadline": "2021-06-15 23:59:00",
+          "deadline": "2021-06-15 23:59:59",
           "abstract_deadline": null,
           "comment": "ARR June cycle"
         },
         {
-          "deadline": "2021-07-15 23:59:00",
+          "deadline": "2021-07-15 23:59:59",
           "abstract_deadline": null,
           "comment": "ARR July cycle"
         },
         {
-          "deadline": "2021-08-15 23:59:00",
+          "deadline": "2021-08-15 23:59:59",
           "abstract_deadline": null,
           "comment": "ARR August cycle"
         },
@@ -538,7 +538,7 @@
           "comment": "Final ARR submission"
         },
         {
-          "deadline": "2022-01-15 23:59:00",
+          "deadline": "2022-01-15 23:59:59",
           "abstract_deadline": null,
           "comment": "ARR commitment; reviewed papers only"
         }
@@ -573,7 +573,7 @@
           "comment": "Direct submission"
         },
         {
-          "deadline": "2023-03-17 23:59:00",
+          "deadline": "2023-03-17 23:59:59",
           "abstract_deadline": null,
           "comment": "ARR commitment; reviewed papers only"
         }
@@ -603,7 +603,7 @@
           "comment": "ARR submission"
         },
         {
-          "deadline": "2024-04-20 23:59:00",
+          "deadline": "2024-04-20 23:59:59",
           "abstract_deadline": null,
           "comment": "ARR commitment; reviewed papers only"
         }
@@ -633,7 +633,7 @@
           "comment": "ARR submission"
         },
         {
-          "deadline": "2025-04-20 23:59:00",
+          "deadline": "2025-04-20 23:59:59",
           "abstract_deadline": null,
           "comment": "ARR commitment; reviewed papers only"
         }
@@ -658,7 +658,7 @@
       "place": "San Diego, California, United States (Hybrid)",
       "timeline": [
         {
-          "deadline": "2025-10-06 23:59:00",
+          "deadline": "2025-10-06 23:59:59",
           "abstract_deadline": null,
           "comment": "ARR October cycle"
         },
@@ -668,7 +668,7 @@
           "comment": "ARR January cycle"
         },
         {
-          "deadline": "2026-03-14 23:59:00",
+          "deadline": "2026-03-14 23:59:59",
           "abstract_deadline": null,
           "comment": "ARR commitment; reviewed papers only"
         }
@@ -718,8 +718,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-05-14 23:59:00",
-          "abstract_deadline": "2021-05-14 23:59:00",
+          "deadline": "2021-05-14 23:59:59",
+          "abstract_deadline": "2021-05-14 23:59:59",
           "comment": "Journal Track"
         },
         {
@@ -748,8 +748,8 @@
       "place": "Hyderabad, India (Hybrid)",
       "timeline": [
         {
-          "deadline": "2022-05-26 23:59:00",
-          "abstract_deadline": "2022-05-26 23:59:00",
+          "deadline": "2022-05-26 23:59:59",
+          "abstract_deadline": "2022-05-26 23:59:59",
           "comment": "Journal Track"
         },
         {
@@ -778,8 +778,8 @@
       "place": "İstanbul, Turkey",
       "timeline": [
         {
-          "deadline": "2023-06-02 23:59:00",
-          "abstract_deadline": "2023-06-02 23:59:00",
+          "deadline": "2023-06-02 23:59:59",
+          "abstract_deadline": "2023-06-02 23:59:59",
           "comment": "Journal Track"
         },
         {
@@ -808,8 +808,8 @@
       "place": "Hanoi, Vietnam",
       "timeline": [
         {
-          "deadline": "2024-05-29 23:59:00",
-          "abstract_deadline": "2024-05-29 23:59:00",
+          "deadline": "2024-05-29 23:59:59",
+          "abstract_deadline": "2024-05-29 23:59:59",
           "comment": "Journal Track"
         },
         {
@@ -838,7 +838,7 @@
       "place": "Taipei, Taiwan",
       "timeline": [
         {
-          "deadline": "2025-05-30 23:59:00",
+          "deadline": "2025-05-30 23:59:59",
           "abstract_deadline": null,
           "comment": "Journal Track"
         },
@@ -868,7 +868,7 @@
       "place": "Melbourne, Australia",
       "timeline": [
         {
-          "deadline": "2026-06-20 23:59:00",
+          "deadline": "2026-06-20 23:59:59",
           "abstract_deadline": null,
           "comment": "Journal Track"
         },
@@ -1124,7 +1124,7 @@
       "timeline": [
         {
           "deadline": "2023-05-12 23:59:59",
-          "abstract_deadline": "2023-05-05 23:59:00",
+          "abstract_deadline": "2023-05-05 23:59:59",
           "comment": null
         }
       ],
@@ -1223,7 +1223,7 @@
       "place": "Gyeongju, Republic of Korea (Hybrid)",
       "timeline": [
         {
-          "deadline": "2022-05-17 23:59:00",
+          "deadline": "2022-05-17 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -1273,12 +1273,12 @@
       "place": "Abu Dhabi, UAE / Online",
       "timeline": [
         {
-          "deadline": "2024-06-15 23:59:00",
+          "deadline": "2024-06-15 23:59:59",
           "abstract_deadline": null,
           "comment": "ARR June cycle"
         },
         {
-          "deadline": "2024-08-15 23:59:00",
+          "deadline": "2024-08-15 23:59:59",
           "abstract_deadline": null,
           "comment": "ARR August cycle"
         },
@@ -1288,7 +1288,7 @@
           "comment": "Direct submission"
         },
         {
-          "deadline": "2024-10-20 23:59:00",
+          "deadline": "2024-10-20 23:59:59",
           "abstract_deadline": null,
           "comment": "Commitment deadline for papers reviewed by ARR"
         }
@@ -1593,7 +1593,7 @@
       "place": "Punta Cana, Dominican Republic (Hybrid)",
       "timeline": [
         {
-          "deadline": "2021-06-14 23:59:00",
+          "deadline": "2021-06-14 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -1618,7 +1618,7 @@
       "place": "Abu Dhabi, United Arab Emirates (Hybrid)",
       "timeline": [
         {
-          "deadline": "2022-06-30 23:59:00",
+          "deadline": "2022-06-30 23:59:59",
           "abstract_deadline": null,
           "comment": "Direct submissions; ARR commitment deadline: August 1, 2022, 23:59 UTC-12"
         }
@@ -1643,7 +1643,7 @@
       "place": "Singapore",
       "timeline": [
         {
-          "deadline": "2023-06-30 23:59:00",
+          "deadline": "2023-06-30 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -1668,7 +1668,7 @@
       "place": "Miami, Florida, USA",
       "timeline": [
         {
-          "deadline": "2024-07-07 23:59:00",
+          "deadline": "2024-07-07 23:59:59",
           "abstract_deadline": null,
           "comment": "Direct submissions (extended); ARR commitment deadline: August 30, 2024, 23:59 UTC-12"
         }
@@ -1793,7 +1793,7 @@
       "place": "Atlanta, Georgia, USA (Hybrid)",
       "timeline": [
         {
-          "deadline": "2023-06-08 23:59:00",
+          "deadline": "2023-06-08 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -1844,7 +1844,7 @@
       "timeline": [
         {
           "deadline": "2025-04-30 23:59:59",
-          "abstract_deadline": "2025-04-23 23:59:00",
+          "abstract_deadline": "2025-04-23 23:59:59",
           "comment": null
         }
       ],
@@ -1893,8 +1893,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-11-16 23:59:00",
-          "abstract_deadline": "2020-11-09 23:59:00",
+          "deadline": "2020-11-16 23:59:59",
+          "abstract_deadline": "2020-11-09 23:59:59",
           "comment": null
         }
       ],
@@ -1919,7 +1919,7 @@
       "timeline": [
         {
           "deadline": "2021-11-18 11:59:00",
-          "abstract_deadline": "2021-11-09 23:59:00",
+          "abstract_deadline": "2021-11-09 23:59:59",
           "comment": null
         }
       ],
@@ -1993,8 +1993,8 @@
       "place": "Nashville, Tennessee, USA (Hybrid)",
       "timeline": [
         {
-          "deadline": "2024-11-14 23:59:00",
-          "abstract_deadline": "2024-11-07 23:59:00",
+          "deadline": "2024-11-14 23:59:59",
+          "abstract_deadline": "2024-11-07 23:59:59",
           "comment": null
         }
       ],
@@ -2018,8 +2018,8 @@
       "place": "Denver, Colorado, United States (Hybrid)",
       "timeline": [
         {
-          "deadline": "2025-11-13 23:59:00",
-          "abstract_deadline": "2025-11-07 23:59:00",
+          "deadline": "2025-11-13 23:59:59",
+          "abstract_deadline": "2025-11-07 23:59:59",
           "comment": null
         }
       ],
@@ -2043,8 +2043,8 @@
       "place": "Seattle, WA, United States",
       "timeline": [
         {
-          "deadline": "2026-11-16 23:59:00",
-          "abstract_deadline": "2026-11-10 23:59:00",
+          "deadline": "2026-11-16 23:59:59",
+          "abstract_deadline": "2026-11-10 23:59:59",
           "comment": null
         }
       ],
@@ -2068,7 +2068,7 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-10-07 23:59:00",
+          "deadline": "2020-10-07 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -2093,12 +2093,12 @@
       "place": "Dubrovnik, Croatia (Hybrid)",
       "timeline": [
         {
-          "deadline": "2022-10-20 23:59:00",
-          "abstract_deadline": "2022-10-13 23:59:00",
+          "deadline": "2022-10-20 23:59:59",
+          "abstract_deadline": "2022-10-13 23:59:59",
           "comment": "Direct submission"
         },
         {
-          "deadline": "2022-10-15 23:59:00",
+          "deadline": "2022-10-15 23:59:59",
           "abstract_deadline": null,
           "comment": "ARR submission"
         },
@@ -2128,12 +2128,12 @@
       "place": "St. Julians, Malta (Hybrid)",
       "timeline": [
         {
-          "deadline": "2023-10-15 23:59:00",
+          "deadline": "2023-10-15 23:59:59",
           "abstract_deadline": null,
           "comment": "ARR Submission"
         },
         {
-          "deadline": "2023-12-20 23:59:00",
+          "deadline": "2023-12-20 23:59:59",
           "abstract_deadline": null,
           "comment": "Commitment deadline for papers reviewed by ARR"
         }
@@ -2163,7 +2163,7 @@
           "comment": "ARR Submission"
         },
         {
-          "deadline": "2025-12-14 23:59:00",
+          "deadline": "2025-12-14 23:59:59",
           "abstract_deadline": null,
           "comment": "Commitment deadline for papers reviewed by ARR"
         }
@@ -2293,12 +2293,12 @@
       "place": "Punta Cana, Dominican Republic (Hybrid)",
       "timeline": [
         {
-          "deadline": "2021-05-17 23:59:00",
-          "abstract_deadline": "2021-05-10 23:59:00",
+          "deadline": "2021-05-17 23:59:59",
+          "abstract_deadline": "2021-05-10 23:59:59",
           "comment": "Direct submission"
         },
         {
-          "deadline": "2021-05-15 23:59:00",
+          "deadline": "2021-05-15 23:59:59",
           "abstract_deadline": null,
           "comment": "ARR pilot; reviews ready by July 29"
         }
@@ -2328,7 +2328,7 @@
           "comment": "Direct submission"
         },
         {
-          "deadline": "2022-07-24 23:59:00",
+          "deadline": "2022-07-24 23:59:59",
           "abstract_deadline": null,
           "comment": "Commitment deadline for papers reviewed by ARR"
         }
@@ -2358,12 +2358,12 @@
           "comment": "Direct submission"
         },
         {
-          "deadline": "2023-06-15 23:59:00",
+          "deadline": "2023-06-15 23:59:59",
           "abstract_deadline": null,
           "comment": "ARR submission"
         },
         {
-          "deadline": "2023-08-22 23:59:00",
+          "deadline": "2023-08-22 23:59:59",
           "abstract_deadline": null,
           "comment": "Commitment deadline for papers reviewed by ARR"
         }
@@ -2393,7 +2393,7 @@
           "comment": "ARR Submission"
         },
         {
-          "deadline": "2024-08-20 23:59:00",
+          "deadline": "2024-08-20 23:59:59",
           "abstract_deadline": null,
           "comment": "Commitment deadline for papers reviewed by ARR"
         }
@@ -2423,7 +2423,7 @@
           "comment": "ARR Submission"
         },
         {
-          "deadline": "2025-08-01 23:59:00",
+          "deadline": "2025-08-01 23:59:59",
           "abstract_deadline": null,
           "comment": "Commitment deadline for papers reviewed by ARR"
         }
@@ -2478,8 +2478,8 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2021-02-04 23:59:00",
-          "abstract_deadline": "2021-01-28 23:59:00",
+          "deadline": "2021-02-04 23:59:59",
+          "abstract_deadline": "2021-01-28 23:59:59",
           "comment": null
         }
       ],
@@ -2503,8 +2503,8 @@
       "place": "Boston, USA (Hybrid)",
       "timeline": [
         {
-          "deadline": "2022-02-03 23:59:00",
-          "abstract_deadline": "2022-01-27 23:59:00",
+          "deadline": "2022-02-03 23:59:59",
+          "abstract_deadline": "2022-01-27 23:59:59",
           "comment": null
         }
       ],
@@ -2528,8 +2528,8 @@
       "place": "Lisbon, Portugal (Hybrid)",
       "timeline": [
         {
-          "deadline": "2023-02-10 23:59:00",
-          "abstract_deadline": "2023-02-03 23:59:00",
+          "deadline": "2023-02-10 23:59:59",
+          "abstract_deadline": "2023-02-03 23:59:59",
           "comment": null
         }
       ],
@@ -2553,8 +2553,8 @@
       "place": "Melbourne, Australia (Hybrid)",
       "timeline": [
         {
-          "deadline": "2024-02-01 23:59:00",
-          "abstract_deadline": "2024-01-25 23:59:00",
+          "deadline": "2024-02-01 23:59:59",
+          "abstract_deadline": "2024-01-25 23:59:59",
           "comment": null
         }
       ],
@@ -2578,8 +2578,8 @@
       "place": "Málaga, Spain (hybrid)",
       "timeline": [
         {
-          "deadline": "2025-01-29 23:59:00",
-          "abstract_deadline": "2025-01-22 23:59:00",
+          "deadline": "2025-01-29 23:59:59",
+          "abstract_deadline": "2025-01-22 23:59:59",
           "comment": null
         }
       ],
@@ -2603,8 +2603,8 @@
       "place": "San José, Costa Rica (hybrid)",
       "timeline": [
         {
-          "deadline": "2026-01-26 23:59:00",
-          "abstract_deadline": "2026-01-19 23:59:00",
+          "deadline": "2026-01-26 23:59:59",
+          "abstract_deadline": "2026-01-19 23:59:59",
           "comment": null
         }
       ],
@@ -2653,8 +2653,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-12-18 23:59:00",
-          "abstract_deadline": "2020-12-11 23:59:00",
+          "deadline": "2020-12-18 23:59:59",
+          "abstract_deadline": "2020-12-11 23:59:59",
           "comment": null
         }
       ],
@@ -2678,8 +2678,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-12-15 23:59:00",
-          "abstract_deadline": "2021-12-10 23:59:00",
+          "deadline": "2021-12-15 23:59:59",
+          "abstract_deadline": "2021-12-10 23:59:59",
           "comment": null
         }
       ],
@@ -2703,8 +2703,8 @@
       "place": "Prague, Czech Republic",
       "timeline": [
         {
-          "deadline": "2022-11-30 23:59:00",
-          "abstract_deadline": "2022-11-25 23:59:00",
+          "deadline": "2022-11-30 23:59:59",
+          "abstract_deadline": "2022-11-25 23:59:59",
           "comment": null
         }
       ],
@@ -2728,8 +2728,8 @@
       "place": "Banff, Alberta, Canada",
       "timeline": [
         {
-          "deadline": "2023-12-13 23:59:00",
-          "abstract_deadline": "2023-12-07 23:59:00",
+          "deadline": "2023-12-13 23:59:59",
+          "abstract_deadline": "2023-12-07 23:59:59",
           "comment": null
         }
       ],
@@ -3103,8 +3103,8 @@
       "place": "Virtual conference",
       "timeline": [
         {
-          "deadline": "2021-02-04 23:59:00",
-          "abstract_deadline": "2021-01-28 23:59:00",
+          "deadline": "2021-02-04 23:59:59",
+          "abstract_deadline": "2021-01-28 23:59:59",
           "comment": null
         }
       ],
@@ -3128,8 +3128,8 @@
       "place": "Baltimore, Maryland USA",
       "timeline": [
         {
-          "deadline": "2022-01-27 23:59:00",
-          "abstract_deadline": "2022-01-20 23:59:00",
+          "deadline": "2022-01-27 23:59:59",
+          "abstract_deadline": "2022-01-20 23:59:59",
           "comment": "Mandatory abstract deadline on Jan 20, 2022."
         }
       ],
@@ -3253,12 +3253,12 @@
       "place": "Xi'an, China (Hybrid)",
       "timeline": [
         {
-          "deadline": "2020-10-15 23:59:00",
+          "deadline": "2020-10-15 23:59:59",
           "abstract_deadline": null,
           "comment": "RA-L with ICRA option"
         },
         {
-          "deadline": "2020-10-31 23:59:00",
+          "deadline": "2020-10-31 23:59:59",
           "abstract_deadline": null,
           "comment": "Conference papers"
         }
@@ -3283,12 +3283,12 @@
       "place": "Philadelphia (PA), USA (Hybrid)",
       "timeline": [
         {
-          "deadline": "2021-09-09 23:59:00",
+          "deadline": "2021-09-09 23:59:59",
           "abstract_deadline": null,
           "comment": "RA-L with ICRA option"
         },
         {
-          "deadline": "2021-09-15 23:59:00",
+          "deadline": "2021-09-15 23:59:59",
           "abstract_deadline": null,
           "comment": "Conference papers"
         }
@@ -3338,7 +3338,7 @@
       "place": "Yokohama, Japan (Hybrid)",
       "timeline": [
         {
-          "deadline": "2023-09-15 23:59:00",
+          "deadline": "2023-09-15 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -3388,7 +3388,7 @@
       "place": "Vienna, Austria",
       "timeline": [
         {
-          "deadline": "2025-09-15 23:59:00",
+          "deadline": "2025-09-15 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -3438,8 +3438,8 @@
       "place": "Virtual conference",
       "timeline": [
         {
-          "deadline": "2021-01-20 23:59:00",
-          "abstract_deadline": "2021-01-13 23:59:00",
+          "deadline": "2021-01-20 23:59:59",
+          "abstract_deadline": "2021-01-13 23:59:59",
           "comment": null
         }
       ],
@@ -3613,12 +3613,12 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-02-24 23:59:00",
+          "deadline": "2021-02-24 23:59:59",
           "abstract_deadline": null,
           "comment": "RA-L with IROS option"
         },
         {
-          "deadline": "2021-03-05 23:59:00",
+          "deadline": "2021-03-05 23:59:59",
           "abstract_deadline": null,
           "comment": "Conference papers"
         }
@@ -3643,12 +3643,12 @@
       "place": "Kyoto, Japan (Hybrid)",
       "timeline": [
         {
-          "deadline": "2022-02-24 23:59:00",
+          "deadline": "2022-02-24 23:59:59",
           "abstract_deadline": null,
           "comment": "RA-L with IROS option"
         },
         {
-          "deadline": "2022-03-01 23:59:00",
+          "deadline": "2022-03-01 23:59:59",
           "abstract_deadline": null,
           "comment": "Conference papers"
         }
@@ -3673,7 +3673,7 @@
       "place": "Detroit, Michigan, USA",
       "timeline": [
         {
-          "deadline": "2023-03-02 23:59:00",
+          "deadline": "2023-03-02 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -3773,7 +3773,7 @@
       "place": "Florence, Italy",
       "timeline": [
         {
-          "deadline": "2027-03-01 23:59:00",
+          "deadline": "2027-03-01 23:59:59",
           "abstract_deadline": null,
           "comment": "Paper submission deadline: March 1, 2027; exact cutoff time and timezone not specified on the official IEEE RAS event page"
         }
@@ -3798,8 +3798,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-03-31 23:59:00",
-          "abstract_deadline": "2021-03-24 23:59:00",
+          "deadline": "2021-03-31 23:59:59",
+          "abstract_deadline": "2021-03-24 23:59:59",
           "comment": null
         }
       ],
@@ -3823,8 +3823,8 @@
       "place": "Haifa, Israel",
       "timeline": [
         {
-          "deadline": "2022-02-11 23:59:00",
-          "abstract_deadline": "2022-02-02 23:59:00",
+          "deadline": "2022-02-11 23:59:59",
+          "abstract_deadline": "2022-02-02 23:59:59",
           "comment": null
         }
       ],
@@ -3848,8 +3848,8 @@
       "place": "Rhodes, Greece",
       "timeline": [
         {
-          "deadline": "2023-03-14 23:59:00",
-          "abstract_deadline": "2023-03-03 23:59:00",
+          "deadline": "2023-03-14 23:59:59",
+          "abstract_deadline": "2023-03-03 23:59:59",
           "comment": null
         }
       ],
@@ -3973,7 +3973,7 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-11-23 23:59:00",
+          "deadline": "2020-11-23 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -4008,7 +4008,7 @@
           "comment": "ARR January cycle"
         },
         {
-          "deadline": "2022-03-06 23:59:00",
+          "deadline": "2022-03-06 23:59:59",
           "abstract_deadline": null,
           "comment": "Commitment deadline for papers reviewed by ARR"
         }
@@ -4038,7 +4038,7 @@
           "comment": "ARR Submission"
         },
         {
-          "deadline": "2024-02-20 23:59:00",
+          "deadline": "2024-02-20 23:59:59",
           "abstract_deadline": null,
           "comment": "Commitment deadline for papers reviewed by ARR"
         }
@@ -4068,7 +4068,7 @@
           "comment": "ARR Submission"
         },
         {
-          "deadline": "2024-12-16 23:59:00",
+          "deadline": "2024-12-16 23:59:59",
           "abstract_deadline": null,
           "comment": "Commitment deadline for papers reviewed by ARR"
         }
@@ -4273,7 +4273,7 @@
       "place": "Dortmund, Germany",
       "timeline": [
         {
-          "deadline": "2022-04-13 23:59:00",
+          "deadline": "2022-04-13 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -4348,7 +4348,7 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-03-01 23:59:00",
+          "deadline": "2021-03-01 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -4423,7 +4423,7 @@
       "place": "Delft, Netherlands",
       "timeline": [
         {
-          "deadline": "2024-02-02 23:59:00",
+          "deadline": "2024-02-02 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -4448,8 +4448,8 @@
       "place": "Los Angeles, California, USA",
       "timeline": [
         {
-          "deadline": "2025-01-24 23:59:00",
-          "abstract_deadline": "2025-01-17 23:59:00",
+          "deadline": "2025-01-24 23:59:59",
+          "abstract_deadline": "2025-01-17 23:59:59",
           "comment": "Initial semi-complete paper required; title, abstract and authors become final"
         }
       ],
@@ -4473,8 +4473,8 @@
       "place": "Sydney, Australia",
       "timeline": [
         {
-          "deadline": "2026-01-30 23:59:00",
-          "abstract_deadline": "2026-01-23 23:59:00",
+          "deadline": "2026-01-30 23:59:59",
+          "abstract_deadline": "2026-01-23 23:59:59",
           "comment": null
         }
       ],
@@ -4498,7 +4498,7 @@
       "place": "Athens, Greece",
       "timeline": [
         {
-          "deadline": "2026-12-04 23:59:00",
+          "deadline": "2026-12-04 23:59:59",
           "abstract_deadline": null,
           "comment": "Stage 1: initial 6-page extended abstract submission"
         }
@@ -4548,7 +4548,7 @@
       "place": "Eindhoven, Netherlands (Hybrid)",
       "timeline": [
         {
-          "deadline": "2022-02-25 23:59:00",
+          "deadline": "2022-02-25 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -4673,12 +4673,12 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-06-24 23:59:00",
+          "deadline": "2020-06-24 23:59:59",
           "abstract_deadline": null,
           "comment": "First round"
         },
         {
-          "deadline": "2020-09-29 23:59:00",
+          "deadline": "2020-09-29 23:59:59",
           "abstract_deadline": null,
           "comment": "Second round"
         }
@@ -4703,12 +4703,12 @@
       "place": "Waikoloa, Hawaii, USA (Hybrid)",
       "timeline": [
         {
-          "deadline": "2021-06-09 23:59:00",
+          "deadline": "2021-06-09 23:59:59",
           "abstract_deadline": null,
           "comment": "First round"
         },
         {
-          "deadline": "2021-08-18 23:59:00",
+          "deadline": "2021-08-18 23:59:59",
           "abstract_deadline": null,
           "comment": "Second round"
         }
@@ -4734,12 +4734,12 @@
       "timeline": [
         {
           "deadline": "2022-07-13 11:59:00",
-          "abstract_deadline": "2022-07-06 23:59:00",
+          "abstract_deadline": "2022-07-06 23:59:59",
           "comment": "First round"
         },
         {
           "deadline": "2022-08-29 11:59:00",
-          "abstract_deadline": "2022-08-22 23:59:00",
+          "abstract_deadline": "2022-08-22 23:59:59",
           "comment": "Second round"
         }
       ],
@@ -4824,12 +4824,12 @@
       "timeline": [
         {
           "deadline": "2025-07-18 23:59:59",
-          "abstract_deadline": "2025-07-11 23:59:00",
+          "abstract_deadline": "2025-07-11 23:59:59",
           "comment": "First round"
         },
         {
           "deadline": "2025-09-19 23:59:59",
-          "abstract_deadline": "2025-09-12 23:59:00",
+          "abstract_deadline": "2025-09-12 23:59:59",
           "comment": "Second round"
         }
       ],
@@ -4854,12 +4854,12 @@
       "timeline": [
         {
           "deadline": "2026-06-26 23:59:59",
-          "abstract_deadline": "2026-06-19 23:59:00",
+          "abstract_deadline": "2026-06-19 23:59:59",
           "comment": "First round"
         },
         {
           "deadline": "2026-08-28 23:59:59",
-          "abstract_deadline": "2026-08-21 23:59:00",
+          "abstract_deadline": "2026-08-21 23:59:59",
           "comment": "Second round"
         }
       ],
@@ -4883,7 +4883,7 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2020-10-21 23:59:00",
+          "deadline": "2020-10-21 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -4983,7 +4983,7 @@
       "place": "Hyderabad, India",
       "timeline": [
         {
-          "deadline": "2024-09-09 23:59:00",
+          "deadline": "2024-09-09 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -5083,7 +5083,7 @@
       "place": "Brno, Czech Republic and Online",
       "timeline": [
         {
-          "deadline": "2021-03-26 23:59:00",
+          "deadline": "2021-03-26 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -5133,7 +5133,7 @@
       "place": "Dublin, Ireland",
       "timeline": [
         {
-          "deadline": "2023-03-01 23:59:00",
+          "deadline": "2023-03-01 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -5158,7 +5158,7 @@
       "place": "Greece",
       "timeline": [
         {
-          "deadline": "2024-03-02 23:59:00",
+          "deadline": "2024-03-02 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -5183,7 +5183,7 @@
       "place": "Rotterdam, Netherlands",
       "timeline": [
         {
-          "deadline": "2025-02-12 23:59:00",
+          "deadline": "2025-02-12 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -5208,7 +5208,7 @@
       "place": "Sydney, Australia",
       "timeline": [
         {
-          "deadline": "2026-02-25 23:59:00",
+          "deadline": "2026-02-25 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -5458,8 +5458,8 @@
       "place": "EXCO, Daegu, South Korea",
       "timeline": [
         {
-          "deadline": "2022-05-20 23:59:00",
-          "abstract_deadline": "2022-05-19 23:59:00",
+          "deadline": "2022-05-20 23:59:59",
+          "abstract_deadline": "2022-05-19 23:59:59",
           "comment": "Registration / full paper"
         }
       ],
@@ -5483,8 +5483,8 @@
       "place": "Sydney, Australia",
       "timeline": [
         {
-          "deadline": "2023-05-24 23:59:00",
-          "abstract_deadline": "2023-05-16 23:59:00",
+          "deadline": "2023-05-24 23:59:59",
+          "abstract_deadline": "2023-05-16 23:59:59",
           "comment": "Registration / full paper"
         }
       ],
@@ -5508,8 +5508,8 @@
       "place": "Tokyo, Japan",
       "timeline": [
         {
-          "deadline": "2024-05-19 23:59:00",
-          "abstract_deadline": "2024-05-12 23:59:00",
+          "deadline": "2024-05-19 23:59:59",
+          "abstract_deadline": "2024-05-12 23:59:59",
           "comment": "Registration / full paper"
         }
       ],
@@ -5533,8 +5533,8 @@
       "place": "Hong Kong, China",
       "timeline": [
         {
-          "deadline": "2025-05-23 23:59:00",
-          "abstract_deadline": "2025-05-16 23:59:00",
+          "deadline": "2025-05-23 23:59:59",
+          "abstract_deadline": "2025-05-16 23:59:59",
           "comment": "Registration / full paper"
         }
       ],
@@ -5558,8 +5558,8 @@
       "place": "KLCC, Kuala Lumpur, Malaysia",
       "timeline": [
         {
-          "deadline": "2026-05-12 23:59:00",
-          "abstract_deadline": "2026-05-05 23:59:00",
+          "deadline": "2026-05-12 23:59:59",
+          "abstract_deadline": "2026-05-05 23:59:59",
           "comment": "Registration / full paper"
         }
       ],
@@ -5608,7 +5608,7 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2021-01-28 23:59:00",
+          "deadline": "2021-01-28 23:59:59",
           "abstract_deadline": null,
           "comment": "February 4 was updates only"
         }
@@ -5633,7 +5633,7 @@
       "place": "Technion, Haifa, Israel",
       "timeline": [
         {
-          "deadline": "2022-01-21 23:59:00",
+          "deadline": "2022-01-21 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -5683,7 +5683,7 @@
       "place": "Montreal, Canada",
       "timeline": [
         {
-          "deadline": "2024-01-19 23:59:00",
+          "deadline": "2024-01-19 23:59:59",
           "abstract_deadline": null,
           "comment": "January 26 was updates only"
         }
@@ -5733,7 +5733,7 @@
       "place": "Lisbon, Portugal",
       "timeline": [
         {
-          "deadline": "2026-01-28 23:59:00",
+          "deadline": "2026-01-28 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -6083,7 +6083,7 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2021-02-12 23:59:00",
+          "deadline": "2021-02-12 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -6209,7 +6209,7 @@
       "timeline": [
         {
           "deadline": "2026-02-06 23:59:59",
-          "abstract_deadline": "2026-02-03 23:59:00",
+          "abstract_deadline": "2026-02-03 23:59:59",
           "comment": null
         }
       ],
@@ -6284,7 +6284,7 @@
       "timeline": [
         {
           "deadline": "2024-02-05 23:59:59",
-          "abstract_deadline": "2024-01-29 23:59:00",
+          "abstract_deadline": "2024-01-29 23:59:59",
           "comment": null
         }
       ],
@@ -6408,7 +6408,7 @@
       "place": "Sydney, Australia",
       "timeline": [
         {
-          "deadline": "2024-06-28 23:59:00",
+          "deadline": "2024-06-28 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -6433,7 +6433,7 @@
       "place": "Tainan, Taiwan",
       "timeline": [
         {
-          "deadline": "2025-06-30 23:59:00",
+          "deadline": "2025-06-30 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -6458,7 +6458,7 @@
       "place": "Hangzhou, China",
       "timeline": [
         {
-          "deadline": "2026-06-29 23:59:00",
+          "deadline": "2026-06-29 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -6483,8 +6483,8 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2021-01-25 23:59:00",
-          "abstract_deadline": "2021-01-20 23:59:00",
+          "deadline": "2021-01-25 23:59:59",
+          "abstract_deadline": "2021-01-20 23:59:59",
           "comment": null
         }
       ],
@@ -6508,8 +6508,8 @@
       "place": "Haifa, Israel",
       "timeline": [
         {
-          "deadline": "2022-01-21 23:59:00",
-          "abstract_deadline": "2022-01-17 23:59:00",
+          "deadline": "2022-01-21 23:59:59",
+          "abstract_deadline": "2022-01-17 23:59:59",
           "comment": null
         }
       ],
@@ -6533,8 +6533,8 @@
       "place": "Boston University, USA",
       "timeline": [
         {
-          "deadline": "2023-01-23 23:59:00",
-          "abstract_deadline": "2023-01-18 23:59:00",
+          "deadline": "2023-01-23 23:59:59",
+          "abstract_deadline": "2023-01-18 23:59:59",
           "comment": null
         }
       ],
@@ -6558,8 +6558,8 @@
       "place": "Tallinn, Estonia",
       "timeline": [
         {
-          "deadline": "2024-01-26 23:59:00",
-          "abstract_deadline": "2024-01-21 23:59:00",
+          "deadline": "2024-01-26 23:59:59",
+          "abstract_deadline": "2024-01-21 23:59:59",
           "comment": null
         }
       ],
@@ -6583,8 +6583,8 @@
       "place": "Singapore",
       "timeline": [
         {
-          "deadline": "2025-01-23 23:59:00",
-          "abstract_deadline": "2025-01-16 23:59:00",
+          "deadline": "2025-01-23 23:59:59",
+          "abstract_deadline": "2025-01-16 23:59:59",
           "comment": null
         }
       ],
@@ -6608,8 +6608,8 @@
       "place": "Lisbon, Portugal",
       "timeline": [
         {
-          "deadline": "2026-01-22 23:59:00",
-          "abstract_deadline": "2026-01-15 23:59:00",
+          "deadline": "2026-01-22 23:59:59",
+          "abstract_deadline": "2026-01-15 23:59:59",
           "comment": null
         }
       ],
@@ -6758,8 +6758,8 @@
       "place": "Glasgow, Scotland",
       "timeline": [
         {
-          "deadline": "2025-04-03 23:59:00",
-          "abstract_deadline": "2025-03-24 23:59:00",
+          "deadline": "2025-04-03 23:59:59",
+          "abstract_deadline": "2025-03-24 23:59:59",
           "comment": null
         }
       ],
@@ -6808,8 +6808,8 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2020-12-02 23:59:00",
-          "abstract_deadline": "2020-11-25 23:59:00",
+          "deadline": "2020-12-02 23:59:59",
+          "abstract_deadline": "2020-11-25 23:59:59",
           "comment": null
         }
       ],
@@ -6833,8 +6833,8 @@
       "place": "Berlin, Germany",
       "timeline": [
         {
-          "deadline": "2021-12-02 23:59:00",
-          "abstract_deadline": "2021-11-25 23:59:00",
+          "deadline": "2021-12-02 23:59:59",
+          "abstract_deadline": "2021-11-25 23:59:59",
           "comment": null
         }
       ],
@@ -6858,8 +6858,8 @@
       "place": "Dallas, Texas, USA",
       "timeline": [
         {
-          "deadline": "2022-12-02 23:59:00",
-          "abstract_deadline": "2022-11-25 23:59:00",
+          "deadline": "2022-12-02 23:59:59",
+          "abstract_deadline": "2022-11-25 23:59:59",
           "comment": null
         }
       ],
@@ -6883,8 +6883,8 @@
       "place": "Athens, Greece",
       "timeline": [
         {
-          "deadline": "2023-12-01 23:59:00",
-          "abstract_deadline": "2023-11-24 23:59:00",
+          "deadline": "2023-12-01 23:59:59",
+          "abstract_deadline": "2023-11-24 23:59:59",
           "comment": null
         }
       ],
@@ -6908,8 +6908,8 @@
       "place": "Kanazawa, Japan",
       "timeline": [
         {
-          "deadline": "2024-12-03 23:59:00",
-          "abstract_deadline": "2024-11-26 23:59:00",
+          "deadline": "2024-12-03 23:59:59",
+          "abstract_deadline": "2024-11-26 23:59:59",
           "comment": null
         }
       ],
@@ -6933,8 +6933,8 @@
       "place": "New Brunswick, New Jersey, USA",
       "timeline": [
         {
-          "deadline": "2025-12-02 23:59:00",
-          "abstract_deadline": "2025-11-25 23:59:00",
+          "deadline": "2025-12-02 23:59:59",
+          "abstract_deadline": "2025-11-25 23:59:59",
           "comment": null
         }
       ],
@@ -7333,7 +7333,7 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2020-08-28 23:59:00",
+          "deadline": "2020-08-28 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -7358,7 +7358,7 @@
       "place": "Chaminade, CA, USA",
       "timeline": [
         {
-          "deadline": "2021-08-31 23:59:00",
+          "deadline": "2021-08-31 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -7383,7 +7383,7 @@
       "place": "Amsterdam, The Netherlands",
       "timeline": [
         {
-          "deadline": "2022-09-02 23:59:00",
+          "deadline": "2022-09-02 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -7534,7 +7534,7 @@
       "timeline": [
         {
           "deadline": "2021-05-26 23:59:59",
-          "abstract_deadline": "2021-05-19 23:59:00",
+          "abstract_deadline": "2021-05-19 23:59:59",
           "comment": null
         }
       ],
@@ -7683,8 +7683,8 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2020-10-09 23:59:00",
-          "abstract_deadline": "2020-10-02 23:59:00",
+          "deadline": "2020-10-09 23:59:59",
+          "abstract_deadline": "2020-10-02 23:59:59",
           "comment": "Abstract optional"
         }
       ],
@@ -7708,7 +7708,7 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2021-06-01 23:59:00",
+          "deadline": "2021-06-01 23:59:59",
           "abstract_deadline": null,
           "comment": "First cycle"
         },
@@ -7913,13 +7913,13 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-06-17 23:59:00",
-          "abstract_deadline": "2020-06-10 23:59:00",
+          "deadline": "2020-06-17 23:59:59",
+          "abstract_deadline": "2020-06-10 23:59:59",
           "comment": "first round"
         },
         {
-          "deadline": "2020-10-14 23:59:00",
-          "abstract_deadline": "2020-10-07 23:59:00",
+          "deadline": "2020-10-14 23:59:59",
+          "abstract_deadline": "2020-10-07 23:59:59",
           "comment": "second round"
         }
       ],
@@ -8153,7 +8153,7 @@
       "place": "Orlando, FL, USA",
       "timeline": [
         {
-          "deadline": "2022-06-10 23:59:00",
+          "deadline": "2022-06-10 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -8278,13 +8278,13 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2020-04-09 23:59:00",
-          "abstract_deadline": "2020-04-02 23:59:00",
+          "deadline": "2020-04-09 23:59:59",
+          "abstract_deadline": "2020-04-02 23:59:59",
           "comment": "First cycle"
         },
         {
-          "deadline": "2020-09-28 23:59:00",
-          "abstract_deadline": "2020-09-21 23:59:00",
+          "deadline": "2020-09-28 23:59:59",
+          "abstract_deadline": "2020-09-21 23:59:59",
           "comment": "Second cycle"
         }
       ],
@@ -8308,8 +8308,8 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2021-04-10 23:59:00",
-          "abstract_deadline": "2021-04-03 23:59:00",
+          "deadline": "2021-04-10 23:59:59",
+          "abstract_deadline": "2021-04-03 23:59:59",
           "comment": "First cycle"
         },
         {
@@ -8399,12 +8399,12 @@
       "timeline": [
         {
           "deadline": "2024-03-18 23:59:59",
-          "abstract_deadline": "2024-03-18 23:59:00",
+          "abstract_deadline": "2024-03-18 23:59:59",
           "comment": null
         },
         {
           "deadline": "2024-09-19 23:59:59",
-          "abstract_deadline": "2024-09-19 23:59:00",
+          "abstract_deadline": "2024-09-19 23:59:59",
           "comment": null
         }
       ],
@@ -8568,12 +8568,12 @@
       "place": "Turin, Italy",
       "timeline": [
         {
-          "deadline": "2022-12-07 23:59:00",
+          "deadline": "2022-12-07 23:59:59",
           "abstract_deadline": null,
           "comment": "Journal track, cycle 1"
         },
         {
-          "deadline": "2023-02-10 23:59:00",
+          "deadline": "2023-02-10 23:59:59",
           "abstract_deadline": null,
           "comment": "Journal track, cycle 2"
         },
@@ -8603,8 +8603,8 @@
       "place": "Vilnius, Lithuania",
       "timeline": [
         {
-          "deadline": "2023-12-05 23:59:00",
-          "abstract_deadline": "2023-12-05 23:59:00",
+          "deadline": "2023-12-05 23:59:59",
+          "abstract_deadline": "2023-12-05 23:59:59",
           "comment": "Journal track; CMT abstract and journal manuscript"
         },
         {
@@ -8638,12 +8638,12 @@
           "comment": "Journal track, cycle 1; conflicting October 11/13 dates"
         },
         {
-          "deadline": "2024-12-13 23:59:00",
+          "deadline": "2024-12-13 23:59:59",
           "abstract_deadline": null,
           "comment": "Journal track, cycle 2"
         },
         {
-          "deadline": "2025-02-14 23:59:00",
+          "deadline": "2025-02-14 23:59:59",
           "abstract_deadline": null,
           "comment": "Journal track, cycle 3"
         },
@@ -8673,13 +8673,13 @@
       "place": "Naples, Italy",
       "timeline": [
         {
-          "deadline": "2025-10-30 23:59:00",
-          "abstract_deadline": "2025-10-30 23:59:00",
+          "deadline": "2025-10-30 23:59:59",
+          "abstract_deadline": "2025-10-30 23:59:59",
           "comment": "Journal track, cycle 1; CMT abstract and journal manuscript"
         },
         {
-          "deadline": "2026-01-15 23:59:00",
-          "abstract_deadline": "2026-01-15 23:59:00",
+          "deadline": "2026-01-15 23:59:59",
+          "abstract_deadline": "2026-01-15 23:59:59",
           "comment": "Journal track, cycle 2; CMT abstract and journal manuscript"
         },
         {
@@ -8883,13 +8883,13 @@
       "place": "Bengaluru, India",
       "timeline": [
         {
-          "deadline": "2025-06-10 23:59:00",
-          "abstract_deadline": "2025-06-03 23:59:00",
+          "deadline": "2025-06-10 23:59:59",
+          "abstract_deadline": "2025-06-03 23:59:59",
           "comment": "First submission cycle"
         },
         {
-          "deadline": "2025-12-10 23:59:00",
-          "abstract_deadline": "2025-12-03 23:59:00",
+          "deadline": "2025-12-10 23:59:59",
+          "abstract_deadline": "2025-12-03 23:59:59",
           "comment": "Second submission cycle"
         }
       ],
@@ -8943,8 +8943,8 @@
       "place": "Amsterdam, Netherlands / Online",
       "timeline": [
         {
-          "deadline": "2021-05-04 23:59:00",
-          "abstract_deadline": "2021-04-27 23:59:00",
+          "deadline": "2021-05-04 23:59:59",
+          "abstract_deadline": "2021-04-27 23:59:59",
           "comment": null
         }
       ],
@@ -8968,8 +8968,8 @@
       "place": "Seattle, WA, USA (with remote attendance)",
       "timeline": [
         {
-          "deadline": "2022-05-03 23:59:00",
-          "abstract_deadline": "2022-04-26 23:59:00",
+          "deadline": "2022-05-03 23:59:59",
+          "abstract_deadline": "2022-04-26 23:59:59",
           "comment": null
         }
       ],
@@ -9118,7 +9118,7 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2020-10-12 23:59:00",
+          "deadline": "2020-10-12 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -9143,7 +9143,7 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2021-10-12 23:59:00",
+          "deadline": "2021-10-12 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -9168,8 +9168,8 @@
       "place": "Minneapolis, Minnesota, USA",
       "timeline": [
         {
-          "deadline": "2022-10-07 23:59:00",
-          "abstract_deadline": "2022-09-30 23:59:00",
+          "deadline": "2022-10-07 23:59:59",
+          "abstract_deadline": "2022-09-30 23:59:59",
           "comment": null
         }
       ],
@@ -9193,8 +9193,8 @@
       "place": "Houston, TX, USA",
       "timeline": [
         {
-          "deadline": "2023-09-22 23:59:00",
-          "abstract_deadline": "2023-09-15 23:59:00",
+          "deadline": "2023-09-22 23:59:59",
+          "abstract_deadline": "2023-09-15 23:59:59",
           "comment": null
         }
       ],
@@ -9688,17 +9688,17 @@
       "place": "Seattle, WA, USA",
       "timeline": [
         {
-          "deadline": "2022-04-15 23:59:00",
+          "deadline": "2022-04-15 23:59:59",
           "abstract_deadline": null,
           "comment": "first round"
         },
         {
-          "deadline": "2022-07-15 23:59:00",
+          "deadline": "2022-07-15 23:59:59",
           "abstract_deadline": null,
           "comment": "second round"
         },
         {
-          "deadline": "2022-10-15 23:59:00",
+          "deadline": "2022-10-15 23:59:59",
           "abstract_deadline": null,
           "comment": "third round"
         }
@@ -9723,22 +9723,22 @@
       "place": "Santiago, Chile",
       "timeline": [
         {
-          "deadline": "2023-01-15 23:59:00",
+          "deadline": "2023-01-15 23:59:59",
           "abstract_deadline": null,
           "comment": "round 1"
         },
         {
-          "deadline": "2023-04-15 23:59:00",
+          "deadline": "2023-04-15 23:59:59",
           "abstract_deadline": null,
           "comment": "round 2"
         },
         {
-          "deadline": "2023-07-15 23:59:00",
+          "deadline": "2023-07-15 23:59:59",
           "abstract_deadline": null,
           "comment": "round 3"
         },
         {
-          "deadline": "2023-10-15 23:59:00",
+          "deadline": "2023-10-15 23:59:59",
           "abstract_deadline": null,
           "comment": "round 4"
         }
@@ -9763,23 +9763,23 @@
       "place": "Berlin, Germany",
       "timeline": [
         {
-          "deadline": "2024-01-17 23:59:00",
-          "abstract_deadline": "2024-01-10 23:59:00",
+          "deadline": "2024-01-17 23:59:59",
+          "abstract_deadline": "2024-01-10 23:59:59",
           "comment": "round 1"
         },
         {
-          "deadline": "2024-04-17 23:59:00",
-          "abstract_deadline": "2024-04-10 23:59:00",
+          "deadline": "2024-04-17 23:59:59",
+          "abstract_deadline": "2024-04-10 23:59:59",
           "comment": "round 2"
         },
         {
-          "deadline": "2024-07-17 23:59:00",
-          "abstract_deadline": "2024-07-10 23:59:00",
+          "deadline": "2024-07-17 23:59:59",
+          "abstract_deadline": "2024-07-10 23:59:59",
           "comment": "round 3"
         },
         {
-          "deadline": "2024-10-17 23:59:00",
-          "abstract_deadline": "2024-10-10 23:59:00",
+          "deadline": "2024-10-17 23:59:59",
+          "abstract_deadline": "2024-10-10 23:59:59",
           "comment": "round 4"
         }
       ],
@@ -9803,23 +9803,23 @@
       "place": "Bangalore, India",
       "timeline": [
         {
-          "deadline": "2025-01-17 23:59:00",
-          "abstract_deadline": "2025-01-10 23:59:00",
+          "deadline": "2025-01-17 23:59:59",
+          "abstract_deadline": "2025-01-10 23:59:59",
           "comment": "round 1"
         },
         {
-          "deadline": "2025-04-17 23:59:00",
-          "abstract_deadline": "2025-04-10 23:59:00",
+          "deadline": "2025-04-17 23:59:59",
+          "abstract_deadline": "2025-04-10 23:59:59",
           "comment": "round 2"
         },
         {
-          "deadline": "2025-07-17 23:59:00",
-          "abstract_deadline": "2025-07-10 23:59:00",
+          "deadline": "2025-07-17 23:59:59",
+          "abstract_deadline": "2025-07-10 23:59:59",
           "comment": "round 3"
         },
         {
-          "deadline": "2025-10-17 23:59:00",
-          "abstract_deadline": "2025-10-10 23:59:00",
+          "deadline": "2025-10-17 23:59:59",
+          "abstract_deadline": "2025-10-10 23:59:59",
           "comment": "round 4"
         }
       ],
@@ -9843,23 +9843,23 @@
       "place": "Huntington Beach, CA, USA",
       "timeline": [
         {
-          "deadline": "2026-01-17 23:59:00",
-          "abstract_deadline": "2026-01-10 23:59:00",
+          "deadline": "2026-01-17 23:59:59",
+          "abstract_deadline": "2026-01-10 23:59:59",
           "comment": "round 1"
         },
         {
-          "deadline": "2026-04-17 23:59:00",
-          "abstract_deadline": "2026-04-10 23:59:00",
+          "deadline": "2026-04-17 23:59:59",
+          "abstract_deadline": "2026-04-10 23:59:59",
           "comment": "round 2"
         },
         {
-          "deadline": "2026-07-17 23:59:00",
-          "abstract_deadline": "2026-07-10 23:59:00",
+          "deadline": "2026-07-17 23:59:59",
+          "abstract_deadline": "2026-07-10 23:59:59",
           "comment": "round 3"
         },
         {
-          "deadline": "2026-10-17 23:59:00",
-          "abstract_deadline": "2026-10-10 23:59:00",
+          "deadline": "2026-10-17 23:59:59",
+          "abstract_deadline": "2026-10-10 23:59:59",
           "comment": "round 4"
         }
       ],
@@ -10443,7 +10443,7 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2020-08-16 23:59:00",
+          "deadline": "2020-08-16 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -10669,7 +10669,7 @@
       "timeline": [
         {
           "deadline": "2023-05-05 23:59:59",
-          "abstract_deadline": "2023-04-28 23:59:00",
+          "abstract_deadline": "2023-04-28 23:59:59",
           "comment": null
         }
       ],
@@ -10693,8 +10693,8 @@
       "place": "Kyoto, Japan",
       "timeline": [
         {
-          "deadline": "2024-05-02 23:59:00",
-          "abstract_deadline": "2024-04-26 23:59:00",
+          "deadline": "2024-05-02 23:59:59",
+          "abstract_deadline": "2024-04-26 23:59:59",
           "comment": null
         }
       ],
@@ -10718,8 +10718,8 @@
       "place": "Seoul, South Korea",
       "timeline": [
         {
-          "deadline": "2025-06-05 23:59:00",
-          "abstract_deadline": "2025-05-29 23:59:00",
+          "deadline": "2025-06-05 23:59:59",
+          "abstract_deadline": "2025-05-29 23:59:59",
           "comment": null
         }
       ],
@@ -10743,8 +10743,8 @@
       "place": "Bangkok, Thailand",
       "timeline": [
         {
-          "deadline": "2026-05-20 23:59:00",
-          "abstract_deadline": "2026-05-13 23:59:00",
+          "deadline": "2026-05-20 23:59:59",
+          "abstract_deadline": "2026-05-13 23:59:59",
           "comment": null
         }
       ],
@@ -10983,7 +10983,7 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-01-12 23:59:00",
+          "deadline": "2021-01-12 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -11133,8 +11133,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-12-15 23:59:00",
-          "abstract_deadline": "2020-12-08 23:59:00",
+          "deadline": "2020-12-15 23:59:59",
+          "abstract_deadline": "2020-12-08 23:59:59",
           "comment": null
         }
       ],
@@ -11158,8 +11158,8 @@
       "place": "Taormina, Sicily, Italy",
       "timeline": [
         {
-          "deadline": "2021-12-19 23:59:00",
-          "abstract_deadline": "2021-12-19 23:59:00",
+          "deadline": "2021-12-19 23:59:59",
+          "abstract_deadline": "2021-12-19 23:59:59",
           "comment": null
         }
       ],
@@ -11183,8 +11183,8 @@
       "place": "Bangalore, India",
       "timeline": [
         {
-          "deadline": "2022-12-12 23:59:00",
-          "abstract_deadline": "2022-12-05 23:59:00",
+          "deadline": "2022-12-12 23:59:59",
+          "abstract_deadline": "2022-12-05 23:59:59",
           "comment": null
         }
       ],
@@ -11208,8 +11208,8 @@
       "place": "Philadelphia, USA",
       "timeline": [
         {
-          "deadline": "2023-12-11 23:59:00",
-          "abstract_deadline": "2023-12-04 23:59:00",
+          "deadline": "2023-12-11 23:59:59",
+          "abstract_deadline": "2023-12-04 23:59:59",
           "comment": null
         }
       ],
@@ -11233,8 +11233,8 @@
       "place": "Tromsø, Norway",
       "timeline": [
         {
-          "deadline": "2024-12-23 23:59:00",
-          "abstract_deadline": "2024-12-09 23:59:00",
+          "deadline": "2024-12-23 23:59:59",
+          "abstract_deadline": "2024-12-09 23:59:59",
           "comment": "Abstract optional; full required"
         }
       ],
@@ -11333,8 +11333,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-09-03 23:59:00",
-          "abstract_deadline": "2021-08-27 23:59:00",
+          "deadline": "2021-09-03 23:59:59",
+          "abstract_deadline": "2021-08-27 23:59:59",
           "comment": null
         }
       ],
@@ -11358,7 +11358,7 @@
       "place": "Montreal, Canada",
       "timeline": [
         {
-          "deadline": "2022-09-02 23:59:00",
+          "deadline": "2022-09-02 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -11388,7 +11388,7 @@
           "comment": "First submission round"
         },
         {
-          "deadline": "2023-09-01 23:59:00",
+          "deadline": "2023-09-01 23:59:59",
           "abstract_deadline": null,
           "comment": "Second submission round"
         }
@@ -11418,7 +11418,7 @@
           "comment": "First submission round"
         },
         {
-          "deadline": "2024-09-12 23:59:00",
+          "deadline": "2024-09-12 23:59:59",
           "abstract_deadline": null,
           "comment": "Second submission round"
         }
@@ -11503,8 +11503,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-05-24 23:59:00",
-          "abstract_deadline": "2021-05-10 23:59:00",
+          "deadline": "2021-05-24 23:59:59",
+          "abstract_deadline": "2021-05-10 23:59:59",
           "comment": null
         }
       ],
@@ -11528,7 +11528,7 @@
       "place": "Heidelberg, Germany",
       "timeline": [
         {
-          "deadline": "2022-05-20 23:59:00",
+          "deadline": "2022-05-20 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -11553,7 +11553,7 @@
       "place": "Santa Fe, New Mexico, USA",
       "timeline": [
         {
-          "deadline": "2023-05-15 23:59:00",
+          "deadline": "2023-05-15 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -11603,7 +11603,7 @@
       "place": "Edinburgh, United Kingdom",
       "timeline": [
         {
-          "deadline": "2025-05-06 23:59:00",
+          "deadline": "2025-05-06 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -12028,7 +12028,7 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-09-24 23:59:00",
+          "deadline": "2020-09-24 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -12153,12 +12153,12 @@
       "place": "SANTA CLARA, CA, USA",
       "timeline": [
         {
-          "deadline": "2025-03-18 23:59:00",
+          "deadline": "2025-03-18 23:59:59",
           "abstract_deadline": null,
           "comment": "Spring deadline"
         },
         {
-          "deadline": "2025-09-16 23:59:00",
+          "deadline": "2025-09-16 23:59:59",
           "abstract_deadline": null,
           "comment": "Fall deadline"
         }
@@ -12183,12 +12183,12 @@
       "place": "Renton, WA, USA",
       "timeline": [
         {
-          "deadline": "2026-03-17 23:59:00",
+          "deadline": "2026-03-17 23:59:59",
           "abstract_deadline": null,
           "comment": "Spring deadline"
         },
         {
-          "deadline": "2026-09-15 23:59:00",
+          "deadline": "2026-09-15 23:59:59",
           "abstract_deadline": null,
           "comment": "Fall deadline"
         }
@@ -12213,7 +12213,7 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-04-30 23:59:00",
+          "deadline": "2021-04-30 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -12238,7 +12238,7 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2022-03-29 23:59:00",
+          "deadline": "2022-03-29 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -12263,7 +12263,7 @@
       "place": "Boston, MA, USA",
       "timeline": [
         {
-          "deadline": "2023-03-30 23:59:00",
+          "deadline": "2023-03-30 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -12288,7 +12288,7 @@
       "place": "Santa Clara, CA, USA",
       "timeline": [
         {
-          "deadline": "2024-04-05 23:59:00",
+          "deadline": "2024-04-05 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -12313,7 +12313,7 @@
       "place": "Boston, MA, USA",
       "timeline": [
         {
-          "deadline": "2025-04-04 23:59:00",
+          "deadline": "2025-04-04 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -12338,7 +12338,7 @@
       "place": "Prague, Czechia",
       "timeline": [
         {
-          "deadline": "2026-06-12 23:59:00",
+          "deadline": "2026-06-12 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -12564,7 +12564,7 @@
       "timeline": [
         {
           "deadline": "2022-01-27 23:59:59",
-          "abstract_deadline": "2022-01-20 23:59:00",
+          "abstract_deadline": "2022-01-20 23:59:59",
           "comment": null
         }
       ],
@@ -12588,7 +12588,7 @@
       "place": "Orlando, FL, USA",
       "timeline": [
         {
-          "deadline": "2023-01-27 23:59:00",
+          "deadline": "2023-01-27 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -12614,7 +12614,7 @@
       "timeline": [
         {
           "deadline": "TBD",
-          "abstract_deadline": "2024-01-18 23:59:00",
+          "abstract_deadline": "2024-01-18 23:59:59",
           "comment": "Full-paper cutoff conflict: CFP January 25; portal January 28"
         }
       ],
@@ -12663,8 +12663,8 @@
       "place": "Cleveland, OH, USA",
       "timeline": [
         {
-          "deadline": "2026-02-05 23:59:00",
-          "abstract_deadline": "2026-01-29 23:59:00",
+          "deadline": "2026-02-05 23:59:59",
+          "abstract_deadline": "2026-01-29 23:59:59",
           "comment": null
         }
       ],
@@ -12938,8 +12938,8 @@
       "place": "Jersey City, New Jersey, USA",
       "timeline": [
         {
-          "deadline": "2024-01-26 23:59:00",
-          "abstract_deadline": "2024-01-12 23:59:00",
+          "deadline": "2024-01-26 23:59:59",
+          "abstract_deadline": "2024-01-12 23:59:59",
           "comment": null
         }
       ],
@@ -12963,8 +12963,8 @@
       "place": "Glasgow, Scotland, UK",
       "timeline": [
         {
-          "deadline": "2024-12-18 23:59:00",
-          "abstract_deadline": "2024-12-11 23:59:00",
+          "deadline": "2024-12-18 23:59:59",
+          "abstract_deadline": "2024-12-11 23:59:59",
           "comment": null
         }
       ],
@@ -13038,8 +13038,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-04-23 23:59:00",
-          "abstract_deadline": "2021-04-23 23:59:00",
+          "deadline": "2021-04-23 23:59:59",
+          "abstract_deadline": "2021-04-23 23:59:59",
           "comment": null
         }
       ],
@@ -13063,8 +13063,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2022-04-22 23:59:00",
-          "abstract_deadline": "2022-04-14 23:59:00",
+          "deadline": "2022-04-22 23:59:59",
+          "abstract_deadline": "2022-04-14 23:59:59",
           "comment": null
         }
       ],
@@ -13088,8 +13088,8 @@
       "place": "Salt Lake City, UTAH, USA",
       "timeline": [
         {
-          "deadline": "2023-04-22 23:59:00",
-          "abstract_deadline": "2023-04-14 23:59:00",
+          "deadline": "2023-04-22 23:59:59",
+          "abstract_deadline": "2023-04-14 23:59:59",
           "comment": null
         }
       ],
@@ -13213,8 +13213,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2022-02-04 23:59:00",
-          "abstract_deadline": "2022-01-28 23:59:00",
+          "deadline": "2022-02-04 23:59:59",
+          "abstract_deadline": "2022-01-28 23:59:59",
           "comment": null
         }
       ],
@@ -13348,8 +13348,8 @@
       "place": "Atlanta, Georgia, USA",
       "timeline": [
         {
-          "deadline": "2026-12-07 23:59:00",
-          "abstract_deadline": "2026-12-01 23:59:00",
+          "deadline": "2026-12-07 23:59:59",
+          "abstract_deadline": "2026-12-01 23:59:59",
           "comment": null
         }
       ],
@@ -13573,8 +13573,8 @@
       "place": "New York City, USA",
       "timeline": [
         {
-          "deadline": "2021-11-23 23:59:00",
-          "abstract_deadline": "2021-11-16 23:59:00",
+          "deadline": "2021-11-23 23:59:59",
+          "abstract_deadline": "2021-11-16 23:59:59",
           "comment": null
         }
       ],
@@ -13598,8 +13598,8 @@
       "place": "Orlando, FL, USA",
       "timeline": [
         {
-          "deadline": "2022-11-21 23:59:00",
-          "abstract_deadline": "2022-11-14 23:59:00",
+          "deadline": "2022-11-21 23:59:59",
+          "abstract_deadline": "2022-11-14 23:59:59",
           "comment": null
         }
       ],
@@ -13623,8 +13623,8 @@
       "place": "Buenos Aires, Argentina",
       "timeline": [
         {
-          "deadline": "2023-11-21 23:59:00",
-          "abstract_deadline": "2023-11-14 23:59:00",
+          "deadline": "2023-11-21 23:59:59",
+          "abstract_deadline": "2023-11-14 23:59:59",
           "comment": null
         }
       ],
@@ -13648,8 +13648,8 @@
       "place": "Tokyo, Japan",
       "timeline": [
         {
-          "deadline": "2024-11-22 23:59:00",
-          "abstract_deadline": "2024-11-15 23:59:00",
+          "deadline": "2024-11-22 23:59:59",
+          "abstract_deadline": "2024-11-15 23:59:59",
           "comment": null
         }
       ],
@@ -13673,8 +13673,8 @@
       "place": "Raleigh, USA",
       "timeline": [
         {
-          "deadline": "2025-11-17 23:59:00",
-          "abstract_deadline": "2025-11-10 23:59:00",
+          "deadline": "2025-11-17 23:59:59",
+          "abstract_deadline": "2025-11-10 23:59:59",
           "comment": null
         }
       ],
@@ -13873,8 +13873,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-02-15 23:59:00",
-          "abstract_deadline": "2021-02-11 23:59:00",
+          "deadline": "2021-02-15 23:59:59",
+          "abstract_deadline": "2021-02-11 23:59:59",
           "comment": null
         }
       ],
@@ -13898,8 +13898,8 @@
       "place": "Salerno, Italy",
       "timeline": [
         {
-          "deadline": "2022-02-13 23:59:00",
-          "abstract_deadline": "2022-02-10 23:59:00",
+          "deadline": "2022-02-13 23:59:59",
+          "abstract_deadline": "2022-02-10 23:59:59",
           "comment": null
         }
       ],
@@ -13923,8 +13923,8 @@
       "place": "Orlando, Florida, USA",
       "timeline": [
         {
-          "deadline": "2023-01-10 23:59:00",
-          "abstract_deadline": "2023-01-06 23:59:00",
+          "deadline": "2023-01-10 23:59:59",
+          "abstract_deadline": "2023-01-06 23:59:59",
           "comment": null
         }
       ],
@@ -14198,7 +14198,7 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-10-26 23:59:00",
+          "deadline": "2020-10-26 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -14223,7 +14223,7 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-10-29 23:59:00",
+          "deadline": "2021-10-29 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -14248,7 +14248,7 @@
       "place": "San Antonio, Texas, USA",
       "timeline": [
         {
-          "deadline": "2022-10-31 23:59:00",
+          "deadline": "2022-10-31 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -14298,7 +14298,7 @@
       "place": "Irvine, CA, USA",
       "timeline": [
         {
-          "deadline": "2024-11-14 23:59:00",
+          "deadline": "2024-11-14 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -14373,8 +14373,8 @@
       "place": "St. Louis, Missouri, USA & Online",
       "timeline": [
         {
-          "deadline": "2021-04-09 23:59:00",
-          "abstract_deadline": "2021-04-02 23:59:00",
+          "deadline": "2021-04-09 23:59:59",
+          "abstract_deadline": "2021-04-02 23:59:59",
           "comment": null
         }
       ],
@@ -14398,8 +14398,8 @@
       "place": "Dallas, Texas, USA",
       "timeline": [
         {
-          "deadline": "2022-04-01 23:59:00",
-          "abstract_deadline": "2022-03-25 23:59:00",
+          "deadline": "2022-04-01 23:59:59",
+          "abstract_deadline": "2022-03-25 23:59:59",
           "comment": null
         }
       ],
@@ -14423,8 +14423,8 @@
       "place": "DENVER, CO, USA",
       "timeline": [
         {
-          "deadline": "2023-04-06 23:59:00",
-          "abstract_deadline": "2023-03-30 23:59:00",
+          "deadline": "2023-04-06 23:59:59",
+          "abstract_deadline": "2023-03-30 23:59:59",
           "comment": null
         }
       ],
@@ -14448,7 +14448,7 @@
       "place": "ATLANTA, GA, USA",
       "timeline": [
         {
-          "deadline": "2024-04-02 23:59:00",
+          "deadline": "2024-04-02 23:59:59",
           "abstract_deadline": "2024-03-26 23:59:59",
           "comment": null
         }
@@ -14473,7 +14473,7 @@
       "place": "St. louis, Missouri, USA",
       "timeline": [
         {
-          "deadline": "2025-04-14 23:59:00",
+          "deadline": "2025-04-14 23:59:59",
           "abstract_deadline": "2025-04-07 23:59:59",
           "comment": null
         }
@@ -14498,7 +14498,7 @@
       "place": "McCormick Place, Chicago, Illinois, USA",
       "timeline": [
         {
-          "deadline": "2026-04-08 23:59:00",
+          "deadline": "2026-04-08 23:59:59",
           "abstract_deadline": "2026-04-01 23:59:59",
           "comment": null
         }
@@ -14628,18 +14628,18 @@
       "place": "Venice, Italy",
       "timeline": [
         {
-          "deadline": "2023-08-09 23:59:00",
-          "abstract_deadline": "2023-08-02 23:59:00",
+          "deadline": "2023-08-09 23:59:59",
+          "abstract_deadline": "2023-08-02 23:59:59",
           "comment": "Summer cycle"
         },
         {
-          "deadline": "2023-10-11 23:59:00",
-          "abstract_deadline": "2023-10-04 23:59:00",
+          "deadline": "2023-10-11 23:59:59",
+          "abstract_deadline": "2023-10-04 23:59:59",
           "comment": "Fall cycle"
         },
         {
-          "deadline": "2024-01-31 23:59:00",
-          "abstract_deadline": "2024-01-24 23:59:00",
+          "deadline": "2024-01-31 23:59:59",
+          "abstract_deadline": "2024-01-24 23:59:59",
           "comment": "Winter cycle"
         }
       ],
@@ -14663,18 +14663,18 @@
       "place": "Stony Brook, New York, USA",
       "timeline": [
         {
-          "deadline": "2024-08-07 23:59:00",
-          "abstract_deadline": "2024-07-31 23:59:00",
+          "deadline": "2024-08-07 23:59:59",
+          "abstract_deadline": "2024-07-31 23:59:59",
           "comment": "summer round"
         },
         {
-          "deadline": "2024-10-09 23:59:00",
-          "abstract_deadline": "2024-10-02 23:59:00",
+          "deadline": "2024-10-09 23:59:59",
+          "abstract_deadline": "2024-10-02 23:59:59",
           "comment": "fall round"
         },
         {
-          "deadline": "2025-01-22 23:59:00",
-          "abstract_deadline": "2025-01-15 23:59:00",
+          "deadline": "2025-01-22 23:59:59",
+          "abstract_deadline": "2025-01-15 23:59:59",
           "comment": "winter round"
         }
       ],
@@ -14698,18 +14698,18 @@
       "place": "Ann Arbor, Michigan, USA",
       "timeline": [
         {
-          "deadline": "2025-07-29 23:59:00",
-          "abstract_deadline": "2025-07-22 23:59:00",
+          "deadline": "2025-07-29 23:59:59",
+          "abstract_deadline": "2025-07-22 23:59:59",
           "comment": "summer round"
         },
         {
-          "deadline": "2025-10-14 23:59:00",
-          "abstract_deadline": "2025-10-07 23:59:00",
+          "deadline": "2025-10-14 23:59:59",
+          "abstract_deadline": "2025-10-07 23:59:59",
           "comment": "fall round"
         },
         {
-          "deadline": "2026-01-13 23:59:00",
-          "abstract_deadline": "2026-01-06 23:59:00",
+          "deadline": "2026-01-13 23:59:59",
+          "abstract_deadline": "2026-01-06 23:59:59",
           "comment": "winter round"
         }
       ],
@@ -14733,18 +14733,18 @@
       "place": "Atlanta, Georgia, USA",
       "timeline": [
         {
-          "deadline": "2026-07-10 23:59:00",
-          "abstract_deadline": "2026-07-03 23:59:00",
+          "deadline": "2026-07-10 23:59:59",
+          "abstract_deadline": "2026-07-03 23:59:59",
           "comment": "summer round"
         },
         {
-          "deadline": "2026-10-09 23:59:00",
-          "abstract_deadline": "2026-10-02 23:59:00",
+          "deadline": "2026-10-09 23:59:59",
+          "abstract_deadline": "2026-10-02 23:59:59",
           "comment": "fall round"
         },
         {
-          "deadline": "2027-01-11 23:59:00",
-          "abstract_deadline": "2027-01-04 23:59:00",
+          "deadline": "2027-01-11 23:59:59",
+          "abstract_deadline": "2027-01-04 23:59:59",
           "comment": "winter round"
         }
       ],
@@ -14948,8 +14948,8 @@
       "place": "New Orleans, Louisiana, USA",
       "timeline": [
         {
-          "deadline": "2021-09-09 23:59:00",
-          "abstract_deadline": "2021-09-02 23:59:00",
+          "deadline": "2021-09-09 23:59:59",
+          "abstract_deadline": "2021-09-02 23:59:59",
           "comment": null
         }
       ],
@@ -14973,8 +14973,8 @@
       "place": "Hamburg, Germany",
       "timeline": [
         {
-          "deadline": "2022-09-15 23:59:00",
-          "abstract_deadline": "2022-09-08 23:59:00",
+          "deadline": "2022-09-15 23:59:59",
+          "abstract_deadline": "2022-09-08 23:59:59",
           "comment": null
         }
       ],
@@ -15098,12 +15098,12 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-10-15 23:59:00",
+          "deadline": "2020-10-15 23:59:59",
           "abstract_deadline": null,
           "comment": "October 2020 cycle"
         },
         {
-          "deadline": "2021-01-15 23:59:00",
+          "deadline": "2021-01-15 23:59:59",
           "abstract_deadline": null,
           "comment": "January 2021 cycle"
         },
@@ -15133,7 +15133,7 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-07-15 23:59:00",
+          "deadline": "2021-07-15 23:59:59",
           "abstract_deadline": null,
           "comment": "July 2021 cycle"
         },
@@ -15163,12 +15163,12 @@
       "place": "Minneapolis, MN, USA",
       "timeline": [
         {
-          "deadline": "2022-07-15 23:59:00",
+          "deadline": "2022-07-15 23:59:59",
           "abstract_deadline": null,
           "comment": "July 2022 cycle"
         },
         {
-          "deadline": "2023-01-15 23:59:00",
+          "deadline": "2023-01-15 23:59:59",
           "abstract_deadline": null,
           "comment": "January 2023 cycle"
         }
@@ -15193,7 +15193,7 @@
       "place": "San José, Costa Rica",
       "timeline": [
         {
-          "deadline": "2023-07-18 23:59:00",
+          "deadline": "2023-07-18 23:59:59",
           "abstract_deadline": null,
           "comment": "July 2023 cycle"
         },
@@ -15278,8 +15278,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-10-09 23:59:00",
-          "abstract_deadline": "2020-10-02 23:59:00",
+          "deadline": "2020-10-09 23:59:59",
+          "abstract_deadline": "2020-10-02 23:59:59",
           "comment": null
         }
       ],
@@ -15303,8 +15303,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-10-08 23:59:00",
-          "abstract_deadline": "2021-10-01 23:59:00",
+          "deadline": "2021-10-08 23:59:59",
+          "abstract_deadline": "2021-10-01 23:59:59",
           "comment": null
         }
       ],
@@ -15328,8 +15328,8 @@
       "place": "Sydney, Australia",
       "timeline": [
         {
-          "deadline": "2022-10-14 23:59:00",
-          "abstract_deadline": "2022-10-07 23:59:00",
+          "deadline": "2022-10-14 23:59:59",
+          "abstract_deadline": "2022-10-07 23:59:59",
           "comment": null
         }
       ],
@@ -15453,8 +15453,8 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2020-10-10 23:59:00",
-          "abstract_deadline": "2020-10-04 23:59:00",
+          "deadline": "2020-10-10 23:59:59",
+          "abstract_deadline": "2020-10-04 23:59:59",
           "comment": null
         }
       ],
@@ -15478,8 +15478,8 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2021-10-14 23:59:00",
-          "abstract_deadline": "2021-10-08 23:59:00",
+          "deadline": "2021-10-14 23:59:59",
+          "abstract_deadline": "2021-10-08 23:59:59",
           "comment": null
         }
       ],
@@ -15503,8 +15503,8 @@
       "place": "Atlanta, GA, USA",
       "timeline": [
         {
-          "deadline": "2022-10-10 23:59:00",
-          "abstract_deadline": "2022-10-03 23:59:00",
+          "deadline": "2022-10-10 23:59:59",
+          "abstract_deadline": "2022-10-03 23:59:59",
           "comment": null
         }
       ],
@@ -15528,8 +15528,8 @@
       "place": "Biarritz, France",
       "timeline": [
         {
-          "deadline": "2023-10-09 23:59:00",
-          "abstract_deadline": "2023-10-02 23:59:00",
+          "deadline": "2023-10-09 23:59:59",
+          "abstract_deadline": "2023-10-02 23:59:59",
           "comment": null
         }
       ],
@@ -15553,8 +15553,8 @@
       "place": "Walter E. Washington Convention Center, Washington DC, USA",
       "timeline": [
         {
-          "deadline": "2024-10-04 23:59:00",
-          "abstract_deadline": "2024-09-29 23:59:00",
+          "deadline": "2024-10-04 23:59:59",
+          "abstract_deadline": "2024-09-29 23:59:59",
           "comment": null
         }
       ],
@@ -15578,8 +15578,8 @@
       "place": "Pisa, Italy",
       "timeline": [
         {
-          "deadline": "2025-10-03 23:59:00",
-          "abstract_deadline": "2025-10-03 23:59:00",
+          "deadline": "2025-10-03 23:59:59",
+          "abstract_deadline": "2025-10-03 23:59:59",
           "comment": null
         }
       ],
@@ -15728,8 +15728,8 @@
       "place": "Busan, Korea",
       "timeline": [
         {
-          "deadline": "2025-04-09 23:59:00",
-          "abstract_deadline": "2025-04-02 23:59:00",
+          "deadline": "2025-04-09 23:59:59",
+          "abstract_deadline": "2025-04-02 23:59:59",
           "comment": null
         }
       ],
@@ -15778,7 +15778,7 @@
       "place": "Nanjing， China",
       "timeline": [
         {
-          "deadline": "2025-07-15 23:59:00",
+          "deadline": "2025-07-15 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -15803,7 +15803,7 @@
       "place": "Hsinchu, Taiwan， China",
       "timeline": [
         {
-          "deadline": "2026-07-17 23:59:00",
+          "deadline": "2026-07-17 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -15958,7 +15958,7 @@
       "place": "Dallas, USA",
       "timeline": [
         {
-          "deadline": "2026-07-05 23:59:00",
+          "deadline": "2026-07-05 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -15983,8 +15983,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-04-09 23:59:00",
-          "abstract_deadline": "2021-04-02 23:59:00",
+          "deadline": "2021-04-09 23:59:59",
+          "abstract_deadline": "2021-04-02 23:59:59",
           "comment": null
         }
       ],
@@ -16008,8 +16008,8 @@
       "place": "Shanghai, China; Phoenix, USA; Virtual",
       "timeline": [
         {
-          "deadline": "2022-04-07 23:59:00",
-          "abstract_deadline": "2022-03-31 23:59:00",
+          "deadline": "2022-04-07 23:59:59",
+          "abstract_deadline": "2022-03-31 23:59:59",
           "comment": null
         }
       ],
@@ -16033,8 +16033,8 @@
       "place": "Hamburg, Germany",
       "timeline": [
         {
-          "deadline": "2023-03-23 23:59:00",
-          "abstract_deadline": "2023-03-16 23:59:00",
+          "deadline": "2023-03-23 23:59:59",
+          "abstract_deadline": "2023-03-16 23:59:59",
           "comment": null
         }
       ],
@@ -16133,7 +16133,7 @@
       "place": "Haifa, Israel (Hybrid)",
       "timeline": [
         {
-          "deadline": "2022-08-08 23:59:00",
+          "deadline": "2022-08-08 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -16158,7 +16158,7 @@
       "place": "Wrocław, Poland",
       "timeline": [
         {
-          "deadline": "2023-07-12 23:59:00",
+          "deadline": "2023-07-12 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -16183,7 +16183,7 @@
       "place": "Kunming, China",
       "timeline": [
         {
-          "deadline": "2024-04-08 23:59:00",
+          "deadline": "2024-04-08 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -16258,8 +16258,8 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2021-03-03 23:59:00",
-          "abstract_deadline": "2021-02-22 23:59:00",
+          "deadline": "2021-03-03 23:59:59",
+          "abstract_deadline": "2021-02-22 23:59:59",
           "comment": null
         }
       ],
@@ -16283,8 +16283,8 @@
       "place": "Singapore (Hybrid)",
       "timeline": [
         {
-          "deadline": "2022-03-01 23:59:00",
-          "abstract_deadline": "2022-02-15 23:59:00",
+          "deadline": "2022-03-01 23:59:59",
+          "abstract_deadline": "2022-02-15 23:59:59",
           "comment": null
         }
       ],
@@ -16309,7 +16309,7 @@
       "timeline": [
         {
           "deadline": "2023-03-09 23:59:59",
-          "abstract_deadline": "2023-02-23 23:59:00",
+          "abstract_deadline": "2023-02-23 23:59:59",
           "comment": null
         }
       ],
@@ -16334,7 +16334,7 @@
       "timeline": [
         {
           "deadline": "2024-03-07 23:59:59",
-          "abstract_deadline": "2024-02-22 23:59:00",
+          "abstract_deadline": "2024-02-22 23:59:59",
           "comment": null
         }
       ],
@@ -16358,8 +16358,8 @@
       "place": "Daejeon, Republic of Korea",
       "timeline": [
         {
-          "deadline": "2025-02-27 23:59:00",
-          "abstract_deadline": "2025-02-13 23:59:00",
+          "deadline": "2025-02-27 23:59:59",
+          "abstract_deadline": "2025-02-13 23:59:59",
           "comment": null
         }
       ],
@@ -16383,8 +16383,8 @@
       "place": "Strasbourg, France",
       "timeline": [
         {
-          "deadline": "2026-02-26 23:59:00",
-          "abstract_deadline": "2026-02-12 23:59:00",
+          "deadline": "2026-02-26 23:59:59",
+          "abstract_deadline": "2026-02-12 23:59:59",
           "comment": null
         }
       ],
@@ -16658,8 +16658,8 @@
       "place": "La Jolla, CA, USA",
       "timeline": [
         {
-          "deadline": "2021-11-04 23:59:00",
-          "abstract_deadline": "2021-11-04 23:59:00",
+          "deadline": "2021-11-04 23:59:59",
+          "abstract_deadline": "2021-11-04 23:59:59",
           "comment": null
         }
       ],
@@ -16683,8 +16683,8 @@
       "place": "Istanbul, Turkey",
       "timeline": [
         {
-          "deadline": "2022-10-14 23:59:00",
-          "abstract_deadline": "2022-10-07 23:59:00",
+          "deadline": "2022-10-14 23:59:59",
+          "abstract_deadline": "2022-10-07 23:59:59",
           "comment": null
         }
       ],
@@ -16708,8 +16708,8 @@
       "place": "Cambridge, MA, USA",
       "timeline": [
         {
-          "deadline": "2023-11-03 23:59:00",
-          "abstract_deadline": "2023-10-23 23:59:00",
+          "deadline": "2023-11-03 23:59:59",
+          "abstract_deadline": "2023-10-23 23:59:59",
           "comment": null
         }
       ],
@@ -16808,7 +16808,7 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-05-27 23:59:00",
+          "deadline": "2021-05-27 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -16858,7 +16858,7 @@
       "place": "Taipei",
       "timeline": [
         {
-          "deadline": "2023-05-25 23:59:00",
+          "deadline": "2023-05-25 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -16883,7 +16883,7 @@
       "place": "York, United Kingdom",
       "timeline": [
         {
-          "deadline": "2024-05-23 23:59:00",
+          "deadline": "2024-05-23 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -17133,8 +17133,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-06-28 23:59:00",
-          "abstract_deadline": "2021-06-21 23:59:00",
+          "deadline": "2021-06-28 23:59:59",
+          "abstract_deadline": "2021-06-21 23:59:59",
           "comment": null
         }
       ],
@@ -17183,7 +17183,7 @@
       "place": "Paris, France",
       "timeline": [
         {
-          "deadline": "2022-11-30 23:59:00",
+          "deadline": "2022-11-30 23:59:59",
           "abstract_deadline": null,
           "comment": "November cycle"
         },
@@ -17378,7 +17378,7 @@
       "place": "Irvine, California, USA",
       "timeline": [
         {
-          "deadline": "2024-06-27 23:59:00",
+          "deadline": "2024-06-27 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -17403,7 +17403,7 @@
       "place": "College Park, Maryland, USA",
       "timeline": [
         {
-          "deadline": "2025-07-09 23:59:00",
+          "deadline": "2025-07-09 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -17603,8 +17603,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-05-26 23:59:00",
-          "abstract_deadline": "2021-05-19 23:59:00",
+          "deadline": "2021-05-26 23:59:59",
+          "abstract_deadline": "2021-05-19 23:59:59",
           "comment": null
         }
       ],
@@ -17628,8 +17628,8 @@
       "place": "Nice, France",
       "timeline": [
         {
-          "deadline": "2022-05-18 23:59:00",
-          "abstract_deadline": "2022-05-11 23:59:00",
+          "deadline": "2022-05-18 23:59:59",
+          "abstract_deadline": "2022-05-11 23:59:59",
           "comment": null
         }
       ],
@@ -17653,8 +17653,8 @@
       "place": "Montreal, Canada",
       "timeline": [
         {
-          "deadline": "2023-05-26 23:59:00",
-          "abstract_deadline": "2023-05-20 23:59:00",
+          "deadline": "2023-05-26 23:59:59",
+          "abstract_deadline": "2023-05-20 23:59:59",
           "comment": null
         }
       ],
@@ -18063,8 +18063,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-03-01 23:59:00",
-          "abstract_deadline": "2021-02-15 23:59:00",
+          "deadline": "2021-03-01 23:59:59",
+          "abstract_deadline": "2021-02-15 23:59:59",
           "comment": "Registration / full paper"
         }
       ],
@@ -18088,8 +18088,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2022-02-16 23:59:00",
-          "abstract_deadline": "2022-02-07 23:59:00",
+          "deadline": "2022-02-16 23:59:59",
+          "abstract_deadline": "2022-02-07 23:59:59",
           "comment": "Registration / full paper"
         }
       ],
@@ -18113,7 +18113,7 @@
       "place": "Orlando, FL, USA",
       "timeline": [
         {
-          "deadline": "2023-02-12 23:59:00",
+          "deadline": "2023-02-12 23:59:59",
           "abstract_deadline": "2023-02-07 00:00:00",
           "comment": "Registration / full paper"
         }
@@ -18138,8 +18138,8 @@
       "place": "Guangzhou, China",
       "timeline": [
         {
-          "deadline": "2024-02-24 23:59:00",
-          "abstract_deadline": "2024-02-19 23:59:00",
+          "deadline": "2024-02-24 23:59:59",
+          "abstract_deadline": "2024-02-19 23:59:59",
           "comment": "Registration / full paper"
         }
       ],
@@ -18213,8 +18213,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-05-31 23:59:00",
-          "abstract_deadline": "2021-05-31 23:59:00",
+          "deadline": "2021-05-31 23:59:59",
+          "abstract_deadline": "2021-05-31 23:59:59",
           "comment": null
         }
       ],
@@ -18238,8 +18238,8 @@
       "place": "Edmonton, Canada / Hybrid",
       "timeline": [
         {
-          "deadline": "2022-04-24 23:59:00",
-          "abstract_deadline": "2022-04-24 23:59:00",
+          "deadline": "2022-04-24 23:59:59",
+          "abstract_deadline": "2022-04-24 23:59:59",
           "comment": null
         }
       ],
@@ -18263,8 +18263,8 @@
       "place": "Daytona Beach, FL, USA",
       "timeline": [
         {
-          "deadline": "2023-04-28 23:59:00",
-          "abstract_deadline": "2023-04-28 23:59:00",
+          "deadline": "2023-04-28 23:59:59",
+          "abstract_deadline": "2023-04-28 23:59:59",
           "comment": null
         }
       ],
@@ -18288,8 +18288,8 @@
       "place": "Caen, France",
       "timeline": [
         {
-          "deadline": "2024-05-03 23:59:00",
-          "abstract_deadline": "2024-05-03 23:59:00",
+          "deadline": "2024-05-03 23:59:59",
+          "abstract_deadline": "2024-05-03 23:59:59",
           "comment": null
         }
       ],
@@ -18313,8 +18313,8 @@
       "place": "Sydney, Australia",
       "timeline": [
         {
-          "deadline": "2025-05-11 23:59:00",
-          "abstract_deadline": "2025-05-11 23:59:00",
+          "deadline": "2025-05-11 23:59:59",
+          "abstract_deadline": "2025-05-11 23:59:59",
           "comment": null
         }
       ],
@@ -18339,7 +18339,7 @@
       "timeline": [
         {
           "deadline": "2026-05-04 23:59:59",
-          "abstract_deadline": "2026-05-04 23:59:00",
+          "abstract_deadline": "2026-05-04 23:59:59",
           "comment": "Registration / full paper"
         }
       ],
@@ -18363,13 +18363,13 @@
       "place": "New Orleans, LA, USA",
       "timeline": [
         {
-          "deadline": "2020-08-21 23:59:00",
-          "abstract_deadline": "2020-08-14 23:59:00",
+          "deadline": "2020-08-21 23:59:59",
+          "abstract_deadline": "2020-08-14 23:59:59",
           "comment": "Summer cycle"
         },
         {
-          "deadline": "2021-03-26 23:59:00",
-          "abstract_deadline": "2021-03-19 23:59:00",
+          "deadline": "2021-03-26 23:59:59",
+          "abstract_deadline": "2021-03-19 23:59:59",
           "comment": "Winter cycle"
         }
       ],
@@ -18643,8 +18643,8 @@
       "place": "Tokyo, Japan",
       "timeline": [
         {
-          "deadline": "2023-11-30 23:59:00",
-          "abstract_deadline": "2023-11-23 23:59:00",
+          "deadline": "2023-11-30 23:59:59",
+          "abstract_deadline": "2023-11-23 23:59:59",
           "comment": null
         }
       ],
@@ -18668,8 +18668,8 @@
       "place": "Anaheim, California, USA",
       "timeline": [
         {
-          "deadline": "2024-12-09 23:59:00",
-          "abstract_deadline": "2024-12-02 23:59:00",
+          "deadline": "2024-12-09 23:59:59",
+          "abstract_deadline": "2024-12-02 23:59:59",
           "comment": null
         }
       ],
@@ -18743,13 +18743,13 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-04-17 23:59:00",
-          "abstract_deadline": "2020-04-10 23:59:00",
+          "deadline": "2020-04-17 23:59:59",
+          "abstract_deadline": "2020-04-10 23:59:59",
           "comment": "Spring round"
         },
         {
-          "deadline": "2020-09-17 23:59:00",
-          "abstract_deadline": "2020-09-16 23:59:00",
+          "deadline": "2020-09-17 23:59:59",
+          "abstract_deadline": "2020-09-16 23:59:59",
           "comment": "Fall round"
         }
       ],
@@ -18978,8 +18978,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2022-05-16 23:59:00",
-          "abstract_deadline": "2022-05-09 23:59:00",
+          "deadline": "2022-05-16 23:59:59",
+          "abstract_deadline": "2022-05-09 23:59:59",
           "comment": null
         }
       ],
@@ -19003,8 +19003,8 @@
       "place": "Madrid, Spain",
       "timeline": [
         {
-          "deadline": "2023-04-05 23:59:00",
-          "abstract_deadline": "2023-04-05 23:59:00",
+          "deadline": "2023-04-05 23:59:59",
+          "abstract_deadline": "2023-04-05 23:59:59",
           "comment": null
         }
       ],
@@ -19028,8 +19028,8 @@
       "place": "Phoenix, AZ, USA",
       "timeline": [
         {
-          "deadline": "2024-08-30 23:59:00",
-          "abstract_deadline": "2024-08-30 23:59:00",
+          "deadline": "2024-08-30 23:59:59",
+          "abstract_deadline": "2024-08-30 23:59:59",
           "comment": null
         }
       ],
@@ -19103,8 +19103,8 @@
       "place": "Coimbra, Portugal",
       "timeline": [
         {
-          "deadline": "2021-06-04 23:59:00",
-          "abstract_deadline": "2021-05-28 23:59:00",
+          "deadline": "2021-06-04 23:59:59",
+          "abstract_deadline": "2021-05-28 23:59:59",
           "comment": null
         }
       ],
@@ -19128,8 +19128,8 @@
       "place": "Boston, MA, USA",
       "timeline": [
         {
-          "deadline": "2022-06-21 23:59:00",
-          "abstract_deadline": "2022-06-14 23:59:00",
+          "deadline": "2022-06-21 23:59:59",
+          "abstract_deadline": "2022-06-14 23:59:59",
           "comment": null
         }
       ],
@@ -19153,8 +19153,8 @@
       "place": "Istanbul, Turkiye",
       "timeline": [
         {
-          "deadline": "2023-06-29 23:59:00",
-          "abstract_deadline": "2023-06-22 23:59:00",
+          "deadline": "2023-06-29 23:59:59",
+          "abstract_deadline": "2023-06-22 23:59:59",
           "comment": null
         }
       ],
@@ -19178,8 +19178,8 @@
       "place": "Hangzhou, China",
       "timeline": [
         {
-          "deadline": "2024-07-01 23:59:00",
-          "abstract_deadline": "2024-06-24 23:59:00",
+          "deadline": "2024-07-01 23:59:59",
+          "abstract_deadline": "2024-06-24 23:59:59",
           "comment": null
         }
       ],
@@ -19203,8 +19203,8 @@
       "place": "Irvine, CA, USA",
       "timeline": [
         {
-          "deadline": "2024-11-14 23:59:00",
-          "abstract_deadline": "2024-11-14 23:59:00",
+          "deadline": "2024-11-14 23:59:59",
+          "abstract_deadline": "2024-11-14 23:59:59",
           "comment": "Registration optional; full required"
         }
       ],
@@ -19228,13 +19228,13 @@
       "place": "Saint-Malo, France",
       "timeline": [
         {
-          "deadline": "2025-07-01 23:59:00",
-          "abstract_deadline": "2025-07-01 23:59:00",
+          "deadline": "2025-07-01 23:59:59",
+          "abstract_deadline": "2025-07-01 23:59:59",
           "comment": "1st deadline"
         },
         {
-          "deadline": "2025-11-13 23:59:00",
-          "abstract_deadline": "2025-11-06 23:59:00",
+          "deadline": "2025-11-13 23:59:59",
+          "abstract_deadline": "2025-11-06 23:59:59",
           "comment": "2nd deadline"
         }
       ],
@@ -19258,13 +19258,13 @@
       "place": "Boulder, CO, USA",
       "timeline": [
         {
-          "deadline": "2026-06-05 23:59:00",
-          "abstract_deadline": "2026-05-29 23:59:00",
+          "deadline": "2026-06-05 23:59:59",
+          "abstract_deadline": "2026-05-29 23:59:59",
           "comment": "1st deadline"
         },
         {
-          "deadline": "2026-11-05 23:59:00",
-          "abstract_deadline": "2026-10-29 23:59:00",
+          "deadline": "2026-11-05 23:59:59",
+          "abstract_deadline": "2026-10-29 23:59:59",
           "comment": "2nd deadline"
         }
       ],
@@ -19463,7 +19463,7 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-12-31 23:59:00",
+          "deadline": "2020-12-31 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -19488,7 +19488,7 @@
       "place": "Belfast, Northern Ireland, UK (Hybrid)",
       "timeline": [
         {
-          "deadline": "2022-01-15 23:59:00",
+          "deadline": "2022-01-15 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -19513,7 +19513,7 @@
       "place": "Boston, MA, USA",
       "timeline": [
         {
-          "deadline": "2023-01-19 23:59:00",
+          "deadline": "2023-01-19 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -19538,7 +19538,7 @@
       "place": "Perth, Western Australia",
       "timeline": [
         {
-          "deadline": "2023-12-17 23:59:00",
+          "deadline": "2023-12-17 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -19563,7 +19563,7 @@
       "place": "Fort Worth, Texas, USA",
       "timeline": [
         {
-          "deadline": "2024-12-09 23:59:00",
+          "deadline": "2024-12-09 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -19638,14 +19638,14 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-09-07 23:59:00",
+          "deadline": "2020-09-07 23:59:59",
           "abstract_deadline": null,
-          "comment": "First regular paper final deadline; 23:59:00 is the repository default for unspecified cutoff time"
+          "comment": "First regular paper final deadline; 23:59:59 is the repository default for unspecified cutoff time"
         },
         {
-          "deadline": "2021-01-15 23:59:00",
+          "deadline": "2021-01-15 23:59:59",
           "abstract_deadline": null,
-          "comment": "Second regular paper final deadline; 23:59:00 is the repository default for unspecified cutoff time"
+          "comment": "Second regular paper final deadline; 23:59:59 is the repository default for unspecified cutoff time"
         }
       ],
       "source": "ccfddl"
@@ -19698,12 +19698,12 @@
       "place": "Kyoto, Japan",
       "timeline": [
         {
-          "deadline": "2022-09-08 23:59:00",
+          "deadline": "2022-09-08 23:59:59",
           "abstract_deadline": null,
           "comment": "First regular paper submission deadline"
         },
         {
-          "deadline": "2023-01-12 23:59:00",
+          "deadline": "2023-01-12 23:59:59",
           "abstract_deadline": null,
           "comment": "Second regular paper submission deadline"
         }
@@ -20058,12 +20058,12 @@
       "place": "Melbourne, Australia",
       "timeline": [
         {
-          "deadline": "2022-09-01 23:59:00",
+          "deadline": "2022-09-01 23:59:59",
           "abstract_deadline": null,
           "comment": "Round 1"
         },
         {
-          "deadline": "2022-12-15 23:59:00",
+          "deadline": "2022-12-15 23:59:59",
           "abstract_deadline": null,
           "comment": "Round 2"
         }
@@ -20504,12 +20504,12 @@
       "timeline": [
         {
           "deadline": "2025-01-09 23:59:59",
-          "abstract_deadline": "2025-01-02 23:59:00",
+          "abstract_deadline": "2025-01-02 23:59:59",
           "comment": "Cycle 1"
         },
         {
           "deadline": "2025-04-14 23:59:59",
-          "abstract_deadline": "2025-04-07 23:59:00",
+          "abstract_deadline": "2025-04-07 23:59:59",
           "comment": "Cycle 2"
         }
       ],
@@ -20868,8 +20868,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-10-11 23:59:00",
-          "abstract_deadline": "2020-10-04 23:59:00",
+          "deadline": "2020-10-11 23:59:59",
+          "abstract_deadline": "2020-10-04 23:59:59",
           "comment": "Regular research paper (extended)"
         }
       ],
@@ -20893,8 +20893,8 @@
       "place": "Baltimore-Washington DC Area, USA (hybrid)",
       "timeline": [
         {
-          "deadline": "2021-10-15 23:59:00",
-          "abstract_deadline": "2021-10-08 23:59:00",
+          "deadline": "2021-10-15 23:59:59",
+          "abstract_deadline": "2021-10-08 23:59:59",
           "comment": "Regular research paper (extended)"
         }
       ],
@@ -20918,7 +20918,7 @@
       "place": "Charlotte, NC, USA",
       "timeline": [
         {
-          "deadline": "2022-10-17 23:59:00",
+          "deadline": "2022-10-17 23:59:59",
           "abstract_deadline": null,
           "comment": "Regular research paper (extended); separate abstract deadline withdrawn in official CFP"
         }
@@ -20943,8 +20943,8 @@
       "place": "Porto, Portugal",
       "timeline": [
         {
-          "deadline": "2023-12-29 23:59:00",
-          "abstract_deadline": "2023-12-22 23:59:00",
+          "deadline": "2023-12-29 23:59:59",
+          "abstract_deadline": "2023-12-22 23:59:59",
           "comment": "Regular research paper (extended)"
         }
       ],
@@ -20968,8 +20968,8 @@
       "place": "Pittsburgh, PA, USA",
       "timeline": [
         {
-          "deadline": "2024-12-16 23:59:00",
-          "abstract_deadline": "2024-12-09 23:59:00",
+          "deadline": "2024-12-16 23:59:59",
+          "abstract_deadline": "2024-12-09 23:59:59",
           "comment": "Regular research paper (extended)"
         }
       ],
@@ -21193,12 +21193,12 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-05-08 23:59:00",
+          "deadline": "2020-05-08 23:59:59",
           "abstract_deadline": null,
           "comment": "Spring"
         },
         {
-          "deadline": "2020-10-02 23:59:00",
+          "deadline": "2020-10-02 23:59:59",
           "abstract_deadline": null,
           "comment": "Fall"
         },
@@ -21238,7 +21238,7 @@
           "comment": "fall"
         },
         {
-          "deadline": "2022-02-04 23:59:00",
+          "deadline": "2022-02-04 23:59:59",
           "abstract_deadline": null,
           "comment": "Winter"
         }
@@ -21438,7 +21438,7 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-12-01 23:59:00",
+          "deadline": "2020-12-01 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -21463,7 +21463,7 @@
       "place": "San Francisco, CA, USA",
       "timeline": [
         {
-          "deadline": "2021-09-23 23:59:00",
+          "deadline": "2021-09-23 23:59:59",
           "abstract_deadline": null,
           "comment": "Submission deadline"
         }
@@ -21613,7 +21613,7 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2020-10-14 23:59:00",
+          "deadline": "2020-10-14 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -21638,7 +21638,7 @@
       "place": "Oxford, UK (Hybrid)",
       "timeline": [
         {
-          "deadline": "2021-10-15 23:59:00",
+          "deadline": "2021-10-15 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -21663,8 +21663,8 @@
       "place": "Bonn, Germany (Hybrid)",
       "timeline": [
         {
-          "deadline": "2022-10-17 23:59:00",
-          "abstract_deadline": "2022-10-10 23:59:00",
+          "deadline": "2022-10-17 23:59:59",
+          "abstract_deadline": "2022-10-10 23:59:59",
           "comment": null
         }
       ],
@@ -21688,8 +21688,8 @@
       "place": "Zaragoza, Spain (Hybrid)",
       "timeline": [
         {
-          "deadline": "2023-10-12 23:59:00",
-          "abstract_deadline": "2023-10-05 23:59:00",
+          "deadline": "2023-10-12 23:59:59",
+          "abstract_deadline": "2023-10-05 23:59:59",
           "comment": null
         }
       ],
@@ -21713,8 +21713,8 @@
       "place": "Brno, Czech Republic",
       "timeline": [
         {
-          "deadline": "2024-10-11 23:59:00",
-          "abstract_deadline": "2024-10-04 23:59:00",
+          "deadline": "2024-10-11 23:59:59",
+          "abstract_deadline": "2024-10-04 23:59:59",
           "comment": null
         }
       ],
@@ -21738,8 +21738,8 @@
       "place": "Linköping, Sweden",
       "timeline": [
         {
-          "deadline": "2025-10-10 23:59:00",
-          "abstract_deadline": "2025-10-03 23:59:00",
+          "deadline": "2025-10-10 23:59:59",
+          "abstract_deadline": "2025-10-03 23:59:59",
           "comment": null
         }
       ],
@@ -21838,7 +21838,7 @@
       "place": "Hamburg, Germany",
       "timeline": [
         {
-          "deadline": "2022-12-07 23:59:00",
+          "deadline": "2022-12-07 23:59:59",
           "abstract_deadline": null,
           "comment": "Cycle 1"
         },
@@ -21903,7 +21903,7 @@
           "comment": "Cycle 1"
         },
         {
-          "deadline": "2025-02-19 23:59:00",
+          "deadline": "2025-02-19 23:59:59",
           "abstract_deadline": null,
           "comment": "Cycle 2"
         }
@@ -21959,7 +21959,7 @@
       "timeline": [
         {
           "deadline": "2020-12-11 23:59:59",
-          "abstract_deadline": "2020-12-11 23:59:00",
+          "abstract_deadline": "2020-12-11 23:59:59",
           "comment": null
         }
       ],
@@ -21983,8 +21983,8 @@
       "place": "Baltimore, Maryland, USA",
       "timeline": [
         {
-          "deadline": "2021-12-10 23:59:00",
-          "abstract_deadline": "2021-12-03 23:59:00",
+          "deadline": "2021-12-10 23:59:59",
+          "abstract_deadline": "2021-12-03 23:59:59",
           "comment": null
         }
       ],
@@ -22193,12 +22193,12 @@
       "place": "The Hague, The Netherlands",
       "timeline": [
         {
-          "deadline": "2023-01-22 23:59:00",
+          "deadline": "2023-01-22 23:59:59",
           "abstract_deadline": null,
           "comment": "Winter"
         },
         {
-          "deadline": "2023-06-04 23:59:00",
+          "deadline": "2023-06-04 23:59:59",
           "abstract_deadline": null,
           "comment": "Spring"
         }
@@ -22223,12 +22223,12 @@
       "place": "Bydgoszcz, Poland",
       "timeline": [
         {
-          "deadline": "2024-01-08 23:59:00",
+          "deadline": "2024-01-08 23:59:59",
           "abstract_deadline": null,
           "comment": "Winter"
         },
         {
-          "deadline": "2024-04-19 23:59:00",
+          "deadline": "2024-04-19 23:59:59",
           "abstract_deadline": null,
           "comment": "Spring"
         }
@@ -22488,7 +22488,7 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-11-05 23:59:00",
+          "deadline": "2020-11-05 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -22538,7 +22538,7 @@
       "place": "Delft, Netherlands",
       "timeline": [
         {
-          "deadline": "2022-10-26 23:59:00",
+          "deadline": "2022-10-26 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -22688,7 +22688,7 @@
       "place": "Radisson Grenada Beach Resort Grenada",
       "timeline": [
         {
-          "deadline": "2021-09-13 23:59:00",
+          "deadline": "2021-09-13 23:59:59",
           "abstract_deadline": "2021-09-02 23:59:59",
           "comment": null
         }
@@ -22713,7 +22713,7 @@
       "place": "Bol, Brac, Croatia",
       "timeline": [
         {
-          "deadline": "2022-10-19 23:59:00",
+          "deadline": "2022-10-19 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -22738,7 +22738,7 @@
       "place": "Willemstad, Curaçao",
       "timeline": [
         {
-          "deadline": "2023-09-20 23:59:00",
+          "deadline": "2023-09-20 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -23118,7 +23118,7 @@
       "place": "Canterbury, UK (Hybrid)",
       "timeline": [
         {
-          "deadline": "2022-04-11 23:59:00",
+          "deadline": "2022-04-11 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -23143,7 +23143,7 @@
       "place": "Nankai University, Tianjin, China",
       "timeline": [
         {
-          "deadline": "2023-04-06 23:59:00",
+          "deadline": "2023-04-06 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -23258,12 +23258,12 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-05-22 23:59:00",
+          "deadline": "2020-05-22 23:59:59",
           "abstract_deadline": null,
           "comment": "Summer"
         },
         {
-          "deadline": "2020-07-31 23:59:00",
+          "deadline": "2020-07-31 23:59:59",
           "abstract_deadline": null,
           "comment": "Fall"
         }
@@ -23543,7 +23543,7 @@
       "place": "Bedford, PA USA",
       "timeline": [
         {
-          "deadline": "2024-04-28 23:59:00",
+          "deadline": "2024-04-28 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -23948,7 +23948,7 @@
       "place": "Atlanta, USA",
       "timeline": [
         {
-          "deadline": "2022-11-01 23:59:00",
+          "deadline": "2022-11-01 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -24248,12 +24248,12 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-11-15 23:59:00",
+          "deadline": "2021-11-15 23:59:59",
           "abstract_deadline": null,
           "comment": "Cycle 1"
         },
         {
-          "deadline": "2022-02-25 23:59:00",
+          "deadline": "2022-02-25 23:59:59",
           "abstract_deadline": null,
           "comment": "Cycle 2"
         }
@@ -24278,13 +24278,13 @@
       "place": "Trento, Italy",
       "timeline": [
         {
-          "deadline": "2022-12-15 23:59:00",
+          "deadline": "2022-12-15 23:59:59",
           "abstract_deadline": null,
           "comment": "Cycle 1"
         },
         {
-          "deadline": "2023-03-02 23:59:00",
-          "abstract_deadline": "2023-02-23 23:59:00",
+          "deadline": "2023-03-02 23:59:59",
+          "abstract_deadline": "2023-02-23 23:59:59",
           "comment": "Cycle 2; optional abstract"
         }
       ],
@@ -24308,8 +24308,8 @@
       "place": "San Antonio, TX, USA",
       "timeline": [
         {
-          "deadline": "2024-02-18 23:59:00",
-          "abstract_deadline": "2024-02-01 23:59:00",
+          "deadline": "2024-02-18 23:59:59",
+          "abstract_deadline": "2024-02-01 23:59:59",
           "comment": "Optional abstract"
         }
       ],
@@ -24334,7 +24334,7 @@
       "timeline": [
         {
           "deadline": "2025-03-31 23:59:59",
-          "abstract_deadline": "2025-03-31 23:59:00",
+          "abstract_deadline": "2025-03-31 23:59:59",
           "comment": null
         }
       ],
@@ -24443,8 +24443,8 @@
       "place": "Boston, MA, USA",
       "timeline": [
         {
-          "deadline": "2022-02-17 23:59:00",
-          "abstract_deadline": "2022-02-11 23:59:00",
+          "deadline": "2022-02-17 23:59:59",
+          "abstract_deadline": "2022-02-11 23:59:59",
           "comment": null
         }
       ],
@@ -24468,8 +24468,8 @@
       "place": "Anaheim, CA, USA",
       "timeline": [
         {
-          "deadline": "2023-02-16 23:59:00",
-          "abstract_deadline": "2023-02-10 23:59:00",
+          "deadline": "2023-02-16 23:59:59",
+          "abstract_deadline": "2023-02-10 23:59:59",
           "comment": null
         }
       ],
@@ -25128,17 +25128,17 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-06-18 23:59:00",
+          "deadline": "2020-06-18 23:59:59",
           "abstract_deadline": null,
           "comment": "Summer Deadline (Extended)"
         },
         {
-          "deadline": "2020-10-15 23:59:00",
+          "deadline": "2020-10-15 23:59:59",
           "abstract_deadline": null,
           "comment": "Fall Deadline"
         },
         {
-          "deadline": "2021-02-04 23:59:00",
+          "deadline": "2021-02-04 23:59:59",
           "abstract_deadline": null,
           "comment": "Winter Deadline"
         }
@@ -25383,7 +25383,7 @@
       "place": "San Antonio, Texas, United States",
       "timeline": [
         {
-          "deadline": "2022-02-12 23:59:00",
+          "deadline": "2022-02-12 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -25408,12 +25408,12 @@
       "place": "Guildford, United Kingdom",
       "timeline": [
         {
-          "deadline": "2022-11-17 23:59:00",
+          "deadline": "2022-11-17 23:59:59",
           "abstract_deadline": null,
           "comment": "Round 1"
         },
         {
-          "deadline": "2023-02-17 23:59:00",
+          "deadline": "2023-02-17 23:59:59",
           "abstract_deadline": null,
           "comment": "Round 2"
         }
@@ -25438,7 +25438,7 @@
       "place": "Seoul, Korea",
       "timeline": [
         {
-          "deadline": "2023-11-09 23:59:00",
+          "deadline": "2023-11-09 23:59:59",
           "abstract_deadline": null,
           "comment": "Round 1"
         },
@@ -25678,8 +25678,8 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2020-12-04 23:59:00",
-          "abstract_deadline": "2020-11-28 23:59:00",
+          "deadline": "2020-12-04 23:59:59",
+          "abstract_deadline": "2020-11-28 23:59:59",
           "comment": null
         }
       ],
@@ -25703,8 +25703,8 @@
       "place": "Leuven",
       "timeline": [
         {
-          "deadline": "2021-11-29 23:59:00",
-          "abstract_deadline": "2021-11-22 23:59:00",
+          "deadline": "2021-11-29 23:59:59",
+          "abstract_deadline": "2021-11-22 23:59:59",
           "comment": null
         }
       ],
@@ -25728,8 +25728,8 @@
       "place": "Zaragoza, Spain",
       "timeline": [
         {
-          "deadline": "2022-11-29 23:59:00",
-          "abstract_deadline": "2022-11-22 23:59:00",
+          "deadline": "2022-11-29 23:59:59",
+          "abstract_deadline": "2022-11-22 23:59:59",
           "comment": null
         }
       ],
@@ -25753,8 +25753,8 @@
       "place": "Limassol, Cyprus",
       "timeline": [
         {
-          "deadline": "2023-12-08 23:59:00",
-          "abstract_deadline": "2023-12-01 23:59:00",
+          "deadline": "2023-12-08 23:59:59",
+          "abstract_deadline": "2023-12-01 23:59:59",
           "comment": null
         }
       ],
@@ -25778,8 +25778,8 @@
       "place": "Vienna, Austria",
       "timeline": [
         {
-          "deadline": "2024-12-06 23:59:00",
-          "abstract_deadline": "2024-11-29 23:59:00",
+          "deadline": "2024-12-06 23:59:59",
+          "abstract_deadline": "2024-11-29 23:59:59",
           "comment": null
         }
       ],
@@ -25828,8 +25828,8 @@
       "place": "Seville, Spain",
       "timeline": [
         {
-          "deadline": "2026-11-15 23:59:00",
-          "abstract_deadline": "2026-11-04 23:59:00",
+          "deadline": "2026-11-15 23:59:59",
+          "abstract_deadline": "2026-11-04 23:59:59",
           "comment": null
         }
       ],
@@ -25853,8 +25853,8 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2021-05-30 23:59:00",
-          "abstract_deadline": "2021-05-21 23:59:00",
+          "deadline": "2021-05-30 23:59:59",
+          "abstract_deadline": "2021-05-21 23:59:59",
           "comment": null
         }
       ],
@@ -25879,7 +25879,7 @@
       "timeline": [
         {
           "deadline": "2022-02-25 23:59:59",
-          "abstract_deadline": "2022-02-18 23:59:00",
+          "abstract_deadline": "2022-02-18 23:59:59",
           "comment": null
         }
       ],
@@ -25903,8 +25903,8 @@
       "place": "Toronto, Canada",
       "timeline": [
         {
-          "deadline": "2023-05-05 23:59:00",
-          "abstract_deadline": "2023-04-28 23:59:00",
+          "deadline": "2023-05-05 23:59:59",
+          "abstract_deadline": "2023-04-28 23:59:59",
           "comment": null
         }
       ],
@@ -25928,8 +25928,8 @@
       "place": "Girona, Catalonia, Spain",
       "timeline": [
         {
-          "deadline": "2024-04-26 23:59:00",
-          "abstract_deadline": "2024-04-18 23:59:00",
+          "deadline": "2024-04-26 23:59:59",
+          "abstract_deadline": "2024-04-18 23:59:59",
           "comment": null
         }
       ],
@@ -26003,8 +26003,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-03-12 23:59:00",
-          "abstract_deadline": "2021-03-05 23:59:00",
+          "deadline": "2021-03-12 23:59:59",
+          "abstract_deadline": "2021-03-05 23:59:59",
           "comment": null
         }
       ],
@@ -26028,8 +26028,8 @@
       "place": "Gothenburg, Sweden (Hybrid)",
       "timeline": [
         {
-          "deadline": "2022-01-31 23:59:00",
-          "abstract_deadline": "2022-01-24 23:59:00",
+          "deadline": "2022-01-31 23:59:59",
+          "abstract_deadline": "2022-01-24 23:59:59",
           "comment": null
         }
       ],
@@ -26053,8 +26053,8 @@
       "place": "Oulu, Finland",
       "timeline": [
         {
-          "deadline": "2023-01-20 23:59:00",
-          "abstract_deadline": "2023-01-13 23:59:00",
+          "deadline": "2023-01-20 23:59:59",
+          "abstract_deadline": "2023-01-13 23:59:59",
           "comment": null
         }
       ],
@@ -26078,8 +26078,8 @@
       "place": "Salerno, Italy",
       "timeline": [
         {
-          "deadline": "2024-01-18 23:59:00",
-          "abstract_deadline": "2024-01-11 23:59:00",
+          "deadline": "2024-01-18 23:59:59",
+          "abstract_deadline": "2024-01-11 23:59:59",
           "comment": null
         }
       ],
@@ -26233,7 +26233,7 @@
       "place": "Seattle, Washington, USA",
       "timeline": [
         {
-          "deadline": "2022-12-01 23:59:00",
+          "deadline": "2022-12-01 23:59:59",
           "abstract_deadline": null,
           "comment": "Round 1"
         },
@@ -26383,8 +26383,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-05-15 23:59:00",
-          "abstract_deadline": "2021-05-08 23:59:00",
+          "deadline": "2021-05-15 23:59:59",
+          "abstract_deadline": "2021-05-08 23:59:59",
           "comment": null
         }
       ],
@@ -26558,8 +26558,8 @@
       "place": "Lübeck, Germany",
       "timeline": [
         {
-          "deadline": "2022-09-11 23:59:00",
-          "abstract_deadline": "2022-09-04 23:59:00",
+          "deadline": "2022-09-11 23:59:59",
+          "abstract_deadline": "2022-09-04 23:59:59",
           "comment": null
         }
       ],
@@ -26583,8 +26583,8 @@
       "place": "Milan, Italy",
       "timeline": [
         {
-          "deadline": "2024-04-19 23:59:00",
-          "abstract_deadline": "2024-04-19 23:59:00",
+          "deadline": "2024-04-19 23:59:59",
+          "abstract_deadline": "2024-04-19 23:59:59",
           "comment": null
         }
       ],
@@ -26608,8 +26608,8 @@
       "place": "Tokyo, Japan",
       "timeline": [
         {
-          "deadline": "2025-12-02 23:59:00",
-          "abstract_deadline": "2025-11-25 23:59:00",
+          "deadline": "2025-12-02 23:59:59",
+          "abstract_deadline": "2025-11-25 23:59:59",
           "comment": "Optional abstract registration"
         }
       ],
@@ -26908,7 +26908,7 @@
       "place": "Burghausen, Bavaria, Germany",
       "timeline": [
         {
-          "deadline": "2027-02-01 23:59:00",
+          "deadline": "2027-02-01 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -26933,7 +26933,7 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-03-02 23:59:00",
+          "deadline": "2021-03-02 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -26958,7 +26958,7 @@
       "place": "Ljubljana, Slovenia",
       "timeline": [
         {
-          "deadline": "2022-03-02 23:59:00",
+          "deadline": "2022-03-02 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -26983,7 +26983,7 @@
       "place": "Seattle, Washington, USA",
       "timeline": [
         {
-          "deadline": "2023-03-01 23:59:00",
+          "deadline": "2023-03-01 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -27008,7 +27008,7 @@
       "place": "Milan, Italy",
       "timeline": [
         {
-          "deadline": "2024-02-28 23:59:00",
+          "deadline": "2024-02-28 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -27033,7 +27033,7 @@
       "place": "Singapore",
       "timeline": [
         {
-          "deadline": "2025-02-27 23:59:00",
+          "deadline": "2025-02-27 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -27058,7 +27058,7 @@
       "place": "Indiana University Indianapolis, United States",
       "timeline": [
         {
-          "deadline": "2026-02-19 23:59:00",
+          "deadline": "2026-02-19 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -27108,8 +27108,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-01-29 23:59:00",
-          "abstract_deadline": "2021-01-22 23:59:00",
+          "deadline": "2021-01-29 23:59:59",
+          "abstract_deadline": "2021-01-22 23:59:59",
           "comment": null
         }
       ],
@@ -27233,7 +27233,7 @@
       "place": "Rio de Janeiro, Brazil",
       "timeline": [
         {
-          "deadline": "2025-10-23 23:59:00",
+          "deadline": "2025-10-23 23:59:59",
           "abstract_deadline": "2025-10-20 09:00:00",
           "comment": null
         }
@@ -27283,7 +27283,7 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-08-28 23:59:00",
+          "deadline": "2020-08-28 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -27473,8 +27473,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-04-29 23:59:00",
-          "abstract_deadline": "2021-04-26 23:59:00",
+          "deadline": "2021-04-29 23:59:59",
+          "abstract_deadline": "2021-04-26 23:59:59",
           "comment": null
         }
       ],
@@ -27648,8 +27648,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2020-10-19 23:59:00",
-          "abstract_deadline": "2020-10-05 23:59:00",
+          "deadline": "2020-10-19 23:59:59",
+          "abstract_deadline": "2020-10-05 23:59:59",
           "comment": null
         }
       ],
@@ -27673,8 +27673,8 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-10-04 23:59:00",
-          "abstract_deadline": "2021-09-27 23:59:00",
+          "deadline": "2021-10-04 23:59:59",
+          "abstract_deadline": "2021-09-27 23:59:59",
           "comment": null
         }
       ],
@@ -27698,7 +27698,7 @@
       "place": "Dublin, Ireland",
       "timeline": [
         {
-          "deadline": "2022-11-03 23:59:00",
+          "deadline": "2022-11-03 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -27723,8 +27723,8 @@
       "place": "Toronto, Canada",
       "timeline": [
         {
-          "deadline": "2023-10-25 23:59:00",
-          "abstract_deadline": "2023-10-18 23:59:00",
+          "deadline": "2023-10-25 23:59:59",
+          "abstract_deadline": "2023-10-18 23:59:59",
           "comment": null
         }
       ],
@@ -27823,7 +27823,7 @@
       "place": "Virtual",
       "timeline": [
         {
-          "deadline": "2021-01-29 23:59:00",
+          "deadline": "2021-01-29 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -28008,13 +28008,13 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2020-12-01 23:59:00",
-          "abstract_deadline": "2020-11-20 23:59:00",
+          "deadline": "2020-12-01 23:59:59",
+          "abstract_deadline": "2020-11-20 23:59:59",
           "comment": "Round 1"
         },
         {
-          "deadline": "2021-06-01 23:59:00",
-          "abstract_deadline": "2021-05-22 23:59:00",
+          "deadline": "2021-06-01 23:59:59",
+          "abstract_deadline": "2021-05-22 23:59:59",
           "comment": "Round 2"
         }
       ],
@@ -28098,7 +28098,7 @@
       "place": "Hong Kong, China",
       "timeline": [
         {
-          "deadline": "2023-12-01 23:59:00",
+          "deadline": "2023-12-01 23:59:59",
           "abstract_deadline": null,
           "comment": "Round 1"
         },
@@ -28214,7 +28214,7 @@
       "timeline": [
         {
           "deadline": "2022-05-18 23:59:59",
-          "abstract_deadline": "2022-05-18 23:59:00",
+          "abstract_deadline": "2022-05-18 23:59:59",
           "comment": null
         }
       ],
@@ -28238,8 +28238,8 @@
       "place": "Västerås, Sweden",
       "timeline": [
         {
-          "deadline": "2023-04-14 23:59:00",
-          "abstract_deadline": "2023-04-07 23:59:00",
+          "deadline": "2023-04-14 23:59:59",
+          "abstract_deadline": "2023-04-07 23:59:59",
           "comment": null
         }
       ],
@@ -28263,8 +28263,8 @@
       "place": "Linz, Austria",
       "timeline": [
         {
-          "deadline": "2024-03-28 23:59:00",
-          "abstract_deadline": "2024-03-21 23:59:00",
+          "deadline": "2024-03-28 23:59:59",
+          "abstract_deadline": "2024-03-21 23:59:59",
           "comment": null
         }
       ],
@@ -28288,8 +28288,8 @@
       "place": "Grand Rapids, Michigan, USA",
       "timeline": [
         {
-          "deadline": "2025-04-03 23:59:00",
-          "abstract_deadline": "2025-03-27 23:59:00",
+          "deadline": "2025-04-03 23:59:59",
+          "abstract_deadline": "2025-03-27 23:59:59",
           "comment": null
         }
       ],
@@ -28513,7 +28513,7 @@
       "place": "Chicago, Illinois, USA and Online",
       "timeline": [
         {
-          "deadline": "2021-04-16 23:59:00",
+          "deadline": "2021-04-16 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
@@ -28628,7 +28628,7 @@
       "place": "Singapore",
       "timeline": [
         {
-          "deadline": "2024-10-15 23:59:00",
+          "deadline": "2024-10-15 23:59:59",
           "abstract_deadline": null,
           "comment": "Round 1"
         },
@@ -29243,8 +29243,8 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2021-03-19 23:59:00",
-          "abstract_deadline": "2021-03-12 23:59:00",
+          "deadline": "2021-03-19 23:59:59",
+          "abstract_deadline": "2021-03-12 23:59:59",
           "comment": null
         }
       ],
@@ -29318,8 +29318,8 @@
       "place": "Reykjavik, Iceland",
       "timeline": [
         {
-          "deadline": "2024-01-26 23:59:00",
-          "abstract_deadline": "2024-01-19 23:59:00",
+          "deadline": "2024-01-26 23:59:59",
+          "abstract_deadline": "2024-01-19 23:59:59",
           "comment": null
         }
       ],
@@ -29343,8 +29343,8 @@
       "place": "Valencia, Spain",
       "timeline": [
         {
-          "deadline": "2025-03-10 23:59:00",
-          "abstract_deadline": "2025-03-03 23:59:00",
+          "deadline": "2025-03-10 23:59:59",
+          "abstract_deadline": "2025-03-03 23:59:59",
           "comment": null
         }
       ],
@@ -29418,8 +29418,8 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2020-10-29 23:59:00",
-          "abstract_deadline": "2020-10-22 23:59:00",
+          "deadline": "2020-10-29 23:59:59",
+          "abstract_deadline": "2020-10-22 23:59:59",
           "comment": null
         }
       ],
@@ -29468,8 +29468,8 @@
       "place": "Macao, China",
       "timeline": [
         {
-          "deadline": "2022-10-21 23:59:00",
-          "abstract_deadline": "2022-10-14 23:59:00",
+          "deadline": "2022-10-21 23:59:59",
+          "abstract_deadline": "2022-10-14 23:59:59",
           "comment": null
         }
       ],
@@ -29593,8 +29593,8 @@
       "place": "Online",
       "timeline": [
         {
-          "deadline": "2021-06-30 23:59:00",
-          "abstract_deadline": "2021-06-24 23:59:00",
+          "deadline": "2021-06-30 23:59:59",
+          "abstract_deadline": "2021-06-24 23:59:59",
           "comment": null
         }
       ],
@@ -29618,8 +29618,8 @@
       "place": "Limassol, Cyprus",
       "timeline": [
         {
-          "deadline": "2022-06-23 23:59:00",
-          "abstract_deadline": "2022-06-17 23:59:00",
+          "deadline": "2022-06-23 23:59:59",
+          "abstract_deadline": "2022-06-17 23:59:59",
           "comment": null
         }
       ],
@@ -29643,8 +29643,8 @@
       "place": "Bogota, Colombia",
       "timeline": [
         {
-          "deadline": "2023-07-06 23:59:00",
-          "abstract_deadline": "2023-06-29 23:59:00",
+          "deadline": "2023-07-06 23:59:59",
+          "abstract_deadline": "2023-06-29 23:59:59",
           "comment": null
         }
       ],
@@ -29669,7 +29669,7 @@
       "timeline": [
         {
           "deadline": "TBD",
-          "abstract_deadline": "2024-06-17 23:59:00",
+          "abstract_deadline": "2024-06-17 23:59:59",
           "comment": "June 23 grace-period eligibility unclear"
         }
       ],
@@ -29843,8 +29843,8 @@
       "place": "Clarion Congress Hotel Prague, Prague, Czechia",
       "timeline": [
         {
-          "deadline": "2026-04-01 23:59:00",
-          "abstract_deadline": "2026-03-26 23:59:00",
+          "deadline": "2026-04-01 23:59:59",
+          "abstract_deadline": "2026-03-26 23:59:59",
           "comment": null
         }
       ],
