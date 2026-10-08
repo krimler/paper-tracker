@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-07T13:22:43.773406+00:00",
+  "fetched_at": "2026-10-08T13:28:31.661473+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -7883,12 +7883,12 @@
           "comment": "Official February cutoff is 17:00 PST (UTC-8), represented as the equivalent 13:00 AoE."
         },
         {
-          "deadline": "2026-06-10 23:59:59",
+          "deadline": "2026-06-10 12:00:00",
           "abstract_deadline": null,
           "comment": null
         },
         {
-          "deadline": "2026-10-07 23:59:59",
+          "deadline": "2026-10-07 12:00:00",
           "abstract_deadline": null,
           "comment": null
         }
