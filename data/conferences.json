@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-09T13:16:22.139078+00:00",
+  "fetched_at": "2026-10-10T12:31:19.819903+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 1122,
+  "row_count": 1123,
   "conferences": [
     {
       "title": "AAAI",
@@ -3582,15 +3582,15 @@
       "dblp": "ijcai",
       "year": 2027,
       "id": "ijcai27",
-      "link": "https://www.ijcai.org/node/8",
-      "timezone": "UTC-12",
-      "date": "August 7-13 and August 15-17, 2027",
-      "place": "Kyoto, Japan and Hengqin, China",
+      "link": "https://2027.ijcai.org/",
+      "timezone": "AoE",
+      "date": "August 7-13, 2027",
+      "place": "Kyoto, Japan",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": null,
-          "comment": null
+          "deadline": "2027-01-11 23:59:00",
+          "abstract_deadline": "2027-01-04 23:59:00",
+          "comment": "Separate satellite event: August 15-17, 2027, Hengqin, China"
         }
       ],
       "source": "ccfddl"
@@ -8256,6 +8256,31 @@
           "deadline": "2026-06-06 23:59:59",
           "abstract_deadline": null,
           "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "ICDM",
+      "description": "IEEE International Conference on Data Mining",
+      "sub": "DB",
+      "area": "databases",
+      "ccfddl_category": "DB",
+      "ccf": "B",
+      "core": "A*",
+      "thcpl": "B",
+      "dblp": "icdm",
+      "year": 2027,
+      "id": "icdm2027",
+      "link": "https://icdm2027-website.onrender.com/",
+      "timezone": "AoE",
+      "date": "November 15-18, 2027",
+      "place": "Brisbane, Australia",
+      "timeline": [
+        {
+          "deadline": "2027-06-06 23:59:00",
+          "abstract_deadline": null,
+          "comment": "Full papers; dates are tentative and subject to change"
         }
       ],
       "source": "ccfddl"
