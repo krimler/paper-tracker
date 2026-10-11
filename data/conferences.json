@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-10T12:31:19.819903+00:00",
+  "fetched_at": "2026-10-11T12:49:19.045851+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -3942,15 +3942,15 @@
       "dblp": "kr",
       "year": 2027,
       "id": "krd27",
-      "link": "https://kr.org/",
+      "link": "https://kr.org/KR2027/",
       "timezone": "AoE",
-      "date": "TBD",
+      "date": "September 21-24, 2027",
       "place": "Buenos Aires, Argentina",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": null,
-          "comment": null
+          "deadline": "2027-04-28 23:59:59",
+          "abstract_deadline": "2027-04-23 23:59:59",
+          "comment": "Main track; author response period: June 15-18, 2027"
         }
       ],
       "source": "ccfddl"
