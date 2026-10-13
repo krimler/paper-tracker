@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-12T15:24:11.786598+00:00",
+  "fetched_at": "2026-10-13T14:10:55.480714+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -13717,15 +13717,15 @@
       "dblp": "isca",
       "year": 2027,
       "id": "isca27",
-      "link": "https://www.iscaconf.org/",
+      "link": "https://iscaconf.org/isca2027/",
       "timezone": "AoE",
-      "date": "TBD",
+      "date": "June 5-9, 2027",
       "place": "Atlanta, Georgia, USA",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": null,
-          "comment": null
+          "deadline": "2026-11-16 23:59:59",
+          "abstract_deadline": "2026-11-09 23:59:59",
+          "comment": "Main Track; rebuttal/revision period: February 16-March 8, 2027"
         }
       ],
       "source": "ccfddl"
@@ -29448,9 +29448,9 @@
       "place": "Milan, Italy",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": null,
-          "comment": null
+          "deadline": "2027-03-01 23:59:59",
+          "abstract_deadline": "2027-02-22 23:59:59",
+          "comment": "Research Papers"
         }
       ],
       "source": "ccfddl"
