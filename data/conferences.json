@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-19T13:13:54.665560+00:00",
+  "fetched_at": "2026-10-20T11:35:21.847665+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -17812,15 +17812,20 @@
       "dblp": "imc",
       "year": 2027,
       "id": "imc27",
-      "link": "https://www.sigcomm.org/news/november-2025-sigcomm-newsletter",
+      "link": "https://conferences.sigcomm.org/imc/2027/",
       "timezone": "AoE",
-      "date": "TBD",
+      "date": "Oct 25-29, 2027",
       "place": "Atlanta, GA, USA",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": null,
-          "comment": null
+          "deadline": "2026-11-17 23:59:59",
+          "abstract_deadline": "2026-11-10 23:59:59",
+          "comment": "Cycle 1; rebuttal period January 26-February 2, 2027"
+        },
+        {
+          "deadline": "2027-04-07 23:59:59",
+          "abstract_deadline": "2027-03-31 23:59:59",
+          "comment": "Cycle 2"
         }
       ],
       "source": "ccfddl"
