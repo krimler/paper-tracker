@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-21T11:48:01.476540+00:00",
+  "fetched_at": "2026-10-22T11:51:30.684821+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -19498,8 +19498,8 @@
       "place": "Bangkok, Thailand",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": "TBD",
+          "deadline": "2027-02-02 23:59:59",
+          "abstract_deadline": null,
           "comment": null
         }
       ],
