@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-24T10:59:38.598866+00:00",
+  "fetched_at": "2026-10-25T11:27:51.125190+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -864,7 +864,7 @@
       "id": "acml26",
       "link": "https://www.acml-conf.org/2026/",
       "timezone": "AoE",
-      "date": "TBD",
+      "date": "December 1-4, 2026",
       "place": "Melbourne, Australia",
       "timeline": [
         {
