@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-25T11:27:51.125190+00:00",
+  "fetched_at": "2026-10-26T13:01:31.173000+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -1309,8 +1309,8 @@
       "id": "coling27",
       "link": "https://2027.coling-iccl.org/",
       "timezone": "UTC-12",
-      "date": "May 9-14, 2027",
-      "place": "Macau SAR, China",
+      "date": "May 9-14 (in-person) and 6-7 (virtual), 2027",
+      "place": "Macau SAR, China / Online",
       "timeline": [
         {
           "deadline": "2026-10-12 23:59:59",
