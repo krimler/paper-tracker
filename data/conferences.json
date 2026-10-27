@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-26T13:01:31.173000+00:00",
+  "fetched_at": "2026-10-27T12:10:50.955920+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 1124,
+  "row_count": 1125,
   "conferences": [
     {
       "title": "AAAI",
@@ -1568,9 +1568,9 @@
       "place": "Tokyo, Japan",
       "timeline": [
         {
-          "deadline": "TBD",
+          "deadline": "2027-01-29 23:59:59",
           "abstract_deadline": null,
-          "comment": null
+          "comment": "Expected rebuttal March 29 - April 2; author notification on or before May 3."
         }
       ],
       "source": "ccfddl"
@@ -18990,6 +18990,31 @@
         {
           "deadline": "2026-09-17 23:59:59",
           "abstract_deadline": "2026-09-10 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "NSDI",
+      "description": "USENIX Symposium on Networked Systems Design and Implementation",
+      "sub": "NW",
+      "area": "networking",
+      "ccfddl_category": "NW",
+      "ccf": "A",
+      "core": "N",
+      "thcpl": "A",
+      "dblp": "nsdi",
+      "year": 2028,
+      "id": "nsdi28",
+      "link": "https://www.usenix.org/conferences/byname/178",
+      "timezone": "UTC-7",
+      "date": "May 9-11, 2028",
+      "place": "Santa Clara, CA, USA",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
           "comment": null
         }
       ],
