@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-27T12:10:50.955920+00:00",
+  "fetched_at": "2026-10-28T12:53:35.732052+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -1315,12 +1315,7 @@
         {
           "deadline": "2026-10-12 23:59:59",
           "abstract_deadline": null,
-          "comment": "ARR Submission"
-        },
-        {
-          "deadline": "2026-12-23 23:59:59",
-          "abstract_deadline": null,
-          "comment": "COLING commitment after ARR meta-reviews; reviewed papers only"
+          "comment": null
         }
       ],
       "source": "ccfddl"
@@ -2628,8 +2623,8 @@
       "place": "Kraków, Poland",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": null,
+          "deadline": "2027-01-25 23:59:59",
+          "abstract_deadline": "2027-01-18 23:59:59",
           "comment": null
         }
       ],
@@ -8100,12 +8095,12 @@
         {
           "deadline": "2026-06-11 17:00:00",
           "abstract_deadline": null,
-          "comment": "first round"
+          "comment": "first round; notification date is approximate"
         },
         {
           "deadline": "2026-11-11 17:00:00",
           "abstract_deadline": null,
-          "comment": "second round"
+          "comment": "second round; notification date is approximate"
         }
       ],
       "source": "ccfddl"
@@ -10621,6 +10616,11 @@
           "deadline": "2026-08-24 23:59:59",
           "abstract_deadline": "2026-08-17 23:59:59",
           "comment": "Full Paper"
+        },
+        {
+          "deadline": "2026-11-17 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Short Paper"
         }
       ],
       "source": "ccfddl"
@@ -13726,6 +13726,11 @@
           "deadline": "2026-11-16 23:59:59",
           "abstract_deadline": "2026-11-09 23:59:59",
           "comment": "Main Track; rebuttal/revision period: February 16-March 8, 2027"
+        },
+        {
+          "deadline": "2026-12-13 23:59:59",
+          "abstract_deadline": "2026-12-06 23:59:59",
+          "comment": "Industry Track; rebuttal period: February 15-26, 2027"
         }
       ],
       "source": "ccfddl"
