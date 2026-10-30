@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-29T12:59:53.023413+00:00",
+  "fetched_at": "2026-10-30T12:55:08.450135+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 1125,
+  "row_count": 1126,
   "conferences": [
     {
       "title": "AAAI",
@@ -14380,7 +14380,7 @@
         {
           "deadline": "2026-11-05 23:59:59",
           "abstract_deadline": null,
-          "comment": "Submission Deadline (Firm)"
+          "comment": "Submission Deadline (Firm); Author notification date is tentative."
         }
       ],
       "source": "ccfddl"
@@ -15286,6 +15286,31 @@
           "deadline": "2025-05-14 12:00:00",
           "abstract_deadline": null,
           "comment": "MAY 2025 SUBMISSION CYCLE (12:00 EDT)"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "CSCW",
+      "description": "ACM Conference on Computer Supported Cooperative Work and Social Computing",
+      "sub": "HI",
+      "area": "ai_ml",
+      "ccfddl_category": "HI",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "cscw",
+      "year": 2027,
+      "id": "cscw27",
+      "link": "https://cscw.acm.org/2027/",
+      "timezone": "AoE",
+      "date": "October 16-20, 2027",
+      "place": "Philadelphia, USA",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "There is no secret deadline! If your paper is accepted before the program is set, you'll be invited to present at CSCW 2027."
         }
       ],
       "source": "ccfddl"
