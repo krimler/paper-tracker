@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-02T15:51:01.138987+00:00",
+  "fetched_at": "2026-11-03T14:12:29.000910+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 1126,
+  "row_count": 1127,
   "conferences": [
     {
       "title": "AAAI",
@@ -3231,6 +3231,31 @@
       "source": "ccfddl"
     },
     {
+      "title": "ICML",
+      "description": "International Conference on Machine Learning",
+      "sub": "AI",
+      "area": "ai_ml",
+      "ccfddl_category": "AI",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "icml",
+      "year": 2027,
+      "id": "icml27",
+      "link": "https://icml.cc/Conferences/2027",
+      "timezone": "AoE",
+      "date": "July 31 - August 6, 2027",
+      "place": "Riocentro, Rio de Janeiro, Brazil",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
       "title": "ICRA",
       "description": "IEEE International Conference on Robotics and Automation",
       "sub": "AI",
@@ -5403,9 +5428,9 @@
       "place": "Anaheim, California",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": "TBD",
-          "comment": null
+          "deadline": "2027-01-28 22:00:00",
+          "abstract_deadline": "2027-01-21 22:00:00",
+          "comment": "Submissions form & conflicts / paper deadline (upload deadline Jan 29)"
         }
       ],
       "source": "ccfddl"
