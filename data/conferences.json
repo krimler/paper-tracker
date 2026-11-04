@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-03T14:12:29.000910+00:00",
+  "fetched_at": "2026-11-04T14:30:57.873683+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -5253,9 +5253,9 @@
       "place": "São Paulo, Brazil",
       "timeline": [
         {
-          "deadline": "2027-02-09 23:59:59",
+          "deadline": "2027-02-10 11:59:59",
           "abstract_deadline": null,
-          "comment": null
+          "comment": "Regular papers; rebuttal April 13-20. Date-only milestones use AoE end-of-day convention, converted to UTC."
         }
       ],
       "source": "ccfddl"
