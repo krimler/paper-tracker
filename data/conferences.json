@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-04T14:30:57.873683+00:00",
+  "fetched_at": "2026-11-05T14:38:25.691233+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 1127,
+  "row_count": 1128,
   "conferences": [
     {
       "title": "AAAI",
@@ -4269,7 +4269,7 @@
       "timeline": [
         {
           "deadline": "2026-05-07 11:59:59",
-          "abstract_deadline": "2026-05-05 11:59:59",
+          "abstract_deadline": "2026-05-05 11:59:00",
           "comment": null
         }
       ],
@@ -5597,7 +5597,7 @@
       "dblp": "siggrapha",
       "year": 2027,
       "id": "siggrapha27",
-      "link": "https://asia.siggraph.org/2027/",
+      "link": "https://asia.siggraph.org/2026/about-the-event/siggraph-asia-2027/",
       "timezone": "UTC-12",
       "date": "November 30 - December 3, 2027",
       "place": "Tokyo International Forum, Tokyo, Japan",
@@ -12241,6 +12241,31 @@
           "deadline": "2026-09-15 23:59:59",
           "abstract_deadline": null,
           "comment": "Fall deadline"
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "FAST",
+      "description": "USENIX Conference on File and Storage Technologies",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "fast",
+      "year": 2028,
+      "id": "fast28",
+      "link": "https://www.usenix.org/conference/fast28",
+      "timezone": "AoE",
+      "date": "February 28-March 1, 2028",
+      "place": "Seattle, WA, USA",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": null
         }
       ],
       "source": "ccfddl"
