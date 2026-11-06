@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-05T14:38:25.691233+00:00",
+  "fetched_at": "2026-11-06T14:15:35.013447+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 1128,
+  "row_count": 1129,
   "conferences": [
     {
       "title": "AAAI",
@@ -5774,7 +5774,7 @@
       "id": "cav27",
       "link": "https://conferences.i-cav.org/2027/",
       "timezone": "AoE",
-      "date": "July 19-23, 2027",
+      "date": "July 21-23, 2027",
       "place": "KIT, Amsterdam, The Netherlands",
       "timeline": [
         {
@@ -5931,6 +5931,31 @@
           "deadline": "2026-04-27 23:59:59",
           "abstract_deadline": "2026-04-20 23:59:59",
           "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "CONCUR",
+      "description": "International Conference on Concurrency Theory",
+      "sub": "CT",
+      "area": "theory",
+      "ccfddl_category": "CT",
+      "ccf": "B",
+      "core": "B",
+      "thcpl": "B",
+      "dblp": "concur",
+      "year": 2027,
+      "id": "concur27",
+      "link": "https://www.cs.vu.nl/~wanf/profactivities.html",
+      "timezone": "AoE",
+      "date": "September 6-10, 2027",
+      "place": "Lucca, Italy",
+      "timeline": [
+        {
+          "deadline": "TBD",
+          "abstract_deadline": null,
+          "comment": "Part of CONQEST 2027"
         }
       ],
       "source": "ccfddl"
