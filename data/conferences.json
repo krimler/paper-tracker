@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-08T13:23:45.046163+00:00",
+  "fetched_at": "2026-11-09T16:17:03.136028+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -2894,7 +2894,7 @@
       "id": "iccv27",
       "link": "https://iccv.thecvf.com/Conferences/2027",
       "timezone": "AoE",
-      "date": "October 2-8, 2027",
+      "date": "October 5-7, 2027",
       "place": "Hong Kong, China",
       "timeline": [
         {
@@ -3244,7 +3244,7 @@
       "id": "icml27",
       "link": "https://icml.cc/Conferences/2027",
       "timezone": "AoE",
-      "date": "July 31 - August 6, 2027",
+      "date": "August 2-4, 2027",
       "place": "Riocentro, Rio de Janeiro, Brazil",
       "timeline": [
         {
@@ -4869,7 +4869,7 @@
       "id": "wacv27",
       "link": "https://wacv.thecvf.com/",
       "timezone": "AoE",
-      "date": "Jan 4 - 8, 2027",
+      "date": "Jan 6 - 8, 2027",
       "place": "Disney Springs, Buena Vista, FL, USA",
       "timeline": [
         {
