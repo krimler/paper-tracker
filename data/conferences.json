@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-10T14:52:26.021899+00:00",
+  "fetched_at": "2026-11-11T14:21:39.284166+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -455,7 +455,12 @@
         {
           "deadline": "2026-10-08 23:59:59",
           "abstract_deadline": "2026-10-01 23:59:59",
-          "comment": null
+          "comment": "Main track"
+        },
+        {
+          "deadline": "2026-12-11 23:59:59",
+          "abstract_deadline": null,
+          "comment": "AAAI fast track; eligible AAAI-27 Main Technical Track resubmissions only"
         }
       ],
       "source": "ccfddl"
@@ -689,7 +694,7 @@
       "id": "acl27",
       "link": "https://2027.aclweb.org/",
       "timezone": "UTC-12",
-      "date": "August 17-22, 2027",
+      "date": "August 20-22, 2027",
       "place": "Kyoto, Japan",
       "timeline": [
         {
@@ -2034,7 +2039,7 @@
       "id": "cvpr27",
       "link": "https://cvpr.thecvf.com/Conferences/2027",
       "timezone": "UTC-12",
-      "date": "June 20-25, 2027",
+      "date": "June 22-25, 2027",
       "place": "Seattle, WA, United States",
       "timeline": [
         {
