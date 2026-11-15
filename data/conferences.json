@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-14T13:30:08.622664+00:00",
+  "fetched_at": "2026-11-15T13:55:27.088997+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -1321,6 +1321,11 @@
           "deadline": "2026-10-12 23:59:59",
           "abstract_deadline": null,
           "comment": null
+        },
+        {
+          "deadline": "2026-12-23 23:59:59",
+          "abstract_deadline": null,
+          "comment": "Commitment deadline for long and short research papers reviewed by ARR"
         }
       ],
       "source": "ccfddl"
