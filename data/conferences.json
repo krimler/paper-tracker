@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-17T15:58:50.223918+00:00",
+  "fetched_at": "2026-11-18T15:38:51.032632+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 1129,
+  "row_count": 1130,
   "conferences": [
     {
       "title": "AAAI",
@@ -11194,6 +11194,31 @@
       "timeline": [
         {
           "deadline": "2026-06-11 11:59:59",
+          "abstract_deadline": null,
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "SIGOPS ATC",
+      "description": "ACM SIGOPS Annual Technical Conference",
+      "sub": "DS",
+      "area": "systems",
+      "ccfddl_category": "DS",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "A",
+      "dblp": "usenix",
+      "year": 2027,
+      "id": "atc2027",
+      "link": "https://atc.sigops.org/2027/",
+      "timezone": "AoE",
+      "date": "June 28-July 1, 2027",
+      "place": "Rennes, France",
+      "timeline": [
+        {
+          "deadline": "2027-01-19 23:59:59",
           "abstract_deadline": null,
           "comment": null
         }
