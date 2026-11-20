@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-19T15:43:55.978823+00:00",
+  "fetched_at": "2026-11-20T15:26:24.407063+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 1131,
+  "row_count": 1133,
   "conferences": [
     {
       "title": "AAAI",
@@ -6688,8 +6688,8 @@
       "place": "Montréal, Canada",
       "timeline": [
         {
-          "deadline": "TBD",
-          "abstract_deadline": null,
+          "deadline": "2027-01-21 23:59:59",
+          "abstract_deadline": "2027-01-14 23:59:59",
           "comment": null
         }
       ],
@@ -9494,7 +9494,7 @@
       "id": "sigir27",
       "link": "https://sigir2027.org/",
       "timezone": "AoE",
-      "date": "July 18-24, 2027",
+      "date": "July 20-22, 2027",
       "place": "San Jose, California, USA",
       "timeline": [
         {
@@ -12806,6 +12806,31 @@
       "source": "ccfddl"
     },
     {
+      "title": "HPDC",
+      "description": "ACM Symposium on High-Performance Parallel and Distributed Computing",
+      "sub": "DS",
+      "area": "distributed_systems",
+      "ccfddl_category": "DS",
+      "ccf": "A",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "hpdc",
+      "year": 2027,
+      "id": "hpdc2027",
+      "link": "https://hpdc.sci.utah.edu/2027/",
+      "timezone": "AoE",
+      "date": "June 7-9, 2027",
+      "place": "Atlanta, GA, USA",
+      "timeline": [
+        {
+          "deadline": "2027-01-18 23:59:59",
+          "abstract_deadline": "2027-01-11 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
       "title": "ICCAD",
       "description": "IEEE/ACM International Conference on Computer-Aided Design",
       "sub": "DS",
@@ -15920,6 +15945,31 @@
         {
           "deadline": "2026-03-31 23:59:59",
           "abstract_deadline": "2026-03-24 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "UIST",
+      "description": "ACM Symposium on User Interface Software and Technology",
+      "sub": "HI",
+      "area": "ai_ml",
+      "ccfddl_category": "HI",
+      "ccf": "A",
+      "core": "A*",
+      "thcpl": "A",
+      "dblp": "uist",
+      "year": 2027,
+      "id": "uist2027",
+      "link": "https://uist.acm.org/2027/",
+      "timezone": "AoE",
+      "date": "October 27-29, 2027",
+      "place": "VIECON - Vienna Congress & Convention Center, Vienna, Austria",
+      "timeline": [
+        {
+          "deadline": "2027-04-07 23:59:59",
+          "abstract_deadline": "2027-03-31 23:59:59",
           "comment": null
         }
       ],
@@ -27848,8 +27898,8 @@
       "place": "Toronto, Canada",
       "timeline": [
         {
-          "deadline": "2027-03-05 23:59:59",
-          "abstract_deadline": null,
+          "deadline": "2027-02-26 23:59:59",
+          "abstract_deadline": "2027-02-19 23:59:59",
           "comment": "Research Papers Track"
         }
       ],
