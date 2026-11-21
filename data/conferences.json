@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-20T15:26:24.407063+00:00",
+  "fetched_at": "2026-11-21T14:38:38.604004+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 1133,
+  "row_count": 1134,
   "conferences": [
     {
       "title": "AAAI",
@@ -2804,7 +2804,7 @@
       "id": "icaps27",
       "link": "https://icaps27.icaps-conference.org/",
       "timezone": "UTC-12",
-      "date": "June 27 - July 2, 2027",
+      "date": "June 30 - July 2, 2027",
       "place": "Columbia, SC, USA",
       "timeline": [
         {
@@ -8784,7 +8784,7 @@
       "id": "ecmlpkdd2027",
       "link": "https://ecmlpkdd.org/2027/",
       "timezone": "AoE",
-      "date": "September 20-24, 2027",
+      "date": "August 30 - September 3, 2027",
       "place": "Eindhoven, The Netherlands",
       "timeline": [
         {
@@ -10669,7 +10669,7 @@
       "id": "wsdm27",
       "link": "https://wsdm-conference.org/2027/",
       "timezone": "UTC-12",
-      "date": "February 15 - 19, 2027",
+      "date": "February 16 - 18, 2027",
       "place": "Cordis, Hong Kong SAR, China",
       "timeline": [
         {
@@ -11035,7 +11035,7 @@
       "link": "https://www.asplos-conference.org/asplos2027/cfp/",
       "timezone": "AoE",
       "date": "April 11-15, 2027",
-      "place": "Crete, Greece",
+      "place": "Heraklion, Crete, Greece",
       "timeline": [
         {
           "deadline": "2026-04-15 23:59:59",
@@ -14894,7 +14894,7 @@
       "id": "sigmetrics27",
       "link": "https://www.sigmetrics.org/sigmetrics2027/",
       "timezone": "AoE",
-      "date": "June 7-11, 2027",
+      "date": "June 7-10, 2027",
       "place": "Atlanta, Georgia, USA",
       "timeline": [
         {
@@ -28620,6 +28620,31 @@
         {
           "deadline": "2026-03-27 23:59:59",
           "abstract_deadline": "2026-03-20 23:59:59",
+          "comment": null
+        }
+      ],
+      "source": "ccfddl"
+    },
+    {
+      "title": "MoDELS",
+      "description": "International Conference on Model Driven Engineering Languages and Systems",
+      "sub": "SE",
+      "area": "software_engineering",
+      "ccfddl_category": "SE",
+      "ccf": "B",
+      "core": "A",
+      "thcpl": "B",
+      "dblp": "models",
+      "year": 2027,
+      "id": "models27",
+      "link": "https://conf.researchr.org/home/models-2027",
+      "timezone": "AoE",
+      "date": "TBD",
+      "place": "Budapest, Hungary",
+      "timeline": [
+        {
+          "deadline": "2027-03-19 23:59:59",
+          "abstract_deadline": "2027-03-12 23:59:59",
           "comment": null
         }
       ],
