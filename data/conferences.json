@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-21T14:38:38.604004+00:00",
+  "fetched_at": "2026-11-22T14:33:39.570776+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -4279,7 +4279,7 @@
       "timeline": [
         {
           "deadline": "2026-05-07 11:59:59",
-          "abstract_deadline": "2026-05-05 11:59:00",
+          "abstract_deadline": "2026-05-05 11:59:59",
           "comment": null
         }
       ],
