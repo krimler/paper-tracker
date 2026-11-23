@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-22T14:33:39.570776+00:00",
+  "fetched_at": "2026-11-23T18:06:47.618617+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -13504,7 +13504,7 @@
       "id": "ics27",
       "link": "https://klab-ai3.github.io/ics2027/",
       "timezone": "AoE",
-      "date": "June 5-11, 2027",
+      "date": "June 5-8, 2027",
       "place": "Atlanta, Georgia, USA",
       "timeline": [
         {
@@ -17518,8 +17518,8 @@
       "place": "Rio de Janeiro, Brazil",
       "timeline": [
         {
-          "deadline": "2026-12-04 23:59:59",
-          "abstract_deadline": "2026-11-27 23:59:59",
+          "deadline": "2026-12-04 23:59:00",
+          "abstract_deadline": "2026-11-27 23:59:00",
           "comment": "December Cycle"
         },
         {
@@ -18970,7 +18970,7 @@
         {
           "deadline": "2026-12-04 23:59:59",
           "abstract_deadline": "2026-11-27 23:59:59",
-          "comment": null
+          "comment": "Acceptance is conditional on shepherding. March 6 is date-only; clock and time zone are repository defaults."
         }
       ],
       "source": "ccfddl"
@@ -19355,7 +19355,7 @@
         {
           "deadline": "2026-11-30 23:59:59",
           "abstract_deadline": null,
-          "comment": null
+          "comment": "Acceptance results: February 15 (date-only; AoE end-of-day default converted to UTC-5)."
         }
       ],
       "source": "ccfddl"
