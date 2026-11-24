@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-23T18:06:47.618617+00:00",
+  "fetched_at": "2026-11-24T17:43:34.167280+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -2044,7 +2044,7 @@
       "id": "cvpr27",
       "link": "https://cvpr.thecvf.com/Conferences/2027",
       "timezone": "UTC-12",
-      "date": "June 22-25, 2027",
+      "date": "June 22-24, 2027",
       "place": "Seattle, WA, United States",
       "timeline": [
         {
