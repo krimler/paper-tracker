@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-25T17:13:02.980851+00:00",
+  "fetched_at": "2026-11-26T16:52:59.063801+00:00",
   "sources": [
     "https://github.com/ccfddl/ccf-deadlines",
     "https://github.com/paperswithcode/ai-deadlines",
@@ -73,7 +73,7 @@
     "tosc",
     "vissoft"
   ],
-  "row_count": 1134,
+  "row_count": 1133,
   "conferences": [
     {
       "title": "AAAI",
@@ -30365,45 +30365,20 @@
       "core": null,
       "thcpl": null,
       "dblp": "https://dblp.org/db/conf/sacrypt/index.html",
-      "year": 2026,
+      "year": 2027,
       "id": null,
-      "link": "https://sacworkshop.org/SAC26/",
+      "link": "https://sacworkshop.org/SAC27/",
       "timezone": null,
-      "date": "August 26-28",
-      "place": "Ottawa, ON, Canada",
+      "date": "August 23-27",
+      "place": "Victoria, British Columbia, Canada",
       "timeline": [
         {
-          "deadline": "2026-02-02 23:59",
+          "deadline": "2027-02-08 23:59",
           "abstract_deadline": null,
           "comment": null
         },
         {
-          "deadline": "2026-05-11 23:59",
-          "abstract_deadline": null,
-          "comment": null
-        }
-      ],
-      "source": "secdeadlines"
-    },
-    {
-      "title": "SAC",
-      "description": "ACM/SIGAPP Symposium On Applied Computing",
-      "sub": "",
-      "area": "security",
-      "ccfddl_category": null,
-      "ccf": null,
-      "core": null,
-      "thcpl": null,
-      "dblp": "https://dblp.org/db/conf/sac/index.html",
-      "year": 2027,
-      "id": null,
-      "link": "https://www.sigapp.org/sac/sac2027",
-      "timezone": "Etc/GMT+5",
-      "date": "April 5-9",
-      "place": "Gwangju, South Korea",
-      "timeline": [
-        {
-          "deadline": "2026-10-02 23:59",
+          "deadline": "2027-03-17 23:59",
           "abstract_deadline": null,
           "comment": null
         }
